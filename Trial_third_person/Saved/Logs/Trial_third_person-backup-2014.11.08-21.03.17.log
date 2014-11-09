@@ -1,0 +1,198 @@
+﻿Log file open, 11/08/14 19:59:17
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.09-03.59.17:909][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.09-03.59.17:939][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.09-03.59.17:962][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.09-03.59.17:976][  0]LogInit: Object subsystem initialized
+[2014.11.09-03.59.17:980][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.09-03.59.17:980][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.09-03.59.17:980][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.09-03.59.17:980][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.09-03.59.17:981][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.09-03.59.17:981][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.09-03.59.17:991][  0]LogInit: Computer: BRIANA-DESKTOP
+[2014.11.09-03.59.17:991][  0]LogInit: User: Jeremy
+[2014.11.09-03.59.17:993][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.09-03.59.17:993][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.11.09-03.59.17:993][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.11.09-03.59.17:993][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.09-03.59.17:993][  0]LogMemory: Process Physical Memory: 63.85 MB used, 63.85 MB peak
+[2014.11.09-03.59.17:993][  0]LogMemory: Process Virtual Memory: 39.36 MB used, 39.36 MB peak
+[2014.11.09-03.59.17:993][  0]LogMemory: Physical Memory: 4229.90 MB used, 8183.89 MB total
+[2014.11.09-03.59.17:993][  0]LogMemory: Virtual Memory: 272.54 MB used, 8388608.00 MB total
+[2014.11.09-03.59.18:054][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2014.11.09-03.59.18:054][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2014.11.09-03.59.18:054][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.09-03.59.18:064][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2014.11.09-03.59.18:074][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.09-03.59.18:129][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.09-03.59.18:334][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.09-03.59.24:489][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.09-03.59.25:010][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.09-03.59.25:072][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.09-03.59.25:718][  0]LogDerivedDataCache: Loaded boot cache 0.65s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.09-03.59.25:718][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.09-03.59.25:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.09-03.59.25:719][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.09-03.59.25:804][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.09-03.59.25:816][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.09-03.59.26:059][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.09-03.59.26:059][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.09-03.59.26:404][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.09-03.59.26:409][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.09-03.59.26:643][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.09-03.59.53:441][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.09-03.59.53:663][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.11.09-03.59.53:833][  0]SourceControl: Info Source control is disabled
+[2014.11.09-03.59.53:833][  0]SourceControl: Info Source control is disabled
+[2014.11.09-03.59.53:841][  0]SourceControl: Info Source control is disabled
+[2014.11.09-03.59.53:961][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.09-03.59.53:961][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.09-03.59.54:035][  0]LogEngine: Initializing Engine...
+[2014.11.09-03.59.54:229][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.09-03.59.54:266][  0]LogInit: FAudioDevice initialized.
+[2014.11.09-03.59.54:289][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.09-03.59.54:327][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.09-03.59.54:340][  0]LogInit: Texture streaming: Enabled
+[2014.11.09-03.59.54:391][  0]LogInit: Transaction tracking system initialized
+[2014.11.09-03.59.54:494][  0]BlueprintLog: New page: Editor Load
+[2014.11.09-03.59.54:525][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2014.11.09-03.59.54:526][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.09-03.59.55:062][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.09-03.59.55:479][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.09-03.59.55:704][  0]LogConsoleResponse:Display: 
+[2014.11.09-03.59.56:222][  0]SourceControl: Info Source control is disabled
+[2014.11.09-04.01.00:951][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.09-04.01.00:952][  0]LightingResults: New page: Lighting Build
+[2014.11.09-04.01.00:963][  0]MapCheck: New page: Map Check
+[2014.11.09-04.01.00:963][  0]LightingResults: New page: Lighting Build
+[2014.11.09-04.01.00:986][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011D59A80
+[2014.11.09-04.01.01:302][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.09-04.01.01:364][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.09-04.01.01:364][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.09-04.01.01:364][  0]Cmd: MAP CHECKDEP
+[2014.11.09-04.01.01:364][  0]MapCheck: New page: Example_Map - Nov 8, 2014, 12:01:01 PM
+[2014.11.09-04.01.01:473][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.268ms to complete.
+[2014.11.09-04.01.01:473][  0]LogFileHelpers: Loading map 'Example_Map' took 0.522
+[2014.11.09-04.01.01:625][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_23f4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_3aa0_0///////STATCAT_Advanced////
+[2014.11.09-04.01.01:626][  0]LogCollectionManager: Loaded 0 collections in 0.001528 seconds
+[2014.11.09-04.01.02:072][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.09-04.01.02:100][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.09-04.01.02:127][  0]LogLoad: Full Startup: 106.66 seconds (BP compile: 0.08 seconds)
+[2014.11.09-04.01.02:144][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.11.09-04.01.02:436][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.11.09-04.01.02:860][  4]LogAssetRegistry: Asset discovery search completed in 68.3447 seconds
+[2014.11.09-04.01.10:662][668]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMG'
+[2014.11.09-04.01.31:388][617]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.03.49:324][375]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.04.06:334][930]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.04.29:334][706]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.05.05:030][815]LogSavePackage: Save=227.821762ms
+[2014.11.09-04.05.05:030][815]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Example_Map688250B14AC68AE65C3FE79E41D2E8A1.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap'
+[2014.11.09-04.05.14:820][217]LogSavePackage: Save=161.997269ms
+[2014.11.09-04.05.14:820][217]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Example_Map2AF9233E4797ED7387CA8E9F9C3F7412.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap'
+[2014.11.09-04.15.14:836][246]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.030
+[2014.11.09-04.15.14:850][246]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UMG/GameHUD] ([1] browsable assets)...
+[2014.11.09-04.15.14:857][246]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/GameHUD]
+[2014.11.09-04.15.14:919][246]LogSavePackage: Save=23.900803ms
+[2014.11.09-04.15.14:919][246]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/GameHUD_Auto138013422408EB92DBA4CD9826C35F233.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/UMG/GameHUD_Auto1.uasset'
+[2014.11.09-04.15.14:929][246]LogFileHelpers: Auto-saving content packages took 0.093
+[2014.11.09-04.58.14:447][990]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.58.28:699][488]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.58.30:521][544]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.031
+[2014.11.09-04.58.30:536][544]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UMG/GameHUD] ([1] browsable assets)...
+[2014.11.09-04.58.30:561][544]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/GameHUD]
+[2014.11.09-04.58.30:654][544]LogSavePackage: Save=19.255869ms
+[2014.11.09-04.58.30:654][544]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/GameHUD_Auto2D85B3BD1446F05157E0722ABE4F726C7.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/UMG/GameHUD_Auto2.uasset'
+[2014.11.09-04.58.30:663][544]LogFileHelpers: Auto-saving content packages took 0.142
+[2014.11.09-04.58.47:789][142]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.59.14:300][ 77]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.09-04.59.14:338][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Game/UMG/GameHUD.GameHUD_C:WidgetTree_83.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Game/UMG/GameHUD.SKEL_GameHUD_C:WidgetTree_82.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Engine/Transient.REINST_SKEL_GameHUD_C_28:WidgetTree_78.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_20.WidgetTree_80.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Game/UMG/GameHUD.GameHUD_C:WidgetTree_79.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Game/UMG/GameHUD.SKEL_GameHUD_C:WidgetTree_78.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Engine/Transient.REINST_SKEL_GameHUD_C_27:WidgetTree_74.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_19.WidgetTree_76.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Game/UMG/GameHUD.GameHUD_C:WidgetTree_75.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261 or VerticalBoxSlot /Game/UMG/GameHUD.GameHUD:WidgetTree_1.HUD_Text.VerticalBoxSlot_261
+[2014.11.09-04.59.14:339][ 77]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:GameHUD_C_21.WidgetTree_84.HUD_Text.VerticalBoxSlot_261) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2014.11.09-04.59.14:339][ 77]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBoxSlot_261''
+[2014.11.09-04.59.40:067][855]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.59.40:076][855]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.59.40:218][855]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-04.59.49:847][215]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-05.00.02:715][708]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-05.00.12:115][ 62]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-05.01.04:212][945]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.09-05.01.44:703][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/UMG/GameHUD.uasset" SILENT=true
+[2014.11.09-05.01.44:732][223]LogSavePackage: Save=21.415291ms
+[2014.11.09-05.01.44:732][223]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/GameHUDBFFE6C1E44E1697AA09C45AC2A969B7C.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/UMG/GameHUD.uasset'
+[2014.11.09-05.02.22:081][515]Cmd: TRANSACTION UNDO
+[2014.11.09-05.02.22:081][515]LogEditorTransaction: Undo Move Widget
+[2014.11.09-05.02.46:374][315]Cmd: TRANSACTION UNDO
+[2014.11.09-05.02.46:374][315]LogEditorTransaction: Undo Move Widget
+[2014.11.09-05.02.48:386][375]Cmd: TRANSACTION UNDO
+[2014.11.09-05.02.48:386][375]LogEditorTransaction: Undo Move Widget
+[2014.11.09-05.02.58:075][696]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.11.09-05.02.58:161][696]LogCrashTracker: 
+
+
+[2014.11.09-05.02.58:877][696]LogCrashTracker: 
+
+
+[2014.11.09-05.02.58:877][696]LogWindows: === Critical error: ===
+Assertion failed: ((UObject*)ContainerPtr)->IsA((UClass*)GetOuter()) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h] [Line: 351] 
+'CanvasPanelSlot_657' is of class 'CanvasPanelSlot' however property 'Size' belongs to class 'VerticalBoxSlot'
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefda9940d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee4e071c4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee4c998c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee4c7e892) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x000007fee09ed3a0) + 0 bytes [UnknownFile:0]
+UE4Editor-UMGEditor.dll!UnknownFunction (0x000007fed92299b3) + 0 bytes [UnknownFile:0]
+UE4Editor-UMGEditor.dll!UnknownFunction (0x000007fed9229948) + 0 bytes [UnknownFile:0]
+UE4Editor-UMGEditor.dll!UnknownFunction (0x000007fed922947c) + 0 bytes [UnknownFile:0]
+UE4Editor-UMGEditor.dll!UnknownFunction (0x000007fed922aa62) + 0 bytes [UnknownFile:0]
+UE4Editor-PropertyEditor.dll!UnknownFunction (0x000007feddf7ae70) + 0 bytes [UnknownFile:0]
+UE4Editor-PropertyEditor.dll!UnknownFunction (0x000007feddf547b7) + 0 bytes [UnknownFile:0]
+UE4Editor-PropertyEditor.dll!UnknownFunction (0x000007feddf54be3) + 0 bytes [UnknownFile:0]
+UE4Editor-PropertyEditor.dll!UnknownFunction (0x000007feddfdfbea) + 0 bytes [UnknownFile:0]
+UE4Editor-UMGEditor.dll!UnknownFunction (0x000007fed92115b6) + 0 bytes [UnknownFile:0]
+UE4Editor-UMGEditor.dll!UnknownFunction (0x000007fed91e6298) + 0 bytes [UnknownFile:0]
+UE4Editor-UMGEditor.dll!UnknownFunction (0x000007fed91eba3b) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fee4059e7f) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fee403e0f9) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fee3ed8b4c) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fee3ec8b26) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee4d63e99) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee4d562ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee4d65019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee4d53542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000779f9bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000779f98da) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee4e02ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f8ca752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x000000013f8bf9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f8bfa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x000000013f8cbf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f8ccdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x0000000077af59ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000077c2c541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000077c2c541) + 0 bytes [UnknownFile:0]
+
+
+[2014.11.09-05.02.59:105][696]LogExit: Executing StaticShutdownAfterError
+[2014.11.09-05.02.59:116][696]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.11.09-05.02.59:116][696]Log file closed, 11/08/14 21:02:59
