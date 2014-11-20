@@ -1,0 +1,552 @@
+﻿Log file open, 11/19/14 19:25:54
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.20-03.25.54:223][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.20-03.25.54:259][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.20-03.25.54:311][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.20-03.25.54:327][  0]LogInit: Object subsystem initialized
+[2014.11.20-03.25.54:338][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.20-03.25.54:338][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.20-03.25.54:338][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.20-03.25.54:338][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.20-03.25.54:340][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.20-03.25.54:340][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.20-03.25.54:351][  0]LogInit: Computer: ZEN-MATT
+[2014.11.20-03.25.54:352][  0]LogInit: User: Matt
+[2014.11.20-03.25.54:353][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.20-03.25.54:353][  0]LogInit: High frequency timer resolution =2.338593 MHz
+[2014.11.20-03.25.54:353][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.11.20-03.25.54:353][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.20-03.25.54:353][  0]LogMemory: Process Physical Memory: 63.90 MB used, 63.90 MB peak
+[2014.11.20-03.25.54:353][  0]LogMemory: Process Virtual Memory: 39.46 MB used, 39.46 MB peak
+[2014.11.20-03.25.54:354][  0]LogMemory: Physical Memory: 3077.51 MB used, 3981.98 MB total
+[2014.11.20-03.25.54:354][  0]LogMemory: Virtual Memory: 269.29 MB used, 8388608.00 MB total
+[2014.11.20-03.25.54:432][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.11.20-03.25.54:432][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.11.20-03.25.54:432][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.20-03.25.54:440][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.11.20-03.25.54:465][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.20-03.25.54:538][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.20-03.25.54:725][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.20-03.26.02:900][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.20-03.26.03:889][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.20-03.26.04:013][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.20-03.26.04:158][  0]LogDerivedDataCache: Loaded boot cache 0.14s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.20-03.26.04:158][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.20-03.26.04:158][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.20-03.26.04:158][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.20-03.26.04:286][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.20-03.26.04:300][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.20-03.26.04:939][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.20-03.26.04:939][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.20-03.26.05:378][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.20-03.26.05:384][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.20-03.26.05:754][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.20-03.26.08:578][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.20-03.26.08:956][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.11.20-03.26.09:248][  0]SourceControl: Info Source control is disabled
+[2014.11.20-03.26.09:248][  0]SourceControl: Info Source control is disabled
+[2014.11.20-03.26.09:268][  0]SourceControl: Info Source control is disabled
+[2014.11.20-03.26.09:579][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.20-03.26.09:579][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.20-03.26.09:693][  0]LogEngine: Initializing Engine...
+[2014.11.20-03.26.09:958][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.20-03.26.10:016][  0]LogInit: FAudioDevice initialized.
+[2014.11.20-03.26.10:070][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.20-03.26.10:103][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.20-03.26.10:107][  0]LogInit: Texture streaming: Enabled
+[2014.11.20-03.26.10:208][  0]LogInit: Transaction tracking system initialized
+[2014.11.20-03.26.10:444][  0]BlueprintLog: New page: Editor Load
+[2014.11.20-03.26.10:502][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2014.11.20-03.26.10:503][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.20-03.26.11:706][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.20-03.26.12:441][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.20-03.26.13:010][  0]LogConsoleResponse:Display: 
+[2014.11.20-03.26.13:486][  0]SourceControl: Info Source control is disabled
+[2014.11.20-03.26.13:486][  0]Cmd: MAP LOAD FILE="D:/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.20-03.26.13:487][  0]LightingResults: New page: Lighting Build
+[2014.11.20-03.26.13:513][  0]MapCheck: New page: Map Check
+[2014.11.20-03.26.13:513][  0]LightingResults: New page: Lighting Build
+[2014.11.20-03.26.13:559][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C58E840
+[2014.11.20-03.26.14:054][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.20-03.26.14:055][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-03.26.14:055][  0]Cmd: MAP CHECKDEP
+[2014.11.20-03.26.14:055][  0]MapCheck: New page: Example_Map - Nov 19, 2014, 11:26:14 AM
+[2014.11.20-03.26.14:302][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 246.186ms to complete.
+[2014.11.20-03.26.14:302][  0]LogFileHelpers: Loading map 'Example_Map' took 0.816
+[2014.11.20-03.26.14:504][  0]LogCollectionManager: Loaded 0 collections in 0.001739 seconds
+[2014.11.20-03.26.14:768][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.20-03.26.14:816][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.20-03.26.14:849][  0]LogLoad: Full Startup: 23.69 seconds (BP compile: 0.12 seconds)
+[2014.11.20-03.26.15:195][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.20-03.26.15:419][  0]LogRenderer:Warning: Reallocating scene render targets to support 904x896.
+[2014.11.20-03.26.18:396][  7]LogAssetRegistry: Asset discovery search completed in 7.9047 seconds
+[2014.11.20-03.29.05:249][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:249][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:263][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:264][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:264][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:264][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:264][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:264][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:265][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:265][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:265][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:265][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:265][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:266][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:266][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:266][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.05:266][265]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.26:323][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.26:324][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.26:324][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.26:324][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.26:325][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.26:325][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.57:960][847]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.57:960][847]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.57:961][847]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.57:961][847]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.57:961][847]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.29.57:961][847]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.30.09:088][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.30.09:747][138]LogSavePackage: Save=621.908142ms
+[2014.11.20-03.30.09:747][138]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter0440C6CC482CFC52CBC276862C57C5CC.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.30.12:010][203]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-03.30.14:632][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.20-03.30.15:447][203]BlueprintEditorCompileResults: Info [0261.98] Compile of MyCharacter successful! [in 313 ms]
+[2014.11.20-03.30.18:534][314]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-03.30.18:534][314]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.20-03.30.18:762][314]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-03.30.19:064][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.20-03.30.19:158][314]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-03.30.19:714][314]LogPlayLevel: PIE:  Blueprint regeneration took 1198 ms (3 blueprints)
+[2014.11.20-03.30.19:716][314]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 11:30:19 AM)
+[2014.11.20-03.30.19:894][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177325s)
+[2014.11.20-03.30.19:895][314]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2014.11.20-03.30.19:895][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.178639s)
+[2014.11.20-03.30.20:055][314]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-03.30.20:160][314]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-03.30.20:162][314]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-19.30.20
+[2014.11.20-03.30.20:170][314]LogWorld: Bringing up level for play took: 0.010280
+[2014.11.20-03.30.20:284][314]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 2.321
+[2014.11.20-03.30.26:156][501]LogBlueprintUserMessages: -621.521362
+[2014.11.20-03.30.28:447][584]LogBlueprintUserMessages: -308.942474
+[2014.11.20-03.30.34:123][832]LogBlueprintUserMessages: -1324.932739
+[2014.11.20-03.30.34:123][832]LogBlueprintUserMessages: 0.475067
+[2014.11.20-03.30.38:504][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.20-03.30.38:567][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030C5B740
+[2014.11.20-03.33.26:093][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.20-03.33.26:252][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.33.26:805][638]LogSavePackage: Save=530.598083ms
+[2014.11.20-03.33.26:805][638]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter3E667CB24104B9444132D8A621789008.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.34.03:469][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.20-03.34.03:621][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.34.04:163][811]LogSavePackage: Save=520.526672ms
+[2014.11.20-03.34.04:163][811]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter494672FD4B2FFDCBAD19078277F9C47E.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.34.19:801][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.20-03.34.19:952][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.34.20:501][357]LogSavePackage: Save=526.416077ms
+[2014.11.20-03.34.20:501][357]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterFA4B1834486280EAE413E1947FAB2CD0.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.34.39:543][ 27]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.34.39:543][ 27]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.34.39:543][ 27]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.34.39:544][ 27]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.34.39:544][ 27]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-03.34.51:893][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.20-03.34.52:023][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.34.52:255][405]LogSavePackage: Save=209.926651ms
+[2014.11.20-03.34.52:255][405]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter1FE42F6844B53B864B5025A15C90BA12.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.34.55:070][499]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-03.34.55:701][499]BlueprintEditorCompileResults: Info [0544.15] Compile of MyCharacter successful! [in 130 ms]
+[2014.11.20-03.40.07:851][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.40.08:445][939]LogSavePackage: Save=567.481384ms
+[2014.11.20-03.40.08:445][939]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterE085D18944E1F6A51E77079B6A8068A7.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.40.30:405][639]LogEditorTransaction: Undo Add Node
+[2014.11.20-03.40.30:560][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.20-03.40.31:733][665]LogEditorTransaction: Undo Move Node
+[2014.11.20-03.40.33:205][697]LogEditorTransaction: Undo Move Node
+[2014.11.20-03.40.48:034][163]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.20-03.42.35:659][176]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-03.42.36:303][176]BlueprintEditorCompileResults: Info [1004.72] Compile of MyCharacter successful! [in 132 ms]
+[2014.11.20-03.43.09:038][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.43.09:579][ 71]LogSavePackage: Save=520.448425ms
+[2014.11.20-03.43.09:579][ 71]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter886B70B64A29D37079CD999CFF0AF9B6.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.43.17:245][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.20-03.43.29:410][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.43.29:652][712]LogSavePackage: Save=222.708694ms
+[2014.11.20-03.43.29:652][712]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter7C726D754F9EFAD1E4BFA39D57520E99.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.44.05:509][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.44.05:742][969]LogSavePackage: Save=213.670349ms
+[2014.11.20-03.44.05:742][969]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterACDB0583411B5AAF89A07DB31EA80F3E.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.46.41:845][928]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.094
+[2014.11.20-03.46.41:859][928]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.11.20-03.46.41:932][928]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.11.20-03.46.41:932][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.11.20-03.46.41:937][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.20-03.46.42:596][928]LogSavePackage: Save=560.200500ms
+[2014.11.20-03.46.42:596][928]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter_Auto1E06CCB0E445020DAD371A5AF663F544C.tmp' to 'D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2014.11.20-03.46.42:605][928]LogFileHelpers: Auto-saving content packages took 0.760
+[2014.11.20-03.46.55:515][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.20-03.46.55:666][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.46.56:234][352]LogSavePackage: Save=548.780823ms
+[2014.11.20-03.46.56:234][352]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter989916C844B54009E68B00A9DCA50028.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.49.22:020][273]LogEditorTransaction: Undo Move Node
+[2014.11.20-03.49.22:225][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.20-03.49.23:268][293]LogEditorTransaction: Undo Create Pin Link
+[2014.11.20-03.49.24:414][315]LogEditorTransaction: Undo Move Node
+[2014.11.20-03.49.25:859][350]LogEditorTransaction: Undo Move Node
+[2014.11.20-03.49.27:022][370]LogEditorTransaction: Undo Move Nodes
+[2014.11.20-03.53.01:036][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.53.01:600][633]LogSavePackage: Save=527.062195ms
+[2014.11.20-03.53.01:600][633]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterA31586164A6D74292B7ED19B0B7CAB2F.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.53.04:527][827]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-03.53.04:993][827]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.20-03.53.05:162][827]BlueprintEditorCompileResults: Info [1633.62] Compile of MyCharacter successful! [in 158 ms]
+[2014.11.20-03.53.14:540][291]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.20-03.53.14:541][291]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.20-03.53.14:541][291]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.20-03.53.14:541][291]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.20-03.53.14:542][291]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.20-03.53.14:542][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_IfThenElse_450 or K2Node_IfThenElse /Game/Blueprints/MyCharacter.MyCharacter:Update Stamina.K2Node_IfThenElse_450
+[2014.11.20-03.53.14:543][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_CallFunction_17828 or K2Node_CallFunction /Game/Blueprints/MyCharacter.MyCharacter:Update Stamina.K2Node_CallFunction_17828
+[2014.11.20-03.53.14:543][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_451.K2Node_FunctionEntry_420 or K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_444.K2Node_FunctionEntry_420
+[2014.11.20-03.53.14:544][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_451.K2Node_FunctionEntry_420 or K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_436.K2Node_FunctionEntry_420
+[2014.11.20-03.53.14:544][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_451.K2Node_FunctionEntry_420 or K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_429.K2Node_FunctionEntry_420
+[2014.11.20-03.53.14:544][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_451.K2Node_FunctionEntry_420 or K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_412.K2Node_FunctionEntry_420
+[2014.11.20-03.53.14:544][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_451.K2Node_FunctionEntry_420 or K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_405.K2Node_FunctionEntry_420
+[2014.11.20-03.53.14:544][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:EdGraph_451.K2Node_FunctionEntry_420 or K2Node_FunctionEntry /Game/Blueprints/MyCharacter.MyCharacter:Update Stamina.K2Node_FunctionEntry_420
+[2014.11.20-03.53.14:544][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_VariableGet_1514 or K2Node_VariableGet /Game/Blueprints/MyCharacter.MyCharacter:Update Stamina.K2Node_VariableGet_1514
+[2014.11.20-03.53.14:545][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_VariableGet_1559 or K2Node_VariableGet /Game/Blueprints/MyCharacter.MyCharacter:Update Stamina.K2Node_VariableGet_1559
+[2014.11.20-03.53.40:185][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.53.40:639][358]LogSavePackage: Save=436.449188ms
+[2014.11.20-03.53.40:639][358]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterBF8DD7B14623C73D2D08F792ED4FF68A.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.54.51:568][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.20-03.54.51:680][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.54.51:889][408]LogSavePackage: Save=188.241821ms
+[2014.11.20-03.54.51:889][408]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter4745024D4AA46C3BBB7DD9817D5C5FA3.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.54.54:594][537]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-03.54.55:099][537]BlueprintEditorCompileResults: Info [1743.57] Compile of MyCharacter successful! [in 113 ms]
+[2014.11.20-03.55.03:810][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.20-03.55.06:488][136]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-03.55.06:488][136]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-03.55.06:835][136]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-03.55.07:460][136]LogPlayLevel: PIE:  Blueprint regeneration took 972 ms (2 blueprints)
+[2014.11.20-03.55.07:460][136]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 11:55:07 AM)
+[2014.11.20-03.55.07:553][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092648s)
+[2014.11.20-03.55.07:554][136]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2014.11.20-03.55.07:554][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.093902s)
+[2014.11.20-03.55.07:582][136]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-03.55.07:584][136]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-03.55.07:589][136]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-19.55.07
+[2014.11.20-03.55.07:589][136]LogWorld: Bringing up level for play took: 0.004725
+[2014.11.20-03.55.07:593][136]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.532
+[2014.11.20-03.55.20:616][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.20-03.55.20:724][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DE3A5C0
+[2014.11.20-03.55.27:012][902]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-03.55.27:012][902]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-03.55.27:240][902]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.20-03.55.27:318][902]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-03.55.27:800][902]LogPlayLevel: PIE:  Blueprint regeneration took 788 ms (2 blueprints)
+[2014.11.20-03.55.27:801][902]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 11:55:27 AM)
+[2014.11.20-03.55.27:876][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075363s)
+[2014.11.20-03.55.27:878][902]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2014.11.20-03.55.27:878][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.077167s)
+[2014.11.20-03.55.27:910][902]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-03.55.27:912][902]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-03.55.27:914][902]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-19.55.27
+[2014.11.20-03.55.27:915][902]LogWorld: Bringing up level for play took: 0.002112
+[2014.11.20-03.55.27:918][902]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.856
+[2014.11.20-03.55.43:634][467]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.20-03.55.43:744][467]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047949580
+[2014.11.20-03.57.09:708][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.11.20-03.57.09:831][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.57.10:226][934]LogSavePackage: Save=375.132385ms
+[2014.11.20-03.57.10:226][934]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterD9D30E5D48147ADA426FCE9813132473.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-03.57.20:070][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.11.20-03.57.20:142][385]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.072
+[2014.11.20-03.57.20:152][385]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.11.20-03.57.20:187][385]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.11.20-03.57.20:192][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2014.11.20-03.57.20:415][385]LogSavePackage: Save=158.876724ms
+[2014.11.20-03.57.20:415][385]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter_Auto27E738B444B00C931CED2F8B269EF1333.tmp' to 'D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset'
+[2014.11.20-03.57.20:422][385]LogFileHelpers: Auto-saving content packages took 0.280
+[2014.11.20-03.59.39:776][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-03.59.40:210][651]LogSavePackage: Save=415.722626ms
+[2014.11.20-03.59.40:210][651]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter09E9331542586BCEC6073182275DDB26.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.01.03:930][420]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.11.20-04.01.20:975][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.01.21:417][194]LogSavePackage: Save=424.498413ms
+[2014.11.20-04.01.21:417][194]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter9D9F5E5549C169B0E6BEB988DDC27D10.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.01.22:460][231]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.01.22:850][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.11.20-04.01.23:044][231]BlueprintEditorCompileResults: Info [2131.44] Compile of MyCharacter successful! [in 127 ms]
+[2014.11.20-04.01.40:503][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.01.40:909][912]LogSavePackage: Save=391.499512ms
+[2014.11.20-04.01.40:909][912]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter197E2A83463EA129A27B4A9725A8B375.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.01.41:868][953]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.01.42:195][953]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.11.20-04.01.42:366][953]BlueprintEditorCompileResults: Info [2150.82] Compile of MyCharacter successful! [in 114 ms]
+[2014.11.20-04.01.54:884][733]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.01.54:884][733]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.01.55:080][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.11.20-04.01.55:153][733]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.01.55:606][733]LogPlayLevel: PIE:  Blueprint regeneration took 722 ms (2 blueprints)
+[2014.11.20-04.01.55:608][733]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:01:55 PM)
+[2014.11.20-04.01.55:698][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089203s)
+[2014.11.20-04.01.55:699][733]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2014.11.20-04.01.55:699][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.090311s)
+[2014.11.20-04.01.55:730][733]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.01.55:732][733]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.01.55:733][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.01.55
+[2014.11.20-04.01.55:734][733]LogWorld: Bringing up level for play took: 0.001958
+[2014.11.20-04.01.55:737][733]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.649
+[2014.11.20-04.02.02:487][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.11.20-04.02.02:604][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000288F31A0
+[2014.11.20-04.02.16:438][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.11.20-04.02.18:341][593]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.02.18:836][593]BlueprintEditorCompileResults: Info [2187.28] Compile of MyCharacter successful! [in 110 ms]
+[2014.11.20-04.02.20:676][678]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.11.20-04.02.20:804][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.02.21:230][678]LogSavePackage: Save=410.895355ms
+[2014.11.20-04.02.21:230][678]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter0AD10A0B4545DD04D25C5F859F7E7F84.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.02.22:078][726]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.02.22:078][726]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.02.22:291][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.11.20-04.02.22:356][726]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.02.22:820][726]LogPlayLevel: PIE:  Blueprint regeneration took 741 ms (2 blueprints)
+[2014.11.20-04.02.22:820][726]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:02:22 PM)
+[2014.11.20-04.02.22:888][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067646s)
+[2014.11.20-04.02.22:889][726]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2014.11.20-04.02.22:889][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.069057s)
+[2014.11.20-04.02.22:920][726]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.02.22:921][726]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.02.22:923][726]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.02.22
+[2014.11.20-04.02.22:923][726]LogWorld: Bringing up level for play took: 0.002124
+[2014.11.20-04.02.22:927][726]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.837
+[2014.11.20-04.02.30:200][ 26]LogBlueprintUserMessages: -985.362122
+[2014.11.20-04.02.30:200][ 26]LogBlueprintUserMessages: 0.814638
+[2014.11.20-04.02.31:391][ 71]LogBlueprintUserMessages: -604.588013
+[2014.11.20-04.02.37:499][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.11.20-04.02.37:630][282]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004D162520
+[2014.11.20-04.04.43:720][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.04.44:154][800]LogSavePackage: Save=414.908020ms
+[2014.11.20-04.04.44:154][800]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter2246D5E94BBEBF449A3E7C86D9EC3757.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.05.26:060][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2014.11.20-04.05.26:182][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.05.26:610][435]LogSavePackage: Save=412.927765ms
+[2014.11.20-04.05.26:610][435]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter029F66B740202C329ADC7B8301EA0EC0.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.05.30:238][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2014.11.20-04.05.30:355][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.05.30:830][597]LogSavePackage: Save=456.249542ms
+[2014.11.20-04.05.30:830][597]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter1EBE23D74C9C8E2F4FCEAA8E103FD4DD.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.05.34:426][662]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.05.34:737][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2014.11.20-04.05.34:900][662]BlueprintEditorCompileResults: Info [2383.35] Compile of MyCharacter successful! [in 106 ms]
+[2014.11.20-04.05.35:695][683]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.05.35:695][683]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.05.35:948][683]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.05.36:461][683]LogPlayLevel: PIE:  Blueprint regeneration took 766 ms (2 blueprints)
+[2014.11.20-04.05.36:462][683]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:05:36 PM)
+[2014.11.20-04.05.36:529][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067340s)
+[2014.11.20-04.05.36:531][683]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2014.11.20-04.05.36:531][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.069189s)
+[2014.11.20-04.05.36:580][683]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.05.36:581][683]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.05.36:583][683]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.05.36
+[2014.11.20-04.05.36:584][683]LogWorld: Bringing up level for play took: 0.002316
+[2014.11.20-04.05.36:591][683]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.488
+[2014.11.20-04.05.53:037][111]LogBlueprintUserMessages: -1176.780396
+[2014.11.20-04.05.53:037][111]LogBlueprintUserMessages: 0.62322
+[2014.11.20-04.05.54:172][137]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004ED33740
+[2014.11.20-04.06.50:699][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.06.51:134][426]LogSavePackage: Save=420.232178ms
+[2014.11.20-04.06.51:134][426]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterEB88AED1481FF5EDDA113D83C511A5C8.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.06.53:217][514]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2014.11.20-04.08.03:142][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.076
+[2014.11.20-04.08.03:152][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.11.20-04.08.03:227][404]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.11.20-04.08.03:227][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.11.20-04.08.03:230][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2014.11.20-04.08.03:699][404]LogSavePackage: Save=427.033691ms
+[2014.11.20-04.08.03:699][404]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter_Auto37DA8EAFE4395D4FC9F57BD8E0443B6C9.tmp' to 'D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset'
+[2014.11.20-04.08.03:708][404]LogFileHelpers: Auto-saving content packages took 0.566
+[2014.11.20-04.08.51:382][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2014.11.20-04.10.39:731][345]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.10.40:234][345]BlueprintEditorCompileResults: Info [2688.64] Compile of MyCharacter successful! [in 110 ms]
+[2014.11.20-04.10.40:602][346]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.10.41:078][346]BlueprintEditorCompileResults: Info [2689.50] Compile of MyCharacter successful! [in 99 ms]
+[2014.11.20-04.12.26:523][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.12.26:979][451]LogSavePackage: Save=437.076477ms
+[2014.11.20-04.12.26:979][451]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter4CD6AEC0437B18FA232B30B82AED3125.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.13.03:434][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2014.11.20-04.13.03:561][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.13.04:005][904]LogSavePackage: Save=427.674683ms
+[2014.11.20-04.13.04:005][904]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter386ECBEB43BFC971960EE6A40662206F.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.13.20:932][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2014.11.20-04.14.06:786][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.14.07:217][272]LogSavePackage: Save=417.489075ms
+[2014.11.20-04.14.07:217][272]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter8BBE71504DD666C784AFE7847AE4108F.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.14.15:932][582]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2014.11.20-04.14.16:859][611]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.14.17:390][611]BlueprintEditorCompileResults: Info [2905.76] Compile of MyCharacter successful! [in 117 ms]
+[2014.11.20-04.14.21:553][784]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.14.21:554][784]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.14.21:762][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2014.11.20-04.14.21:837][784]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.14.22:334][784]LogPlayLevel: PIE:  Blueprint regeneration took 780 ms (2 blueprints)
+[2014.11.20-04.14.22:335][784]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:14:22 PM)
+[2014.11.20-04.14.22:386][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051177s)
+[2014.11.20-04.14.22:388][784]LogPlayLevel: PIE: World Init took: (0.002226s)
+[2014.11.20-04.14.22:389][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.053941s)
+[2014.11.20-04.14.22:430][784]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.14.22:431][784]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.14.22:433][784]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.14.22
+[2014.11.20-04.14.22:433][784]LogWorld: Bringing up level for play took: 0.001591
+[2014.11.20-04.14.22:436][784]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.298
+[2014.11.20-04.14.27:654][991]LogBlueprintUserMessages: -1168.447144
+[2014.11.20-04.14.27:654][991]LogBlueprintUserMessages: 0.631553
+[2014.11.20-04.14.35:789][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2014.11.20-04.14.35:897][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000058464E00
+[2014.11.20-04.14.48:284][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2014.11.20-04.14.52:223][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.14.52:673][887]LogSavePackage: Save=429.708801ms
+[2014.11.20-04.14.52:673][887]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter581326DE4593B9F022FD1E9653932EFD.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.14.53:495][922]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.14.53:829][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2014.11.20-04.14.53:996][922]BlueprintEditorCompileResults: Info [2942.40] Compile of MyCharacter successful! [in 113 ms]
+[2014.11.20-04.14.56:218][ 23]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.14.56:218][ 23]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.14.56:410][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2014.11.20-04.14.56:481][ 23]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.14.56:948][ 23]LogPlayLevel: PIE:  Blueprint regeneration took 730 ms (2 blueprints)
+[2014.11.20-04.14.56:948][ 23]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:14:56 PM)
+[2014.11.20-04.14.57:007][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058529s)
+[2014.11.20-04.14.57:018][ 23]LogPlayLevel: PIE: World Init took: (0.011027s)
+[2014.11.20-04.14.57:018][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.069955s)
+[2014.11.20-04.14.57:055][ 23]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.14.57:056][ 23]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.14.57:058][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.14.57
+[2014.11.20-04.14.57:059][ 23]LogWorld: Bringing up level for play took: 0.002135
+[2014.11.20-04.14.57:062][ 23]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.923
+[2014.11.20-04.15.05:926][347]LogBlueprintUserMessages: -1124.258667
+[2014.11.20-04.15.05:927][347]LogBlueprintUserMessages: 0.675741
+[2014.11.20-04.15.08:499][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2014.11.20-04.15.08:610][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A6FFA60
+[2014.11.20-04.15.13:408][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.15.13:902][553]LogSavePackage: Save=475.431610ms
+[2014.11.20-04.15.13:902][553]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterF887B03F4A5304A3D8EB7B9164430F74.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.15.27:112][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2014.11.20-04.15.27:286][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.15.27:754][ 81]LogSavePackage: Save=450.326324ms
+[2014.11.20-04.15.27:754][ 81]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterB238B0AE429DA805A4F3CC9731C32860.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.15.28:975][131]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.15.29:344][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2014.11.20-04.15.29:535][131]BlueprintEditorCompileResults: Info [2977.90] Compile of MyCharacter successful! [in 122 ms]
+[2014.11.20-04.15.31:279][188]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.15.31:279][188]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.15.31:543][188]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.15.32:012][188]LogPlayLevel: PIE:  Blueprint regeneration took 732 ms (2 blueprints)
+[2014.11.20-04.15.32:012][188]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:15:32 PM)
+[2014.11.20-04.15.32:072][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059151s)
+[2014.11.20-04.15.32:073][188]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2014.11.20-04.15.32:073][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.060632s)
+[2014.11.20-04.15.32:115][188]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.15.32:116][188]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.15.32:118][188]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.15.32
+[2014.11.20-04.15.32:118][188]LogWorld: Bringing up level for play took: 0.002284
+[2014.11.20-04.15.32:124][188]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.018
+[2014.11.20-04.15.42:427][433]LogBlueprintUserMessages: -1148.169312
+[2014.11.20-04.15.42:427][433]LogBlueprintUserMessages: 0.651831
+[2014.11.20-04.15.48:782][599]LogBlueprintUserMessages: -1135.100098
+[2014.11.20-04.15.48:782][599]LogBlueprintUserMessages: 0.482728
+[2014.11.20-04.15.53:653][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005F0751C0
+[2014.11.20-04.15.55:476][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.15.55:965][778]LogSavePackage: Save=466.089661ms
+[2014.11.20-04.15.55:965][778]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter6CAB2BE149A741F279FB0DB63A54A329.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.18.40:858][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2014.11.20-04.18.40:963][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.18.41:175][150]LogSavePackage: Save=187.366074ms
+[2014.11.20-04.18.41:175][150]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter6F30F57E45247BDC2A3A24A28ED758FF.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.18.47:427][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.073
+[2014.11.20-04.22.46:783][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.22.47:254][ 23]LogSavePackage: Save=448.775391ms
+[2014.11.20-04.22.47:254][ 23]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter5470F4314DAD514DFB8818B0FC31EA65.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.22.52:190][235]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.22.52:554][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2014.11.20-04.22.52:720][235]BlueprintEditorCompileResults: Info [3421.09] Compile of MyCharacter successful! [in 117 ms]
+[2014.11.20-04.22.56:280][392]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.22.56:280][392]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.22.56:489][392]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2014.11.20-04.22.56:556][392]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.22.57:030][392]LogPlayLevel: PIE:  Blueprint regeneration took 750 ms (2 blueprints)
+[2014.11.20-04.22.57:030][392]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:22:57 PM)
+[2014.11.20-04.22.57:111][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080894s)
+[2014.11.20-04.22.57:113][392]LogPlayLevel: PIE: World Init took: (0.001435s)
+[2014.11.20-04.22.57:113][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.082737s)
+[2014.11.20-04.22.57:149][392]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.22.57:151][392]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.22.57:153][392]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.22.57
+[2014.11.20-04.22.57:154][392]LogWorld: Bringing up level for play took: 0.002300
+[2014.11.20-04.22.57:158][392]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.987
+[2014.11.20-04.23.02:587][607]LogBlueprintUserMessages: -1106.03418
+[2014.11.20-04.23.02:587][607]LogBlueprintUserMessages: 0.693966
+[2014.11.20-04.23.04:716][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2014.11.20-04.23.04:843][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000473D5760
+[2014.11.20-04.25.23:374][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.25.23:817][529]LogSavePackage: Save=422.247467ms
+[2014.11.20-04.25.23:817][529]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter17ACBE584ABE02EECDC7F4ADD63CDCAC.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.25.26:244][680]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.25.26:244][680]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.25.26:464][680]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2014.11.20-04.25.26:535][680]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.25.27:008][680]LogPlayLevel: PIE:  Blueprint regeneration took 763 ms (2 blueprints)
+[2014.11.20-04.25.27:008][680]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:25:27 PM)
+[2014.11.20-04.25.27:070][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061762s)
+[2014.11.20-04.25.27:072][680]LogPlayLevel: PIE: World Init took: (0.002188s)
+[2014.11.20-04.25.27:073][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.064521s)
+[2014.11.20-04.25.27:118][680]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.25.27:120][680]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.25.27:122][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.25.27
+[2014.11.20-04.25.27:122][680]LogWorld: Bringing up level for play took: 0.002155
+[2014.11.20-04.25.27:126][680]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.945
+[2014.11.20-04.25.29:888][791]LogBlueprintUserMessages: -615.41571
+[2014.11.20-04.25.31:755][863]LogBlueprintUserMessages: -617.265381
+[2014.11.20-04.25.36:319][ 19]LogBlueprintUserMessages: -633.266174
+[2014.11.20-04.25.38:175][ 81]LogBlueprintUserMessages: -618.199036
+[2014.11.20-04.25.39:444][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2014.11.20-04.25.39:555][124]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005349D260
+[2014.11.20-04.26.08:080][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2014.11.20-04.26.08:240][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-04.26.08:684][242]LogSavePackage: Save=423.655579ms
+[2014.11.20-04.26.08:684][242]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter48D73F2A4969D3C472573EBC4EE7E36E.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-04.26.10:113][300]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-04.26.10:465][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2014.11.20-04.26.10:685][300]BlueprintEditorCompileResults: Info [3618.99] Compile of MyCharacter successful! [in 116 ms]
+[2014.11.20-04.26.13:474][436]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-04.26.13:474][436]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-04.26.13:714][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2014.11.20-04.26.13:816][436]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-04.26.14:321][436]LogPlayLevel: PIE:  Blueprint regeneration took 847 ms (2 blueprints)
+[2014.11.20-04.26.14:321][436]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 12:26:14 PM)
+[2014.11.20-04.26.14:395][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073771s)
+[2014.11.20-04.26.14:397][436]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2014.11.20-04.26.14:397][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.075311s)
+[2014.11.20-04.26.14:429][436]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-04.26.14:431][436]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-04.26.14:433][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.19-20.26.14
+[2014.11.20-04.26.14:433][436]LogWorld: Bringing up level for play took: 0.002133
+[2014.11.20-04.26.14:436][436]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.252
+[2014.11.20-04.26.16:637][522]LogBlueprintUserMessages: -612.79071
+[2014.11.20-04.26.19:809][650]LogBlueprintUserMessages: -1175.669312
+[2014.11.20-04.26.19:809][650]LogBlueprintUserMessages: 0.624331
+[2014.11.20-04.26.20:557][675]LogActorComponent: UnregisterCo
