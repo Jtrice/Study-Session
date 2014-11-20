@@ -1,0 +1,199 @@
+﻿Log file open, 11/19/14 18:28:30
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.20-02.28.30:228][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.20-02.28.30:267][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.20-02.28.30:305][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.20-02.28.30:319][  0]LogInit: Object subsystem initialized
+[2014.11.20-02.28.30:324][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.20-02.28.30:324][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.20-02.28.30:324][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.20-02.28.30:324][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.20-02.28.30:325][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.20-02.28.30:325][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.20-02.28.30:346][  0]LogInit: Computer: ZEN-MATT
+[2014.11.20-02.28.30:346][  0]LogInit: User: Matt
+[2014.11.20-02.28.30:348][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.20-02.28.30:348][  0]LogInit: High frequency timer resolution =2.338593 MHz
+[2014.11.20-02.28.30:348][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.11.20-02.28.30:348][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.20-02.28.30:348][  0]LogMemory: Process Physical Memory: 63.89 MB used, 63.89 MB peak
+[2014.11.20-02.28.30:348][  0]LogMemory: Process Virtual Memory: 39.44 MB used, 39.44 MB peak
+[2014.11.20-02.28.30:348][  0]LogMemory: Physical Memory: 2494.18 MB used, 3981.98 MB total
+[2014.11.20-02.28.30:348][  0]LogMemory: Virtual Memory: 269.29 MB used, 8388608.00 MB total
+[2014.11.20-02.28.30:382][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.11.20-02.28.30:382][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.11.20-02.28.30:382][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.20-02.28.30:388][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.11.20-02.28.30:401][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.20-02.28.30:456][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.20-02.28.30:618][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.20-02.28.36:809][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.20-02.28.37:500][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.20-02.28.37:587][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.20-02.28.37:630][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.20-02.28.37:630][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.20-02.28.37:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.20-02.28.37:630][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.20-02.28.37:713][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.20-02.28.37:726][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.20-02.28.37:964][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.20-02.28.37:964][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.20-02.28.38:286][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.20-02.28.38:292][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.20-02.28.38:557][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.20-02.28.39:983][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.20-02.28.40:304][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.11.20-02.28.40:551][  0]SourceControl: Info Source control is disabled
+[2014.11.20-02.28.40:551][  0]SourceControl: Info Source control is disabled
+[2014.11.20-02.28.40:566][  0]SourceControl: Info Source control is disabled
+[2014.11.20-02.28.40:820][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.20-02.28.40:820][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.20-02.28.40:913][  0]LogEngine: Initializing Engine...
+[2014.11.20-02.28.41:113][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.20-02.28.41:153][  0]LogInit: FAudioDevice initialized.
+[2014.11.20-02.28.41:195][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.20-02.28.41:220][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.20-02.28.41:222][  0]LogInit: Texture streaming: Enabled
+[2014.11.20-02.28.41:305][  0]LogInit: Transaction tracking system initialized
+[2014.11.20-02.28.41:485][  0]BlueprintLog: New page: Editor Load
+[2014.11.20-02.28.41:532][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.11.20-02.28.41:533][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.20-02.28.42:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.20-02.28.43:187][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.20-02.28.43:675][  0]LogConsoleResponse:Display: 
+[2014.11.20-02.28.44:054][  0]SourceControl: Info Source control is disabled
+[2014.11.20-02.28.44:054][  0]Cmd: MAP LOAD FILE="D:/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.20-02.28.44:057][  0]LightingResults: New page: Lighting Build
+[2014.11.20-02.28.44:077][  0]MapCheck: New page: Map Check
+[2014.11.20-02.28.44:077][  0]LightingResults: New page: Lighting Build
+[2014.11.20-02.28.44:111][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C2D2840
+[2014.11.20-02.28.44:575][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.20-02.28.44:576][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-02.28.44:577][  0]Cmd: MAP CHECKDEP
+[2014.11.20-02.28.44:577][  0]MapCheck: New page: Example_Map - Nov 19, 2014, 10:28:44 AM
+[2014.11.20-02.28.44:755][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 178.089ms to complete.
+[2014.11.20-02.28.44:755][  0]LogFileHelpers: Loading map 'Example_Map' took 0.701
+[2014.11.20-02.28.44:864][  0]LogCollectionManager: Loaded 0 collections in 0.001159 seconds
+[2014.11.20-02.28.45:124][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.20-02.28.45:153][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.20-02.28.45:191][  0]LogLoad: Full Startup: 17.83 seconds (BP compile: 0.08 seconds)
+[2014.11.20-02.28.45:538][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2014.11.20-02.28.45:741][  0]LogRenderer:Warning: Reallocating scene render targets to support 904x896.
+[2014.11.20-02.28.47:514][  4]LogAssetRegistry: Asset discovery search completed in 5.9915 seconds
+[2014.11.20-02.29.01:053][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2014.11.20-02.29.01:128][178]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.20-02.29.01:128][178]Aligned camera to fit all selected actors.
+[2014.11.20-02.29.04:277][310]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.20-02.29.04:278][310]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 10:29:04 AM)
+[2014.11.20-02.29.04:353][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074956s)
+[2014.11.20-02.29.04:355][310]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2014.11.20-02.29.04:355][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.076716s)
+[2014.11.20-02.29.04:838][310]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-02.29.04:847][310]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-02.29.04:848][310]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.19-18.29.04
+[2014.11.20-02.29.04:849][310]LogWorld: Bringing up level for play took: 0.001935
+[2014.11.20-02.29.04:865][310]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.146
+[2014.11.20-02.29.29:286][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027ED4400
+[2014.11.20-02.33.44:419][963]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.20-02.35.06:064][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:064][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:079][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:080][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:080][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:081][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:081][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:081][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:082][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:082][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:082][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:083][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:083][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:084][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:084][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:084][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:085][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:085][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.06:086][309]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.35.28:461][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.20-02.36.32:191][935]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.36.32:191][935]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.36.32:192][935]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.36.32:192][935]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.20-02.36.50:832][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-02.36.51:252][637]LogSavePackage: Save=394.370026ms
+[2014.11.20-02.36.51:252][637]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter7FC6BF79491657EB776B73825C7D45A5.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-02.37.33:937][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.20-02.37.43:829][495]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-02.37.44:225][495]BlueprintEditorCompileResults: Info [0556.60] Compile of MyCharacter successful! [in 84 ms]
+[2014.11.20-02.38.09:828][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.20-02.38.10:204][544]LogSavePackage: Save=356.293732ms
+[2014.11.20-02.38.10:204][544]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter065EC98A4D0EE2DB45DBCF9A49664798.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.11.20-02.39.18:101][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.20-02.39.18:151][ 20]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.050
+[2014.11.20-02.39.18:162][ 20]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.11.20-02.39.18:222][ 20]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.11.20-02.39.18:222][ 20]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.11.20-02.39.18:227][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.20-02.39.18:613][ 20]LogSavePackage: Save=345.463715ms
+[2014.11.20-02.39.18:613][ 20]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter_Auto1336D76A245908FF398FA78A8CC358715.tmp' to 'D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2014.11.20-02.39.18:620][ 20]LogFileHelpers: Auto-saving content packages took 0.469
+[2014.11.20-02.39.20:763][112]BlueprintLog: New page: Compile MyCharacter
+[2014.11.20-02.39.21:048][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.20-02.39.21:228][112]BlueprintEditorCompileResults: Info [0653.58] Compile of MyCharacter successful! [in 105 ms]
+[2014.11.20-02.39.22:439][154]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.20-02.39.22:439][154]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.20-02.39.22:511][154]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.11.20-02.39.22:805][154]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.20-02.39.23:202][154]LogPlayLevel: PIE:  Blueprint regeneration took 762 ms (3 blueprints)
+[2014.11.20-02.39.23:202][154]PIE: New page: PIE session: Example_Map (Nov 19, 2014, 10:39:23 AM)
+[2014.11.20-02.39.23:260][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058407s)
+[2014.11.20-02.39.23:261][154]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2014.11.20-02.39.23:262][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.059797s)
+[2014.11.20-02.39.23:303][154]LogWorld: Game class is 'MyGame_C'
+[2014.11.20-02.39.23:306][154]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.20-02.39.23:307][154]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.19-18.39.23
+[2014.11.20-02.39.23:308][154]LogWorld: Bringing up level for play took: 0.002137
+[2014.11.20-02.39.23:325][154]LogCrashTracker: 
+
+
+[2014.11.20-02.39.24:480][154]LogCrashTracker: 
+
+
+[2014.11.20-02.39.24:480][154]LogWindows: === Critical error: ===
+Fatal error!
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000000bc
+
+UE4Editor-GameplayDebugger.dll!UnknownFunction (0x000007fedfaec726) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x000007fedb36a13b) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x000007fedad984a0) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x000007fedadb1b1d) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x000007fedadb4333) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x000007fedadb4baa) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee5853f57) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee5899750) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee58b10b6) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee562e3d1) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee5a8f966) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f61a8f4) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2129]
+UE4Editor.exe!GuardedMain() (0x000000013f60f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f60fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x000000013f61bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f61cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x00000000772959ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00000000774cc541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00000000774cc541) + 0 bytes [UnknownFile:0]
+
+
+[2014.11.20-02.39.24:697][154]LogExit: Executing StaticShutdownAfterError
+[2014.11.20-02.39.24:744][154]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.11.20-02.39.24:744][154]Log file closed, 11/19/14 18:39:24
