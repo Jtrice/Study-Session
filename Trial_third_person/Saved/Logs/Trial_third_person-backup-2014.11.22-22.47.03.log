@@ -1,0 +1,884 @@
+﻿Log file open, 11/22/14 01:57:33
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.22-09.57.33:014][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.22-09.57.33:042][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.22-09.57.33:059][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.22-09.57.33:069][  0]LogInit: Object subsystem initialized
+[2014.11.22-09.57.33:072][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.22-09.57.33:072][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.22-09.57.33:072][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.22-09.57.33:072][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.22-09.57.33:073][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.22-09.57.33:073][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.22-09.57.33:080][  0]LogInit: Computer: USER-PC
+[2014.11.22-09.57.33:080][  0]LogInit: User: User
+[2014.11.22-09.57.33:080][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.22-09.57.33:080][  0]LogInit: High frequency timer resolution =2.435947 MHz
+[2014.11.22-09.57.33:080][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx) Virtual=8192.0GB
+[2014.11.22-09.57.33:080][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.22-09.57.33:080][  0]LogMemory: Process Physical Memory: 63.35 MB used, 63.35 MB peak
+[2014.11.22-09.57.33:080][  0]LogMemory: Process Virtual Memory: 38.53 MB used, 38.53 MB peak
+[2014.11.22-09.57.33:080][  0]LogMemory: Physical Memory: 2804.65 MB used, 7969.14 MB total
+[2014.11.22-09.57.33:081][  0]LogMemory: Virtual Memory: 268.57 MB used, 8388608.00 MB total
+[2014.11.22-09.57.33:098][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.11.22-09.57.33:099][  0]LogD3D11RHI: Adapter has 192MB of dedicated video memory, 0MB of dedicated system memory, and 1568MB of shared system memory, 1 output[s]
+[2014.11.22-09.57.33:099][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.22-09.57.33:104][  0]LogRHI: Texture pool is 683 MB (70% of 976 MB)
+[2014.11.22-09.57.33:108][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.22-09.57.33:148][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.22-09.57.33:310][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.22-09.57.38:573][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-09.57.39:005][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-09.57.39:056][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.22-09.57.39:124][  0]LogDerivedDataCache: Loaded boot cache 0.07s 36MB C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.22-09.57.39:124][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.22-09.57.39:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.22-09.57.39:124][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.22-09.57.39:200][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.22-09.57.39:212][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.22-09.57.39:396][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.22-09.57.39:396][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.22-09.57.39:682][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.22-09.57.39:685][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.22-09.57.39:864][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.22-09.57.40:648][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.22-09.57.40:800][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.11.22-09.57.40:934][  0]SourceControl: Info Source control is disabled
+[2014.11.22-09.57.40:934][  0]SourceControl: Info Source control is disabled
+[2014.11.22-09.57.40:940][  0]SourceControl: Info Source control is disabled
+[2014.11.22-09.57.41:042][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.22-09.57.41:042][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.22-09.57.41:097][  0]LogEngine: Initializing Engine...
+[2014.11.22-09.57.41:222][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.22-09.57.41:298][  0]LogInit: FAudioDevice initialized.
+[2014.11.22-09.57.41:317][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.22-09.57.41:340][  0]LogDerivedDataCache: Saved boot cache 0.02s 36MB C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.22-09.57.41:346][  0]LogInit: Texture streaming: Enabled
+[2014.11.22-09.57.41:387][  0]LogInit: Transaction tracking system initialized
+[2014.11.22-09.57.41:470][  0]BlueprintLog: New page: Editor Load
+[2014.11.22-09.57.41:497][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2014.11.22-09.57.41:498][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.22-09.57.42:103][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-09.57.42:490][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-09.57.42:728][  0]LogConsoleResponse:Display: 
+[2014.11.22-09.57.42:918][  0]SourceControl: Info Source control is disabled
+[2014.11.22-09.57.42:918][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-09.57.42:918][  0]LightingResults: New page: Lighting Build
+[2014.11.22-09.57.42:927][  0]MapCheck: New page: Map Check
+[2014.11.22-09.57.42:927][  0]LightingResults: New page: Lighting Build
+[2014.11.22-09.57.42:943][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013EE05E0
+[2014.11.22-09.57.43:219][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.22-09.57.43:220][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.22-09.57.43:220][  0]Cmd: MAP CHECKDEP
+[2014.11.22-09.57.43:220][  0]MapCheck: New page: Example_Map - Nov 21, 2014, 5:57:43 PM
+[2014.11.22-09.57.43:314][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.576ms to complete.
+[2014.11.22-09.57.43:314][  0]LogFileHelpers: Loading map 'Example_Map' took 0.396
+[2014.11.22-09.57.43:383][  0]LogCollectionManager: Loaded 0 collections in 0.000934 seconds
+[2014.11.22-09.57.43:492][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.22-09.57.43:520][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_Book_Mat.M_Book_Mat'
+[2014.11.22-09.57.43:521][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.22-09.57.43:550][  0]LogLoad: Full Startup: 12.79 seconds (BP compile: 0.07 seconds)
+[2014.11.22-09.57.44:040][  0]LogRenderer:Warning: Reallocating scene render targets to support 696x592.
+[2014.11.22-09.57.45:124][  3]LogAssetRegistry: Asset discovery search completed in 3.6360 seconds
+[2014.11.22-09.57.50:952][ 57]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.11.22-09.57.55:400][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_Book_Mat'
+[2014.11.22-09.57.55:401][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_Book_Mat' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap.
+[2014.11.22-09.57.55:401][138]LoadErrors:Error: Error /Game/Maps/LivingRoom : Can't find file for asset. /Game/StarterContent/Mesh/Materials/M_Book_Mat
+[2014.11.22-09.57.55:401][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Textures/T_DeskLamp_Mat'
+[2014.11.22-09.57.55:401][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Textures/T_DeskLamp_Mat' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap.
+[2014.11.22-09.57.55:401][138]LoadErrors:Error: Error /Game/Maps/LivingRoom : Can't find file for asset. /Game/StarterContent/Mesh/Textures/T_DeskLamp_Mat
+[2014.11.22-09.57.55:402][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst'
+[2014.11.22-09.57.55:402][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap.
+[2014.11.22-09.57.55:402][138]LoadErrors:Error: Error /Game/Maps/LivingRoom : Can't find file for asset. /Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst
+[2014.11.22-09.57.55:405][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Book_Mat_Inst'
+[2014.11.22-09.57.55:406][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Book_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/BookLP.uasset.
+[2014.11.22-09.57.55:406][138]LoadErrors:Error: Error /Game/StarterContent/Mesh/BookLP : Can't find file for asset. /Game/ArchVis/Materials/M_Book_Mat_Inst
+[2014.11.22-09.57.55:406][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Book_Mat_Inst'
+[2014.11.22-09.57.55:406][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Book_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/BookLP.uasset.
+[2014.11.22-09.57.55:408][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_Book_Mat'
+[2014.11.22-09.57.55:408][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_Book_Mat' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap.
+[2014.11.22-09.57.55:408][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst'
+[2014.11.22-09.57.55:408][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap.
+[2014.11.22-09.57.55:410][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.11.22-09.57.55:411][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.11.22-09.57.55:411][138]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Curtain : Can't find file for asset. /Game/ArchVis/Materials/M_Curtain_MAT_Inst
+[2014.11.22-09.57.55:411][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.11.22-09.57.55:411][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.11.22-09.57.55:414][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.11.22-09.57.55:414][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.11.22-09.57.55:414][138]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FloorLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
+[2014.11.22-09.57.55:415][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.11.22-09.57.55:415][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.11.22-09.57.55:416][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Textures/T_DeskLamp_Mat'
+[2014.11.22-09.57.55:416][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Textures/T_DeskLamp_Mat' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap.
+[2014.11.22-09.57.55:417][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Textures/T_DeskLamp_N'
+[2014.11.22-09.57.55:417][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Textures/T_DeskLamp_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap.
+[2014.11.22-09.57.55:417][138]LoadErrors:Error: Error /Game/Maps/LivingRoom : Can't find file for asset. /Game/StarterContent/Mesh/Textures/T_DeskLamp_N
+[2014.11.22-09.57.55:419][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Textures/T_DeskLamp_N'
+[2014.11.22-09.57.55:419][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Textures/T_DeskLamp_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap.
+[2014.11.22-09.57.55:428][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Book_Mat_Inst'
+[2014.11.22-09.57.55:429][138]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Book_Mat_Inst.M_Book_Mat_Inst Referenced by BookLP Property /Script/Engine.StaticMesh:Materials
+[2014.11.22-09.57.55:429][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Book_Mat_Inst' while loading NULL.
+[2014.11.22-09.57.55:429][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.11.22-09.57.55:429][138]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain Property /Script/Engine.StaticMesh:Materials
+[2014.11.22-09.57.55:429][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
+[2014.11.22-09.57.55:430][138]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.11.22-09.57.55:430][138]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp Property /Script/Engine.StaticMesh:Materials
+[2014.11.22-09.57.55:430][138]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
+[2014.11.22-09.57.55:432][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Textures/T_DeskLamp_N'
+[2014.11.22-09.57.55:432][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Textures/T_DeskLamp_N.T_DeskLamp_N Referenced by PersistentLevel
+[2014.11.22-09.57.55:432][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Textures/T_DeskLamp_N' while loading NULL.
+[2014.11.22-09.57.55:445][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst'
+[2014.11.22-09.57.55:445][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst.M_WoodFloor_MAT_Inst Referenced by Model_3
+[2014.11.22-09.57.55:446][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst' while loading NULL.
+[2014.11.22-09.57.55:447][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst'
+[2014.11.22-09.57.55:447][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst.M_WoodFloor_MAT_Inst Referenced by ModelComponent_2689
+[2014.11.22-09.57.55:447][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst' while loading NULL.
+[2014.11.22-09.57.55:448][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst'
+[2014.11.22-09.57.55:448][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst.M_WoodFloor_MAT_Inst Referenced by ModelComponent_2690
+[2014.11.22-09.57.55:448][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst' while loading NULL.
+[2014.11.22-09.57.55:449][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst'
+[2014.11.22-09.57.55:449][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst.M_WoodFloor_MAT_Inst Referenced by ModelComponent_2696
+[2014.11.22-09.57.55:449][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst' while loading NULL.
+[2014.11.22-09.57.55:450][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst'
+[2014.11.22-09.57.55:450][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst.M_WoodFloor_MAT_Inst Referenced by ModelComponent_2702
+[2014.11.22-09.57.55:450][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst' while loading NULL.
+[2014.11.22-09.57.55:450][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst'
+[2014.11.22-09.57.55:451][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst.M_WoodFloor_MAT_Inst Referenced by Polys_35
+[2014.11.22-09.57.55:451][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_WoodFloor_MAT_Inst' while loading NULL.
+[2014.11.22-09.57.55:452][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Materials/M_Book_Mat'
+[2014.11.22-09.57.55:452][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Materials/M_Book_Mat.M_Book_Mat Referenced by BookLP_7 Property /Script/Engine.MeshComponent:Materials
+[2014.11.22-09.57.55:452][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Materials/M_Book_Mat' while loading NULL.
+[2014.11.22-09.57.55:453][138]LogLinker:Warning: Can't find file '/Game/StarterContent/Mesh/Textures/T_DeskLamp_Mat'
+[2014.11.22-09.57.55:453][138]LoadErrors: Info Failed to load /Game/StarterContent/Mesh/Textures/T_DeskLamp_Mat.T_DeskLamp_Mat Referenced by SM_FloorLamp_21 Property /Script/Engine.MeshComponent:Materials
+[2014.11.22-09.57.55:453][138]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Mesh/Textures/T_DeskLamp_Mat' while loading NULL.
+[2014.11.22-09.57.55:615][138]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-09.57.55:615][138]LightingResults: New page: Lighting Build
+[2014.11.22-09.57.55:650][138]LoadErrors: New page: Loading map: LivingRoom.umap
+[2014.11.22-09.57.55:651][138]MapCheck: New page: Map Check
+[2014.11.22-09.57.55:651][138]LightingResults: New page: Lighting Build
+[2014.11.22-09.57.55:688][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000108FAA20
+[2014.11.22-09.57.55:710][138]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.22-09.57.55:710][138]LogAIModule: Creating AISystem for world LivingRoom
+[2014.11.22-09.57.55:778][138]Cmd: MAP CHECKDEP
+[2014.11.22-09.57.55:779][138]MapCheck: New page: LivingRoom - Nov 21, 2014, 5:57:55 PM
+[2014.11.22-09.57.55:874][138]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.287ms to complete.
+[2014.11.22-09.57.55:874][138]LogFileHelpers: Loading map 'LivingRoom' took 0.261
+[2014.11.22-09.58.01:698][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BookLP)
+[2014.11.22-09.58.13:511][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/book_normals'
+[2014.11.22-09.58.13:512][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/book_normals' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Book_Mat.uasset.
+[2014.11.22-09.58.13:512][570]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Book_Mat : Can't find file for asset. /Game/ArchVis/Textures/book_normals
+[2014.11.22-09.58.13:512][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/book_occlusion'
+[2014.11.22-09.58.13:512][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/book_occlusion' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Book_Mat.uasset.
+[2014.11.22-09.58.13:512][570]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Book_Mat : Can't find file for asset. /Game/ArchVis/Textures/book_occlusion
+[2014.11.22-09.58.13:513][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustParticles_M'
+[2014.11.22-09.58.13:513][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustParticles_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Book_Mat.uasset.
+[2014.11.22-09.58.13:513][570]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Book_Mat : Can't find file for asset. /Game/ArchVis/Textures/T_DustParticles_M
+[2014.11.22-09.58.13:513][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/book_normals'
+[2014.11.22-09.58.13:513][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/book_normals' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Book_Mat.uasset.
+[2014.11.22-09.58.13:514][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/book_occlusion'
+[2014.11.22-09.58.13:514][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/book_occlusion' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Book_Mat.uasset.
+[2014.11.22-09.58.13:514][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustParticles_M'
+[2014.11.22-09.58.13:514][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustParticles_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Book_Mat.uasset.
+[2014.11.22-09.58.13:516][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/book_normals'
+[2014.11.22-09.58.13:516][570]LoadErrors: Info Failed to load /Game/ArchVis/Textures/book_normals.book_normals Referenced by M_Book_Mat
+[2014.11.22-09.58.13:516][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/book_normals' while loading NULL.
+[2014.11.22-09.58.13:516][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/book_occlusion'
+[2014.11.22-09.58.13:517][570]LoadErrors: Info Failed to load /Game/ArchVis/Textures/book_occlusion.book_occlusion Referenced by M_Book_Mat
+[2014.11.22-09.58.13:517][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/book_occlusion' while loading NULL.
+[2014.11.22-09.58.13:517][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustParticles_M'
+[2014.11.22-09.58.13:517][570]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_DustParticles_M.T_DustParticles_M Referenced by M_Book_Mat
+[2014.11.22-09.58.13:517][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustParticles_M' while loading NULL.
+[2014.11.22-09.58.13:518][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/book_occlusion'
+[2014.11.22-09.58.13:518][570]LoadErrors: Info Failed to load /Game/ArchVis/Textures/book_occlusion.book_occlusion Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-09.58.13:518][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/book_occlusion' while loading NULL.
+[2014.11.22-09.58.13:519][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/book_normals'
+[2014.11.22-09.58.13:519][570]LoadErrors: Info Failed to load /Game/ArchVis/Textures/book_normals.book_normals Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-09.58.13:519][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/book_normals' while loading NULL.
+[2014.11.22-09.58.13:519][570]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustParticles_M'
+[2014.11.22-09.58.13:519][570]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_DustParticles_M.T_DustParticles_M Referenced by MaterialExpressionTextureSample_2 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-09.58.13:520][570]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustParticles_M' while loading NULL.
+[2014.11.22-09.58.13:521][570]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling.
+[2014.11.22-09.58.13:522][570]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Book_Mat.M_Book_Mat for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-09.58.13:522][570]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-09.58.21:050][851]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.11.22-09.58.26:370][ 10]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.22-09.58.26:370][ 10]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-09.58.26:370][ 10]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-09.58.26:378][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.11.22-09.58.26:461][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.11.22-09.58.26:461][ 10]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.22-09.58.26:461][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.11.22-09.58.26:461][ 10]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.22-09.58.26:465][ 10]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.22-09.58.26:466][ 10]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-09.58.26:466][ 10]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-09.58.26:489][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.11.22-09.58.26:490][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.11.22-09.58.26:496][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.22-09.58.26:497][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling.
+[2014.11.22-09.58.26:500][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling.
+[2014.11.22-09.58.26:504][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling.
+[2014.11.22-09.58.26:507][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling.
+[2014.11.22-09.58.26:511][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-09.58.26:512][ 10]MaterialEditorStats:Error: Error [SM4] (Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-09.58.56:811][766]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.11.22-09.58.57:025][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.11.22-09.59.01:823][830]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2014.11.22-09.59.05:023][871]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Mesh'
+[2014.11.22-09.59.06:860][926]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2014.11.22-09.59.08:363][944]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures/Textures'
+[2014.11.22-09.59.53:796][866]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.22-10.00.19:084][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.11.22-10.00.19:084][260]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.22-10.04.10:740][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.22-10.04.21:465][709]LogTexture:Display: Building textures: book_normals (BC5)
+[2014.11.22-10.04.32:613][ 35]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.11.22-10.04.42:476][225]LogMaterialEditor: Applying material M_Book_Mat
+[2014.11.22-10.04.48:503][225]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.22-10.04.48:503][225]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.04.48:503][225]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.04.48:531][225]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling.
+[2014.11.22-10.04.48:531][225]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Book_Mat.M_Book_Mat for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.04.48:531][225]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.04.48:536][225]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling.
+[2014.11.22-10.04.48:537][225]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Book_Mat.M_Book_Mat for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.04.48:537][225]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.04.48:539][225]LogMaterial: 0.001879 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.05.02:226][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.05.03:910][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.05.04:307][617]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.05.04:712][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.05.05:585][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.05.05:621][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.05.06:823][649]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.05.09:784][686]LogMaterialEditor: Applying material M_Book_Mat
+[2014.11.22-10.05.12:641][686]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.22-10.05.12:691][686]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling.
+[2014.11.22-10.05.12:739][686]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling.
+[2014.11.22-10.05.12:769][686]LogMaterial: 0.016462 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.05.17:109][751]MaterialEditorStats: Info Base pass shader with static lighting: 114 instructions
+[2014.11.22-10.05.17:109][751]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 86 instructions
+[2014.11.22-10.05.17:109][751]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.22-10.05.17:109][751]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.11.22-10.05.29:167][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling.
+[2014.11.22-10.05.38:412][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.11.22-10.05.43:975][264]LogMaterialEditor: Applying material M_Book_Mat
+[2014.11.22-10.05.45:639][264]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.22-10.05.45:724][264]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling.
+[2014.11.22-10.05.45:790][264]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling.
+[2014.11.22-10.05.45:828][264]LogMaterial: 0.020909 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.06.03:973][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BookLP)
+[2014.11.22-10.06.04:490][537]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BookLP)
+[2014.11.22-10.06.05:433][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BookLP)
+[2014.11.22-10.06.12:928][707]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_FloorLamp)
+[2014.11.22-10.06.19:029][844]Cmd: EDCALLBACK SURFPROPS
+[2014.11.22-10.06.19:515][850]Cmd: EDCALLBACK SURFPROPS
+[2014.11.22-10.06.34:720][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237DA520
+[2014.11.22-10.06.36:590][200]LogSavePackage: Save=1801.035522ms
+[2014.11.22-10.06.36:590][200]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/LivingRoomFAA40A274717D76E63A035981CE50696.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
+[2014.11.22-10.07.22:818][654]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2014.11.22-10.07.30:029][905]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Mesh'
+[2014.11.22-10.07.31:782][930]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2014.11.22-10.07.33:681][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2014.11.22-10.07.35:110][979]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials/Materials'
+[2014.11.22-10.07.45:360][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_D'
+[2014.11.22-10.07.45:360][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_D' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Carptet_Mat.uasset.
+[2014.11.22-10.07.45:360][293]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Carptet_Mat : Can't find file for asset. /Game/ArchVis/Textures/T_Carpet_D
+[2014.11.22-10.07.45:361][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_M'
+[2014.11.22-10.07.45:361][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Carptet_Mat.uasset.
+[2014.11.22-10.07.45:361][293]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Carptet_Mat : Can't find file for asset. /Game/ArchVis/Textures/T_Carpet_M
+[2014.11.22-10.07.45:361][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_N'
+[2014.11.22-10.07.45:361][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Carptet_Mat.uasset.
+[2014.11.22-10.07.45:362][293]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Carptet_Mat : Can't find file for asset. /Game/ArchVis/Textures/T_Carpet_N
+[2014.11.22-10.07.45:362][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_D'
+[2014.11.22-10.07.45:362][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_D' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Carptet_Mat.uasset.
+[2014.11.22-10.07.45:362][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_M'
+[2014.11.22-10.07.45:363][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Carptet_Mat.uasset.
+[2014.11.22-10.07.45:363][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_N'
+[2014.11.22-10.07.45:363][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Carptet_Mat.uasset.
+[2014.11.22-10.07.45:367][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_M'
+[2014.11.22-10.07.45:368][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_M.T_Carpet_M Referenced by M_Carptet_Mat
+[2014.11.22-10.07.45:368][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_M' while loading NULL.
+[2014.11.22-10.07.45:368][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_N'
+[2014.11.22-10.07.45:368][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_N.T_Carpet_N Referenced by M_Carptet_Mat
+[2014.11.22-10.07.45:368][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_N' while loading NULL.
+[2014.11.22-10.07.45:369][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_D'
+[2014.11.22-10.07.45:369][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_D.T_Carpet_D Referenced by M_Carptet_Mat
+[2014.11.22-10.07.45:369][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_D' while loading NULL.
+[2014.11.22-10.07.45:399][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_D'
+[2014.11.22-10.07.45:399][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_D.T_Carpet_D Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:399][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_D' while loading NULL.
+[2014.11.22-10.07.45:399][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_M'
+[2014.11.22-10.07.45:399][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_M.T_Carpet_M Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:400][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_M' while loading NULL.
+[2014.11.22-10.07.45:400][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_M'
+[2014.11.22-10.07.45:400][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_M.T_Carpet_M Referenced by MaterialExpressionTextureSample_10 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:400][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_M' while loading NULL.
+[2014.11.22-10.07.45:401][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_N'
+[2014.11.22-10.07.45:401][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_N.T_Carpet_N Referenced by MaterialExpressionTextureSample_12 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:401][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_N' while loading NULL.
+[2014.11.22-10.07.45:401][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_N'
+[2014.11.22-10.07.45:402][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_N.T_Carpet_N Referenced by MaterialExpressionTextureSample_14 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:402][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_N' while loading NULL.
+[2014.11.22-10.07.45:402][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_N'
+[2014.11.22-10.07.45:402][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_N.T_Carpet_N Referenced by MaterialExpressionTextureSample_16 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:403][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_N' while loading NULL.
+[2014.11.22-10.07.45:403][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_N'
+[2014.11.22-10.07.45:403][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_N.T_Carpet_N Referenced by MaterialExpressionTextureSample_2 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:403][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_N' while loading NULL.
+[2014.11.22-10.07.45:404][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_M'
+[2014.11.22-10.07.45:404][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_M.T_Carpet_M Referenced by MaterialExpressionTextureSample_4 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:404][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_M' while loading NULL.
+[2014.11.22-10.07.45:405][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_M'
+[2014.11.22-10.07.45:405][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_M.T_Carpet_M Referenced by MaterialExpressionTextureSample_6 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:405][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_M' while loading NULL.
+[2014.11.22-10.07.45:405][293]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Carpet_M'
+[2014.11.22-10.07.45:405][293]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Carpet_M.T_Carpet_M Referenced by MaterialExpressionTextureSample_8 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.07.45:406][293]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Carpet_M' while loading NULL.
+[2014.11.22-10.07.45:425][293]LogMaterial: Missing cached shader map for material M_Carptet_Mat, compiling.
+[2014.11.22-10.07.45:426][293]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Carptet_Mat.M_Carptet_Mat for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.07.45:426][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.07.45:475][293]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.22-10.07.45:476][293]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.07.45:476][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.07.45:481][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.11.22-10.07.45:563][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.11.22-10.07.45:563][293]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.11.22-10.07.45:563][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.11.22-10.07.45:563][293]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.11.22-10.07.45:571][293]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.22-10.07.45:572][293]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.07.45:572][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.07.45:598][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.11.22-10.07.45:599][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling.
+[2014.11.22-10.07.45:602][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling.
+[2014.11.22-10.07.45:605][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.07.45:606][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling.
+[2014.11.22-10.07.45:608][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling.
+[2014.11.22-10.07.45:611][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling.
+[2014.11.22-10.07.45:617][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.11.22-10.07.45:620][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.11.22-10.07.45:622][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_4, compiling.
+[2014.11.22-10.07.45:623][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling.
+[2014.11.22-10.07.45:624][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_6, compiling.
+[2014.11.22-10.07.45:625][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.11.22-10.07.45:627][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_2, compiling.
+[2014.11.22-10.07.45:628][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.11.22-10.07.45:629][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.11.22-10.07.45:631][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.11.22-10.07.45:632][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.11.22-10.07.45:635][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling.
+[2014.11.22-10.07.45:639][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling.
+[2014.11.22-10.07.45:642][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.22-10.07.45:644][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling.
+[2014.11.22-10.07.45:647][293]MaterialEditorStats:Error: Error [SM4] (Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.08.04:669][713]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2014.11.22-10.08.05:209][720]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures/Textures'
+[2014.11.22-10.08.18:867][900]LogTexture:Display: Building textures: T_Carpet_D (DXT1)
+[2014.11.22-10.08.28:374][900]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2014.11.22-10.08.33:850][ 29]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures/Textures'
+[2014.11.22-10.09.50:883][574]LogTexture:Display: Building textures: T_Carpet_N (BC5)
+[2014.11.22-10.10.00:800][791]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.10.05:123][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.11.22-10.10.08:969][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.11.22-10.10.13:244][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling.
+[2014.11.22-10.10.30:304][353]LogTexture:Display: Building textures: T_Carpet_M (DXT1)
+[2014.11.22-10.10.42:569][516]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.11.22-10.10.47:639][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.11.22-10.10.51:142][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.11.22-10.10.58:819][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.11.22-10.11.29:635][255]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.11.22-10.12.29:828][981]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.22-10.12.32:375][ 11]LogMaterialEditor: Applying material M_Carptet_Mat
+[2014.11.22-10.12.37:119][ 11]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.22-10.12.37:248][ 11]LogMaterial: Missing cached shader map for material M_Carptet_Mat, compiling.
+[2014.11.22-10.12.37:334][ 11]LogMaterial: Missing cached shader map for material M_Carptet_Mat, compiling.
+[2014.11.22-10.12.37:360][ 11]LogMaterial: 0.003332 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.12.48:796][207]MaterialEditorStats: Info Base pass shader with static lighting: 171 instructions
+[2014.11.22-10.12.48:796][207]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 143 instructions
+[2014.11.22-10.12.48:796][207]MaterialEditorStats: Info Vertex shader: 40 instructions
+[2014.11.22-10.12.48:796][207]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.11.22-10.12.55:260][286]LogMaterialEditor: Saving and Compiling material M_Carptet_Mat
+[2014.11.22-10.12.56:959][286]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.22-10.12.57:124][286]LogMaterial: Missing cached shader map for material M_Carptet_Mat, compiling.
+[2014.11.22-10.12.57:234][286]LogMaterial: Missing cached shader map for material M_Carptet_Mat, compiling.
+[2014.11.22-10.12.57:258][286]LogMaterial: 0.002874 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.13.05:761][286]LogSavePackage: Save=170.945435ms
+[2014.11.22-10.13.05:761][286]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_Carptet_MatB429E1E543B06F02B7A425BD8025E69A.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Carptet_Mat.uasset'
+[2014.11.22-10.13.11:273][354]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials/Materials'
+[2014.11.22-10.13.45:046][ 76]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.22-10.13.45:046][ 76]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.22-10.13.45:146][ 76]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012A9EF20
+[2014.11.22-10.13.45:148][ 76]LogPlayLevel: PIE:  Blueprint regeneration took 102 ms (1 blueprints)
+[2014.11.22-10.13.45:148][ 76]PIE: New page: PIE session: LivingRoom (Nov 21, 2014, 6:13:45 PM)
+[2014.11.22-10.13.45:175][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026506s)
+[2014.11.22-10.13.45:176][ 76]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2014.11.22-10.13.45:176][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.027415s)
+[2014.11.22-10.13.45:620][ 76]LogWorld: Game class is 'MyGame_C'
+[2014.11.22-10.13.45:622][ 76]LogAIModule: Creating AISystem for world LivingRoom
+[2014.11.22-10.13.45:624][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 60) at 2014.11.22-02.13.45
+[2014.11.22-10.13.45:625][ 76]LogWorld: Bringing up level for play took: 0.002508
+[2014.11.22-10.13.45:630][ 76]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 0.488
+[2014.11.22-10.13.45:721][ 77]LogBlueprintUserMessages: -376.38736
+[2014.11.22-10.13.52:927][273]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000430A2FC0
+[2014.11.22-10.13.53:808][286]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BookLP)
+[2014.11.22-10.14.00:163][434]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BookLP)
+[2014.11.22-10.14.02:730][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BookLP)
+[2014.11.22-10.15.10:036][ 33]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Carptet_Mat'
+[2014.11.22-10.15.10:036][ 33]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Carptet_Mat' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst.uasset.
+[2014.11.22-10.15.10:037][ 33]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst : Can't find file for asset. /Game/ArchVis/Materials/M_Carptet_Mat
+[2014.11.22-10.15.10:037][ 33]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Carptet_Mat'
+[2014.11.22-10.15.10:037][ 33]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Carptet_Mat' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst.uasset.
+[2014.11.22-10.15.10:037][ 33]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Carptet_Mat'
+[2014.11.22-10.15.10:038][ 33]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Carptet_Mat.M_Carptet_Mat Referenced by MI_Carptet_Mat_Inst Property /Script/Engine.MaterialInstance:Parent
+[2014.11.22-10.15.10:038][ 33]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Carptet_Mat' while loading NULL.
+[2014.11.22-10.15.12:970][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.11.22-10.15.13:010][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.11.22-10.15.13:010][ 81]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.11.22-10.15.20:080][167]Cmd: EDCALLBACK SURFPROPS
+[2014.11.22-10.15.44:445][296]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Carptet_Mat'
+[2014.11.22-10.15.44:445][296]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Carptet_Mat' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst2.uasset.
+[2014.11.22-10.15.44:445][296]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst2 : Can't find file for asset. /Game/ArchVis/Materials/M_Carptet_Mat
+[2014.11.22-10.15.44:445][296]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Carptet_Mat'
+[2014.11.22-10.15.44:445][296]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Carptet_Mat' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst2.uasset.
+[2014.11.22-10.15.44:446][296]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Carptet_Mat'
+[2014.11.22-10.15.44:446][296]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Carptet_Mat.M_Carptet_Mat Referenced by MI_Carptet_Mat_Inst2 Property /Script/Engine.MaterialInstance:Parent
+[2014.11.22-10.15.44:446][296]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Carptet_Mat' while loading NULL.
+[2014.11.22-10.15.44:542][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.11.22-10.15.44:584][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.11.22-10.15.44:584][296]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.11.22-10.16.33:102][ 80]LogSavePackage: Save=214.262878ms
+[2014.11.22-10.16.33:102][ 80]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/MI_Carptet_Mat_Inst28151F9A6404D0B67CBB378B04CAD9B25.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst2.uasset'
+[2014.11.22-10.16.43:509][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023FA7D80
+[2014.11.22-10.16.43:515][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D8F7920
+[2014.11.22-10.16.45:254][280]LogSavePackage: Save=1635.351318ms
+[2014.11.22-10.16.45:254][280]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/LivingRoom_Auto1D785F8A74D1D3DCDBB62C1A96092280A.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/LivingRoom_Auto1.umap'
+[2014.11.22-10.16.45:266][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/LivingRoom' took 1.790
+[2014.11.22-10.16.45:266][280]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.790
+[2014.11.22-10.16.45:275][280]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/Materials/M_Book_Mat] ([1] browsable assets)...
+[2014.11.22-10.16.45:324][280]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/Materials/M_Book_Mat.M_Book_Mat]
+[2014.11.22-10.16.45:324][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/Materials/M_Book_Mat]
+[2014.11.22-10.16.45:610][280]LogSavePackage: Save=240.835693ms
+[2014.11.22-10.16.45:610][280]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_Book_Mat_Auto1BE99147B4F01A736C89E368F016FDF73.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/StarterContent/Materials/Materials/M_Book_Mat_Auto1.uasset'
+[2014.11.22-10.16.45:620][280]LogFileHelpers: Auto-saving content packages took 0.355
+[2014.11.22-10.16.47:595][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.11.22-10.16.47:635][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.11.22-10.16.47:635][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.11.22-10.16.53:070][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.11.22-10.16.53:112][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.11.22-10.16.53:112][373]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2014.11.22-10.17.22:835][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.11.22-10.17.22:875][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.11.22-10.17.22:875][600]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_6) Already registered. Aborting.
+[2014.11.22-10.17.32:750][736]LogSavePackage: Save=215.005493ms
+[2014.11.22-10.17.32:750][736]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/MI_Carptet_Mat_Inst43B6B0974AFDBE3D1E605F92D4757252.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst.uasset'
+[2014.11.22-10.17.34:822][762]LogSavePackage: Save=11.546228ms
+[2014.11.22-10.17.34:822][762]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/MI_Carptet_Mat_Inst48A13689432B7F0BAA0E4396907B5D70.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/MI_Carptet_Mat_Inst.uasset'
+[2014.11.22-10.17.53:563][  3]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Mesh'
+[2014.11.22-10.18.29:875][972]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst'
+[2014.11.22-10.18.29:875][972]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Carpet.uasset.
+[2014.11.22-10.18.29:875][972]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Carpet : Can't find file for asset. /Game/ArchVis/Materials/MI_Carptet_Mat_Inst
+[2014.11.22-10.18.29:876][972]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst'
+[2014.11.22-10.18.29:876][972]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Carpet.uasset.
+[2014.11.22-10.18.29:876][972]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst'
+[2014.11.22-10.18.29:877][972]LoadErrors: Info Failed to load /Game/ArchVis/Materials/MI_Carptet_Mat_Inst.MI_Carptet_Mat_Inst Referenced by SM_Carpet Property /Script/Engine.StaticMesh:Materials
+[2014.11.22-10.18.29:877][972]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst' while loading NULL.
+[2014.11.22-10.18.29:908][972]LogActorFactory: Actor Factory created SM_Carpet
+[2014.11.22-10.18.30:958][985]LogActorFactory: Actor Factory created SM_Carpet
+[2014.11.22-10.18.46:064][197]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials/Materials'
+[2014.11.22-10.20.16:488][812]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_WoodFloor_MAT'
+[2014.11.22-10.20.16:488][812]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_WoodFloor_MAT' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT_Inst.uasset.
+[2014.11.22-10.20.16:488][812]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT_Inst : Can't find file for asset. /Game/ArchVis/Materials/M_WoodFloor_MAT
+[2014.11.22-10.20.16:489][812]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_WoodFloor_MAT'
+[2014.11.22-10.20.16:489][812]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_WoodFloor_MAT' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT_Inst.uasset.
+[2014.11.22-10.20.16:489][812]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_WoodFloor_MAT'
+[2014.11.22-10.20.16:490][812]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_WoodFloor_MAT.M_WoodFloor_MAT Referenced by M_WoodFloor_MAT_Inst Property /Script/Engine.MaterialInstance:Parent
+[2014.11.22-10.20.16:490][812]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_WoodFloor_MAT' while loading NULL.
+[2014.11.22-10.20.18:974][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustnScratches_M'
+[2014.11.22-10.20.18:974][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustnScratches_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:975][867]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_DustnScratches_M
+[2014.11.22-10.20.18:975][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustnScratches_N'
+[2014.11.22-10.20.18:975][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustnScratches_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:975][867]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_DustnScratches_N
+[2014.11.22-10.20.18:975][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.11.22-10.20.18:976][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:976][867]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_Wood
+[2014.11.22-10.20.18:976][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.11.22-10.20.18:976][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:976][867]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_Wood_S
+[2014.11.22-10.20.18:977][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_AO'
+[2014.11.22-10.20.18:977][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_AO' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:977][867]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_WoodFloor_AO
+[2014.11.22-10.20.18:977][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_N'
+[2014.11.22-10.20.18:977][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:978][867]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_WoodFloor_N
+[2014.11.22-10.20.18:978][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustnScratches_M'
+[2014.11.22-10.20.18:978][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustnScratches_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:978][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustnScratches_N'
+[2014.11.22-10.20.18:979][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustnScratches_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:979][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.11.22-10.20.18:979][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:979][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.11.22-10.20.18:979][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:980][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_AO'
+[2014.11.22-10.20.18:980][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_AO' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:980][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_N'
+[2014.11.22-10.20.18:980][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset.
+[2014.11.22-10.20.18:983][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_N'
+[2014.11.22-10.20.18:983][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_WoodFloor_N.T_WoodFloor_N Referenced by M_WoodFloor_MAT
+[2014.11.22-10.20.18:984][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_N' while loading NULL.
+[2014.11.22-10.20.18:984][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustnScratches_N'
+[2014.11.22-10.20.18:984][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_DustnScratches_N.T_DustnScratches_N Referenced by M_WoodFloor_MAT
+[2014.11.22-10.20.18:984][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustnScratches_N' while loading NULL.
+[2014.11.22-10.20.18:984][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_AO'
+[2014.11.22-10.20.18:985][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_WoodFloor_AO.T_WoodFloor_AO Referenced by M_WoodFloor_MAT
+[2014.11.22-10.20.18:985][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_AO' while loading NULL.
+[2014.11.22-10.20.18:985][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.11.22-10.20.18:985][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_WoodFloor_MAT
+[2014.11.22-10.20.18:985][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.11.22-10.20.18:986][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustnScratches_M'
+[2014.11.22-10.20.18:986][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_DustnScratches_M.T_DustnScratches_M Referenced by M_WoodFloor_MAT
+[2014.11.22-10.20.18:986][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustnScratches_M' while loading NULL.
+[2014.11.22-10.20.18:986][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.11.22-10.20.18:986][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_WoodFloor_MAT
+[2014.11.22-10.20.18:986][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.11.22-10.20.18:988][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_AO'
+[2014.11.22-10.20.18:988][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_WoodFloor_AO.T_WoodFloor_AO Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.20.18:988][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_AO' while loading NULL.
+[2014.11.22-10.20.18:988][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_N'
+[2014.11.22-10.20.18:989][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_WoodFloor_N.T_WoodFloor_N Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.20.18:989][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_N' while loading NULL.
+[2014.11.22-10.20.18:989][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.11.22-10.20.18:989][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_2 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.20.18:990][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.11.22-10.20.18:990][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.11.22-10.20.18:990][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_3 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.20.18:990][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.11.22-10.20.18:991][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustnScratches_M'
+[2014.11.22-10.20.18:991][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_DustnScratches_M.T_DustnScratches_M Referenced by MaterialExpressionTextureSample_4 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.20.18:991][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustnScratches_M' while loading NULL.
+[2014.11.22-10.20.18:991][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_WoodFloor_AO'
+[2014.11.22-10.20.18:992][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_WoodFloor_AO.T_WoodFloor_AO Referenced by MaterialExpressionTextureSample_5 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.20.18:992][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_WoodFloor_AO' while loading NULL.
+[2014.11.22-10.20.18:992][867]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_DustnScratches_N'
+[2014.11.22-10.20.18:992][867]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_DustnScratches_N.T_DustnScratches_N Referenced by MaterialExpressionTextureSample_6 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.22-10.20.18:992][867]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_DustnScratches_N' while loading NULL.
+[2014.11.22-10.20.18:995][867]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.20.18:995][867]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT.M_WoodFloor_MAT for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.20.18:995][867]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.20.19:064][867]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.11.22-10.20.19:064][867]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.20.19:064][867]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.20.19:069][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.11.22-10.20.19:153][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.11.22-10.20.19:153][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_7) Already registered. Aborting.
+[2014.11.22-10.20.19:153][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.11.22-10.20.19:153][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_7) Already registered. Aborting.
+[2014.11.22-10.20.19:157][867]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.11.22-10.20.19:158][867]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.20.19:158][867]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.20.19:179][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.22-10.20.19:180][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling.
+[2014.11.22-10.20.19:182][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.11.22-10.20.19:183][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.11.22-10.20.19:185][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling.
+[2014.11.22-10.20.19:187][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.11.22-10.20.19:188][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.11.22-10.20.19:189][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_5, compiling.
+[2014.11.22-10.20.19:191][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.11.22-10.20.19:193][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.11.22-10.20.19:194][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.20.19:195][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.11.22-10.20.19:199][867]MaterialEditorStats:Error: Error [SM4] (Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.20.30:707][ 85]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures/Textures'
+[2014.11.22-10.21.13:152][199]LogTexture:Display: Building textures: T_Wood_S (AutoDXT)
+[2014.11.22-10.21.18:198][199]LogTexture:Display: Building textures: T_WoodFloor_N (BC5)
+[2014.11.22-10.22.33:463][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.11.22-10.23.32:088][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.11.22-10.23.55:587][382]LogTexture:Display: Building textures: T_WoodFloor_AO (DXT1)
+[2014.11.22-10.24.03:669][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.22-10.24.54:478][964]LogTexture:Display: Building textures: T_Wood (DXT1)
+[2014.11.22-10.25.09:181][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.11.22-10.25.38:328][469]LogTexture:Display: Building textures: T_DustnScratches_M (DXT1)
+[2014.11.22-10.25.47:607][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.11.22-10.25.53:228][645]LogTexture:Display: Building textures: T_Door_N (BC5)
+[2014.11.22-10.25.55:252][655]LogTexture:Display: Building textures: T_DustnScratches_N (BC5)
+[2014.11.22-10.26.01:989][790]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.11.22-10.26.05:874][829]LogMaterialEditor: Applying material M_WoodFloor_MAT
+[2014.11.22-10.26.08:856][829]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.11.22-10.26.08:857][829]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.26.08:857][829]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.26.08:895][829]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.26.08:896][829]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT.M_WoodFloor_MAT for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.26.08:896][829]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.26.08:901][829]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.26.08:902][829]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT.M_WoodFloor_MAT for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.22-10.26.08:902][829]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.22-10.26.08:904][829]LogMaterial: 0.001821 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.26.41:204][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.11.22-10.26.42:665][371]LogMaterialEditor: Applying material M_WoodFloor_MAT
+[2014.11.22-10.26.46:102][371]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.11.22-10.26.46:149][371]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.26.46:211][371]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.26.46:241][371]LogMaterial: 0.016740 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.26.47:418][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A0399E0
+[2014.11.22-10.26.47:418][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A03A520
+[2014.11.22-10.26.47:418][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000437A0900
+[2014.11.22-10.26.50:988][379]LogSavePackage: Save=3441.888184ms
+[2014.11.22-10.26.50:988][379]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/LivingRoom_Auto2E6AD3C7548ABE263F1892AAFED941B8C.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/LivingRoom_Auto2.umap'
+[2014.11.22-10.26.50:997][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/LivingRoom' took 3.619
+[2014.11.22-10.26.50:997][379]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.619
+[2014.11.22-10.26.51:005][379]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/Materials/M_WoodFloor_MAT] ([1] browsable assets)...
+[2014.11.22-10.26.51:078][379]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/Materials/M_WoodFloor_MAT.M_WoodFloor_MAT]
+[2014.11.22-10.26.51:078][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/Materials/M_WoodFloor_MAT]
+[2014.11.22-10.26.51:320][379]LogSavePackage: Save=212.198380ms
+[2014.11.22-10.26.51:321][379]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_WoodFloor_MAT_Auto28398D1E14FA2D709F74CE7B42D82E3C3.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/StarterContent/Materials/Materials/M_WoodFloor_MAT_Auto2.uasset'
+[2014.11.22-10.26.51:329][379]LogFileHelpers: Auto-saving content packages took 0.332
+[2014.11.22-10.26.51:363][380]MaterialEditorStats: Info Base pass shader with static lighting: 130 instructions
+[2014.11.22-10.26.51:363][380]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 102 instructions
+[2014.11.22-10.26.51:363][380]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.22-10.26.51:363][380]MaterialEditorStats: Info Texture samplers: 9/16
+[2014.11.22-10.26.52:257][390]LogMaterialEditor: Saving and Compiling material M_WoodFloor_MAT
+[2014.11.22-10.26.53:950][390]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.11.22-10.26.54:031][390]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.26.54:079][390]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.26.54:104][390]LogMaterial: 0.011001 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.26.58:239][390]LogSavePackage: Save=301.942535ms
+[2014.11.22-10.26.58:240][390]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_WoodFloor_MAT00CB6CC04615EF9E3CCC6780E3E6EF17.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset'
+[2014.11.22-10.26.58:923][399]LogMaterialEditor: Saving and Compiling material M_WoodFloor_MAT
+[2014.11.22-10.27.00:619][399]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.11.22-10.27.00:678][399]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.27.00:727][399]LogMaterial: Missing cached shader map for material M_WoodFloor_MAT, compiling.
+[2014.11.22-10.27.00:753][399]LogMaterial: 0.011147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.22-10.27.05:609][399]LogSavePackage: Save=209.814087ms
+[2014.11.22-10.27.05:609][399]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_WoodFloor_MAT7408D02B45D78B45259250A07897CF65.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT.uasset'
+[2014.11.22-10.27.13:677][487]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials/Materials'
+[2014.11.22-10.27.26:063][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
+[2014.11.22-10.27.26:102][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
+[2014.11.22-10.27.26:102][776]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_8) Already registered. Aborting.
+[2014.11.22-10.27.39:725][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
+[2014.11.22-10.27.39:726][982]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_8) Already registered. Aborting.
+[2014.11.22-10.27.45:261][ 56]Cmd: EDCALLBACK SURFPROPS
+[2014.11.22-10.27.50:027][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Carpet)
+[2014.11.22-10.28.20:436][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Carpet)
+[2014.11.22-10.28.38:016][688]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Mesh'
+[2014.11.22-10.28.42:235][735]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2014.11.22-10.29.09:706][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022B3EB60
+[2014.11.22-10.29.09:708][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237D8540
+[2014.11.22-10.29.11:318][386]LogSavePackage: Save=1572.998535ms
+[2014.11.22-10.29.11:318][386]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/LivingRoomB763C40F4FCCAA3FBD81D7A7A321184D.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
+[2014.11.22-10.29.12:388][402]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-10.29.12:388][402]PIE: New page: PIE session: LivingRoom (Nov 21, 2014, 6:29:12 PM)
+[2014.11.22-10.29.12:415][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026550s)
+[2014.11.22-10.29.12:416][402]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2014.11.22-10.29.12:416][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.027446s)
+[2014.11.22-10.29.12:444][402]LogWorld: Game class is 'MyGame_C'
+[2014.11.22-10.29.12:445][402]LogAIModule: Creating AISystem for world LivingRoom
+[2014.11.22-10.29.12:448][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 60) at 2014.11.22-02.29.12
+[2014.11.22-10.29.12:448][402]LogWorld: Bringing up level for play took: 0.002693
+[2014.11.22-10.29.12:451][402]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom -0.719
+[2014.11.22-10.29.12:706][407]LogBlueprintUserMessages: -340.219299
+[2014.11.22-10.29.19:852][591]LogBlueprintUserMessages: -631.283325
+[2014.11.22-10.29.22:933][668]LogBlueprintUserMessages: -1176.630249
+[2014.11.22-10.29.22:933][668]LogBlueprintUserMessages: 0.62337
+[2014.11.22-10.29.27:128][774]LogBlueprintUserMessages: -616.951965
+[2014.11.22-10.29.29:822][850]LogBlueprintUserMessages: -623.694641
+[2014.11.22-10.29.33:476][954]LogBlueprintUserMessages: -611.386841
+[2014.11.22-10.29.36:587][ 42]LogBlueprintUserMessages: -1186.808105
+[2014.11.22-10.29.36:587][ 42]LogBlueprintUserMessages: 0.292671
+[2014.11.22-10.29.40:274][146]LogBlueprintUserMessages: -1110.360474
+[2014.11.22-10.29.40:274][146]LogBlueprintUserMessages: -0.00209
+[2014.11.22-10.29.44:421][258]LogBlueprintUserMessages: -1047.647583
+[2014.11.22-10.29.44:421][258]LogBlueprintUserMessages: -0.232938
+[2014.11.22-10.30.09:440][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000447D5C60
+[2014.11.22-10.30.12:531][976]LogSavePackage: Save=1587.355591ms
+[2014.11.22-10.30.12:531][976]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/LivingRoom08A30CC047E24835E25ACABE8B272E68.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
+[2014.11.22-10.30.20:564][ 27]LogSavePackage: Save=16.850121ms
+[2014.11.22-10.30.20:564][ 27]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_Book_Mat955DFDAE4CCD29221686B5AC0C2EF734.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Book_Mat.uasset'
+[2014.11.22-10.30.20:797][ 27]LogSavePackage: Save=177.860199ms
+[2014.11.22-10.30.20:797][ 27]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_WoodFloor_MAT_InstE5309F924847943BB86320816B063BA2.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_WoodFloor_MAT_Inst.uasset'
+[2014.11.22-10.30.21:436][ 28]Cmd: QUIT_EDITOR
+[2014.11.22-10.30.21:881][ 28]LogExit: Preparing to exit.
+[2014.11.22-10.30.22:155][ 28]LogExit: Editor shut down
+[2014.11.22-10.30.22:155][ 28]LogExit: Transaction tracking system shut down
+[2014.11.22-10.30.22:157][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023613EC0
+[2014.11.22-10.30.22:157][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023613CE0
+[2014.11.22-10.30.22:157][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022B3E340
+[2014.11.22-10.30.22:209][ 28]LogExit: Object subsystem successfully closed.
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module MaterialEditor (167)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.11.22-10.30.22:268][ 28]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.11.22-10.30.22:269][ 28]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.11.22-10.30.22:270][ 28]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.11.22-10.30.22:270][ 28]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.11.22-10.30.22:270][ 28]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.11.22-10.30.22:270][ 28]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.11.22-10.30.22:270][ 28]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.11.22-10.30.22:308][ 28]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.11.22-10.30.22:308][ 28]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.11.22-10.30.22:308][ 28]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.11.22-10.30.22:309][ 28]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.11.22-10.30.22:441][ 28]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.11.22-10.30.22:442][ 28]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.11.22-10.30.22:442][ 28]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.11.22-10.30.22:442][ 28]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.11.22-10.30.22:443][ 28]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.11.22-10.30.22:543][ 28]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.11.22-10.30.22:543][ 28]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.11.22-10.30.22:545][ 28]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.11.22-10.30.22:545][ 28]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.11.22-10.30.22:546][ 28]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.11.22-10.30.22:548][ 28]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.11.22-10.30.22:572][ 28]LogDerivedDataCache: Shutdown
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.22-10.30.22:572][ 28]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.11.22-10.30.22:575][ 28]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.11.22-10.30.22:575][ 28]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.11.22-10.30.22:576][ 28]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.22-10.30.22:576][ 28]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.22-10.30.22:576][ 28]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.22-10.30.22:576][ 28]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.22-10.30.22:576][ 28]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.22-10.30.22:576][ 28]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.22-10.30.22:576][ 28]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.22-10.30.22:576][ 28]LogExit: Exiting.
+[2014.11.22-10.30.22:581][ 28]Log file closed, 11/22/14 02:30:22
