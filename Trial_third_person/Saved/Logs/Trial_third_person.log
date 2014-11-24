@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 11/23/14 21:56:51
+=======
+﻿Log file open, 11/23/14 22:32:22
+>>>>>>> origin/master
 =======
 ﻿Log file open, 11/23/14 22:32:22
 >>>>>>> origin/master
@@ -13,6 +17,7 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.5
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
 LogInit: Rocket: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2014.11.24-05.56.51:953][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
 [2014.11.24-05.56.51:982][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
@@ -1306,6 +1311,8 @@ LogInit: Rocket: 1
 [2014.11.24-07.08.57:407][902]LogExit: Exiting.
 [2014.11.24-07.08.57:411][902]Log file closed, 11/23/14 23:08:57
 =======
+=======
+>>>>>>> origin/master
 [2014.11.24-06.32.22:080][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
 [2014.11.24-06.32.22:111][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
 [2014.11.24-06.32.22:133][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
@@ -2321,4 +2328,7 @@ ntdll.dll!UnknownFunction (0x00000000775dc541) + 0 bytes [UnknownFile:0]
 [2014.11.24-07.06.47:562][201]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2014.11.24-07.06.47:563][201]LogExit: Exiting.
 [2014.11.24-07.06.47:591][201]Log file closed, 11/23/14 23:06:47
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
