@@ -1,17 +1,17 @@
 ------------------
 System Information
 ------------------
-Time of this report: 11/20/2014, 13:24:15
-       Machine name: USER-PC
+Time of this report: 11/23/2014, 21:46:03
+       Machine name: BRIANA-DESKTOP
    Operating System: Windows 7 Home Premium 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_gdr.140303-2144)
            Language: English (Regional Setting: English)
-System Manufacturer: ASUSTeK Computer Inc.
-       System Model: K53E
-               BIOS: BIOS Date: 03/06/12 14:25:53 Ver: 04.06.03
-          Processor: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz (4 CPUs), ~2.5GHz
+System Manufacturer: Hewlett-Packard
+       System Model: p6787c
+               BIOS: BIOS Date: 09/07/10 09:56:31 Ver: 6.09
+          Processor: AMD Phenom(tm) II X4 840T Processor (4 CPUs), ~2.9GHz
              Memory: 8192MB RAM
-Available OS Memory: 7970MB RAM
-          Page File: 4440MB used, 11496MB available
+Available OS Memory: 8184MB RAM
+          Page File: 3872MB used, 12493MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -24,7 +24,9 @@ DX Setup Parameters: Not found
 DxDiag Notes
 ------------
       Display Tab 1: No problems found.
+      Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
+        Sound Tab 2: No problems found.
           Input Tab: No problems found.
 
 --------------------
@@ -41,61 +43,154 @@ DirectShow:  0/6 (retail)
 ---------------
 Display Devices
 ---------------
-          Card name: Intel(R) HD Graphics 3000
-       Manufacturer: Intel Corporation
-          Chip type: Intel(R) HD Graphics Family
-           DAC type: Internal
-         Device Key: Enum\PCI\VEN_8086&DEV_0126&SUBSYS_16521043&REV_09
-     Display Memory: 1760 MB
-   Dedicated Memory: 192 MB
-      Shared Memory: 1568 MB
-       Current Mode: 1366 x 768 (32 bit) (60Hz)
-       Monitor Name: Generic PnP Monitor
-      Monitor Model: unknown
-         Monitor Id: LGD02DC
-        Native Mode: 1366 x 768(p) (59.996Hz)
-        Output Type: Internal
-        Driver Name: igdumd64.dll,igd10umd64.dll,igd10umd64.dll,igdumd32,igd10umd32,igd10umd32
-Driver File Version: 9.17.0010.3062 (English)
-     Driver Version: 9.17.10.3062
-        DDI Version: 10.1
+          Card name: NVIDIA GeForce GTX 550 Ti
+       Manufacturer: NVIDIA
+          Chip type: GeForce GTX 550 Ti
+           DAC type: Integrated RAMDAC
+         Device Key: Enum\PCI\VEN_10DE&DEV_1244&SUBSYS_089C10DE&REV_A1
+     Display Memory: 4049 MB
+   Dedicated Memory: 977 MB
+      Shared Memory: 3071 MB
+       Current Mode: 1920 x 1080 (32 bit) (60Hz)
+       Monitor Name: HP 2311 Series Wide LCD Monitor
+      Monitor Model: HP 2311
+         Monitor Id: HWP2939
+        Native Mode: 1920 x 1080(p) (60.000Hz)
+        Output Type: DVI
+        Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
+Driver File Version: 9.18.0013.4465 (English)
+     Driver Version: 9.18.13.4465
+        DDI Version: 11
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: 3/8/2013 19:10:18, 12615680 bytes
+   Driver Date/Size: 11/3/2014 16:04:30, 19966344 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
-  Device Identifier: {D7B78E66-4266-11CF-0578-5836B7C2C435}
-          Vendor ID: 0x8086
-          Device ID: 0x0126
-          SubSys ID: 0x16521043
-        Revision ID: 0x0009
- Driver Strong Name: oem3.inf:Intel.Mfg.NTamd64:iSNBM0:9.17.10.3062:pci\ven_8086&dev_0126
+  Device Identifier: {D7B71E3E-5104-11CF-1F62-91281CC2C435}
+          Vendor ID: 0x10DE
+          Device ID: 0x1244
+          SubSys ID: 0x089C10DE
+        Revision ID: 0x00A1
+ Driver Strong Name: oem150.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section002:9.18.13.4465:pci\ven_10de&dev_1244
      Rank Of Driver: 00E02001
-        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeWMV9_C ModeVC1_C 
-   Deinterlace Caps: {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(UYVY,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(YV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(NV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(IMC1,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(IMC2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(IMC3,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(IMC4,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+       D3D9 Overlay: Supported
+            DXVA-HD: Supported
+       DDraw Status: Enabled
+         D3D Status: Enabled
+         AGP Status: Enabled
+
+          Card name: NVIDIA GeForce GTX 550 Ti
+       Manufacturer: NVIDIA
+          Chip type: GeForce GTX 550 Ti
+           DAC type: Integrated RAMDAC
+         Device Key: Enum\PCI\VEN_10DE&DEV_1244&SUBSYS_089C10DE&REV_A1
+     Display Memory: 4049 MB
+   Dedicated Memory: 977 MB
+      Shared Memory: 3071 MB
+       Current Mode: 1920 x 1080 (32 bit) (60Hz)
+       Monitor Name: HP 2311 Series Wide LCD Monitor
+      Monitor Model: HP 2311
+         Monitor Id: HWP2939
+        Native Mode: 1920 x 1080(p) (60.000Hz)
+        Output Type: DVI
+        Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
+Driver File Version: 9.18.0013.4465 (English)
+     Driver Version: 9.18.13.4465
+        DDI Version: 11
+       Driver Model: WDDM 1.1
+  Driver Attributes: Final Retail
+   Driver Date/Size: 11/3/2014 16:04:30, 19966344 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: 
+  Device Identifier: {D7B71E3E-5104-11CF-1F62-91281CC2C435}
+          Vendor ID: 0x10DE
+          Device ID: 0x1244
+          SubSys ID: 0x089C10DE
+        Revision ID: 0x00A1
+ Driver Strong Name: oem150.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section002:9.18.13.4465:pci\ven_10de&dev_1244
+     Rank Of Driver: 00E02001
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
        D3D9 Overlay: Supported
             DXVA-HD: Supported
        DDraw Status: Enabled
@@ -108,15 +203,40 @@ Sound Devices
             Description: Speakers (Realtek High Definition Audio)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_10431B43&REV_1001
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0888&SUBSYS_103C2A92&REV_1002
         Manufacturer ID: 1
              Product ID: 100
                    Type: WDM
             Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.6304 (English)
+         Driver Version: 6.00.0001.6196 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: Yes
-          Date and Size: 2/8/2011 03:42:56, 2736872 bytes
+          Date and Size: 9/7/2010 04:27:34, 2484072 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: Realtek Digital Output (Realtek High Definition Audio)
+ Default Sound Playback: No
+ Default Voice Playback: No
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0888&SUBSYS_103C2A92&REV_1002
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.6196 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 9/7/2010 04:27:34, 2484072 bytes
             Other Files: 
         Driver Provider: Realtek Semiconductor Corp.
          HW Accel Level: Basic
@@ -133,13 +253,13 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
-            Description: Microphone (Realtek High Definition Audio)
+            Description: Stereo Mix (Realtek High Definition Audio)
   Default Sound Capture: Yes
   Default Voice Capture: Yes
             Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.6304 (English)
+         Driver Version: 6.00.0001.6196 (English)
       Driver Attributes: Final Retail
-          Date and Size: 2/8/2011 03:42:56, 2736872 bytes
+          Date and Size: 9/7/2010 04:27:34, 2484072 bytes
               Cap Flags: 0x1
            Format Flags: 0xFFFFF
 
@@ -158,32 +278,27 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
+      Device Name: G510 Gaming Keyboard
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x046D, 0xC22D
+        FF Driver: n/a
+
+      Device Name: G510 Gaming Keyboard
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x046D, 0xC22D
+        FF Driver: n/a
+
 Poll w/ Interrupt: No
 
 -----------
 USB Devices
 -----------
 + USB Root Hub
-| Vendor/Product ID: 0x8086, 0x1C26
-| Matching Device ID: usb\root_hub20
+| Vendor/Product ID: 0x1002, 0x4397
+| Matching Device ID: usb\root_hub
 | Service: usbhub
-| 
-+-+ Generic USB Hub
-| | Vendor/Product ID: 0x8087, 0x0024
-| | Location: Port_#0001.Hub_#0002
-| | Matching Device ID: usb\class_09
-| | Service: usbhub
-| | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x1BCF, 0x0005
-| | | Location: Port_#0002.Hub_#0004
-| | | Matching Device ID: generic_hid_device
-| | | Service: HidUsb
-| | | 
-| | +-+ HID-compliant mouse
-| | | | Vendor/Product ID: 0x1BCF, 0x0005
-| | | | Matching Device ID: hid_device_system_mouse
-| | | | Service: mouhid
 
 ----------------
 Gameport Devices
@@ -192,20 +307,27 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-+ Keyboard Device Filter
-| Matching Device ID: *pnp0303
-| Upper Filters: kbfiltr
-| Service: i8042prt
++ HID Keyboard Device
+| Vendor/Product ID: 0x046D, 0xC22D
+| Matching Device ID: hid_device_system_keyboard
+| Service: kbdhid
+| 
++ Razer Naga
+| Vendor/Product ID: 0x1532, 0x0015
+| Matching Device ID: hid\vid_1532&pid_0015&mi_01
+| Upper Filters: rzudd
+| Service: kbdhid
 | 
 + Terminal Server Keyboard Driver
 | Matching Device ID: root\rdp_kbd
 | Upper Filters: kbdclass
 | Service: TermDD
 | 
-+ Synaptics PS/2 Port TouchPad
-| Matching Device ID: *syn0a17
-| Upper Filters: SynTP
-| Service: i8042prt
++ Razer Naga
+| Vendor/Product ID: 0x1532, 0x0015
+| Matching Device ID: hid\vid_1532&pid_0015&mi_00
+| Upper Filters: rzudd
+| Service: mouhid
 | 
 + Terminal Server Mouse Driver
 | Matching Device ID: root\rdp_mou
@@ -216,80 +338,132 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 201.0 GB
-Total Space: 451.3 GB
+ Free Space: 751.2 GB
+Total Space: 1416.0 GB
 File System: NTFS
-      Model: Hitachi HTS547550A9E384
+      Model: WDC WD15EARS-60MVWB0 SCSI Disk Device
+
+      Drive: D:
+ Free Space: 1.8 GB
+Total Space: 14.4 GB
+File System: NTFS
+      Model: WDC WD15EARS-60MVWB0 SCSI Disk Device
+
+      Drive: J:
+ Free Space: 527.3 GB
+Total Space: 1430.8 GB
+File System: NTFS
+      Model: Seagate FreeAgent GoFlex USB Device
 
       Drive: E:
-      Model: Slimtype DVD A  DS8A8SH
+      Model: hp DVD RW AD-7251H5 SCSI CdRom Device
      Driver: c:\windows\system32\drivers\cdrom.sys, 6.01.7601.17514 (English), , 0 bytes
 
 --------------
 System Devices
 --------------
-     Name: Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C26
-Device ID: PCI\VEN_8086&DEV_1C26&SUBSYS_11471043&REV_05\3&11583659&2&E8
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_1022&DEV_9605&SUBSYS_2A92103C&REV_00\3&267A616A&0&28
    Driver: n/a
 
-     Name: Intel(R) HD Graphics 3000
-Device ID: PCI\VEN_8086&DEV_0126&SUBSYS_16521043&REV_09\3&11583659&2&10
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4396&SUBSYS_2A92103C&REV_00\3&267A616A&0&9A
    Driver: n/a
 
-     Name: Intel(R) 6 Series/C200 Series Chipset Family SMBus Controller - 1C22
-Device ID: PCI\VEN_8086&DEV_1C22&SUBSYS_11471043&REV_05\3&11583659&2&FB
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_1022&DEV_9603&SUBSYS_2A92103C&REV_00\3&267A616A&0&10
    Driver: n/a
 
-     Name: 2nd generation Intel(R) Core(TM) processor family DRAM Controller - 0104
-Device ID: PCI\VEN_8086&DEV_0104&SUBSYS_11471043&REV_09\3&11583659&2&00
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4396&SUBSYS_2A92103C&REV_00\3&267A616A&0&92
+   Driver: n/a
+
+     Name: 802.11n Wireless LAN Card
+Device ID: PCI\VEN_1814&DEV_3090&SUBSYS_663211AD&REV_00\4&7878E7E&0&0028
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_9601&SUBSYS_2A92103C&REV_00\3&267A616A&0&00
+   Driver: n/a
+
+     Name: PCI standard ISA bridge
+Device ID: PCI\VEN_1002&DEV_439D&SUBSYS_2A92103C&REV_00\3&267A616A&0&A3
+   Driver: n/a
+
+     Name: AMD AHCI Compatible RAID Controller
+Device ID: PCI\VEN_1002&DEV_4392&SUBSYS_2A92103C&REV_00\3&267A616A&0&88
+   Driver: n/a
+
+     Name: VIA 1394 OHCI Compliant Host Controller
+Device ID: PCI\VEN_1106&DEV_3044&SUBSYS_2A92103C&REV_C0\4&2966AB86&0&30A4
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1204&SUBSYS_00000000&REV_00\3&267A616A&0&C4
+   Driver: n/a
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4399&SUBSYS_2A92103C&REV_00\3&267A616A&0&A5
+   Driver: n/a
+
+     Name: ATI I/O Communications Processor SMBus Controller
+Device ID: PCI\VEN_1002&DEV_4385&SUBSYS_2A92103C&REV_3C\3&267A616A&0&A0
+   Driver: n/a
+
+     Name: Realtek PCIe GBE Family Controller
+Device ID: PCI\VEN_10EC&DEV_8168&SUBSYS_2A92103C&REV_03\4&DE08897&0&0050
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1203&SUBSYS_00000000&REV_00\3&267A616A&0&C3
+   Driver: n/a
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4398&SUBSYS_2A92103C&REV_00\3&267A616A&0&99
+   Driver: n/a
+
+     Name: ATI I/O Communications Processor PCI Bus Controller
+Device ID: PCI\VEN_1002&DEV_4384&SUBSYS_00000000&REV_00\3&267A616A&0&A4
+   Driver: n/a
+
+     Name: NVIDIA GeForce GTX 550 Ti
+Device ID: PCI\VEN_10DE&DEV_1244&SUBSYS_089C10DE&REV_A1\4&39C120B8&0&0010
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1202&SUBSYS_00000000&REV_00\3&267A616A&0&C2
+   Driver: n/a
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4398&SUBSYS_2A92103C&REV_00\3&267A616A&0&91
    Driver: n/a
 
      Name: High Definition Audio Controller
-Device ID: PCI\VEN_8086&DEV_1C20&SUBSYS_1B431043&REV_05\3&11583659&2&D8
+Device ID: PCI\VEN_1002&DEV_4383&SUBSYS_2A92103C&REV_00\3&267A616A&0&A2
    Driver: n/a
 
-     Name: Intel(R) Centrino(R) Advanced-N 6205
-Device ID: PCI\VEN_8086&DEV_0082&SUBSYS_13018086&REV_34\8C705AFFFFE0559000
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_10DE&DEV_0BEE&SUBSYS_089C10DE&REV_A1\4&39C120B8&0&0110
    Driver: n/a
 
-     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 6 - 1C1A
-Device ID: PCI\VEN_8086&DEV_1C1A&SUBSYS_11471043&REV_B5\3&11583659&2&E5
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1201&SUBSYS_00000000&REV_00\3&267A616A&0&C1
    Driver: n/a
 
-     Name: ASMedia XHCI Controller
-Device ID: PCI\VEN_1B21&DEV_1042&SUBSYS_10591043&REV_00\4&109ECB97&0&00E3
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4397&SUBSYS_2A92103C&REV_00\3&267A616A&0&98
    Driver: n/a
 
-     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 4 - 1C16
-Device ID: PCI\VEN_8086&DEV_1C16&SUBSYS_11471043&REV_B5\3&11583659&2&E3
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_1022&DEV_9609&SUBSYS_2A92103C&REV_00\3&267A616A&0&50
    Driver: n/a
 
-     Name: Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.20)
-Device ID: PCI\VEN_1969&DEV_1083&SUBSYS_18511043&REV_C0\FF1E4A1010BF48FF00
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1200&SUBSYS_00000000&REV_00\3&267A616A&0&C0
    Driver: n/a
 
-     Name: Intel(R) HM65 Express Chipset Family LPC Interface Controller - 1C49
-Device ID: PCI\VEN_8086&DEV_1C49&SUBSYS_11471043&REV_05\3&11583659&2&F8
-   Driver: n/a
-
-     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 2 - 1C12
-Device ID: PCI\VEN_8086&DEV_1C12&SUBSYS_11471043&REV_B5\3&11583659&2&E1
-   Driver: n/a
-
-     Name: Intel(R) Management Engine Interface
-Device ID: PCI\VEN_8086&DEV_1C3A&SUBSYS_11471043&REV_04\3&11583659&2&B0
-   Driver: n/a
-
-     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 1 - 1C10
-Device ID: PCI\VEN_8086&DEV_1C10&SUBSYS_11471043&REV_B5\3&11583659&2&E0
-   Driver: n/a
-
-     Name: Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C2D
-Device ID: PCI\VEN_8086&DEV_1C2D&SUBSYS_11471043&REV_05\3&11583659&2&D0
-   Driver: n/a
-
-     Name: Intel(R) Mobile Express Chipset SATA AHCI Controller
-Device ID: PCI\VEN_8086&DEV_1C03&SUBSYS_11471043&REV_05\3&11583659&2&FA
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4397&SUBSYS_2A92103C&REV_00\3&267A616A&0&90
    Driver: n/a
 
 ------------------
@@ -306,34 +480,32 @@ WMV Screen decoder DMO,0x00600800,1,1,wmvsdecd.dll,6.01.7601.17514
 WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,6.01.7601.18221
 Mpeg43 Decoder DMO,0x00800001,1,1,mp43decd.dll,6.01.7600.16385
 Mpeg4 Decoder DMO,0x00800001,1,1,mpg4decd.dll,6.01.7600.16385
-ffdshow Video Decoder,0xff800001,2,1,ffdshow.ax,1.03.4513.0000
-WMT VIH2 Fix,0x00200000,1,1,WLXVAFilt.dll,15.04.3538.0513
-Record Queue,0x00200000,1,1,WLXVAFilt.dll,15.04.3538.0513
-WMT Switch Filter,0x00200000,1,1,WLXVAFilt.dll,15.04.3538.0513
-WMT Virtual Renderer,0x00200000,1,0,WLXVAFilt.dll,15.04.3538.0513
-WMT DV Extract,0x00200000,1,1,WLXVAFilt.dll,15.04.3538.0513
-WMT Virtual Source,0x00200000,0,1,WLXVAFilt.dll,15.04.3538.0513
-WMT Sample Information Filter,0x00200000,1,1,WLXVAFilt.dll,15.04.3538.0513
-ffdshow raw video filter,0x00200000,2,1,ffdshow.ax,1.03.4513.0000
-ffdshow Audio Decoder,0xff800001,1,1,ffdshow.ax,1.03.4513.0000
+WMT VIH2 Fix,0x00200000,1,1,WLXVAFilt.dll,15.04.3502.0922
+Record Queue,0x00200000,1,1,WLXVAFilt.dll,15.04.3502.0922
+WMT Switch Filter,0x00200000,1,1,WLXVAFilt.dll,15.04.3502.0922
+WMT Virtual Renderer,0x00200000,1,0,WLXVAFilt.dll,15.04.3502.0922
+WMT DV Extract,0x00200000,1,1,WLXVAFilt.dll,15.04.3502.0922
+WMT Virtual Source,0x00200000,0,1,WLXVAFilt.dll,15.04.3502.0922
+WMT Sample Information Filter,0x00200000,1,1,WLXVAFilt.dll,15.04.3502.0922
+CyberLink MPEG Video Encoder,0x00200000,1,1,P2GVidEnc.ax,6.00.0001.2226
+ATI Ticker,0x00200000,0,1,Ticker.ax,
 CyberLink MP3/WAV Wrapper,0x00200000,1,1,P2GMP3Wrap.ax,3.07.0000.1314
 DV Muxer,0x00400000,0,0,qdv.dll,6.06.7601.17514
 CyberLink AudioCD Filter,0x00200000,0,1,P2GAudioCD.ax,5.00.0000.1321
 Color Space Converter,0x00400001,1,1,quartz.dll,6.06.7601.17713
-LAV Splitter,0x00800004,1,1,LAVSplitter.ax,0.57.0000.0000
 WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.7601.17514
 Screen Capture filter,0x00200000,0,1,wmpsrcwp.dll,12.00.7601.17514
 AVI Splitter,0x00600000,1,1,quartz.dll,6.06.7601.17713
 VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,6.06.7601.17713
 SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,6.06.7601.17528
+CyberLink Editing Service 3.0 (Source),0x00200000,0,2,P2GEdtKrn.dll,3.00.0000.2911
 Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,12.00.9200.17037
-SmartLogon_Effect,0x00200000,1,1,face_filter.ax,1.00.0005.0001
 AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,6.06.7601.17528
 StreamBufferSink,0x00200000,0,0,sbe.dll,6.06.7601.17528
-ASUS Virtual Camera,0x00200000,0,1,virtualCamera.ax,
 MJPEG Decompressor,0x00600000,1,1,quartz.dll,6.06.7601.17713
 MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,6.06.7601.17713
 SAMI (CC) Parser,0x00400000,1,1,quartz.dll,6.06.7601.17713
+P2G Video Decoder,0x00200000,2,3,P2GVSD.ax,6.00.0000.2310
 VBI Codec,0x00600000,1,4,VBICodec.ax,6.06.7601.17514
 MPEG-2 Splitter,0x005fffff,1,0,mpg2splt.ax,6.06.7601.17528
 Closed Captions Analysis Filter,0x00200000,2,5,cca.dll,6.06.7601.17514
@@ -341,81 +513,79 @@ SBE2FileScan,0x00200000,0,0,sbe.dll,6.06.7601.17528
 Microsoft MPEG-2 Video Encoder,0x00200000,1,1,msmpeg2enc.dll,6.01.7601.17514
 Internal Script Command Renderer,0x00800001,1,0,quartz.dll,6.06.7601.17713
 CyberLink Video Regulator,0x00200000,1,1,P2GRGL.ax,2.00.0000.3328
+P2G Audio Decoder,0x00200000,1,1,P2GAud.ax,6.01.0000.3601
 MPEG Audio Decoder,0x03680001,1,1,quartz.dll,6.06.7601.17713
+MMACE ProcAmp,0x00200000,0,2,MMACEFilters.dll,
+PlayReady DMO Wrapper,0x00600002,1,1,PRDMOW~1.DLL,1.03.2297.0000
 DV Splitter,0x00600000,1,2,qdv.dll,6.06.7601.17514
 Video Mixing Renderer 9,0x00200000,1,0,quartz.dll,6.06.7601.17713
-Haali Media Splitter,0x00800001,0,1,splitter.ax,1.13.0138.0014
-Haali Media Splitter (AR),0x00400000,1,1,splitter.ax,1.13.0138.0014
+CyberLink Video Effect,0x00200000,1,1,P2GVidFx.ax,1.00.0000.2030
+MS PR Source Filter,0x00200000,0,2,PRSource.dll,1.03.2297.0000
 CyberLink Audio Noise Reduction,0x00200000,1,1,P2GAuNRWrapper.ax,2.00.0000.1017
 Microsoft MPEG-2 Encoder,0x00200000,2,1,msmpeg2enc.dll,6.01.7601.17514
+CyberLink Load Image Filter,0x00200000,0,1,CLImage.ax,3.00.0000.2307
+CyberLink MPEG-2 Splitter,0x00200000,1,2,P2Gm2spliter.ax,2.04.0000.2301
 CyberLink Audio VolumeBooster,0x00200000,1,1,P2GVB.ax,1.00.0000.1008
-ASUS SplitVCam Pump,0x00200000,0,1,virtualCamera.ax,
 ACM Wrapper,0x00600000,1,1,quartz.dll,6.06.7601.17713
 Video Renderer,0x00800001,1,0,quartz.dll,6.06.7601.17713
 MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,6.06.7601.17528
+Cyberlink Dump Dispatch Filter,0x00200000,1,0,P2GDumpDispatch.ax,1.02.0001.2412
 Line 21 Decoder,0x00600000,1,1,qdvd.dll,6.06.7601.18611
 Video Port Manager,0x00600000,2,1,quartz.dll,6.06.7601.17713
 Video Renderer,0x00400000,1,0,quartz.dll,6.06.7601.17713
 CyberLink Audio Resampler,0x00200000,1,1,P2GAuRsmpl.ax,1.00.0000.2625
-Haali Video Renderer,0x00200000,1,0,dxr.dll,
-File Writer,0x00200000,1,0,WLXVAFilt.dll,15.04.3538.0513
+File Writer,0x00200000,1,0,WLXVAFilt.dll,15.04.3502.0922
 VPS Decoder,0x00200000,0,0,WSTPager.ax,6.06.7601.17514
 WM ASF Writer,0x00400000,0,0,qasf.dll,12.00.7601.17514
-ASUS SplitVCam Renderer,0x00200000,1,0,splitvcamrenderer.ax,
+CyberLink MPEG-1 Splitter,0x00200000,1,2,P2Gm1spliter.ax,2.04.0000.2301
 VBI Surface Allocator,0x00600000,1,1,vbisurf.ax,6.01.7601.17514
+MMACE SoftEmu,0x00200000,0,2,MMACEFilters.dll,
 File writer,0x00200000,1,0,qcap.dll,6.06.7601.17514
 iTV Data Sink,0x00600000,1,0,itvdata.dll,6.06.7601.17514
 iTV Data Capture filter,0x00600000,1,1,itvdata.dll,6.06.7601.17514
 Cyberlink File Reader (Async.),0x00200000,0,1,P2GReader.ax,3.00.0000.3016
-Haali Simple Media Splitter,0x00200000,0,1,splitter.ax,1.13.0138.0014
-DirectVobSub,0x00200000,2,1,vsfilter.dll,3.00.0000.0211
-DirectVobSub (auto-loading version),0x00800002,2,1,vsfilter.dll,3.00.0000.0211
-ASUS Color Convert,0x00200000,1,1,RGBTran.ax,1.00.0000.0003
+CyberLink M2V Writer,0x00200000,1,0,P2GM2VWriter.ax,1.03.0000.2017
+Cyberlink Dump Filter,0x00200000,1,0,P2GDump.ax,3.00.0000.7122
+CyberLink Video Stabilizer,0x00200000,1,1,P2GVideoStabilizer.ax,1.00.0000.1017
 CyberLink PCM Wrapper,0x00200000,1,1,P2GPCMEnc.ax,1.01.0000.0321
 DVD Navigator,0x00200000,0,3,qdvd.dll,6.06.7601.18611
+MMACE DeInterlace,0x00200000,0,2,MMACEFilters.dll,
 Overlay Mixer2,0x00200000,1,1,qdvd.dll,6.06.7601.18611
-Haali Matroska Muxer,0x00200000,1,0,splitter.ax,1.13.0138.0014
-Asus Motion Detect Filter,0x00200000,1,1,motiondetect.ax,
 AVI Draw,0x00600064,9,1,quartz.dll,6.06.7601.17713
 RDP DShow Redirection Filter,0xffffffff,1,0,DShowRdpFilter.dll,
 Microsoft MPEG-2 Audio Encoder,0x00200000,1,1,msmpeg2enc.dll,6.01.7601.17514
 WST Pager,0x00200000,1,1,WSTPager.ax,6.06.7601.17514
 MPEG-2 Demultiplexer,0x00600000,1,1,mpg2splt.ax,6.06.7601.17528
-ASUS Color Preview Filter,0x00200000,1,1,RGBTran.ax,1.00.0000.0003
 DV Video Decoder,0x00800000,1,1,qdv.dll,6.06.7601.17514
-ffdshow Audio Processor,0x00200000,1,1,ffdshow.ax,1.03.4513.0000
-LAV Splitter Source,0x00800004,0,1,LAVSplitter.ax,0.57.0000.0000
-LifeFrame_Effect,0x00200000,1,1,camera_effect.ax,3.00.0021.0001
 SampleGrabber,0x00200000,1,1,qedit.dll,6.06.7601.18501
 Null Renderer,0x00200000,1,0,qedit.dll,6.06.7601.18501
 MPEG-2 Sections and Tables,0x005fffff,1,0,Mpeg2Data.ax,6.06.7601.17514
 Microsoft AC3 Encoder,0x00200000,1,1,msac3enc.dll,6.01.7601.17514
 StreamBufferSource,0x00200000,0,0,sbe.dll,6.06.7601.17528
-ASUS SplitVCam Relayer,0x00200000,1,0,virtualCamera.ax,
+CyberLink TimeStretch Filter (CES),0x00200000,1,1,P2Gauts.ax,1.00.0000.2212
 Smart Tee,0x00200000,1,2,qcap.dll,6.06.7601.17514
 Overlay Mixer,0x00200000,0,0,qdvd.dll,6.06.7601.18611
+CyberLink TL MPEG Splitter,0x00200000,1,2,P2GTLMSplter.ax,3.02.0000.2219
 AVI Decompressor,0x00600000,1,1,quartz.dll,6.06.7601.17713
+CyberLink MPEG Muxer,0x00200000,2,1,P2GMpgMux.ax,5.01.0000.1723
 AVI/WAV File Source,0x00400000,0,2,quartz.dll,6.06.7601.17713
 Wave Parser,0x00400000,1,1,quartz.dll,6.06.7601.17713
 MIDI Parser,0x00400000,1,1,quartz.dll,6.06.7601.17713
 Multi-file Parser,0x00400000,1,1,quartz.dll,6.06.7601.17713
 File stream renderer,0x00400000,1,1,quartz.dll,6.06.7601.17713
-LifeFrame Audio,0x00200000,1,1,LifeFrameAudio.ax,9.00.0000.0000
-ffdshow subtitles filter,0x00200000,2,1,ffdshow.ax,1.03.4513.0000
 Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,6.01.7140.0000
 StreamBufferSink2,0x00200000,0,0,sbe.dll,6.06.7601.17528
 AVI Mux,0x00200000,1,0,qcap.dll,6.06.7601.17514
 Line 21 Decoder 2,0x00600002,1,1,quartz.dll,6.06.7601.17713
 File Source (Async.),0x00400000,0,1,quartz.dll,6.06.7601.17713
 File Source (URL),0x00400000,0,1,quartz.dll,6.06.7601.17713
-LAV Audio Decoder,0x00800003,1,1,LAVAudio.ax,0.57.0000.0000
+P2G Video Regulator,0x00200000,1,1,P2GResample.ax,2.05.0000.1818
 P2G Audio Encoder,0x00200000,2,0,P2GAudEnc.ax,2.00.0000.4815
-LAV Video Decoder,0x00800003,1,1,LAVVideo.ax,0.57.0000.0000
-Haali Video Sink,0x00200000,1,0,splitter.ax,1.13.0138.0014
 Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,6.06.7601.17514
 Enhanced Video Renderer,0x00200000,1,0,evr.dll,6.01.7601.17514
 BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,6.06.7601.17669
 MPEG Video Decoder,0x40000001,1,1,quartz.dll,6.06.7601.17713
+CyberLink MPEG Decoder,0x00200000,2,3,P2GMVD.ax,5.00.0000.0929
 
 WDM Streaming Tee/Splitter Devices:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
@@ -425,7 +595,6 @@ WMVideo8 Encoder DMO,0x00600800,1,1,wmvxencd.dll,6.01.7600.16385
 WMVideo9 Encoder DMO,0x00600800,1,1,wmvencod.dll,6.01.7600.16385
 MSScreen 9 encoder DMO,0x00600800,1,1,wmvsencd.dll,6.01.7600.16385
 DV Video Encoder,0x00200000,0,0,qdv.dll,6.06.7601.17514
-ffdshow video encoder,0x00100000,1,1,ffdshow.ax,1.03.4513.0000
 MJPEG Compressor,0x00200000,0,0,quartz.dll,6.06.7601.17713
 Cinepak Codec by Radius,0x00200000,1,1,qcap.dll,6.06.7601.17514
 Intel IYUV codec,0x00200000,1,1,qcap.dll,6.06.7601.17514
@@ -446,7 +615,7 @@ CCITT u-Law,0x00200000,1,1,quartz.dll,6.06.7601.17713
 MPEG Layer-3,0x00200000,1,1,quartz.dll,6.06.7601.17713
 
 Audio Capture Sources:
-Microphone (Realtek High Defini,0x00200000,0,0,qcap.dll,6.06.7601.17514
+Stereo Mix (Realtek High Defini,0x00200000,0,0,qcap.dll,6.06.7601.17514
 
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,6.06.7601.17528
@@ -458,12 +627,14 @@ Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.7601.17713
 Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,6.06.7601.17713
 
 WDM Streaming Capture Devices:
+Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
-USB2.0 UVC VGA WebCam,0x00200000,1,2,ksproxy.ax,6.01.7601.17514
 
 WDM Streaming Rendering Devices:
-Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Realtek HD Audio front output,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Realtek HD Audio rear output,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
@@ -471,10 +642,6 @@ Microsoft DVBC Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
 Microsoft DVBS Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
 Microsoft DVBT Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
 Microsoft Network Provider,0x00200000,0,1,MSNP.ax,6.06.7601.17514
-
-Video Capture Sources:
-USB2.0 UVC VGA WebCam,0x00200000,1,2,ksproxy.ax,6.01.7601.17514
-ASUS Virtual Camera,0x00200000,0,1,virtualCamera.ax,
 
 Multi-Instance Capable VBI Codecs:
 VBI Codec,0x00600000,1,4,VBICodec.ax,6.06.7601.17514
@@ -496,7 +663,9 @@ Audio Renderers:
 Speakers (Realtek High Definiti,0x00200000,1,0,quartz.dll,6.06.7601.17713
 Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.7601.17713
 Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.7601.17713
+DirectSound: Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
 DirectSound: Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
+Realtek Digital Output (Realtek,0x00200000,1,0,quartz.dll,6.06.7601.17713
 
 ---------------
 EVR Power Information
