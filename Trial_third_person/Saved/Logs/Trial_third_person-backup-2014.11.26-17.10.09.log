@@ -1,0 +1,645 @@
+﻿Log file open, 11/24/14 03:37:06
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.24-11.37.06:528][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.24-11.37.06:558][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.24-11.37.06:578][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.24-11.37.06:591][  0]LogInit: Object subsystem initialized
+[2014.11.24-11.37.06:595][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.24-11.37.06:595][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.24-11.37.06:595][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.24-11.37.06:595][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.24-11.37.06:595][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.24-11.37.06:595][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.24-11.37.06:602][  0]LogInit: Computer: USER-PC
+[2014.11.24-11.37.06:602][  0]LogInit: User: User
+[2014.11.24-11.37.06:602][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.24-11.37.06:602][  0]LogInit: High frequency timer resolution =2.435947 MHz
+[2014.11.24-11.37.06:602][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx) Virtual=8192.0GB
+[2014.11.24-11.37.06:602][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.24-11.37.06:602][  0]LogMemory: Process Physical Memory: 63.39 MB used, 63.39 MB peak
+[2014.11.24-11.37.06:602][  0]LogMemory: Process Virtual Memory: 38.47 MB used, 38.47 MB peak
+[2014.11.24-11.37.06:602][  0]LogMemory: Physical Memory: 3066.29 MB used, 7969.14 MB total
+[2014.11.24-11.37.06:602][  0]LogMemory: Virtual Memory: 272.46 MB used, 8388608.00 MB total
+[2014.11.24-11.37.06:625][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.11.24-11.37.06:625][  0]LogD3D11RHI: Adapter has 192MB of dedicated video memory, 0MB of dedicated system memory, and 1568MB of shared system memory, 1 output[s]
+[2014.11.24-11.37.06:625][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.24-11.37.06:630][  0]LogRHI: Texture pool is 683 MB (70% of 976 MB)
+[2014.11.24-11.37.06:633][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.24-11.37.06:675][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.24-11.37.06:855][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.24-11.37.12:138][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.24-11.37.12:602][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.24-11.37.12:654][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.24-11.37.12:706][  0]LogDerivedDataCache: Loaded boot cache 0.05s 36MB C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.24-11.37.12:706][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.24-11.37.12:706][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.24-11.37.12:706][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.24-11.37.12:780][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.24-11.37.12:792][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.24-11.37.12:978][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.24-11.37.12:978][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.24-11.37.13:237][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.24-11.37.13:240][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.24-11.37.13:414][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.24-11.37.14:227][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.24-11.37.14:381][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.11.24-11.37.14:510][  0]SourceControl: Info Source control is disabled
+[2014.11.24-11.37.14:510][  0]SourceControl: Info Source control is disabled
+[2014.11.24-11.37.14:516][  0]SourceControl: Info Source control is disabled
+[2014.11.24-11.37.14:620][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.24-11.37.14:620][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.24-11.37.14:675][  0]LogEngine: Initializing Engine...
+[2014.11.24-11.37.14:807][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.24-11.37.14:902][  0]LogInit: FAudioDevice initialized.
+[2014.11.24-11.37.14:921][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.24-11.37.14:957][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.24-11.37.14:963][  0]LogInit: Texture streaming: Enabled
+[2014.11.24-11.37.15:003][  0]LogInit: Transaction tracking system initialized
+[2014.11.24-11.37.15:088][  0]BlueprintLog: New page: Editor Load
+[2014.11.24-11.37.15:116][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2014.11.24-11.37.15:116][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.24-11.37.15:710][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.24-11.37.16:104][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.24-11.37.16:356][  0]LogConsoleResponse:Display: 
+[2014.11.24-11.37.16:539][  0]SourceControl: Info Source control is disabled
+[2014.11.24-11.37.16:539][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.24-11.37.16:539][  0]LightingResults: New page: Lighting Build
+[2014.11.24-11.37.16:549][  0]MapCheck: New page: Map Check
+[2014.11.24-11.37.16:549][  0]LightingResults: New page: Lighting Build
+[2014.11.24-11.37.16:565][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000147545E0
+[2014.11.24-11.37.16:826][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.24-11.37.16:826][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.24-11.37.16:827][  0]Cmd: MAP CHECKDEP
+[2014.11.24-11.37.16:827][  0]MapCheck: New page: Example_Map - Nov 23, 2014, 7:37:16 PM
+[2014.11.24-11.37.16:954][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.421ms to complete.
+[2014.11.24-11.37.16:954][  0]LogFileHelpers: Loading map 'Example_Map' took 0.415
+[2014.11.24-11.37.17:023][  0]LogCollectionManager: Loaded 0 collections in 0.000943 seconds
+[2014.11.24-11.37.17:133][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.24-11.37.17:158][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.24-11.37.17:185][  0]LogLoad: Full Startup: 12.83 seconds (BP compile: 0.07 seconds)
+[2014.11.24-11.37.17:531][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.11.24-11.37.17:665][  0]LogRenderer:Warning: Reallocating scene render targets to support 688x592.
+[2014.11.24-11.37.18:706][  3]LogAssetRegistry: Asset discovery search completed in 3.5991 seconds
+[2014.11.24-11.37.38:177][559]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Character/CATS/newcatcauseoldcatsucks.fbx)
+[2014.11.24-11.37.38:184][559]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.11.24-11.37.38:184][559]LogFbx: ItemName: Geometry, ItemCount : 8
+[2014.11.24-11.37.38:184][559]LogFbx: ItemName: Model, ItemCount : 8
+[2014.11.24-11.37.40:483][559]LogFbx: Loading FBX Scene from ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Character/CATS/newcatcauseoldcatsucks.fbx
+[2014.11.24-11.37.40:495][559]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.24-11.37.40:498][559]LogFbx:Warning: Triangulating static mesh Sphere.003
+[2014.11.24-11.37.40:713][559]LogFbx:Warning: Triangulating static mesh Sphere.002
+[2014.11.24-11.37.40:920][559]LogFbx:Warning: Triangulating static mesh Sphere.001
+[2014.11.24-11.37.41:127][559]LogFbx:Warning: Triangulating static mesh Cylinder.003
+[2014.11.24-11.37.41:174][559]LogFbx:Warning: Triangulating static mesh Cylinder.002
+[2014.11.24-11.37.41:228][559]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2014.11.24-11.37.41:279][559]LogFbx:Warning: Triangulating static mesh Cylinder
+[2014.11.24-11.37.41:327][559]LogFbx:Warning: Triangulating static mesh Sphere
+[2014.11.24-11.37.41:537][559]LogFbx: == Initial material list:
+[2014.11.24-11.37.41:537][559]LogFbx: 0: None
+[2014.11.24-11.37.41:537][559]LogFbx: 1: None
+[2014.11.24-11.37.41:537][559]LogFbx: 2: None
+[2014.11.24-11.37.41:537][559]LogFbx: 3: None
+[2014.11.24-11.37.41:537][559]LogFbx: 4: None
+[2014.11.24-11.37.41:537][559]LogFbx: 5: None
+[2014.11.24-11.37.41:537][559]LogFbx: 6: None
+[2014.11.24-11.37.41:537][559]LogFbx: 7: None
+[2014.11.24-11.37.41:537][559]LogFbx:   remap 1 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   remap 2 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   remap 3 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   remap 4 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   remap 5 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   remap 6 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   remap 7 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx: == After sorting:
+[2014.11.24-11.37.41:537][559]LogFbx: 0: None
+[2014.11.24-11.37.41:537][559]LogFbx: == Mapping table:
+[2014.11.24-11.37.41:537][559]LogFbx:   sort 0 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   sort 1 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   sort 2 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   sort 3 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   sort 4 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   sort 5 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   sort 6 -> 0
+[2014.11.24-11.37.41:537][559]LogFbx:   sort 7 -> 0
+[2014.11.24-11.37.41:541][559]LogStaticMesh: Building static mesh newcatcauseoldcatsucks...
+[2014.11.24-11.37.41:565][559]LogLayoutUV:Display: FindCharts: 4 ms
+[2014.11.24-11.37.41:569][559]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.37.41:569][559]LogLayoutUV:Display:   Rasterize: 8048
+[2014.11.24-11.37.41:569][559]LogLayoutUV:Display:   Find: 41
+[2014.11.24-11.37.41:572][559]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.37.41:572][559]LogLayoutUV:Display:   Rasterize: 8103
+[2014.11.24-11.37.41:572][559]LogLayoutUV:Display:   Find: 43
+[2014.11.24-11.37.41:576][559]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.37.41:576][559]LogLayoutUV:Display:   Rasterize: 8204
+[2014.11.24-11.37.41:576][559]LogLayoutUV:Display:   Find: 39
+[2014.11.24-11.37.41:579][559]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.37.41:579][559]LogLayoutUV:Display:   Rasterize: 7988
+[2014.11.24-11.37.41:579][559]LogLayoutUV:Display:   Find: 39
+[2014.11.24-11.37.41:583][559]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.37.41:583][559]LogLayoutUV:Display:   Rasterize: 7998
+[2014.11.24-11.37.41:583][559]LogLayoutUV:Display:   Find: 42
+[2014.11.24-11.37.41:586][559]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.37.41:586][559]LogLayoutUV:Display:   Rasterize: 8408
+[2014.11.24-11.37.41:586][559]LogLayoutUV:Display:   Find: 36
+[2014.11.24-11.37.41:590][559]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.37.41:590][559]LogLayoutUV:Display:   Rasterize: 8142
+[2014.11.24-11.37.41:590][559]LogLayoutUV:Display:   Find: 45
+[2014.11.24-11.37.41:593][559]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.37.41:593][559]LogLayoutUV:Display:   Rasterize: 7988
+[2014.11.24-11.37.41:593][559]LogLayoutUV:Display:   Find: 40
+[2014.11.24-11.37.41:647][559]LogStaticMesh: Built static mesh [106.014626ms] /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks
+[2014.11.24-11.37.41:681][559]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2014.11.24-11.37.41:718][559]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.24-11.37.41:718][559]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.11.24-11.37.50:270][975]LogRenderer:Warning: Reallocating scene render targets to support 1016x592.
+[2014.11.24-11.39.28:468][162]LogExportMeshUtils: Fbx LOD loading
+[2014.11.24-11.39.28:477][162]LogFbx: Loading FBX Scene from ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Character/CATS/newcatcauseoldcatsucks.fbx
+[2014.11.24-11.39.28:489][162]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.24-11.39.28:492][162]LogFbx:Warning: Triangulating static mesh Sphere.003
+[2014.11.24-11.39.28:721][162]LogFbx:Warning: Triangulating static mesh Sphere.002
+[2014.11.24-11.39.28:928][162]LogFbx:Warning: Triangulating static mesh Sphere.001
+[2014.11.24-11.39.29:139][162]LogFbx:Warning: Triangulating static mesh Cylinder.003
+[2014.11.24-11.39.29:189][162]LogFbx:Warning: Triangulating static mesh Cylinder.002
+[2014.11.24-11.39.29:238][162]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2014.11.24-11.39.29:287][162]LogFbx:Warning: Triangulating static mesh Cylinder
+[2014.11.24-11.39.29:336][162]LogFbx:Warning: Triangulating static mesh Sphere
+[2014.11.24-11.39.29:548][162]LogFbx: == Initial material list:
+[2014.11.24-11.39.29:548][162]LogFbx: 0: None
+[2014.11.24-11.39.29:548][162]LogFbx: 1: None
+[2014.11.24-11.39.29:548][162]LogFbx: 2: None
+[2014.11.24-11.39.29:548][162]LogFbx: 3: None
+[2014.11.24-11.39.29:548][162]LogFbx: 4: None
+[2014.11.24-11.39.29:548][162]LogFbx: 5: None
+[2014.11.24-11.39.29:548][162]LogFbx: 6: None
+[2014.11.24-11.39.29:548][162]LogFbx: 7: None
+[2014.11.24-11.39.29:548][162]LogFbx:   remap 1 -> 0
+[2014.11.24-11.39.29:548][162]LogFbx:   remap 2 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   remap 3 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   remap 4 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   remap 5 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   remap 6 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   remap 7 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx: == After sorting:
+[2014.11.24-11.39.29:549][162]LogFbx: 0: None
+[2014.11.24-11.39.29:549][162]LogFbx: == Mapping table:
+[2014.11.24-11.39.29:549][162]LogFbx:   sort 0 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   sort 1 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   sort 2 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   sort 3 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   sort 4 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   sort 5 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   sort 6 -> 0
+[2014.11.24-11.39.29:549][162]LogFbx:   sort 7 -> 0
+[2014.11.24-11.39.29:566][162]LogStaticMesh: Building static mesh newcatcauseoldcatsucks...
+[2014.11.24-11.39.29:593][162]LogLayoutUV:Display: FindCharts: 4 ms
+[2014.11.24-11.39.29:596][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:597][162]LogLayoutUV:Display:   Rasterize: 8225
+[2014.11.24-11.39.29:597][162]LogLayoutUV:Display:   Find: 38
+[2014.11.24-11.39.29:600][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:600][162]LogLayoutUV:Display:   Rasterize: 8660
+[2014.11.24-11.39.29:600][162]LogLayoutUV:Display:   Find: 42
+[2014.11.24-11.39.29:604][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:604][162]LogLayoutUV:Display:   Rasterize: 8067
+[2014.11.24-11.39.29:604][162]LogLayoutUV:Display:   Find: 41
+[2014.11.24-11.39.29:607][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:607][162]LogLayoutUV:Display:   Rasterize: 8436
+[2014.11.24-11.39.29:607][162]LogLayoutUV:Display:   Find: 41
+[2014.11.24-11.39.29:611][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:611][162]LogLayoutUV:Display:   Rasterize: 8280
+[2014.11.24-11.39.29:611][162]LogLayoutUV:Display:   Find: 38
+[2014.11.24-11.39.29:614][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:614][162]LogLayoutUV:Display:   Rasterize: 8452
+[2014.11.24-11.39.29:614][162]LogLayoutUV:Display:   Find: 41
+[2014.11.24-11.39.29:618][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:618][162]LogLayoutUV:Display:   Rasterize: 8381
+[2014.11.24-11.39.29:618][162]LogLayoutUV:Display:   Find: 42
+[2014.11.24-11.39.29:621][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:621][162]LogLayoutUV:Display:   Rasterize: 8286
+[2014.11.24-11.39.29:621][162]LogLayoutUV:Display:   Find: 42
+[2014.11.24-11.39.29:649][162]LogLayoutUV:Display: FindCharts: 4 ms
+[2014.11.24-11.39.29:652][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:652][162]LogLayoutUV:Display:   Rasterize: 8028
+[2014.11.24-11.39.29:652][162]LogLayoutUV:Display:   Find: 42
+[2014.11.24-11.39.29:656][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:656][162]LogLayoutUV:Display:   Rasterize: 8403
+[2014.11.24-11.39.29:656][162]LogLayoutUV:Display:   Find: 43
+[2014.11.24-11.39.29:659][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:659][162]LogLayoutUV:Display:   Rasterize: 8026
+[2014.11.24-11.39.29:659][162]LogLayoutUV:Display:   Find: 40
+[2014.11.24-11.39.29:663][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:663][162]LogLayoutUV:Display:   Rasterize: 8320
+[2014.11.24-11.39.29:663][162]LogLayoutUV:Display:   Find: 38
+[2014.11.24-11.39.29:666][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:666][162]LogLayoutUV:Display:   Rasterize: 8513
+[2014.11.24-11.39.29:666][162]LogLayoutUV:Display:   Find: 40
+[2014.11.24-11.39.29:671][162]LogLayoutUV:Display: PackCharts: 4 ms
+[2014.11.24-11.39.29:671][162]LogLayoutUV:Display:   Rasterize: 10434
+[2014.11.24-11.39.29:671][162]LogLayoutUV:Display:   Find: 47
+[2014.11.24-11.39.29:674][162]LogLayoutUV:Display: PackCharts: 3 ms
+[2014.11.24-11.39.29:674][162]LogLayoutUV:Display:   Rasterize: 8908
+[2014.11.24-11.39.29:674][162]LogLayoutUV:Display:   Find: 47
+[2014.11.24-11.39.29:679][162]LogLayoutUV:Display: PackCharts: 4 ms
+[2014.11.24-11.39.29:679][162]LogLayoutUV:Display:   Rasterize: 10407
+[2014.11.24-11.39.29:679][162]LogLayoutUV:Display:   Find: 42
+[2014.11.24-11.39.29:795][162]LogStaticMesh: Built static mesh [230.167984ms] /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks
+[2014.11.24-11.39.29:833][162]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2014.11.24-11.39.45:612][718]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.39.45:612][718]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.39.45:612][718]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.39.45:612][718]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.39.45:612][718]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.39.46:281][723]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2014.11.24-11.39.46:281][723]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2014.11.24-11.39.46:282][723]LogPhysics:Warning: Failed to cook convex: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks 11 (FlipX:0). The remaining elements will not get cooked.
+[2014.11.24-11.39.46:325][723]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.39.55:052][ 32]LogSavePackage: Save=228.493073ms
+[2014.11.24-11.39.55:052][ 32]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/newcatcauseoldcatsucksDBB40CEB474E560180F748805231AE17.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Character/newcatcauseoldcatsucks.uasset'
+[2014.11.24-11.40.00:635][295]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.11.24-11.40.04:951][539]LogTexture:Display: Building textures: chalkboard (AutoDXT)
+[2014.11.24-11.40.06:443][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DA06FC0
+[2014.11.24-11.40.06:448][539]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.24-11.40.06:449][539]LightingResults: New page: Lighting Build
+[2014.11.24-11.40.06:481][539]LoadErrors: New page: Loading map: StartMenuLevel.umap
+[2014.11.24-11.40.06:481][539]MapCheck: New page: Map Check
+[2014.11.24-11.40.06:481][539]LightingResults: New page: Lighting Build
+[2014.11.24-11.40.06:505][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010AF8180
+[2014.11.24-11.40.06:522][539]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.24-11.40.06:522][539]LogAIModule: Creating AISystem for world StartMenuLevel
+[2014.11.24-11.40.06:561][539]Cmd: MAP CHECKDEP
+[2014.11.24-11.40.06:561][539]MapCheck: New page: StartMenuLevel - Nov 23, 2014, 7:40:06 PM
+[2014.11.24-11.40.06:665][539]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.438ms to complete.
+[2014.11.24-11.40.06:665][539]LogFileHelpers: Loading map 'StartMenuLevel' took 0.219
+[2014.11.24-11.40.10:302][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.11.24-11.40.10:302][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.11.24-11.40.10:302][737]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_M
+[2014.11.24-11.40.10:302][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.11.24-11.40.10:302][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.11.24-11.40.10:302][737]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_N
+[2014.11.24-11.40.10:303][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.11.24-11.40.10:303][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.11.24-11.40.10:303][737]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood
+[2014.11.24-11.40.10:303][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.11.24-11.40.10:303][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.11.24-11.40.10:304][737]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood_S
+[2014.11.24-11.40.10:304][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.11.24-11.40.10:304][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.11.24-11.40.10:304][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.11.24-11.40.10:304][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.11.24-11.40.10:305][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.11.24-11.40.10:305][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.11.24-11.40.10:305][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.11.24-11.40.10:305][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.11.24-11.40.10:341][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst'
+[2014.11.24-11.40.10:342][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Carpet.uasset.
+[2014.11.24-11.40.10:342][737]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Carpet : Can't find file for asset. /Game/ArchVis/Materials/MI_Carptet_Mat_Inst
+[2014.11.24-11.40.10:342][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst'
+[2014.11.24-11.40.10:342][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Carpet.uasset.
+[2014.11.24-11.40.10:345][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.11.24-11.40.10:345][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.11.24-11.40.10:345][737]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Curtain : Can't find file for asset. /Game/ArchVis/Materials/M_Curtain_MAT_Inst
+[2014.11.24-11.40.10:346][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.11.24-11.40.10:346][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.11.24-11.40.10:348][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Door_MAT_Inst'
+[2014.11.24-11.40.10:349][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Door_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Door.uasset.
+[2014.11.24-11.40.10:349][737]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Door : Can't find file for asset. /Game/ArchVis/Materials/M_Door_MAT_Inst
+[2014.11.24-11.40.10:349][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Door_MAT_Inst'
+[2014.11.24-11.40.10:349][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Door_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Door.uasset.
+[2014.11.24-11.40.10:352][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.11.24-11.40.10:352][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.11.24-11.40.10:352][737]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FloorLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
+[2014.11.24-11.40.10:353][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.11.24-11.40.10:353][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.11.24-11.40.10:396][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.11.24-11.40.10:396][737]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by M_Shelving
+[2014.11.24-11.40.10:396][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.11.24-11.40.10:396][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.11.24-11.40.10:396][737]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_Shelving
+[2014.11.24-11.40.10:397][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.11.24-11.40.10:397][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.11.24-11.40.10:397][737]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by M_Shelving
+[2014.11.24-11.40.10:397][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.11.24-11.40.10:397][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.11.24-11.40.10:397][737]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_Shelving
+[2014.11.24-11.40.10:398][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.11.24-11.40.10:398][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.11.24-11.40.10:398][737]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.24-11.40.10:398][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.11.24-11.40.10:399][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.11.24-11.40.10:399][737]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.24-11.40.10:399][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.11.24-11.40.10:399][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.11.24-11.40.10:399][737]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_4 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.24-11.40.10:400][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.11.24-11.40.10:400][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.11.24-11.40.10:400][737]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_5 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.11.24-11.40.10:400][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.11.24-11.40.10:404][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst'
+[2014.11.24-11.40.10:404][737]LoadErrors: Info Failed to load /Game/ArchVis/Materials/MI_Carptet_Mat_Inst.MI_Carptet_Mat_Inst Referenced by SM_Carpet Property /Script/Engine.StaticMesh:Materials
+[2014.11.24-11.40.10:404][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Carptet_Mat_Inst' while loading NULL.
+[2014.11.24-11.40.10:405][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.11.24-11.40.10:405][737]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain Property /Script/Engine.StaticMesh:Materials
+[2014.11.24-11.40.10:405][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
+[2014.11.24-11.40.10:405][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Door_MAT_Inst'
+[2014.11.24-11.40.10:406][737]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Door_MAT_Inst.M_Door_MAT_Inst Referenced by SM_Door Property /Script/Engine.StaticMesh:Materials
+[2014.11.24-11.40.10:406][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Door_MAT_Inst' while loading NULL.
+[2014.11.24-11.40.10:406][737]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.11.24-11.40.10:406][737]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp Property /Script/Engine.StaticMesh:Materials
+[2014.11.24-11.40.10:407][737]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
+[2014.11.24-11.40.10:466][737]LogMaterial: Missing cached shader map for material M_Shelving, compiling.
+[2014.11.24-11.40.10:467][737]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Shelving.M_Shelving for platform PCD3D_SM4, Default Material will be used in game.
+[2014.11.24-11.40.10:467][737]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.11.24-11.40.10:723][737]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.24-11.40.10:723][737]LightingResults: New page: Lighting Build
+[2014.11.24-11.40.10:758][737]LoadErrors: New page: Loading map: LivingRoom.umap
+[2014.11.24-11.40.10:759][737]MapCheck: New page: Map Check
+[2014.11.24-11.40.10:759][737]LightingResults: New page: Lighting Build
+[2014.11.24-11.40.10:778][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023149620
+[2014.11.24-11.40.10:804][737]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.24-11.40.10:805][737]LogAIModule: Creating AISystem for world LivingRoom
+[2014.11.24-11.40.10:843][737]Cmd: MAP CHECKDEP
+[2014.11.24-11.40.10:843][737]MapCheck: New page: LivingRoom - Nov 23, 2014, 7:40:10 PM
+[2014.11.24-11.40.10:966][737]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.911ms to complete.
+[2014.11.24-11.40.10:966][737]LogFileHelpers: Loading map 'LivingRoom' took 0.245
+[2014.11.24-11.40.13:337][864]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.11.24-11.40.14:645][923]LogActorFactory: Actor Factory created newcatcauseoldcatsucks
+[2014.11.24-11.40.14:645][923]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.40.14:645][923]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.40.16:879][956]LogActorFactory: Actor Factory created newcatcauseoldcatsucks
+[2014.11.24-11.40.16:879][956]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.40.16:909][956]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.40.28:585][295]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.40.30:591][396]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.40.31:708][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.40.33:418][511]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.40.37:264][722]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.40.46:556][111]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.40.49:512][248]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.40.51:938][370]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.40.51:938][370]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.40.51:938][370]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.40.51:938][370]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.40.51:938][370]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.40.52:063][374]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.24-11.40.52:063][374]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.24-11.40.52:133][374]LogPlayLevel: PIE:  Blueprint regeneration took 69 ms (1 blueprints)
+[2014.11.24-11.40.52:133][374]PIE: New page: PIE session: LivingRoom (Nov 23, 2014, 7:40:52 PM)
+[2014.11.24-11.40.52:170][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036494s)
+[2014.11.24-11.40.52:170][374]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2014.11.24-11.40.52:170][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.037368s)
+[2014.11.24-11.40.52:591][374]LogWorld: Game class is 'MyGame_C'
+[2014.11.24-11.40.52:593][374]LogAIModule: Creating AISystem for world LivingRoom
+[2014.11.24-11.40.52:598][374]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.40.52:599][374]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 60) at 2014.11.24-03.40.52
+[2014.11.24-11.40.52:600][374]LogWorld: Bringing up level for play took: 0.006928
+[2014.11.24-11.40.52:604][374]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom -0.154
+[2014.11.24-11.40.52:657][375]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082535 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_0'
+[2014.11.24-11.41.07:249][824]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F94FCE0
+[2014.11.24-11.41.09:627][944]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.41.10:607][988]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.10:607][988]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.10:607][988]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.10:607][988]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.10:607][988]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.24:999][294]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.41.28:984][513]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.11.24-11.41.37:659][ 29]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.41.39:696][151]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.39:696][151]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.39:696][151]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.39:696][151]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.39:696][151]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.40:820][213]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.41.42:787][331]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.41.46:872][569]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.46:872][569]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.46:872][569]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.46:872][569]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.41.46:872][569]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.43.59:263][745]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.43.59:392][745]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.11.24-11.44.03:409][973]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.44.03:409][973]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.44.03:409][973]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.44.03:409][973]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.44.03:409][973]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.11.24-11.44.13:699][401]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.24-11.44.13:700][401]PIE: New page: PIE session: LivingRoom (Nov 23, 2014, 7:44:13 PM)
+[2014.11.24-11.44.13:744][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044017s)
+[2014.11.24-11.44.13:745][401]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2014.11.24-11.44.13:745][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.045510s)
+[2014.11.24-11.44.13:775][401]LogWorld: Game class is 'MyGame_C'
+[2014.11.24-11.44.13:776][401]LogAIModule: Creating AISystem for world LivingRoom
+[2014.11.24-11.44.13:785][401]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.44.13:785][401]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 60) at 2014.11.24-03.44.13
+[2014.11.24-11.44.13:786][401]LogWorld: Bringing up level for play took: 0.009569
+[2014.11.24-11.44.13:789][401]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 1.025
+[2014.11.24-11.44.27:829][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000185FEA20
+[2014.11.24-11.44.32:418][974]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2014.11.24-11.44.36:927][209]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2014.11.24-11.44.38:019][270]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2014.11.24-11.44.38:514][294]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2014.11.24-11.44.38:859][310]LogEditorViewport: Clicking on Actor (double click): KillZVolume (KillZVolume)
+[2014.11.24-11.44.39:301][331]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2014.11.24-11.44.53:845][ 75]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.24-11.44.53:846][ 75]PIE: New page: PIE session: LivingRoom (Nov 23, 2014, 7:44:53 PM)
+[2014.11.24-11.44.53:887][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041054s)
+[2014.11.24-11.44.53:888][ 75]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2014.11.24-11.44.53:888][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.042057s)
+[2014.11.24-11.44.53:918][ 75]LogWorld: Game class is 'MyGame_C'
+[2014.11.24-11.44.53:920][ 75]LogAIModule: Creating AISystem for world LivingRoom
+[2014.11.24-11.44.53:925][ 75]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.11.24-11.44.53:925][ 75]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 60) at 2014.11.24-03.44.53
+[2014.11.24-11.44.53:926][ 75]LogWorld: Bringing up level for play took: 0.005914
+[2014.11.24-11.44.53:929][ 75]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom -0.837
+[2014.11.24-11.45.04:915][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D9FE840
+[2014.11.24-11.45.09:366][590]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.45.10:328][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcatcauseoldcatsucks)
+[2014.11.24-11.45.15:148][891]LogSavePackage: Save=316.843933ms
+[2014.11.24-11.45.15:148][891]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/LivingRoomC67C07964EFEEA9E0C4ED7954E387433.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
+[2014.11.24-11.45.21:286][210]Cmd: QUIT_EDITOR
+[2014.11.24-11.45.21:646][210]LogExit: Preparing to exit.
+[2014.11.24-11.45.22:408][210]LogExit: Editor shut down
+[2014.11.24-11.45.22:408][210]LogExit: Transaction tracking system shut down
+[2014.11.24-11.45.22:410][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E5D3560
+[2014.11.24-11.45.22:410][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C7FA520
+[2014.11.24-11.45.22:438][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BCC32E0
+[2014.11.24-11.45.22:438][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BCC05E0
+[2014.11.24-11.45.22:438][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BCC07C0
+[2014.11.24-11.45.22:438][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EBE59E0
+[2014.11.24-11.45.22:438][210]LogExit: Object subsystem successfully closed.
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (167)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.11.24-11.45.22:496][210]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.11.24-11.45.22:497][210]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.11.24-11.45.22:582][210]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.11.24-11.45.22:744][210]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.11.24-11.45.22:745][210]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.11.24-11.45.22:745][210]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.11.24-11.45.22:746][210]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.11.24-11.45.22:846][210]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.11.24-11.45.22:846][210]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.11.24-11.45.22:848][210]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.11.24-11.45.22:848][210]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.11.24-11.45.22:849][210]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.11.24-11.45.22:850][210]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.11.24-11.45.22:851][210]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.11.24-11.45.22:884][210]LogDerivedDataCache: Shutdown
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.24-11.45.22:884][210]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.24-11.45.22:886][210]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.24-11.45.22:886][210]LogExit: Exiting.
+[2014.11.24-11.45.22:892][210]Log file closed, 11/24/14 03:45:22
