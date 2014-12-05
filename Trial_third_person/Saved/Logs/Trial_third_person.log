@@ -1,4 +1,4 @@
-﻿Log file open, 12/05/14 12:22:15
+﻿Log file open, 12/05/14 13:56:57
 LogInit:Display: Running engine for game: Trial_third_person
 LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
 LogInit: API Version: 2326478
@@ -9,899 +9,498 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.5
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.12.05-20.22.15:440][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.12.05-20.22.15:517][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.12.05-20.22.15:640][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.12.05-20.22.15:678][  0]LogInit: Object subsystem initialized
-[2014.12.05-20.22.15:691][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2014.12.05-20.22.15:691][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.12.05-20.22.15:691][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
-[2014.12.05-20.22.15:691][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.12.05-20.22.15:693][  0]LogInit: Selected Device Profile: [Windows]
-[2014.12.05-20.22.15:693][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.12.05-20.22.15:716][  0]LogInit: Computer: ZEN-MATT
-[2014.12.05-20.22.15:716][  0]LogInit: User: Matt
-[2014.12.05-20.22.15:724][  0]LogInit: CPU Page size=4096, Cores=2
-[2014.12.05-20.22.15:724][  0]LogInit: High frequency timer resolution =2.338554 MHz
-[2014.12.05-20.22.15:724][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
-[2014.12.05-20.22.15:724][  0]LogMemory: Platform Memory Stats for Windows
-[2014.12.05-20.22.15:724][  0]LogMemory: Process Physical Memory: 65.48 MB used, 65.48 MB peak
-[2014.12.05-20.22.15:724][  0]LogMemory: Process Virtual Memory: 40.56 MB used, 40.56 MB peak
-[2014.12.05-20.22.15:724][  0]LogMemory: Physical Memory: 2829.56 MB used, 3981.98 MB total
-[2014.12.05-20.22.15:724][  0]LogMemory: Virtual Memory: 273.19 MB used, 8388608.00 MB total
-[2014.12.05-20.22.15:779][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2014.12.05-20.22.15:779][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2014.12.05-20.22.15:779][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.12.05-20.22.15:790][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
-[2014.12.05-20.22.15:808][  0]LogD3D11RHI: Async texture creation enabled
-[2014.12.05-20.22.15:869][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2014.12.05-20.22.16:026][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.12.05-20.22.21:857][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.05-20.22.22:558][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.05-20.22.22:643][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.12.05-20.22.22:684][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.12.05-20.22.22:684][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
-[2014.12.05-20.22.22:684][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.12.05-20.22.22:684][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.12.05-20.22.22:763][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.12.05-20.22.22:775][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2014.12.05-20.22.22:997][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.12.05-20.22.22:997][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.12.05-20.22.23:300][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.05-20.22.23:304][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.05-20.22.23:544][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.12.05-20.22.24:855][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.12.05-20.22.25:113][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
-[2014.12.05-20.22.25:308][  0]SourceControl: Info Source control is disabled
-[2014.12.05-20.22.25:308][  0]SourceControl: Info Source control is disabled
-[2014.12.05-20.22.25:321][  0]SourceControl: Info Source control is disabled
-[2014.12.05-20.22.25:533][  0]LogObj: 22915 objects as part of root set at end of initial load.
-[2014.12.05-20.22.25:533][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
-[2014.12.05-20.22.25:612][  0]LogEngine: Initializing Engine...
-[2014.12.05-20.22.25:772][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.12.05-20.22.25:880][  0]LogInit: FAudioDevice initialized.
-[2014.12.05-20.22.25:916][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.12.05-20.22.25:941][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.12.05-20.22.25:944][  0]LogInit: Texture streaming: Enabled
-[2014.12.05-20.22.26:023][  0]LogInit: Transaction tracking system initialized
-[2014.12.05-20.22.26:191][  0]BlueprintLog: New page: Editor Load
-[2014.12.05-20.22.26:236][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
-[2014.12.05-20.22.26:236][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2014.12.05-20.22.27:055][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.05-20.22.27:589][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.05-20.22.27:977][  0]LogConsoleResponse:Display: 
-[2014.12.05-20.22.28:276][  0]SourceControl: Info Source control is disabled
-[2014.12.05-20.22.28:276][  0]Cmd: MAP LOAD FILE="D:/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.05-20.22.28:276][  0]LightingResults: New page: Lighting Build
-[2014.12.05-20.22.28:293][  0]MapCheck: New page: Map Check
-[2014.12.05-20.22.28:293][  0]LightingResults: New page: Lighting Build
-[2014.12.05-20.22.28:309][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C5727A0
-[2014.12.05-20.22.28:597][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.05-20.22.28:597][  0]LogAIModule: Creating AISystem for world Example_Map
-[2014.12.05-20.22.28:597][  0]Cmd: MAP CHECKDEP
-[2014.12.05-20.22.28:597][  0]MapCheck: New page: Example_Map - Dec 5, 2014, 4:22:28 AM
-[2014.12.05-20.22.28:729][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.418ms to complete.
-[2014.12.05-20.22.28:729][  0]LogFileHelpers: Loading map 'Example_Map' took 0.453
-[2014.12.05-20.22.28:842][  0]LogCollectionManager: Loaded 0 collections in 0.001226 seconds
-[2014.12.05-20.22.28:950][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.12.05-20.22.30:336][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2014.12.05-20.22.30:379][  0]LogLoad: Full Startup: 17.61 seconds (BP compile: 0.33 seconds)
-[2014.12.05-20.22.30:741][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.12.05-20.22.34:073][  8]LogAssetRegistry: Asset discovery search completed in 7.8479 seconds
-[2014.12.05-20.22.52:370][559]LogRenderer:Warning: Reallocating scene render targets to support 256x256.
-[2014.12.05-20.23.12:892][774]LogRenderer:Warning: Reallocating scene render targets to support 1544x896.
-[2014.12.05-20.23.15:087][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:087][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:090][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:090][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:091][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:091][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:091][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:091][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:091][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:092][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:092][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:092][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:092][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:093][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:093][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:093][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:093][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:093][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.15:094][866]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.23.29:395][711]BlueprintLog: New page: Compile MyGame
-[2014.12.05-20.23.29:630][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.12.05-20.23.29:745][711]BlueprintEditorCompileResults: Info [0076.64] Compile of MyGame successful! [in 3 ms]
-[2014.12.05-20.23.49:022][505]BlueprintLog: New page: Compile MyGame
-[2014.12.05-20.23.49:270][505]BlueprintEditorCompileResults: Info [0096.27] Compile of MyGame successful! [in 6 ms]
-[2014.12.05-20.23.54:497][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.12.05-20.23.54:652][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGame" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyGame.uasset" SILENT=true
-[2014.12.05-20.23.54:707][783]LogSavePackage: Save=32.967381ms
-[2014.12.05-20.23.54:707][783]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyGame33D473BD4AB4AEC8E777D388EE00A594.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyGame.uasset'
-[2014.12.05-20.24.57:127][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2014.12.05-20.27.21:927][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.27.22:066][203]LogSavePackage: Save=122.760475ms
-[2014.12.05-20.27.22:066][203]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickupA1C3784345AA979D73FFE6B73D9E0126.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.27.22:946][248]BlueprintLog: New page: Compile mouse_pickup
-[2014.12.05-20.27.23:078][248]BlueprintEditorCompileResults: Info [0310.20] Compile of mouse_pickup successful! [in 11 ms]
-[2014.12.05-20.31.07:177][227]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.32.16:637][737]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.32.40:659][125]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.12.05-20.33.11:226][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2014.12.05-20.33.11:307][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mice+Player" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset" SILENT=true
-[2014.12.05-20.33.11:325][269]LogSavePackage: Save=14.042010ms
-[2014.12.05-20.33.11:325][269]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mice+Player9E633BC14E5C62EBB6196085DC449606.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset'
-[2014.12.05-20.33.25:005][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.106
-[2014.12.05-20.33.25:030][729]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mice+Player] ([1] browsable assets)...
-[2014.12.05-20.33.25:037][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mice+Player]
-[2014.12.05-20.33.25:046][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mice+Player" FILE="D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/Mice+Player_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2014.12.05-20.33.25:147][729]LogSavePackage: Save=25.410147ms
-[2014.12.05-20.33.25:147][729]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mice+Player_Auto16C18B59D4B0F6B0BA47CE5884649ED8E.tmp' to 'D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/Mice+Player_Auto1.uasset'
-[2014.12.05-20.33.25:160][729]LogFileHelpers: Auto-saving content packages took 0.155
-[2014.12.05-20.35.06:370][450]BlueprintLog: New page: Compile Mice+Player
-[2014.12.05-20.35.06:494][450]BlueprintEditorCompileResults: Info [0773.57] Compile of Mice+Player successful! [in 0 ms]
-[2014.12.05-20.35.08:502][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mice+Player" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset" SILENT=true
-[2014.12.05-20.35.08:520][524]LogSavePackage: Save=6.920516ms
-[2014.12.05-20.35.08:520][524]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mice+Player988AE16B429598E7DE0BD0A6DBFDDE18.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset'
-[2014.12.05-20.36.21:220][ 88]BlueprintLog: New page: Compile Mice+Player
-[2014.12.05-20.36.21:399][ 88]BlueprintEditorCompileResults: Info [0848.42] Compile of Mice+Player successful! [in 1 ms]
-[2014.12.05-20.38.26:098][739]BlueprintLog: New page: Compile Mice+Player
-[2014.12.05-20.38.26:341][739]BlueprintEditorCompileResults: Info [0973.29] Compile of Mice+Player successful! [in 1 ms]
-[2014.12.05-20.39.20:870][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.39.21:254][628]LogSavePackage: Save=369.836243ms
-[2014.12.05-20.39.21:254][628]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter2F5221BB4A88964F373AFAA4F1A659B9.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.39.21:262][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mice+Player" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset" SILENT=true
-[2014.12.05-20.39.21:282][628]LogSavePackage: Save=11.619145ms
-[2014.12.05-20.39.21:282][628]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mice+Player1680A65F466D740DDBD1C88A1D10A27B.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset'
-[2014.12.05-20.39.31:490][824]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-20.39.31:757][824]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2014.12.05-20.39.31:869][824]BlueprintEditorCompileResults: Info [1038.88] Compile of MyCharacter successful! [in 99 ms]
-[2014.12.05-20.39.32:203][825]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-20.39.32:618][825]BlueprintEditorCompileResults: Info [1039.58] Compile of MyCharacter successful! [in 82 ms]
-[2014.12.05-20.39.57:900][630]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.39.57:900][630]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.39.57:900][630]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.39.57:900][630]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.39.57:901][630]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.39.57:901][630]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.39.57:901][630]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.39.57:901][630]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.42.16:359][627]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.42.19:547][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.42.20:005][835]LogSavePackage: Save=441.359070ms
-[2014.12.05-20.42.20:005][835]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter7E2C6F3B45EE73285E0E7F88F6217499.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.42.20:013][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mice+Player" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset" SILENT=true
-[2014.12.05-20.42.20:034][835]LogSavePackage: Save=11.266791ms
-[2014.12.05-20.42.20:034][835]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mice+Player36BC077E4FFCAB044E22549ABCDEE782.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset'
-[2014.12.05-20.42.20:411][861]BlueprintLog: New page: Compile Mice+Player
-[2014.12.05-20.42.20:518][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2014.12.05-20.42.20:725][861]BlueprintEditorCompileResults: Info [1207.59] Compile of Mice+Player successful! [in 3 ms]
-[2014.12.05-20.42.26:403][169]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.42.43:220][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.42.59:485][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.42.59:845][851]LogSavePackage: Save=345.168427ms
-[2014.12.05-20.42.59:845][851]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterE89645604EAE46F897CB16B18A690D3C.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.43.02:579][997]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-20.43.02:882][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2014.12.05-20.43.02:972][997]BlueprintEditorCompileResults: Info [1250.00] Compile of MyCharacter successful! [in 83 ms]
-[2014.12.05-20.43.35:266][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.43.35:374][637]LogSavePackage: Save=95.796806ms
-[2014.12.05-20.43.35:374][637]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickup4FD47C064C98999B2A0DF990FEA1498F.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.43.57:544][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.43.57:646][885]LogSavePackage: Save=92.090240ms
-[2014.12.05-20.43.57:646][885]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickupA9201E58421F49069E04EBA31569DB13.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.43.58:504][936]BlueprintLog: New page: Compile mouse_pickup
-[2014.12.05-20.43.58:633][936]BlueprintEditorCompileResults: Info [1305.71] Compile of mouse_pickup successful! [in 6 ms]
-[2014.12.05-20.44.30:473][639]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.44.30:474][639]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.44.35:697][877]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.44.41:593][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.44.41:896][161]LogSavePackage: Save=282.162384ms
-[2014.12.05-20.44.41:896][161]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickupF5CEBB1E4BCDF3947BE8319E66BFAECE.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.44.56:015][828]BlueprintLog: New page: Compile mouse_pickup
-[2014.12.05-20.44.56:038][828]LogBlueprint:Error: [compiler] Error Message node  Update Mice Collection
-Using Interface Mice+Player_C  must have a self pin connection.
-[2014.12.05-20.44.56:044][828]LogBlueprint:Warning: [compiler] Warning [1363.21] Compile of mouse_pickup failed. 1 Fatal Issue(s) 0 Warning(s) [in 10 ms]
-[2014.12.05-20.44.56:215][828]BlueprintEditorCompileResults:Error: Error Message node  Update Mice Collection
-Using Interface Mice+Player_C  must have a self pin connection.
-[2014.12.05-20.44.56:215][828]BlueprintEditorCompileResults:Warning: Warning [1363.21] Compile of mouse_pickup failed. 1 Fatal Issue(s) 0 Warning(s) [in 10 ms]
-[2014.12.05-20.44.58:170][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.44.58:291][923]LogSavePackage: Save=104.133156ms
-[2014.12.05-20.44.58:291][923]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickup80A0428943FF1615DD5D848D7436D1A8.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.46.21:104][125]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.46.46:368][383]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.47.03:517][290]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.47.11:818][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.47.11:865][705]LogSavePackage: Save=34.307953ms
-[2014.12.05-20.47.11:865][705]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickup2E68DC2242AD71229B8E35AFD174BDF1.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.47.11:903][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.47.12:281][705]LogSavePackage: Save=365.095703ms
-[2014.12.05-20.47.12:281][705]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter476773574CA0CB21C47D998B82AE93C4.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.47.13:973][799]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-20.47.14:318][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2014.12.05-20.47.14:404][799]BlueprintEditorCompileResults: Info [1501.42] Compile of MyCharacter successful! [in 82 ms]
-[2014.12.05-20.48.02:794][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.48.02:893][176]LogSavePackage: Save=89.528831ms
-[2014.12.05-20.48.02:893][176]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickupAF51A4AA4C261672A0441391F0464A58.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.48.03:641][215]BlueprintLog: New page: Compile mouse_pickup
-[2014.12.05-20.48.03:665][215]LogBlueprint:Error: [compiler] Error Message node  Update Mice Collection
-Using Interface Mice+Player_C  must have a self pin connection.
-[2014.12.05-20.48.03:670][215]LogBlueprint:Warning: [compiler] Warning [1550.83] Compile of mouse_pickup failed. 1 Fatal Issue(s) 0 Warning(s) [in 9 ms]
-[2014.12.05-20.48.03:839][215]BlueprintEditorCompileResults:Error: Error Message node  Update Mice Collection
-Using Interface Mice+Player_C  must have a self pin connection.
-[2014.12.05-20.48.03:839][215]BlueprintEditorCompileResults:Warning: Warning [1550.83] Compile of mouse_pickup failed. 1 Fatal Issue(s) 0 Warning(s) [in 9 ms]
-[2014.12.05-20.48.15:688][782]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.48.15:688][782]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.48.15:688][782]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.05-20.48.25:908][257]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.48.36:437][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.48.36:549][781]LogSavePackage: Save=94.156044ms
-[2014.12.05-20.48.36:549][781]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickup999B29FA4E66561969E0AA9D537EB1B2.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.48.38:067][846]BlueprintLog: New page: Compile mouse_pickup
-[2014.12.05-20.48.38:247][846]BlueprintEditorCompileResults: Info [1585.26] Compile of mouse_pickup successful! [in 15 ms]
-[2014.12.05-20.48.53:825][344]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.48.56:691][428]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.48.56:849][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2014.12.05-20.48.56:890][435]Cmd: MAP LOAD FILE="D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.05-20.48.56:891][435]LightingResults: New page: Lighting Build
-[2014.12.05-20.48.56:943][435]LoadErrors: New page: Loading map: LivingRoom.umap
-[2014.12.05-20.48.56:978][435]MapCheck: New page: Map Check
-[2014.12.05-20.48.56:978][435]LightingResults: New page: Lighting Build
-[2014.12.05-20.48.57:026][435]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000159CE660
-[2014.12.05-20.48.57:068][435]LogLinker:Error: Failed import: class 'TextProperty' name 'CurrentCollected' outer 'UpdateMiceCollection'. There is another object (of 'IntProperty' class) at the path.
-[2014.12.05-20.48.57:153][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
-[2014.12.05-20.48.57:153][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.05-20.48.57:154][435]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_M
-[2014.12.05-20.48.57:154][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
-[2014.12.05-20.48.57:154][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.05-20.48.57:154][435]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_N
-[2014.12.05-20.48.57:154][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
-[2014.12.05-20.48.57:154][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.05-20.48.57:155][435]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood
-[2014.12.05-20.48.57:155][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
-[2014.12.05-20.48.57:155][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.05-20.48.57:155][435]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood_S
-[2014.12.05-20.48.57:156][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
-[2014.12.05-20.48.57:156][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.05-20.48.57:156][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
-[2014.12.05-20.48.57:156][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.05-20.48.57:156][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
-[2014.12.05-20.48.57:157][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.05-20.48.57:157][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
-[2014.12.05-20.48.57:157][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.05-20.48.57:311][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.05-20.48.57:311][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
-[2014.12.05-20.48.57:311][435]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_CoffeeTable : Can't find file for asset. /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst
-[2014.12.05-20.48.57:312][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.05-20.48.57:312][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
-[2014.12.05-20.48.57:321][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
-[2014.12.05-20.48.57:321][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
-[2014.12.05-20.48.57:321][435]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Curtain : Can't find file for asset. /Game/ArchVis/Materials/M_Curtain_MAT_Inst
-[2014.12.05-20.48.57:321][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
-[2014.12.05-20.48.57:322][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
-[2014.12.05-20.48.57:331][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.05-20.48.57:332][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
-[2014.12.05-20.48.57:332][435]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FloorLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
-[2014.12.05-20.48.57:332][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.05-20.48.57:332][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
-[2014.12.05-20.48.57:341][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.05-20.48.57:342][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
-[2014.12.05-20.48.57:342][435]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Shelving : Can't find file for asset. /Game/ArchVis/Materials/M_Shelving_Inst
-[2014.12.05-20.48.57:342][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.05-20.48.57:342][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
-[2014.12.05-20.48.57:346][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
-[2014.12.05-20.48.57:346][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
-[2014.12.05-20.48.57:346][435]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_TV : Can't find file for asset. /Game/ArchVis/Materials/M_TV_Inst
-[2014.12.05-20.48.57:347][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
-[2014.12.05-20.48.57:347][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
-[2014.12.05-20.48.57:351][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
-[2014.12.05-20.48.57:352][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
-[2014.12.05-20.48.57:352][435]LoadErrors:Error: Error /Game/StarterContent/Mesh/Statue : Can't find file for asset. /Game/ArchVis/Materials/M_Statue_Inst
-[2014.12.05-20.48.57:352][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
-[2014.12.05-20.48.57:352][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading D:/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
-[2014.12.05-20.48.57:467][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
-[2014.12.05-20.48.57:468][435]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by M_Shelving
-[2014.12.05-20.48.57:468][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
-[2014.12.05-20.48.57:468][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
-[2014.12.05-20.48.57:468][435]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_Shelving
-[2014.12.05-20.48.57:469][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
-[2014.12.05-20.48.57:469][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
-[2014.12.05-20.48.57:469][435]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by M_Shelving
-[2014.12.05-20.48.57:469][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
-[2014.12.05-20.48.57:469][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
-[2014.12.05-20.48.57:469][435]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_Shelving
-[2014.12.05-20.48.57:470][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
-[2014.12.05-20.48.57:470][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
-[2014.12.05-20.48.57:470][435]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
-[2014.12.05-20.48.57:470][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
-[2014.12.05-20.48.57:470][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
-[2014.12.05-20.48.57:471][435]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
-[2014.12.05-20.48.57:471][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
-[2014.12.05-20.48.57:471][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
-[2014.12.05-20.48.57:471][435]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_4 Property /Script/Engine.MaterialExpressionTextureBase:Texture
-[2014.12.05-20.48.57:471][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
-[2014.12.05-20.48.57:472][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
-[2014.12.05-20.48.57:472][435]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_5 Property /Script/Engine.MaterialExpressionTextureBase:Texture
-[2014.12.05-20.48.57:472][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
-[2014.12.05-20.48.57:477][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.05-20.48.57:478][435]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst.M_CoffeTable_MAT_Inst Referenced by SM_CoffeeTable Property /Script/Engine.StaticMesh:Materials
-[2014.12.05-20.48.57:478][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading NULL.
-[2014.12.05-20.48.57:478][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
-[2014.12.05-20.48.57:478][435]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain Property /Script/Engine.StaticMesh:Materials
-[2014.12.05-20.48.57:479][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
-[2014.12.05-20.48.57:479][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.05-20.48.57:479][435]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp Property /Script/Engine.StaticMesh:Materials
-[2014.12.05-20.48.57:480][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
-[2014.12.05-20.48.57:480][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.05-20.48.57:480][435]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Shelving_Inst.M_Shelving_Inst Referenced by SM_Shelving Property /Script/Engine.StaticMesh:Materials
-[2014.12.05-20.48.57:481][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading NULL.
-[2014.12.05-20.48.57:481][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
-[2014.12.05-20.48.57:481][435]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_TV_Inst.M_TV_Inst Referenced by SM_TV Property /Script/Engine.StaticMesh:Materials
-[2014.12.05-20.48.57:482][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading NULL.
-[2014.12.05-20.48.57:482][435]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
-[2014.12.05-20.48.57:482][435]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Statue_Inst.M_Statue_Inst Referenced by Statue Property /Script/Engine.StaticMesh:Materials
-[2014.12.05-20.48.57:482][435]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading NULL.
-[2014.12.05-20.48.57:627][435]LogMaterial: Missing cached shader map for material M_Shelving, compiling.
-[2014.12.05-20.48.57:636][435]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Shelving.M_Shelving for platform PCD3D_SM5, Default Material will be used in game.
-[2014.12.05-20.48.57:636][435]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
-[2014.12.05-20.48.58:244][435]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
-[2014.12.05-20.48.58:262][435]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.05-20.48.58:263][435]LogAIModule: Creating AISystem for world LivingRoom
-[2014.12.05-20.48.58:304][435]Cmd: MAP CHECKDEP
-[2014.12.05-20.48.58:304][435]MapCheck: New page: LivingRoom - Dec 5, 2014, 4:48:58 AM
-[2014.12.05-20.48.58:565][435]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 260.379ms to complete.
-[2014.12.05-20.48.58:565][435]LogFileHelpers: Loading map 'LivingRoom' took 1.678
-[2014.12.05-20.49.02:255][567]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.05-20.49.02:255][567]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
-[2014.12.05-20.49.02:458][567]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
-[2014.12.05-20.49.02:675][567]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
-[2014.12.05-20.49.03:010][567]LogPlayLevel: PIE:  Blueprint regeneration took 755 ms (3 blueprints)
-[2014.12.05-20.49.03:012][567]PIE: New page: PIE session: LivingRoom (Dec 5, 2014, 4:49:03 AM)
-[2014.12.05-20.49.03:082][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070047s)
-[2014.12.05-20.49.03:083][567]LogPlayLevel: PIE: World Init took: (0.000619s)
-[2014.12.05-20.49.03:083][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.070959s)
-[2014.12.05-20.49.03:188][567]LogWorld: Game class is 'MyGame_C'
-[2014.12.05-20.49.03:217][567]LogAIModule: Creating AISystem for world LivingRoom
-[2014.12.05-20.49.03:229][567]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
-[2014.12.05-20.49.03:230][567]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2014.12.05-12.49.03
-[2014.12.05-20.49.03:250][567]LogWorld: Bringing up level for play took: 0.032627
-[2014.12.05-20.49.03:298][567]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 2.262
-[2014.12.05-20.49.41:599][614]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2014.12.05-20.49.41:711][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000345D94E0
-[2014.12.05-20.50.15:786][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.50.15:890][297]LogSavePackage: Save=92.473381ms
-[2014.12.05-20.50.15:890][297]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickup591073164850E5F68BC1B6805689C552.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.50.15:923][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.50.16:273][297]LogSavePackage: Save=339.771057ms
-[2014.12.05-20.50.16:273][297]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter8FBF887240D2CBA2D609FCABC909F2F5.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.50.29:713][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
-[2014.12.05-20.51.00:157][591]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.51.04:423][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.51.04:819][791]LogSavePackage: Save=379.866791ms
-[2014.12.05-20.51.04:819][791]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterA8941DD847EC728066FF00A82EEB6C63.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.51.05:659][845]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-20.51.05:998][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
-[2014.12.05-20.51.06:089][845]BlueprintEditorCompileResults: Info [1733.08] Compile of MyCharacter successful! [in 87 ms]
-[2014.12.05-20.52.34:394][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
-[2014.12.05-20.52.36:819][856]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-20.52.37:132][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D0142C0
-[2014.12.05-20.52.37:133][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002083B740
-[2014.12.05-20.52.37:213][856]BlueprintEditorCompileResults: Info [1824.18] Compile of MyCharacter successful! [in 105 ms]
-[2014.12.05-20.52.38:957][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.52.39:758][904]LogSavePackage: Save=787.447693ms
-[2014.12.05-20.52.39:758][904]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterAB2D55814AB3808770F812B22AEE8692.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.54.51:429][375]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
-[2014.12.05-20.55.25:457][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.55.25:493][ 91]LogSavePackage: Save=22.883799ms
-[2014.12.05-20.55.25:493][ 91]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickupFF18E1674F8238F97A2B7B985C496415.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.56.50:621][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.56.50:831][744]LogSavePackage: Save=190.827744ms
-[2014.12.05-20.56.50:832][744]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter49BA0F444999726BF4CDFCA85C820292.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.57.09:174][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.57.09:360][708]LogSavePackage: Save=164.145874ms
-[2014.12.05-20.57.09:360][708]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterAA702E744EF69FCC6D1F86B42E47892C.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.57.28:108][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.57.28:303][668]LogSavePackage: Save=170.309082ms
-[2014.12.05-20.57.28:303][668]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterD4A297AD4D84565F1007D1823D482724.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.58.10:243][ 90]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.58.36:600][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
-[2014.12.05-20.58.36:808][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.58.37:162][692]LogSavePackage: Save=317.958435ms
-[2014.12.05-20.58.37:162][692]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterC04F051643A398C99469CCA3BF173937.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.58.37:174][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mice+Player" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset" SILENT=true
-[2014.12.05-20.58.37:214][692]LogSavePackage: Save=21.936205ms
-[2014.12.05-20.58.37:214][692]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mice+Player513C58B54C818D7ABC3F5599F89E7693.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset'
-[2014.12.05-20.58.37:532][711]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.58.37:649][719]BlueprintLog: New page: Compile Mice+Player
-[2014.12.05-20.58.38:149][719]BlueprintEditorCompileResults: Info [2184.78] Compile of Mice+Player successful! [in 1 ms]
-[2014.12.05-20.58.42:051][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LivingRoom" FILE="D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.05-20.58.42:729][898]LogSavePackage: Save=604.398254ms
-[2014.12.05-20.58.42:729][898]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/LivingRoomA0EF57DD4278C26725FD1A9D03F384F5.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
-[2014.12.05-20.58.42:767][898]LogFileHelpers: Saving map 'LivingRoom' took 1.080
-[2014.12.05-20.58.42:795][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-20.58.42:905][898]LogSavePackage: Save=98.212402ms
-[2014.12.05-20.58.42:905][898]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickup81C57B224AB4879E18F4B5932D6FD39A.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-20.58.42:966][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.58.43:727][898]LogSavePackage: Save=726.200867ms
-[2014.12.05-20.58.43:727][898]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterA72330D44B3A1987B6813C840B6779F9.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-20.59.21:075][780]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
-[2014.12.05-20.59.22:621][848]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.59.29:232][158]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.59.29:293][158]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.59.29:452][158]LogWindowsTextInputMethodSystem:Error: Activating a context failed while setting focus on a TSF document manager.
-[2014.12.05-20.59.38:355][601]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-20.59.40:594][713]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-20.59.41:059][713]BlueprintEditorCompileResults: Info [2248.00] Compile of MyCharacter successful! [in 82 ms]
-[2014.12.05-20.59.43:208][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-20.59.43:644][813]LogSavePackage: Save=426.099213ms
-[2014.12.05-20.59.43:644][813]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter4B17BBFE4A2B0FD016E09F8166746F7C.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-21.00.00:949][688]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.01.15:547][351]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.02.13:575][291]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.02.37:085][469]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.02.44:881][820]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.03.09:594][ 61]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.04.10:761][ 32]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.04.14:816][214]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.05.36:993][281]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.05.40:987][470]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.05.54:324][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
-[2014.12.05-21.05.54:454][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-21.05.54:813][142]LogSavePackage: Save=346.317841ms
-[2014.12.05-21.05.54:813][142]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter3DB622394CCDD96E5108338277D4520C.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-21.07.13:091][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
-[2014.12.05-21.07.14:497][233]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-21.07.15:360][233]BlueprintEditorCompileResults: Info [2701.91] Compile of MyCharacter successful! [in 152 ms]
-[2014.12.05-21.07.31:849][201]BlueprintLog: New page: Compile mouse_pickup
-[2014.12.05-21.07.32:052][201]BlueprintEditorCompileResults: Info [2718.98] Compile of mouse_pickup successful! [in 10 ms]
-[2014.12.05-21.07.56:837][452]BlueprintLog: New page: Compile Mice+Player
-[2014.12.05-21.07.56:981][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
-[2014.12.05-21.07.57:289][452]BlueprintEditorCompileResults: Info [2743.94] Compile of Mice+Player successful! [in 1 ms]
-[2014.12.05-21.08.09:240][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LivingRoom" FILE="D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.05-21.08.09:701][ 38]LogSavePackage: Save=410.432678ms
-[2014.12.05-21.08.09:701][ 38]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/LivingRoom23182EBE42709DF8CE0C10BE68CA36B3.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
-[2014.12.05-21.08.09:723][ 38]LogFileHelpers: Saving map 'LivingRoom' took 0.706
-[2014.12.05-21.08.09:753][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mouse_pickup" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset" SILENT=true
-[2014.12.05-21.08.09:886][ 38]LogSavePackage: Save=115.843811ms
-[2014.12.05-21.08.09:886][ 38]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/mouse_pickup4960E5504E287A1E4D219D8F7EBE3BD9.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/mouse_pickup.uasset'
-[2014.12.05-21.08.09:930][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-21.08.10:314][ 38]LogSavePackage: Save=367.875183ms
-[2014.12.05-21.08.10:314][ 38]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter272C05D54AA76E683AEBFEB7030085A8.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-21.08.10:324][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mice+Player" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset" SILENT=true
-[2014.12.05-21.08.10:354][ 38]LogSavePackage: Save=16.386621ms
-[2014.12.05-21.08.10:354][ 38]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mice+Player320B76C7476A77B390D9ABA203A8FEFE.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Mice+Player.uasset'
-[2014.12.05-21.08.10:860][ 70]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-21.08.11:216][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
-[2014.12.05-21.08.11:306][ 70]BlueprintEditorCompileResults: Info [2758.26] Compile of MyCharacter successful! [in 100 ms]
-[2014.12.05-21.09.29:215][190]BlueprintLog: New page: Compile mouse_pickup
-[2014.12.05-21.09.29:425][190]BlueprintEditorCompileResults: Info [2836.35] Compile of mouse_pickup successful! [in 11 ms]
-[2014.12.05-21.09.30:952][238]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
-[2014.12.05-21.09.31:233][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LivingRoom" FILE="D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.05-21.09.31:705][238]LogSavePackage: Save=419.645203ms
-[2014.12.05-21.09.31:705][238]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/LivingRoom6226511847232C977B9526931A444A41.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
-[2014.12.05-21.09.31:726][238]LogFileHelpers: Saving map 'LivingRoom' took 0.711
-[2014.12.05-21.11.08:387][158]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.12.14:074][503]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.12.39:290][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-21.12.39:688][690]LogSavePackage: Save=383.286865ms
-[2014.12.05-21.12.39:688][690]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter6E0795524228034968321FA59DEAAB4D.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-21.14.25:213][748]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.16.42:567][ 18]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.16.55:999][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
-[2014.12.05-21.17.02:714][ 94]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.17.02:768][ 94]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.17.13:307][714]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.17.17:628][928]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.17.17:639][928]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.17.18:355][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-21.17.18:746][956]LogSavePackage: Save=376.818329ms
-[2014.12.05-21.17.18:746][956]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterE1631CE04A884766F02EFA8A82928317.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-21.17.19:514][  4]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-21.17.19:800][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
-[2014.12.05-21.17.19:893][  4]BlueprintEditorCompileResults: Info [3306.82] Compile of MyCharacter successful! [in 96 ms]
-[2014.12.05-21.17.29:646][551]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.17.55:347][692]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.18.17:742][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
-[2014.12.05-21.18.22:233][674]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.18.42:216][401]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.18.56:012][ 54]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.19.12:682][926]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.19.13:684][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-21.19.14:071][967]LogSavePackage: Save=373.894287ms
-[2014.12.05-21.19.14:071][967]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter75A3691B49C4B9811E9BFCA9680F6E8B.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-21.19.15:227][ 37]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-21.19.15:569][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
-[2014.12.05-21.19.15:679][ 37]BlueprintEditorCompileResults: Info [3422.58] Compile of MyCharacter successful! [in 97 ms]
-[2014.12.05-21.19.21:214][293]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.05-21.19.21:214][293]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
-[2014.12.05-21.19.21:389][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
-[2014.12.05-21.19.21:452][293]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
-[2014.12.05-21.19.21:778][293]LogPlayLevel: PIE:  Blueprint regeneration took 563 ms (2 blueprints)
-[2014.12.05-21.19.21:778][293]PIE: New page: PIE session: LivingRoom (Dec 5, 2014, 5:19:21 AM)
-[2014.12.05-21.19.21:870][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092180s)
-[2014.12.05-21.19.21:871][293]LogPlayLevel: PIE: World Init took: (0.000699s)
-[2014.12.05-21.19.21:871][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.093130s)
-[2014.12.05-21.19.21:902][293]LogWorld: Game class is 'MyGame_C'
-[2014.12.05-21.19.21:903][293]LogAIModule: Creating AISystem for world LivingRoom
-[2014.12.05-21.19.21:914][293]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
-[2014.12.05-21.19.21:915][293]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2014.12.05-13.19.21
-[2014.12.05-21.19.21:916][293]LogWorld: Bringing up level for play took: 0.013111
-[2014.12.05-21.19.21:920][293]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 0.794
-[2014.12.05-21.19.23:038][308]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
-[2014.12.05-21.19.23:104][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F422020
-[2014.12.05-21.19.37:735][691]LogEditorViewport: Clicking on Actor (LMB): mouse_pickup_C (mouse_pickup_8)
-[2014.12.05-21.19.39:778][758]Cmd: DUPLICATE
-[2014.12.05-21.19.39:778][758]Cmd: ACTOR DUPLICATE
-[2014.12.05-21.19.46:410][937]Cmd: DUPLICATE
-[2014.12.05-21.19.46:410][937]Cmd: ACTOR DUPLICATE
-[2014.12.05-21.20.08:390][526]Cmd: DUPLICATE
-[2014.12.05-21.20.08:390][526]Cmd: ACTOR DUPLICATE
-[2014.12.05-21.20.35:332][293]Cmd: DUPLICATE
-[2014.12.05-21.20.35:332][293]Cmd: ACTOR DUPLICATE
-[2014.12.05-21.20.39:931][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LivingRoom" FILE="D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.05-21.20.40:411][409]LogSavePackage: Save=424.723999ms
-[2014.12.05-21.20.40:411][409]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/LivingRoom7BC9B3394D98FBCAA0B732858CABFB45.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
-[2014.12.05-21.20.40:437][409]LogFileHelpers: Saving map 'LivingRoom' took 0.771
-[2014.12.05-21.20.41:423][436]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.05-21.20.41:423][436]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
-[2014.12.05-21.20.41:605][436]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
-[2014.12.05-21.20.41:945][436]LogPlayLevel: PIE:  Blueprint regeneration took 521 ms (2 blueprints)
-[2014.12.05-21.20.41:945][436]PIE: New page: PIE session: LivingRoom (Dec 5, 2014, 5:20:41 AM)
-[2014.12.05-21.20.42:008][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062732s)
-[2014.12.05-21.20.42:009][436]LogPlayLevel: PIE: World Init took: (0.000571s)
-[2014.12.05-21.20.42:009][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.063547s)
-[2014.12.05-21.20.42:038][436]LogWorld: Game class is 'MyGame_C'
-[2014.12.05-21.20.42:039][436]LogAIModule: Creating AISystem for world LivingRoom
-[2014.12.05-21.20.42:053][436]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
-[2014.12.05-21.20.42:054][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2014.12.05-13.20.42
-[2014.12.05-21.20.42:055][436]LogWorld: Bringing up level for play took: 0.016340
-[2014.12.05-21.20.42:059][436]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 0.929
-[2014.12.05-21.21.19:078][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
-[2014.12.05-21.21.19:124][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040ED8F40
-[2014.12.05-21.21.19:306][403]Cmd: SELECT NONE
-[2014.12.05-21.21.52:575][ 31]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.21.56:205][226]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.22.01:912][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-21.22.02:293][502]LogSavePackage: Save=366.839508ms
-[2014.12.05-21.22.02:293][502]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter9470C6E34AD6566AF78B488F3EBAB287.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-21.22.03:591][561]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-21.22.04:275][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
-[2014.12.05-21.22.04:399][561]BlueprintEditorCompileResults: Info [3591.15] Compile of MyCharacter successful! [in 318 ms]
-[2014.12.05-21.22.09:885][813]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.12.05-21.22.09:885][813]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
-[2014.12.05-21.22.10:251][813]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
-[2014.12.05-21.22.10:454][813]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
-[2014.12.05-21.22.10:843][813]LogPlayLevel: PIE:  Blueprint regeneration took 958 ms (2 blueprints)
-[2014.12.05-21.22.10:843][813]PIE: New page: PIE session: LivingRoom (Dec 5, 2014, 5:22:10 AM)
-[2014.12.05-21.22.10:908][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064268s)
-[2014.12.05-21.22.10:908][813]LogPlayLevel: PIE: World Init took: (0.000608s)
-[2014.12.05-21.22.10:909][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.065128s)
-[2014.12.05-21.22.10:938][813]LogWorld: Game class is 'MyGame_C'
-[2014.12.05-21.22.10:939][813]LogAIModule: Creating AISystem for world LivingRoom
-[2014.12.05-21.22.10:950][813]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
-[2014.12.05-21.22.10:951][813]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2014.12.05-13.22.10
-[2014.12.05-21.22.10:952][813]LogWorld: Bringing up level for play took: 0.013239
-[2014.12.05-21.22.10:959][813]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 1.824
-[2014.12.05-21.22.17:238][965]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:279][966]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:315][967]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:350][968]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:386][969]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:423][970]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:466][971]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:513][972]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:561][973]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:605][974]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:654][975]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:703][976]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:754][977]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:798][978]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:848][979]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:894][980]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:937][981]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.17:975][982]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:012][983]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:047][984]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:084][985]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:120][986]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:161][987]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:201][988]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:243][989]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:281][990]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:319][991]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:354][992]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:391][993]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:431][994]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:467][995]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:504][996]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:540][997]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:574][998]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:609][999]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:646][  0]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:682][  1]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:718][  2]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:754][  3]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:792][  4]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:829][  5]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:864][  6]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:900][  7]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:937][  8]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.18:975][  9]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:012][ 10]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:047][ 11]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:084][ 12]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:119][ 13]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:158][ 14]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:197][ 15]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:231][ 16]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:269][ 17]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:303][ 18]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:340][ 19]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:389][ 20]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:433][ 21]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:477][ 22]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:520][ 23]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:564][ 24]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:612][ 25]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:661][ 26]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:715][ 27]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:765][ 28]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:819][ 29]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:867][ 30]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:910][ 31]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:952][ 32]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.19:995][ 33]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:050][ 34]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:096][ 35]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:153][ 36]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:204][ 37]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:252][ 38]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:294][ 39]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:326][ 40]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:361][ 41]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:398][ 42]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:436][ 43]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:471][ 44]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:512][ 45]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:548][ 46]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:585][ 47]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:619][ 48]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:659][ 49]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:695][ 50]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:732][ 51]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:769][ 52]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:804][ 53]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:839][ 54]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:876][ 55]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:911][ 56]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:949][ 57]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.20:982][ 58]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:020][ 59]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:059][ 60]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:098][ 61]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:136][ 62]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:173][ 63]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:212][ 64]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:254][ 65]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:289][ 66]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:325][ 67]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:360][ 68]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:397][ 69]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:433][ 70]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:470][ 71]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:504][ 72]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:543][ 73]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:584][ 74]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:629][ 75]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:670][ 76]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:712][ 77]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:754][ 78]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:800][ 79]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:841][ 80]LogBlueprintUserMessages: Level Complete!
-[2014.12.05-21.22.21:948][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
-[2014.12.05-21.22.21:986][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020F6B4C0
-[2014.12.05-21.22.27:926][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
-[2014.12.05-21.23.33:425][473]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.23.44:809][ 67]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
-[2014.12.05-21.23.47:998][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.05-21.23.48:385][232]LogSavePackage: Save=371.325195ms
-[2014.12.05-21.23.48:385][232]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterB4A3BFCF49DF9957483AF3B03748EE50.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.05-21.23.49:847][319]BlueprintLog: New page: Compile MyCharacter
-[2014.12.05-21.23.50:176][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
-[2014.12.05-21.23.50:286][319]BlueprintEditorCompileResults: Info [3697.18] Compile of MyCharacter successful! [in 89 ms]
-[2014.12.05-21.24.09:517][954]LogEditorViewport: Clicking on Actor (LMB): mouse_pickup_C (mouse_pickup_2)
-[2014.12.05-21.24.10:794][995]Cmd: DELETE
-[2014.12.05-21.24.10:794][995]Cmd: ACTOR DELETE
-[2014.12.05-21.24.10:815][995]LogEditorActor: Deleted Actor: mouse_pickup_C
-[2014.12.05-21.24.10:816][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
-[2014.12.05-21.24.10:858][995]LogEditorActor: Deleted 1 Actors (0.064 secs)
-[2014.12.05-21.24.12:103][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LivingRoom" FILE="D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.05-21.24.12:615][ 34]LogSavePackage: Save=464.461792ms
-[2014.12.05-21.24.12:615][ 34]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/LivingRoom5D1D78C14B61176D9B1E50890AD0CB31.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
-[2014.12.05-21.24.12:647][ 34]LogFileHelpers: Saving map 'LivingRoom' took 0.817
-[2014.12.05-21.24.28:664][330]LogEditorViewport: Clicking on Actor (LMB): mouse_pickup_C (mouse_pickup)
-[2014.12.05-21.24.29:757][367]Cmd: DELETE
-[2014.12.05-21.24.29:757][367]Cmd: ACTOR DELETE
-[2014.12.05-21.24.29:778][367]LogEditorActor: Deleted Actor: mouse_pickup_C
-[2014.12.05-21.24.29:820][367]LogEditorActor: Deleted 1 Actors (0.062 secs)
-[2014.12.05-21.24.32:170][457]Cmd: SELECT NONE
-[2014.12.05-21.24.33:703][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LivingRoom" FILE="D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.12.05-21.24.34:349][497]LogSavePackage: Save=590.852722ms
-[2014.12.05-21.24.34:349][497]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/LivingRoom8E81993E4C5A1168902F7CA4C1A5DACF.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
-[2014.12.05-21.24.34:421][497]LogFileHelpers: Saving map 'LivingRoom' took 1.008
-[2014.12.05-21.24.36:174][530]Cmd: QUIT_EDITOR
-[2014.12.05-21.24.36:693][530]LogExit: Preparing to exit.
-[2014.12.05-21.24.37:474][530]LogExit: Editor shut down
-[2014.12.05-21.24.37:475][530]LogExit: Transaction tracking system shut down
-[2014.12.05-21.24.37:478][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E8AE8E0
-[2014.12.05-21.24.37:479][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011100A40
-[2014.12.05-21.24.37:481][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029C3FB00
-[2014.12.05-21.24.37:481][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025FA6A20
-[2014.12.05-21.24.37:484][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B539D00
-[2014.12.05-21.24.37:660][530]LogExit: Object subsystem successfully closed.
-[2014.12.05-21.24.37:861][530]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
-[2014.12.05-21.24.37:861][530]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
-[2014.12.05-21.24.37:861][530]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
-[2014.12.05-21.24.37:861][530]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
-[2014.12.05-21.24.37:861][530]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
-[2014.12.05-21.24.37:861][530]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
-[2014.12.05-21.24.37:862][530]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
-[2014.12.05-21.24.37:863][530]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
-[2014.12.05-21.24.37:864][530]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
-[2014.12.05-21.24.37:867][530]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
-[2014.12.05-21.24.37:867][530]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
-[2014.12.05-21.24.37:867][530]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
-[2014.12.05-21.24.37:868][530]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
-[2014.12.05-21.24.37:868][530]LogModuleManager: Shutting down and abandoning module BspMode (153)
-[2014.12.05-21.24.37:868][530]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
-[2014.12.05-21.24.37:868][530]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
-[2014.12.05-21.24.37:868][530]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
-[2014.12.05-21.24.37:868][530]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
-[2014.12.05-21.24.37:869][530]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
-[2014.12.05-21.24.37:872][530]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
-[2014.12.05-21.24.37:872][530]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
-[2014.12.05-21.24.37:872][530]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
-[2014.12.05-21.24.37:875][530]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
-[2014.12.05-21.24.37:876][530]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
-[2014.12.05-21.24.37:876][530]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
-[2014.12.05-21.24.37:878][530]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
-[2014.12.05-21.24.37:878][530]LogModuleManager: Shutting down and abandoning module XmlParser (140)
-[2014.12.05-21.24.37:878][530]LogModuleManager: Shutting down and abandoning module Blutility (139)
-[2014.12.05-21.24.37:879][530]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
-[2014.12.05-21.24.37:879][530]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
-[2014.12.05-21.24.37:879][530]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
-[2014.12.05-21.24.37:879][530]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
-[2014.12.05-21.24.37:879][530]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
-[2014.12.05-21.24.37:879][530]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
-[2014.12.05-21.24.37:879][530]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
-[2014.12.05-21.24.37:881][530]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
-[2014.12.05-21.24.37:881][530]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
-[2014.12.05-21.24.37:882][530]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
-[2014.12.05-21.24.37:883][530]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
-[2014.12.05-21.24.37:883][530]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
-[2014.12.05-21.24.37:885][530]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
-[2014.12.05-21.24.37:885][530]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
-[2014.12.05-21.24.37:886][530]LogModuleManager: Shutting down and abandoning module AutomationController (124)
-[2014.12.05-21.24.37:887][530]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
-[2014.12.05-21.24.37:887][530]LogModuleManager: Shutting down and abandoning module Layers (122)
-[2014.12.05-21.24.37:891][530]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
-[2014.12.05-21.24.37:891][530]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
-[2014.12.05-21.24.37:892][530]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
-[2014.12.05-21.24.37:893][530]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
-[2014.12.05-21.24.37:998][530]LogModuleManager: Shutting down and abandoning module Persona (117)
-[2014.12.05-21.24.38:000][530]LogModuleManager: Shutting down and abandoning module Kismet (116)
-[2014.12.05-21.24.38:001][530]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
-[2014.12.05-21.24.38:001][530]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
-[2014.12.05-21.24.38:001][530]LogModuleManager: Shutting down and abandoning module Toolbox (113)
-[2014.12.05-21.24.38:001][530]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
-[2014.12.05-21.24.38:002][530]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
-[2014.12.05-21.24.38:006][530]LogModuleManager: Shutting down and abandoning module OutputLog (110)
-[2014.12.05-21.24.38:006][530]LogModuleManager: Shutting down and abandoning module GammaUI (109)
-[2014.12.05-21.24.38:007][530]LogModuleManager: Shutting down and abandoning module Documentation (108)
-[2014.12.05-21.24.38:007][530]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
-[2014.12.05-21.24.38:008][530]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
-[2014.12.05-21.24.38:008][530]LogModuleManager: Shutting down and abandoning module HTTP (105)
-[2014.12.05-21.24.38:008][530]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.12.05-21.24.38:008][530]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.12.05-21.24.38:008][530]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
-[2014.12.05-21.24.38:009][530]LogModuleManager: Shutting down and abandoning module AIModule (101)
-[2014.12.05-21.24.38:010][530]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
-[2014.12.05-21.24.38:166][530]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
-[2014.12.05-21.24.38:168][530]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
-[2014.12.05-21.24.38:168][530]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
-[2014.12.05-21.24.38:168][530]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
-[2014.12.05-21.24.38:168][530]LogModuleManager: Shutting down and abandoning module CableComponent (95)
-[2014.12.05-21.24.38:168][530]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
-[2014.12.05-21.24.38:171][530]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
-[2014.12.05-21.24.38:173][530]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
-[2014.12.05-21.24.38:173][530]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
-[2014.12.05-21.24.38:174][530]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
-[2014.12.05-21.24.38:174][530]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
-[2014.12.05-21.24.38:176][530]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
-[2014.12.05-21.24.38:176][530]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
-[2014.12.05-21.24.38:176][530]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
-[2014.12.05-21.24.38:178][530]LogModuleManager: Shutting down and abandoning module SourceControl (85)
-[2014.12.05-21.24.38:178][530]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
-[2014.12.05-21.24.38:180][530]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
-[2014.12.05-21.24.38:180][530]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
-[2014.12.05-21.24.38:181][530]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
-[2014.12.05-21.24.38:182][530]LogModuleManager: Shutting down and abandoning module HotReload (80)
-[2014.12.05-21.24.38:182][530]LogModuleManager: Shutting down and abandoning module MainFrame (79)
-[2014.12.05-21.24.38:182][530]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
-[2014.12.05-21.24.38:183][530]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
-[2014.12.05-21.24.38:183][530]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
-[2014.12.05-21.24.38:183][530]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
-[2014.12.05-21.24.38:183][530]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
-[2014.12.05-21.24.38:184][530]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
-[2014.12.05-21.24.38:184][530]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
-[2014.12.05-21.24.38:184][530]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
-[2014.12.05-21.24.38:188][530]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
-[2014.12.05-21.24.38:189][530]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
-[2014.12.05-21.24.38:289][530]LogModuleManager: Shutting down and abandoning module Paper2D (68)
-[2014.12.05-21.24.38:290][530]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
-[2014.12.05-21.24.38:294][530]LogModuleManager: Shutting down and abandoning module Media (66)
-[2014.12.05-21.24.38:294][530]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
-[2014.12.05-21.24.38:298][530]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
-[2014.12.05-21.24.38:298][530]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
-[2014.12.05-21.24.38:298][530]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
-[2014.12.05-21.24.38:300][530]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
-[2014.12.05-21.24.38:300][530]LogModuleManager: Shutting down and abandoning module MessageLog (60)
-[2014.12.05-21.24.38:300][530]LogModuleManager: Shutting down and abandoning module Sequencer (59)
-[2014.12.05-21.24.38:303][530]LogModuleManager: Shutting down and abandoning module AssetTools (58)
-[2014.12.05-21.24.38:307][530]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
-[2014.12.05-21.24.38:309][530]LogModuleManager: Shutting down and abandoning module UMG (56)
-[2014.12.05-21.24.38:309][530]LogModuleManager: Shutting down and abandoning module Slate (55)
-[2014.12.05-21.24.38:309][530]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module SessionServices (53)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module Networking (48)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module Core (47)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
-[2014.12.05-21.24.38:312][530]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
-[2014.12.05-21.24.38:314][530]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
-[2014.12.05-21.24.38:358][530]LogDerivedDataCache: Shutdown
-[2014.12.05-21.24.38:358][530]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
-[2014.12.05-21.24.38:359][530]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
-[2014.12.05-21.24.38:360][530]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
-[2014.12.05-21.24.38:361][530]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
-[2014.12.05-21.24.38:361][530]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
-[2014.12.05-21.24.38:362][530]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
-[2014.12.05-21.24.38:362][530]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
-[2014.12.05-21.24.38:363][530]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
-[2014.12.05-21.24.38:363][530]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module Messaging (32)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2014.12.05-21.24.38:364][530]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
-[2014.12.05-21.24.38:365][530]LogModuleManager: Shutting down and abandoning module OculusRift (14)
-[2014.12.05-21.24.38:366][530]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
-[2014.12.05-21.24.38:366][530]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
-[2014.12.05-21.24.38:368][530]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
-[2014.12.05-21.24.38:368][530]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2014.12.05-21.24.38:375][530]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2014.12.05-21.24.38:375][530]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2014.12.05-21.24.38:375][530]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.12.05-21.24.38:376][530]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.12.05-21.24.38:376][530]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.12.05-21.24.38:376][530]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.12.05-21.24.38:377][530]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.12.05-21.24.38:378][530]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.12.05-21.24.38:378][530]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.12.05-21.24.38:381][530]LogExit: Exiting.
-[2014.12.05-21.24.38:397][530]Log file closed, 12/05/14 13:24:38
+[2014.12.05-21.56.57:933][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.05-21.56.58:009][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.05-21.56.58:125][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.05-21.56.58:137][  0]LogInit: Object subsystem initialized
+[2014.12.05-21.56.58:141][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.05-21.56.58:141][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.05-21.56.58:141][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.05-21.56.58:141][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.05-21.56.58:141][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.05-21.56.58:141][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.05-21.56.58:152][  0]LogInit: Computer: ZEN-MATT
+[2014.12.05-21.56.58:152][  0]LogInit: User: Matt
+[2014.12.05-21.56.58:157][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.05-21.56.58:157][  0]LogInit: High frequency timer resolution =2.338554 MHz
+[2014.12.05-21.56.58:157][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.12.05-21.56.58:157][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.05-21.56.58:157][  0]LogMemory: Process Physical Memory: 65.39 MB used, 65.39 MB peak
+[2014.12.05-21.56.58:157][  0]LogMemory: Process Virtual Memory: 40.30 MB used, 40.30 MB peak
+[2014.12.05-21.56.58:157][  0]LogMemory: Physical Memory: 2475.82 MB used, 3981.98 MB total
+[2014.12.05-21.56.58:157][  0]LogMemory: Virtual Memory: 272.19 MB used, 8388608.00 MB total
+[2014.12.05-21.56.58:234][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.12.05-21.56.58:234][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.12.05-21.56.58:234][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.05-21.56.58:260][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.12.05-21.56.58:346][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.05-21.56.58:417][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.05-21.56.58:587][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.05-21.57.04:461][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.05-21.57.05:097][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.05-21.57.05:178][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.05-21.57.05:257][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.05-21.57.05:257][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.05-21.57.05:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.05-21.57.05:257][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.05-21.57.05:341][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.05-21.57.05:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.05-21.57.05:579][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.05-21.57.05:579][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.05-21.57.05:873][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.05-21.57.05:877][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.05-21.57.06:111][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.05-21.57.07:138][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.05-21.57.07:384][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.12.05-21.57.07:602][  0]SourceControl: Info Source control is disabled
+[2014.12.05-21.57.07:602][  0]SourceControl: Info Source control is disabled
+[2014.12.05-21.57.07:619][  0]SourceControl: Info Source control is disabled
+[2014.12.05-21.57.07:853][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.05-21.57.07:853][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.12.05-21.57.07:929][  0]LogEngine: Initializing Engine...
+[2014.12.05-21.57.08:102][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.05-21.57.08:151][  0]LogInit: FAudioDevice initialized.
+[2014.12.05-21.57.08:186][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.05-21.57.08:213][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.05-21.57.08:216][  0]LogInit: Texture streaming: Enabled
+[2014.12.05-21.57.08:296][  0]LogInit: Transaction tracking system initialized
+[2014.12.05-21.57.08:461][  0]BlueprintLog: New page: Editor Load
+[2014.12.05-21.57.08:504][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.12.05-21.57.08:504][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.05-21.57.09:286][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.05-21.57.09:767][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.05-21.57.10:128][  0]LogConsoleResponse:Display: 
+[2014.12.05-21.57.10:423][  0]SourceControl: Info Source control is disabled
+[2014.12.05-21.57.10:423][  0]Cmd: MAP LOAD FILE="D:/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.05-21.57.10:423][  0]LightingResults: New page: Lighting Build
+[2014.12.05-21.57.10:439][  0]MapCheck: New page: Map Check
+[2014.12.05-21.57.10:439][  0]LightingResults: New page: Lighting Build
+[2014.12.05-21.57.10:455][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C5367A0
+[2014.12.05-21.57.10:793][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.05-21.57.10:793][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-21.57.10:793][  0]Cmd: MAP CHECKDEP
+[2014.12.05-21.57.10:794][  0]MapCheck: New page: Example_Map - Dec 5, 2014, 5:57:10 AM
+[2014.12.05-21.57.10:929][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.359ms to complete.
+[2014.12.05-21.57.10:929][  0]LogFileHelpers: Loading map 'Example_Map' took 0.506
+[2014.12.05-21.57.11:040][  0]LogCollectionManager: Loaded 0 collections in 0.001291 seconds
+[2014.12.05-21.57.11:272][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.05-21.57.11:291][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.05-21.57.11:333][  0]LogLoad: Full Startup: 16.34 seconds (BP compile: 0.07 seconds)
+[2014.12.05-21.57.11:776][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.05-21.57.12:246][  0]LogRenderer:Warning: Reallocating scene render targets to support 976x872.
+[2014.12.05-21.57.15:330][  7]LogAssetRegistry: Asset discovery search completed in 6.8359 seconds
+[2014.12.05-21.58.04:343][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:343][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:360][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:360][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:361][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:361][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:361][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:361][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:361][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:361][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:361][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:362][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:362][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:362][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:362][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:362][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.04:362][479]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:044][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:045][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:045][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:045][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:045][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:046][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:046][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:046][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-21.58.36:046][332]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.00.23:836][326]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.00.32:336][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.00.32:697][621]LogSavePackage: Save=346.564148ms
+[2014.12.05-22.00.32:697][621]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterED8E68E7438E60E4936D4F9B135EF7B7.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.04.12:450][737]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.04.12:451][737]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.04.21:097][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.04.21:097][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.04.21:097][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.04.21:097][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.04.50:148][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.05-22.04.50:262][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.04.50:655][971]LogSavePackage: Save=380.822937ms
+[2014.12.05-22.04.50:655][971]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter058C16DB44818BCD6A55E48727F73916.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.05.25:172][176]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.05-22.05.25:269][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.05.25:457][176]LogSavePackage: Save=173.377228ms
+[2014.12.05-22.05.25:457][176]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterBD02431248B148040D44F2B58DEBB4BA.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.05.41:269][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.05.41:466][721]LogSavePackage: Save=180.146362ms
+[2014.12.05-22.05.41:466][721]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterBC3D007644B2BA1F4166D6A05E3A7266.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.05.59:713][239]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.05.59:713][239]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.05-22.07.12:971][375]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.026
+[2014.12.05-22.07.12:983][375]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.12.05-22.07.13:022][375]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.12.05-22.07.13:022][375]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.12.05-22.07.13:026][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.12.05-22.07.13:416][375]LogSavePackage: Save=369.572815ms
+[2014.12.05-22.07.13:416][375]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter_Auto12C98CF2E4FAF9061A85A78B5C7C609D3.tmp' to 'D:/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2014.12.05-22.07.13:425][375]LogFileHelpers: Auto-saving content packages took 0.454
+[2014.12.05-22.09.42:027][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.05-22.09.42:155][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.09.42:529][225]LogSavePackage: Save=361.488770ms
+[2014.12.05-22.09.42:529][225]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter07DDCD6441D804233B0E3EB4F2AA89CA.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.09.44:669][292]BlueprintLog: New page: Compile MyCharacter
+[2014.12.05-22.09.44:944][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.05-22.09.45:048][292]BlueprintEditorCompileResults: Info [0769.88] Compile of MyCharacter successful! [in 97 ms]
+[2014.12.05-22.09.48:972][470]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.05-22.09.48:972][470]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.05-22.09.49:033][470]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.05-22.09.49:159][470]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.05-22.09.49:211][470]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.05-22.09.49:521][470]LogPlayLevel: PIE:  Blueprint regeneration took 548 ms (3 blueprints)
+[2014.12.05-22.09.49:521][470]PIE: New page: PIE session: Example_Map (Dec 5, 2014, 6:09:49 AM)
+[2014.12.05-22.09.49:570][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048677s)
+[2014.12.05-22.09.49:574][470]LogPlayLevel: PIE: World Init took: (0.003616s)
+[2014.12.05-22.09.49:574][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.052546s)
+[2014.12.05-22.09.49:656][470]LogWorld: Game class is 'MyGame_C'
+[2014.12.05-22.09.49:658][470]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-22.09.49:659][470]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.05-14.09.49
+[2014.12.05-22.09.49:660][470]LogWorld: Bringing up level for play took: 0.001750
+[2014.12.05-22.09.49:663][470]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.388
+[2014.12.05-22.10.09:713][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.05-22.10.09:780][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003716B880
+[2014.12.05-22.10.24:807][566]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.05-22.10.24:972][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.05-22.10.24:972][566]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.05-22.10.25:260][566]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.05-22.10.25:399][566]LogPlayLevel: PIE:  Blueprint regeneration took 591 ms (2 blueprints)
+[2014.12.05-22.10.25:399][566]PIE: New page: PIE session: Example_Map (Dec 5, 2014, 6:10:25 AM)
+[2014.12.05-22.10.25:458][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059302s)
+[2014.12.05-22.10.25:460][566]LogPlayLevel: PIE: World Init took: (0.001903s)
+[2014.12.05-22.10.25:460][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.061436s)
+[2014.12.05-22.10.25:505][566]LogWorld: Game class is 'MyGame_C'
+[2014.12.05-22.10.25:506][566]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-22.10.25:507][566]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.05-14.10.25
+[2014.12.05-22.10.25:508][566]LogWorld: Bringing up level for play took: 0.001984
+[2014.12.05-22.10.25:511][566]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.234
+[2014.12.05-22.10.38:686][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.05-22.10.38:760][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003017C7C0
+[2014.12.05-22.10.46:151][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.10.46:519][203]LogSavePackage: Save=354.301849ms
+[2014.12.05-22.10.46:519][203]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter84DD854A40F8B4BE2ABCA19752B80DA5.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.10.48:129][257]BlueprintLog: New page: Compile MyCharacter
+[2014.12.05-22.10.48:395][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.05-22.10.48:498][257]BlueprintEditorCompileResults: Info [0833.32] Compile of MyCharacter successful! [in 86 ms]
+[2014.12.05-22.10.51:280][371]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.05-22.10.51:280][371]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.05-22.10.51:477][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.05-22.10.51:531][371]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.05-22.10.51:851][371]LogPlayLevel: PIE:  Blueprint regeneration took 571 ms (2 blueprints)
+[2014.12.05-22.10.51:851][371]PIE: New page: PIE session: Example_Map (Dec 5, 2014, 6:10:51 AM)
+[2014.12.05-22.10.51:896][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044286s)
+[2014.12.05-22.10.51:908][371]LogPlayLevel: PIE: World Init took: (0.012260s)
+[2014.12.05-22.10.51:909][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.056947s)
+[2014.12.05-22.10.51:942][371]LogWorld: Game class is 'MyGame_C'
+[2014.12.05-22.10.51:943][371]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-22.10.51:945][371]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.12.05-14.10.51
+[2014.12.05-22.10.51:946][371]LogWorld: Bringing up level for play took: 0.002010
+[2014.12.05-22.10.51:948][371]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.67
+[2014.12.05-22.11.06:237][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.05-22.11.06:335][750]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004978400
+[2014.12.05-22.11.08:333][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.11.08:718][816]LogSavePackage: Save=370.750458ms
+[2014.12.05-22.11.08:718][816]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter91C43B99419C3EB5EF7AF2A29A3BE928.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.11.11:394][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.05-22.11.23:647][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MaterialSphere)
+[2014.12.05-22.11.24:683][435]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.05-22.11.24:772][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.05-22.11.24:772][435]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.05-22.11.25:060][435]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.05-22.11.25:194][435]LogPlayLevel: PIE:  Blueprint regeneration took 511 ms (2 blueprints)
+[2014.12.05-22.11.25:194][435]PIE: New page: PIE session: Example_Map (Dec 5, 2014, 6:11:25 AM)
+[2014.12.05-22.11.25:240][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046135s)
+[2014.12.05-22.11.25:241][435]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2014.12.05-22.11.25:242][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047238s)
+[2014.12.05-22.11.25:296][435]LogWorld: Game class is 'MyGame_C'
+[2014.12.05-22.11.25:297][435]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-22.11.25:299][435]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.12.05-14.11.25
+[2014.12.05-22.11.25:299][435]LogWorld: Bringing up level for play took: 0.001541
+[2014.12.05-22.11.25:301][435]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.021
+[2014.12.05-22.11.33:354][693]LogActor:Warning: MaterialSphere_3 is outside the world bounds!
+[2014.12.05-22.11.35:197][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.05-22.11.35:242][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A12B2E0
+[2014.12.05-22.11.41:144][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.11.41:580][921]LogSavePackage: Save=412.619080ms
+[2014.12.05-22.11.41:580][921]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterC94EC1C541CA378607ABD28C3288DE08.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.11.45:781][ 69]BlueprintLog: New page: Compile MyCharacter
+[2014.12.05-22.11.46:074][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.05-22.11.46:175][ 69]BlueprintEditorCompileResults: Info [0891.00] Compile of MyCharacter successful! [in 95 ms]
+[2014.12.05-22.11.54:283][355]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.05-22.11.54:283][355]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.05-22.11.54:420][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.05-22.11.54:474][355]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.05-22.11.54:786][355]LogPlayLevel: PIE:  Blueprint regeneration took 503 ms (2 blueprints)
+[2014.12.05-22.11.54:787][355]PIE: New page: PIE session: Example_Map (Dec 5, 2014, 6:11:54 AM)
+[2014.12.05-22.11.54:842][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055544s)
+[2014.12.05-22.11.54:855][355]LogPlayLevel: PIE: World Init took: (0.012629s)
+[2014.12.05-22.11.54:855][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.068494s)
+[2014.12.05-22.11.54:890][355]LogWorld: Game class is 'MyGame_C'
+[2014.12.05-22.11.54:892][355]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-22.11.54:893][355]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.12.05-14.11.54
+[2014.12.05-22.11.54:894][355]LogWorld: Bringing up level for play took: 0.001756
+[2014.12.05-22.11.54:896][355]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.385
+[2014.12.05-22.12.16:785][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.12.05-22.12.16:851][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DBA63E0
+[2014.12.05-22.12.18:416][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.12.18:794][ 57]LogSavePackage: Save=364.789948ms
+[2014.12.05-22.12.18:794][ 57]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter4BEC855446DDF10FE637E68295997775.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.12.31:848][477]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.12.05-22.12.33:773][536]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.05-22.12.33:885][536]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.05-22.12.34:206][536]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.05-22.12.34:348][536]LogPlayLevel: PIE:  Blueprint regeneration took 575 ms (2 blueprints)
+[2014.12.05-22.12.34:349][536]PIE: New page: PIE session: Example_Map (Dec 5, 2014, 6:12:34 AM)
+[2014.12.05-22.12.34:417][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068413s)
+[2014.12.05-22.12.34:418][536]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2014.12.05-22.12.34:419][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.069819s)
+[2014.12.05-22.12.34:464][536]LogWorld: Game class is 'MyGame_C'
+[2014.12.05-22.12.34:465][536]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-22.12.34:467][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.12.05-14.12.34
+[2014.12.05-22.12.34:467][536]LogWorld: Bringing up level for play took: 0.001695
+[2014.12.05-22.12.34:472][536]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.188
+[2014.12.05-22.12.50:426][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A117380
+[2014.12.05-22.12.51:853][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.12.52:236][897]LogSavePackage: Save=362.987122ms
+[2014.12.05-22.12.52:236][897]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacterE26023C445914DDB35D29AA85641A44C.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.12.58:626][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.12.05-22.13.00:391][174]BlueprintLog: New page: Compile MyCharacter
+[2014.12.05-22.13.00:787][174]BlueprintEditorCompileResults: Info [0965.60] Compile of MyCharacter successful! [in 95 ms]
+[2014.12.05-22.13.04:813][318]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.05-22.13.04:813][318]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.05-22.13.04:946][318]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.12.05-22.13.04:998][318]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.05-22.13.05:318][318]LogPlayLevel: PIE:  Blueprint regeneration took 504 ms (2 blueprints)
+[2014.12.05-22.13.05:318][318]PIE: New page: PIE session: Example_Map (Dec 5, 2014, 6:13:05 AM)
+[2014.12.05-22.13.05:361][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043362s)
+[2014.12.05-22.13.05:375][318]LogPlayLevel: PIE: World Init took: (0.013429s)
+[2014.12.05-22.13.05:375][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.057113s)
+[2014.12.05-22.13.05:411][318]LogWorld: Game class is 'MyGame_C'
+[2014.12.05-22.13.05:412][318]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-22.13.05:413][318]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.12.05-14.13.05
+[2014.12.05-22.13.05:414][318]LogWorld: Bringing up level for play took: 0.001736
+[2014.12.05-22.13.05:416][318]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.132
+[2014.12.05-22.13.24:905][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.12.05-22.13.24:988][819]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045B2A340
+[2014.12.05-22.13.27:312][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.13.27:702][885]LogSavePackage: Save=373.367462ms
+[2014.12.05-22.13.27:702][885]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter200E841D4A5C72E5F7B039B706676CAA.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.13.35:709][129]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.12.05-22.13.35:815][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.13.36:188][129]LogSavePackage: Save=357.415314ms
+[2014.12.05-22.13.36:188][129]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter757DAAC14082E1339C0B838E8A142D48.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.13.37:313][167]BlueprintLog: New page: Compile MyCharacter
+[2014.12.05-22.13.37:589][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.12.05-22.13.37:691][167]BlueprintEditorCompileResults: Info [1002.51] Compile of MyCharacter successful! [in 85 ms]
+[2014.12.05-22.13.41:741][323]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.05-22.13.41:741][323]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.05-22.13.41:878][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.12.05-22.13.41:932][323]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.05-22.13.42:255][323]LogPlayLevel: PIE:  Blueprint regeneration took 513 ms (2 blueprints)
+[2014.12.05-22.13.42:255][323]PIE: New page: PIE session: Example_Map (Dec 5, 2014, 6:13:42 AM)
+[2014.12.05-22.13.42:298][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043461s)
+[2014.12.05-22.13.42:313][323]LogPlayLevel: PIE: World Init took: (0.014308s)
+[2014.12.05-22.13.42:313][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.058098s)
+[2014.12.05-22.13.42:347][323]LogWorld: Game class is 'MyGame_C'
+[2014.12.05-22.13.42:349][323]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.05-22.13.42:351][323]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.12.05-14.13.42
+[2014.12.05-22.13.42:352][323]LogWorld: Bringing up level for play took: 0.002371
+[2014.12.05-22.13.42:356][323]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.069
+[2014.12.05-22.14.05:588][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.12.05-22.14.05:639][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DF816C0
+[2014.12.05-22.14.40:578][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.05-22.14.40:947][  7]LogSavePackage: Save=354.953949ms
+[2014.12.05-22.14.40:947][  7]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/MyCharacter7871E08F4C515C7E298FA494669624F5.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.05-22.14.42:689][ 56]BlueprintLog: New page: Compile MyCharacter
+[2014.12.05-22.14.42:944][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.12.05-22.14.43:051][ 56]BlueprintEditorCompileResults: Info [1067.86] Compile of MyCharacter successful! [in 89 ms]
+[2014.12.05-22.14.46:286][109]Cmd: QUIT_EDITOR
+[2014.12.05-22.14.46:790][109]LogExit: Preparing to exit.
+[2014.12.05-22.14.47:643][109]LogExit: Editor shut down
+[2014.12.05-22.14.47:644][109]LogExit: Transaction tracking system shut down
+[2014.12.05-22.14.47:648][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015BDA660
+[2014.12.05-22.14.47:650][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028288180
+[2014.12.05-22.14.47:651][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000497AC00
+[2014.12.05-22.14.47:854][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004979580
+[2014.12.05-22.14.47:854][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FBB2700
+[2014.12.05-22.14.47:854][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FBB2A20
+[2014.12.05-22.14.47:854][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FBB2D40
+[2014.12.05-22.14.47:854][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FBB2E80
+[2014.12.05-22.14.47:854][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000186F9760
+[2014.12.05-22.14.47:854][109]LogExit: Object subsystem successfully closed.
+[2014.12.05-22.14.48:343][109]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.12.05-22.14.48:343][109]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.12.05-22.14.48:343][109]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.12.05-22.14.48:343][109]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.12.05-22.14.48:343][109]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.12.05-22.14.48:343][109]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.12.05-22.14.48:347][109]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.12.05-22.14.48:353][109]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.12.05-22.14.48:354][109]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.12.05-22.14.48:364][109]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.12.05-22.14.48:365][109]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.12.05-22.14.48:366][109]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.12.05-22.14.48:366][109]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.12.05-22.14.48:366][109]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.12.05-22.14.48:366][109]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.12.05-22.14.48:366][109]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.12.05-22.14.48:366][109]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.12.05-22.14.48:367][109]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.12.05-22.14.48:377][109]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.12.05-22.14.48:387][109]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.12.05-22.14.48:387][109]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.12.05-22.14.48:387][109]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.12.05-22.14.48:397][109]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.12.05-22.14.48:398][109]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.12.05-22.14.48:398][109]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.12.05-22.14.48:406][109]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.12.05-22.14.48:406][109]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.12.05-22.14.48:410][109]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.12.05-22.14.48:416][109]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.12.05-22.14.48:417][109]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.12.05-22.14.48:417][109]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.12.05-22.14.48:417][109]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.12.05-22.14.48:417][109]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.12.05-22.14.48:418][109]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.12.05-22.14.48:418][109]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.12.05-22.14.48:423][109]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.12.05-22.14.48:423][109]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.12.05-22.14.48:427][109]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.12.05-22.14.48:428][109]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.12.05-22.14.48:432][109]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.12.05-22.14.48:441][109]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.12.05-22.14.48:445][109]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.12.05-22.14.48:447][109]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.12.05-22.14.48:448][109]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.12.05-22.14.48:450][109]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.12.05-22.14.48:461][109]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.12.05-22.14.48:461][109]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.12.05-22.14.48:463][109]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.12.05-22.14.48:465][109]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.12.05-22.14.48:539][109]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.12.05-22.14.48:542][109]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.12.05-22.14.48:543][109]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.12.05-22.14.48:543][109]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.12.05-22.14.48:543][109]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.12.05-22.14.48:543][109]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.12.05-22.14.48:544][109]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.12.05-22.14.48:550][109]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.12.05-22.14.48:550][109]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.12.05-22.14.48:551][109]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.12.05-22.14.48:551][109]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.12.05-22.14.48:552][109]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.12.05-22.14.48:552][109]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.12.05-22.14.48:553][109]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.12.05-22.14.48:553][109]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.12.05-22.14.48:553][109]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.12.05-22.14.48:554][109]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.12.05-22.14.48:555][109]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.12.05-22.14.48:631][109]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.12.05-22.14.48:633][109]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.12.05-22.14.48:633][109]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.12.05-22.14.48:633][109]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.12.05-22.14.48:633][109]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.12.05-22.14.48:633][109]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.12.05-22.14.48:636][109]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.12.05-22.14.48:638][109]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.12.05-22.14.48:638][109]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.12.05-22.14.48:639][109]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.12.05-22.14.48:639][109]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.12.05-22.14.48:641][109]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.12.05-22.14.48:641][109]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.12.05-22.14.48:641][109]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.12.05-22.14.48:642][109]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.12.05-22.14.48:642][109]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.12.05-22.14.48:645][109]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.12.05-22.14.48:645][109]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.12.05-22.14.48:646][109]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.12.05-22.14.48:646][109]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.12.05-22.14.48:647][109]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.12.05-22.14.48:647][109]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.12.05-22.14.48:648][109]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.12.05-22.14.48:648][109]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.12.05-22.14.48:648][109]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.12.05-22.14.48:648][109]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.12.05-22.14.48:649][109]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.12.05-22.14.48:649][109]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.12.05-22.14.48:649][109]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.12.05-22.14.48:652][109]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.05-22.14.48:653][109]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.05-22.14.48:766][109]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.05-22.14.48:768][109]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.05-22.14.48:836][109]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.05-22.14.48:836][109]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.05-22.14.48:840][109]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.05-22.14.48:840][109]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.05-22.14.48:840][109]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.05-22.14.48:842][109]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.05-22.14.48:842][109]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.05-22.14.48:842][109]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.05-22.14.48:845][109]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.05-22.14.48:941][109]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.05-22.14.48:948][109]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.05-22.14.48:948][109]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.05-22.14.48:948][109]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.05-22.14.48:951][109]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.05-22.14.48:957][109]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.05-22.14.48:975][109]LogDerivedDataCache: Shutdown
+[2014.12.05-22.14.48:976][109]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.05-22.14.48:976][109]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.05-22.14.48:977][109]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.05-22.14.48:977][109]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.05-22.14.48:977][109]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.05-22.14.48:978][109]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.05-22.14.48:978][109]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.05-22.14.48:978][109]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.05-22.14.48:979][109]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.05-22.14.48:981][109]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.05-22.14.48:981][109]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.05-22.14.48:982][109]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.05-22.14.48:982][109]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.05-22.14.48:986][109]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.05-22.14.48:986][109]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.05-22.14.48:986][109]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.05-22.14.48:986][109]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.05-22.14.48:986][109]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.05-22.14.48:986][109]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.05-22.14.48:987][109]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.05-22.14.48:987][109]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.05-22.14.48:988][109]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.05-22.14.48:989][109]LogExit: Exiting.
+[2014.12.05-22.14.48:995][109]Log file closed, 12/05/14 14:14:48
