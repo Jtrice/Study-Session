@@ -1,0 +1,874 @@
+﻿Log file open, 12/07/14 23:39:27
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.08-07.39.27:512][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.08-07.39.27:540][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.08-07.39.27:559][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.08-07.39.27:569][  0]LogInit: Object subsystem initialized
+[2014.12.08-07.39.27:572][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.08-07.39.27:572][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.08-07.39.27:572][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.08-07.39.27:572][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.08-07.39.27:573][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.08-07.39.27:573][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.08-07.39.27:580][  0]LogInit: Computer: USER-PC
+[2014.12.08-07.39.27:580][  0]LogInit: User: User
+[2014.12.08-07.39.27:581][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.08-07.39.27:581][  0]LogInit: High frequency timer resolution =2.435947 MHz
+[2014.12.08-07.39.27:581][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx) Virtual=8192.0GB
+[2014.12.08-07.39.27:582][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.08-07.39.27:582][  0]LogMemory: Process Physical Memory: 63.48 MB used, 63.48 MB peak
+[2014.12.08-07.39.27:582][  0]LogMemory: Process Virtual Memory: 38.54 MB used, 38.54 MB peak
+[2014.12.08-07.39.27:582][  0]LogMemory: Physical Memory: 3400.80 MB used, 7969.14 MB total
+[2014.12.08-07.39.27:582][  0]LogMemory: Virtual Memory: 272.46 MB used, 8388608.00 MB total
+[2014.12.08-07.39.27:602][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.12.08-07.39.27:602][  0]LogD3D11RHI: Adapter has 192MB of dedicated video memory, 0MB of dedicated system memory, and 1568MB of shared system memory, 1 output[s]
+[2014.12.08-07.39.27:602][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.08-07.39.27:607][  0]LogRHI: Texture pool is 683 MB (70% of 976 MB)
+[2014.12.08-07.39.27:610][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.08-07.39.27:651][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.08-07.39.27:806][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.08-07.39.33:236][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.08-07.39.33:741][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.08-07.39.33:793][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.08-07.39.33:850][  0]LogDerivedDataCache: Loaded boot cache 0.06s 36MB C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.08-07.39.33:850][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.08-07.39.33:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.08-07.39.33:851][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.08-07.39.33:928][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.08-07.39.33:939][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.08-07.39.34:126][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.08-07.39.34:126][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.08-07.39.34:369][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-07.39.34:374][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.08-07.39.34:554][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.08-07.39.35:387][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.08-07.39.35:554][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.12.08-07.39.35:689][  0]SourceControl: Info Source control is disabled
+[2014.12.08-07.39.35:689][  0]SourceControl: Info Source control is disabled
+[2014.12.08-07.39.35:695][  0]SourceControl: Info Source control is disabled
+[2014.12.08-07.39.35:802][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.08-07.39.35:802][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.12.08-07.39.35:860][  0]LogEngine: Initializing Engine...
+[2014.12.08-07.39.35:999][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.08-07.39.36:036][  0]LogInit: FAudioDevice initialized.
+[2014.12.08-07.39.36:056][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.08-07.39.36:080][  0]LogDerivedDataCache: Saved boot cache 0.02s 36MB C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.08-07.39.36:086][  0]LogInit: Texture streaming: Enabled
+[2014.12.08-07.39.36:126][  0]LogInit: Transaction tracking system initialized
+[2014.12.08-07.39.36:219][  0]BlueprintLog: New page: Editor Load
+[2014.12.08-07.39.36:247][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2014.12.08-07.39.36:247][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.08-07.39.36:892][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.08-07.39.37:445][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.08-07.39.37:733][  0]LogConsoleResponse:Display: 
+[2014.12.08-07.39.38:004][  0]SourceControl: Info Source control is disabled
+[2014.12.08-07.39.38:004][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.08-07.39.38:005][  0]LightingResults: New page: Lighting Build
+[2014.12.08-07.39.38:018][  0]MapCheck: New page: Map Check
+[2014.12.08-07.39.38:018][  0]LightingResults: New page: Lighting Build
+[2014.12.08-07.39.38:041][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000128285E0
+[2014.12.08-07.39.38:450][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.08-07.39.38:450][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.08-07.39.38:451][  0]Cmd: MAP CHECKDEP
+[2014.12.08-07.39.38:451][  0]MapCheck: New page: Example_Map - Dec 7, 2014, 3:39:38 PM
+[2014.12.08-07.39.38:569][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.027ms to complete.
+[2014.12.08-07.39.38:569][  0]LogFileHelpers: Loading map 'Example_Map' took 0.565
+[2014.12.08-07.39.38:655][  0]LogCollectionManager: Loaded 0 collections in 0.001191 seconds
+[2014.12.08-07.39.38:817][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.08-07.39.38:857][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.08-07.39.38:898][  0]LogLoad: Full Startup: 13.70 seconds (BP compile: 0.10 seconds)
+[2014.12.08-07.39.39:246][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.08-07.39.39:465][  0]LogRenderer:Warning: Reallocating scene render targets to support 688x568.
+[2014.12.08-07.39.41:282][  5]LogAssetRegistry: Asset discovery search completed in 5.0453 seconds
+[2014.12.08-07.45.22:377][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.08-07.45.22:377][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.08-07.45.22:377][227]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_M
+[2014.12.08-07.45.22:378][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.08-07.45.22:378][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.08-07.45.22:378][227]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_N
+[2014.12.08-07.45.22:378][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.08-07.45.22:378][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.08-07.45.22:379][227]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood
+[2014.12.08-07.45.22:379][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.08-07.45.22:379][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.08-07.45.22:379][227]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood_S
+[2014.12.08-07.45.22:379][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.08-07.45.22:379][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.08-07.45.22:380][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.08-07.45.22:380][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.08-07.45.22:380][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.08-07.45.22:380][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.08-07.45.22:381][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.08-07.45.22:381][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.08-07.45.22:467][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.08-07.45.22:467][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
+[2014.12.08-07.45.22:467][227]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_CoffeeTable : Can't find file for asset. /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst
+[2014.12.08-07.45.22:467][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.08-07.45.22:467][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
+[2014.12.08-07.45.22:473][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.08-07.45.22:473][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.12.08-07.45.22:473][227]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Curtain : Can't find file for asset. /Game/ArchVis/Materials/M_Curtain_MAT_Inst
+[2014.12.08-07.45.22:473][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.08-07.45.22:473][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.12.08-07.45.22:479][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.08-07.45.22:479][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.12.08-07.45.22:479][227]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FloorLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
+[2014.12.08-07.45.22:479][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.08-07.45.22:480][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.12.08-07.45.22:485][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.08-07.45.22:485][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
+[2014.12.08-07.45.22:485][227]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Shelving : Can't find file for asset. /Game/ArchVis/Materials/M_Shelving_Inst
+[2014.12.08-07.45.22:486][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.08-07.45.22:486][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
+[2014.12.08-07.45.22:489][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.08-07.45.22:489][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
+[2014.12.08-07.45.22:489][227]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_TV : Can't find file for asset. /Game/ArchVis/Materials/M_TV_Inst
+[2014.12.08-07.45.22:489][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.08-07.45.22:489][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
+[2014.12.08-07.45.22:492][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.08-07.45.22:492][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
+[2014.12.08-07.45.22:492][227]LoadErrors:Error: Error /Game/StarterContent/Mesh/Statue : Can't find file for asset. /Game/ArchVis/Materials/M_Statue_Inst
+[2014.12.08-07.45.22:493][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.08-07.45.22:493][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
+[2014.12.08-07.45.22:574][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.08-07.45.22:575][227]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by M_Shelving
+[2014.12.08-07.45.22:575][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.08-07.45.22:575][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.08-07.45.22:575][227]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_Shelving
+[2014.12.08-07.45.22:576][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.08-07.45.22:576][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.08-07.45.22:576][227]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by M_Shelving
+[2014.12.08-07.45.22:577][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.08-07.45.22:577][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.08-07.45.22:577][227]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_Shelving
+[2014.12.08-07.45.22:578][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.08-07.45.22:578][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.08-07.45.22:578][227]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.45.22:579][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.08-07.45.22:579][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.08-07.45.22:579][227]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.45.22:580][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.08-07.45.22:580][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.08-07.45.22:580][227]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_4 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.45.22:580][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.08-07.45.22:581][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.08-07.45.22:581][227]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_5 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.45.22:581][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.08-07.45.22:591][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.08-07.45.22:592][227]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst.M_CoffeTable_MAT_Inst Referenced by SM_CoffeeTable Property /Script/Engine.StaticMesh:Materials
+[2014.12.08-07.45.22:592][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading NULL.
+[2014.12.08-07.45.22:592][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.08-07.45.22:592][227]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain Property /Script/Engine.StaticMesh:Materials
+[2014.12.08-07.45.22:593][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
+[2014.12.08-07.45.22:593][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.08-07.45.22:593][227]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp Property /Script/Engine.StaticMesh:Materials
+[2014.12.08-07.45.22:593][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
+[2014.12.08-07.45.22:594][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.08-07.45.22:594][227]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Shelving_Inst.M_Shelving_Inst Referenced by SM_Shelving Property /Script/Engine.StaticMesh:Materials
+[2014.12.08-07.45.22:594][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading NULL.
+[2014.12.08-07.45.22:595][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.08-07.45.22:595][227]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_TV_Inst.M_TV_Inst Referenced by SM_TV Property /Script/Engine.StaticMesh:Materials
+[2014.12.08-07.45.22:595][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading NULL.
+[2014.12.08-07.45.22:596][227]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.08-07.45.22:596][227]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Statue_Inst.M_Statue_Inst Referenced by Statue Property /Script/Engine.StaticMesh:Materials
+[2014.12.08-07.45.22:596][227]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading NULL.
+[2014.12.08-07.45.22:916][227]LogMaterial: Missing cached shader map for material M_Shelving, compiling.
+[2014.12.08-07.45.22:917][227]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Shelving.M_Shelving for platform PCD3D_SM4, Default Material will be used in game.
+[2014.12.08-07.45.22:917][227]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.12.08-07.45.23:404][227]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.08-07.45.23:404][227]LightingResults: New page: Lighting Build
+[2014.12.08-07.45.23:457][227]LoadErrors: New page: Loading map: LivingRoom.umap
+[2014.12.08-07.45.23:458][227]MapCheck: New page: Map Check
+[2014.12.08-07.45.23:458][227]LightingResults: New page: Lighting Build
+[2014.12.08-07.45.23:479][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017A4C180
+[2014.12.08-07.45.23:503][227]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.08-07.45.23:536][227]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.08-07.45.23:536][227]LogAIModule: Creating AISystem for world LivingRoom
+[2014.12.08-07.45.23:582][227]Cmd: MAP CHECKDEP
+[2014.12.08-07.45.23:582][227]MapCheck: New page: LivingRoom - Dec 7, 2014, 3:45:23 PM
+[2014.12.08-07.45.23:721][227]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.003ms to complete.
+[2014.12.08-07.45.23:721][227]LogFileHelpers: Loading map 'LivingRoom' took 0.319
+[2014.12.08-07.46.46:792][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2014.12.08-07.46.48:811][647]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2014.12.08-07.46.55:077][960]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials/Materials'
+[2014.12.08-07.47.04:390][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_AOMASK'
+[2014.12.08-07.47.04:391][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_AOMASK' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:391][345]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_CoffeTable_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_Table_AOMASK
+[2014.12.08-07.47.04:391][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_M'
+[2014.12.08-07.47.04:391][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:391][345]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_CoffeTable_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_Table_M
+[2014.12.08-07.47.04:392][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_N'
+[2014.12.08-07.47.04:392][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:392][345]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_CoffeTable_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_Table_N
+[2014.12.08-07.47.04:392][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.08-07.47.04:392][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:392][345]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_CoffeTable_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_Wood
+[2014.12.08-07.47.04:393][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.08-07.47.04:393][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:393][345]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_CoffeTable_MAT : Can't find file for asset. /Game/ArchVis/Textures/T_Wood_S
+[2014.12.08-07.47.04:394][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_AOMASK'
+[2014.12.08-07.47.04:394][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_AOMASK' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:394][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_M'
+[2014.12.08-07.47.04:394][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:395][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_N'
+[2014.12.08-07.47.04:395][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:395][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.08-07.47.04:395][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:396][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.08-07.47.04:396][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset.
+[2014.12.08-07.47.04:398][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_N'
+[2014.12.08-07.47.04:398][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Table_N.T_Table_N Referenced by M_CoffeTable_MAT
+[2014.12.08-07.47.04:398][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_N' while loading NULL.
+[2014.12.08-07.47.04:398][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.08-07.47.04:398][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_CoffeTable_MAT
+[2014.12.08-07.47.04:398][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.08-07.47.04:399][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_M'
+[2014.12.08-07.47.04:399][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Table_M.T_Table_M Referenced by M_CoffeTable_MAT
+[2014.12.08-07.47.04:399][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_M' while loading NULL.
+[2014.12.08-07.47.04:399][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_AOMASK'
+[2014.12.08-07.47.04:399][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Table_AOMASK.T_Table_AOMASK Referenced by M_CoffeTable_MAT
+[2014.12.08-07.47.04:399][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_AOMASK' while loading NULL.
+[2014.12.08-07.47.04:400][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.08-07.47.04:400][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_CoffeTable_MAT
+[2014.12.08-07.47.04:400][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.08-07.47.04:400][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_M'
+[2014.12.08-07.47.04:401][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Table_M.T_Table_M Referenced by MaterialExpressionTextureSample_17 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.47.04:401][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_M' while loading NULL.
+[2014.12.08-07.47.04:401][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_N'
+[2014.12.08-07.47.04:401][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Table_N.T_Table_N Referenced by MaterialExpressionTextureSample_18 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.47.04:401][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_N' while loading NULL.
+[2014.12.08-07.47.04:402][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Table_AOMASK'
+[2014.12.08-07.47.04:402][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Table_AOMASK.T_Table_AOMASK Referenced by MaterialExpressionTextureSample_19 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.47.04:402][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Table_AOMASK' while loading NULL.
+[2014.12.08-07.47.04:402][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.08-07.47.04:402][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_6 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.47.04:403][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.08-07.47.04:403][345]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.08-07.47.04:403][345]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_7 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.08-07.47.04:403][345]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.08-07.47.04:405][345]LogMaterial: Missing cached shader map for material M_CoffeTable_MAT, compiling.
+[2014.12.08-07.47.04:405][345]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_CoffeTable_MAT.M_CoffeTable_MAT for platform PCD3D_SM4, Default Material will be used in game.
+[2014.12.08-07.47.04:405][345]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.12.08-07.47.04:441][345]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.08-07.47.04:441][345]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.12.08-07.47.04:442][345]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.12.08-07.47.04:450][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.08-07.47.04:533][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.08-07.47.04:533][345]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.08-07.47.04:533][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.08-07.47.04:533][345]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.08-07.47.04:536][345]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.08-07.47.04:537][345]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.12.08-07.47.04:537][345]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.12.08-07.47.04:559][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling.
+[2014.12.08-07.47.04:561][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling.
+[2014.12.08-07.47.04:562][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling.
+[2014.12.08-07.47.04:562][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_9, compiling.
+[2014.12.08-07.47.04:571][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_11, compiling.
+[2014.12.08-07.47.04:578][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_13, compiling.
+[2014.12.08-07.47.04:580][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.12.08-07.47.04:581][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.08-07.47.05:146][347]MaterialEditorStats:Error: Error [SM4] (Node TextureSample) TextureSample> Missing input texture
+[2014.12.08-07.47.43:725][923]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2014.12.08-07.47.45:104][967]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2014.12.08-07.47.48:796][ 93]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures/Textures'
+[2014.12.08-07.48.11:631][975]LogTexture:Display: Building textures: T_Table_N (BC5)
+[2014.12.08-07.48.20:302][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling.
+[2014.12.08-07.48.23:447][353]LogTexture:Display: Building textures: T_Table_AOMASK (DXT1)
+[2014.12.08-07.48.54:755][896]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling.
+[2014.12.08-07.49.37:080][518]LogTexture:Display: Building textures: T_Table_M (DXT1)
+[2014.12.08-07.49.44:177][763]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling.
+[2014.12.08-07.49.59:114][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.12.08-07.50.09:838][712]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.12.08-07.50.11:323][762]LogMaterialEditor: Saving and Compiling material M_CoffeTable_MAT
+[2014.12.08-07.50.14:038][762]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.08-07.50.14:100][762]LogMaterial: Missing cached shader map for material M_CoffeTable_MAT, compiling.
+[2014.12.08-07.50.14:175][762]LogMaterial: Missing cached shader map for material M_CoffeTable_MAT, compiling.
+[2014.12.08-07.50.14:215][762]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.08-07.50.14:221][762]LogMaterial: 0.026304 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.08-07.50.17:997][762]LogSavePackage: Save=279.109100ms
+[2014.12.08-07.50.17:997][762]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_CoffeTable_MATB550DCE34C4D8B266E1FE2BB4E22190B.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT.uasset'
+[2014.12.08-07.50.18:030][763]MaterialEditorStats: Info Base pass shader with static lighting: 123 instructions
+[2014.12.08-07.50.18:030][763]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 94 instructions
+[2014.12.08-07.50.18:030][763]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.12.08-07.50.18:030][763]MaterialEditorStats: Info Texture samplers: 8/16
+[2014.12.08-07.50.25:721][ 79]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials/Materials'
+[2014.12.08-07.50.36:207][589]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT'
+[2014.12.08-07.50.36:207][589]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT_Inst.uasset.
+[2014.12.08-07.50.36:207][589]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_CoffeTable_MAT_Inst : Can't find file for asset. /Game/ArchVis/Materials/M_CoffeTable_MAT
+[2014.12.08-07.50.36:208][589]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT'
+[2014.12.08-07.50.36:208][589]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT_Inst.uasset.
+[2014.12.08-07.50.36:208][589]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT'
+[2014.12.08-07.50.36:209][589]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT.M_CoffeTable_MAT Referenced by M_CoffeTable_MAT_Inst Property /Script/Engine.MaterialInstance:Parent
+[2014.12.08-07.50.36:209][589]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT' while loading NULL.
+[2014.12.08-07.50.36:261][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.08-07.50.36:320][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.12.08-07.50.36:320][589]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.12.08-07.50.42:624][832]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.08-07.50.44:647][897]LogSavePackage: Save=201.766708ms
+[2014.12.08-07.50.44:647][897]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/M_CoffeTable_MAT_InstA595F0424383303F54143EB0412E3AA0.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_CoffeTable_MAT_Inst.uasset'
+[2014.12.08-07.50.59:812][485]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.12.08-07.51.04:395][645]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.08-07.51.05:787][716]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.08-07.51.05:787][716]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.08-07.51.06:306][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D4FE840
+[2014.12.08-07.51.06:306][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E765120
+[2014.12.08-07.51.06:308][716]LogPlayLevel: PIE:  Blueprint regeneration took 520 ms (1 blueprints)
+[2014.12.08-07.51.06:308][716]PIE: New page: PIE session: LivingRoom (Dec 7, 2014, 3:51:06 PM)
+[2014.12.08-07.51.06:623][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.314965s)
+[2014.12.08-07.51.06:628][716]LogPlayLevel: PIE: World Init took: (0.004774s)
+[2014.12.08-07.51.06:628][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.320218s)
+[2014.12.08-07.51.07:088][716]LogWorld: Game class is 'MyGame_C'
+[2014.12.08-07.51.07:090][716]LogAIModule: Creating AISystem for world LivingRoom
+[2014.12.08-07.51.07:104][716]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.08-07.51.07:105][716]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 60) at 2014.12.07-23.51.07
+[2014.12.08-07.51.07:106][716]LogWorld: Bringing up level for play took: 0.016273
+[2014.12.08-07.51.07:111][716]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 1.808
+[2014.12.08-07.51.12:361][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C750B80
+[2014.12.08-07.51.18:119][ 93]LogSavePackage: Save=1565.012329ms
+[2014.12.08-07.51.18:119][ 93]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/LivingRoomA6E8E92040BC0DBC5F08B2B97ED35BD3.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
+[2014.12.08-07.58.46:081][947]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.08-07.58.52:542][252]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Mansion.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.08-07.58.52:542][252]LightingResults: New page: Lighting Build
+[2014.12.08-07.58.52:579][252]LoadErrors: New page: Loading map: Mansion.umap
+[2014.12.08-07.58.52:582][252]MapCheck: New page: Map Check
+[2014.12.08-07.58.52:582][252]LightingResults: New page: Lighting Build
+[2014.12.08-07.58.52:616][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C752A20
+[2014.12.08-07.58.52:652][252]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.08-07.58.52:652][252]LogAIModule: Creating AISystem for world Mansion
+[2014.12.08-07.58.52:697][252]Cmd: MAP CHECKDEP
+[2014.12.08-07.58.52:697][252]MapCheck: New page: Mansion - Dec 7, 2014, 3:58:52 PM
+[2014.12.08-07.58.52:860][252]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 163.092ms to complete.
+[2014.12.08-07.58.52:860][252]LogFileHelpers: Loading map 'Mansion' took 0.322
+[2014.12.08-07.58.59:999][625]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere_2)
+[2014.12.08-07.59.00:493][648]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere_2)
+[2014.12.08-07.59.00:626][652]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (BP_Sky_Shere_2)
+[2014.12.08-07.59.31:284][366]Cmd: EDIT CUT
+[2014.12.08-07.59.31:294][366]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2014.12.08-07.59.31:318][366]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2014.12.08-07.59.32:757][451]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.12.08-08.00.19:195][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_35)
+[2014.12.08-08.00.33:329][395]Cmd: TRANSACTION UNDO
+[2014.12.08-08.00.33:329][395]LogEditorTransaction: Undo Move Actors
+[2014.12.08-08.00.36:252][481]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_33)
+[2014.12.08-08.00.37:179][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_35)
+[2014.12.08-08.01.05:655][170]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_60)
+[2014.12.08-08.01.06:794][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_60)
+[2014.12.08-08.01.08:284][315]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_60)
+[2014.12.08-08.01.11:998][523]Cmd: DUPLICATE
+[2014.12.08-08.01.11:998][523]Cmd: ACTOR DUPLICATE
+[2014.12.08-08.01.43:262][673]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_62)
+[2014.12.08-08.01.46:336][843]Cmd: DUPLICATE
+[2014.12.08-08.01.46:336][843]Cmd: ACTOR DUPLICATE
+[2014.12.08-08.02.12:663][832]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_63)
+[2014.12.08-08.02.13:992][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_63)
+[2014.12.08-08.02.14:376][915]Cmd: TRANSACTION UNDO
+[2014.12.08-08.02.14:376][915]LogEditorTransaction: Undo Clicking on Actors
+[2014.12.08-08.02.15:294][954]Cmd: TRANSACTION UNDO
+[2014.12.08-08.02.15:294][954]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2014.12.08-08.02.16:218][  4]Cmd: TRANSACTION UNDO
+[2014.12.08-08.02.16:218][  4]LogEditorTransaction: Undo Scale Actors
+[2014.12.08-08.02.17:894][ 96]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_63)
+[2014.12.08-08.08.53:560][727]LogSavePackage: Save=1341.812012ms
+[2014.12.08-08.08.53:560][727]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion_Auto1861F731849469AD3717370B98369A850.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/Mansion_Auto1.umap'
+[2014.12.08-08.08.53:573][727]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Mansion' took 1.441
+[2014.12.08-08.08.53:573][727]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.441
+[2014.12.08-08.21.55:516][374]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_30)
+[2014.12.08-08.22.20:473][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_58)
+[2014.12.08-08.22.21:494][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_18)
+[2014.12.08-08.22.33:115][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_20)
+[2014.12.08-08.22.36:865][852]LogSavePackage: Save=1224.444580ms
+[2014.12.08-08.22.36:865][852]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion_Auto223915DF847202C23B6643D9645D6E865.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/Mansion_Auto2.umap'
+[2014.12.08-08.22.36:876][852]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Mansion' took 1.321
+[2014.12.08-08.22.36:876][852]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.321
+[2014.12.08-08.22.40:993][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_81)
+[2014.12.08-08.22.41:597][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_82)
+[2014.12.08-08.22.42:380][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_81)
+[2014.12.08-08.22.43:200][113]Cmd: EDIT CUT
+[2014.12.08-08.22.43:207][113]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.43:231][113]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.43:860][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_82)
+[2014.12.08-08.22.44:056][155]Cmd: EDIT CUT
+[2014.12.08-08.22.44:062][155]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.44:086][155]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.44:593][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_89)
+[2014.12.08-08.22.44:828][188]Cmd: EDIT CUT
+[2014.12.08-08.22.44:834][188]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.44:858][188]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.12.08-08.22.45:651][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_90)
+[2014.12.08-08.22.45:892][245]Cmd: EDIT CUT
+[2014.12.08-08.22.45:899][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.45:922][245]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.47:745][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_83)
+[2014.12.08-08.22.48:727][351]Cmd: EDIT CUT
+[2014.12.08-08.22.48:733][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.48:757][351]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.49:471][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_85)
+[2014.12.08-08.22.49:862][410]Cmd: EDIT CUT
+[2014.12.08-08.22.49:869][410]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.49:892][410]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.50:501][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_87)
+[2014.12.08-08.22.50:654][451]Cmd: EDIT CUT
+[2014.12.08-08.22.50:660][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.50:683][451]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.12.08-08.22.51:101][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_88)
+[2014.12.08-08.22.51:436][489]Cmd: EDIT CUT
+[2014.12.08-08.22.51:443][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.51:470][489]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2014.12.08-08.22.51:950][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_86)
+[2014.12.08-08.22.52:236][529]Cmd: EDIT CUT
+[2014.12.08-08.22.52:243][529]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.52:266][529]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.52:689][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_84)
+[2014.12.08-08.22.52:943][564]Cmd: EDIT CUT
+[2014.12.08-08.22.52:949][564]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.52:973][564]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.54:410][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_91)
+[2014.12.08-08.22.55:130][633]Cmd: EDIT CUT
+[2014.12.08-08.22.55:137][633]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.55:160][633]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.55:844][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_93)
+[2014.12.08-08.22.56:057][681]Cmd: EDIT CUT
+[2014.12.08-08.22.56:063][681]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.56:087][681]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.56:600][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_95)
+[2014.12.08-08.22.56:857][721]Cmd: EDIT CUT
+[2014.12.08-08.22.56:863][721]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.56:887][721]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.57:105][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_96)
+[2014.12.08-08.22.57:533][754]Cmd: EDIT CUT
+[2014.12.08-08.22.57:539][754]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.57:565][754]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2014.12.08-08.22.58:014][780]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Template_Map_Floor_94)
+[2014.12.08-08.22.58:223][788]Cmd: EDIT CUT
+[2014.12.08-08.22.58:229][788]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.58:253][788]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.22.58:586][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_92)
+[2014.12.08-08.22.58:830][816]Cmd: EDIT CUT
+[2014.12.08-08.22.58:835][816]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.22.58:859][816]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.00:452][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_67)
+[2014.12.08-08.23.01:383][909]Cmd: EDIT CUT
+[2014.12.08-08.23.01:389][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.01:413][909]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.12.08-08.23.01:860][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_65)
+[2014.12.08-08.23.02:032][941]Cmd: EDIT CUT
+[2014.12.08-08.23.02:037][941]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.02:060][941]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.12.08-08.23.04:827][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_69)
+[2014.12.08-08.23.05:272][ 34]Cmd: EDIT CUT
+[2014.12.08-08.23.05:279][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.05:302][ 34]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.05:990][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_71)
+[2014.12.08-08.23.06:851][122]Cmd: EDIT CUT
+[2014.12.08-08.23.06:856][122]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.06:880][122]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.08:075][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_66)
+[2014.12.08-08.23.08:721][217]Cmd: EDIT CUT
+[2014.12.08-08.23.08:728][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.08:755][217]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2014.12.08-08.23.09:352][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_68)
+[2014.12.08-08.23.09:801][271]Cmd: EDIT CUT
+[2014.12.08-08.23.09:807][271]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.09:831][271]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.10:450][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_70)
+[2014.12.08-08.23.10:818][323]Cmd: EDIT CUT
+[2014.12.08-08.23.10:824][323]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.10:848][323]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.11:475][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_72)
+[2014.12.08-08.23.11:760][371]Cmd: EDIT CUT
+[2014.12.08-08.23.11:766][371]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.11:792][371]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2014.12.08-08.23.12:216][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_79)
+[2014.12.08-08.23.12:530][407]Cmd: EDIT CUT
+[2014.12.08-08.23.12:536][407]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.12:561][407]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.13:115][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_80)
+[2014.12.08-08.23.13:435][454]Cmd: EDIT CUT
+[2014.12.08-08.23.13:441][454]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.13:466][454]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.13:867][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_77)
+[2014.12.08-08.23.14:193][490]Cmd: EDIT CUT
+[2014.12.08-08.23.14:200][490]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.14:224][490]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.14:580][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_75)
+[2014.12.08-08.23.15:035][529]Cmd: EDIT CUT
+[2014.12.08-08.23.15:042][529]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.15:066][529]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.15:746][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_78)
+[2014.12.08-08.23.16:076][584]Cmd: EDIT CUT
+[2014.12.08-08.23.16:082][584]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.16:106][584]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.17:286][621]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Template_Map_Floor_76)
+[2014.12.08-08.23.17:566][626]Cmd: EDIT CUT
+[2014.12.08-08.23.17:572][626]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.17:596][626]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.18:206][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_74)
+[2014.12.08-08.23.18:535][668]Cmd: EDIT CUT
+[2014.12.08-08.23.18:540][668]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.18:564][668]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.12.08-08.23.18:983][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_73)
+[2014.12.08-08.23.19:185][700]Cmd: EDIT CUT
+[2014.12.08-08.23.19:192][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.23.19:215][700]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.23.19:849][737]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.12.08-08.23.20:708][781]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.12.08-08.23.21:761][842]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.12.08-08.23.45:918][776]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.08-08.23.45:918][776]PIE: New page: PIE session: Mansion (Dec 7, 2014, 4:23:45 PM)
+[2014.12.08-08.23.45:935][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016606s)
+[2014.12.08-08.23.45:935][776]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2014.12.08-08.23.45:935][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.017492s)
+[2014.12.08-08.23.45:967][776]LogWorld: Game class is 'MyGame_C'
+[2014.12.08-08.23.45:969][776]LogAIModule: Creating AISystem for world Mansion
+[2014.12.08-08.23.45:974][776]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-00.23.45
+[2014.12.08-08.23.45:975][776]LogWorld: Bringing up level for play took: 0.005624
+[2014.12.08-08.23.45:980][776]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.618
+[2014.12.08-08.24.19:914][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017868EA0
+[2014.12.08-08.24.19:921][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000005878C20
+[2014.12.08-08.24.38:583][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_35)
+[2014.12.08-08.24.39:695][684]Cmd: EDIT CUT
+[2014.12.08-08.24.39:701][684]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.24.39:726][684]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.24.40:291][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_62)
+[2014.12.08-08.24.40:548][728]Cmd: EDIT CUT
+[2014.12.08-08.24.40:554][728]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.24.40:578][728]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.24.41:162][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_63)
+[2014.12.08-08.24.41:619][785]Cmd: EDIT CUT
+[2014.12.08-08.24.41:625][785]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.24.41:649][785]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.24.42:067][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_60)
+[2014.12.08-08.24.42:475][826]Cmd: EDIT CUT
+[2014.12.08-08.24.42:481][826]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.24.42:505][826]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.12.08-08.24.42:955][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_33)
+[2014.12.08-08.24.43:340][867]Cmd: EDIT CUT
+[2014.12.08-08.24.43:347][867]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.24.43:371][867]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.24.43:704][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_59)
+[2014.12.08-08.24.44:166][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_61)
+[2014.12.08-08.24.44:886][943]Cmd: EDIT CUT
+[2014.12.08-08.24.44:892][943]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.24.44:917][943]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.12.08-08.24.59:862][517]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.08-08.26.15:810][753]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_9)
+[2014.12.08-08.26.58:230][478]Cmd: TRANSACTION UNDO
+[2014.12.08-08.26.58:230][478]LogEditorTransaction: Undo Modifier [Edit]
+[2014.12.08-08.26.59:760][552]Cmd: TRANSACTION UNDO
+[2014.12.08-08.26.59:760][552]LogEditorTransaction: Undo Move Actors
+[2014.12.08-08.27.00:022][552]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2014.12.08-08.27.00:022][552]LogGeometryMode:Warning: Unable to resolve BoxBrush_9 Brush in new BSP, see above
+[2014.12.08-08.27.00:022][552]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2014.12.08-08.27.12:137][111]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_55)
+[2014.12.08-08.28.41:262][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_59)
+[2014.12.08-08.28.42:221][285]Cmd: EDIT CUT
+[2014.12.08-08.28.42:229][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.28.42:274][285]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2014.12.08-08.28.43:334][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_58)
+[2014.12.08-08.28.44:443][409]Cmd: EDIT CUT
+[2014.12.08-08.28.44:450][409]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.28.44:487][409]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2014.12.08-08.28.51:076][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_53)
+[2014.12.08-08.29.12:202][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_53)
+[2014.12.08-08.29.24:495][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_55)
+[2014.12.08-08.29.25:719][266]Cmd: EDIT CUT
+[2014.12.08-08.29.25:727][266]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.25:759][266]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.12.08-08.29.26:478][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_53)
+[2014.12.08-08.29.26:685][316]Cmd: EDIT CUT
+[2014.12.08-08.29.26:692][316]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.26:724][316]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2014.12.08-08.29.27:408][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_51)
+[2014.12.08-08.29.27:788][369]Cmd: EDIT CUT
+[2014.12.08-08.29.27:795][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.27:826][369]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2014.12.08-08.29.29:594][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_50)
+[2014.12.08-08.29.30:662][532]Cmd: EDIT CUT
+[2014.12.08-08.29.30:670][532]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.30:706][532]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2014.12.08-08.29.31:389][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_20)
+[2014.12.08-08.29.31:671][582]Cmd: EDIT CUT
+[2014.12.08-08.29.31:679][582]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.31:713][582]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2014.12.08-08.29.32:154][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_57)
+[2014.12.08-08.29.32:459][619]Cmd: EDIT CUT
+[2014.12.08-08.29.32:467][619]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.32:498][619]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.12.08-08.29.33:148][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_56)
+[2014.12.08-08.29.33:552][674]Cmd: EDIT CUT
+[2014.12.08-08.29.33:559][674]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.33:590][674]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.12.08-08.29.34:038][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_54)
+[2014.12.08-08.29.34:547][720]Cmd: EDIT CUT
+[2014.12.08-08.29.34:554][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.34:584][720]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.12.08-08.29.35:049][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_52)
+[2014.12.08-08.29.35:322][761]Cmd: EDIT CUT
+[2014.12.08-08.29.35:329][761]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.08-08.29.35:359][761]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.12.08-08.29.43:697][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_7)
+[2014.12.08-08.29.47:876][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_7)
+[2014.12.08-08.29.55:545][758]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials/Materials'
+[2014.12.08-08.30.03:731][194]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2014.12.08-08.30.19:200][830]Cmd: TRANSACTION UNDO
+[2014.12.08-08.30.19:200][830]LogEditorTransaction: Undo Select Surfaces
+[2014.12.08-08.30.19:957][858]Cmd: TRANSACTION UNDO
+[2014.12.08-08.30.19:957][858]LogEditorTransaction: Undo Select Brush from Surface
+[2014.12.08-08.30.20:556][889]Cmd: TRANSACTION UNDO
+[2014.12.08-08.30.20:556][889]LogEditorTransaction: Undo Select Surfaces
+[2014.12.08-08.30.21:375][929]Cmd: TRANSACTION UNDO
+[2014.12.08-08.30.21:375][929]LogEditorTransaction: Undo Apply Material to Surface
+[2014.12.08-08.30.21:432][929]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Mansion.Mansion:PersistentLevel.ModelComponent_321) Component already registered.
+[2014.12.08-08.30.24:975][117]Cmd: DUPLICATE
+[2014.12.08-08.30.24:975][117]Cmd: ACTOR DUPLICATE
+[2014.12.08-08.31.07:762][852]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush_12)
+[2014.12.08-08.31.13:466][152]Cmd: DUPLICATE
+[2014.12.08-08.31.13:466][152]Cmd: ACTOR DUPLICATE
+[2014.12.08-08.31.13:477][152]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_12.Model_9 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_9.Model_9
+[2014.12.08-08.31.29:409][693]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2014.12.08-08.31.30:328][744]Cmd: EDIT CUT
+[2014.12.08-08.31.30:336][744]LogEditorActor: Deleted Actor: AtmosphericFog
+[2014.12.08-08.31.30:370][744]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2014.12.08-08.31.31:401][805]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.12.08-08.31.32:572][873]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.12.08-08.32.56:464][873]Cmd: EDIT CUT
+[2014.12.08-08.32.56:472][873]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2014.12.08-08.32.56:504][873]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2014.12.08-08.32.57:741][945]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.08-08.32.57:741][945]PIE: New page: PIE session: Mansion (Dec 7, 2014, 4:32:57 PM)
+[2014.12.08-08.32.57:761][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019576s)
+[2014.12.08-08.32.57:761][945]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2014.12.08-08.32.57:761][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.020556s)
+[2014.12.08-08.32.57:791][945]LogWorld: Game class is 'MyGame_C'
+[2014.12.08-08.32.57:794][945]LogAIModule: Creating AISystem for world Mansion
+[2014.12.08-08.32.57:798][945]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-00.32.57
+[2014.12.08-08.32.57:800][945]LogWorld: Bringing up level for play took: 0.005163
+[2014.12.08-08.32.57:804][945]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.425
+[2014.12.08-08.33.21:826][957]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B98CEA0
+[2014.12.08-08.33.38:924][668]LogSavePackage: Save=1201.048706ms
+[2014.12.08-08.33.38:924][668]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion_Auto3C04AB0D241051CD318D87D9907DD2414.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/Mansion_Auto3.umap'
+[2014.12.08-08.33.38:933][668]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Mansion' took 1.298
+[2014.12.08-08.33.38:934][668]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.298
+[2014.12.08-08.34.13:487][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_18)
+[2014.12.08-08.34.13:803][647]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor_18)
+[2014.12.08-08.34.16:434][783]Cmd: DUPLICATE
+[2014.12.08-08.34.16:434][783]Cmd: ACTOR DUPLICATE
+[2014.12.08-08.35.15:892][117]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.08-08.35.18:029][237]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.08-08.35.18:141][239]LogEditorViewport: Clicking on Actor (double click): PointLight (PointLight)
+[2014.12.08-08.35.34:026][772]Cmd: DUPLICATE
+[2014.12.08-08.35.34:026][772]Cmd: ACTOR DUPLICATE
+[2014.12.08-08.35.34:038][772]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_14.Model_9 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_12.Model_9
+[2014.12.08-08.35.34:038][772]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_14.Model_9 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_9.Model_9
+[2014.12.08-08.37.25:539][438]LogEditorViewport: Clicking Background
+[2014.12.08-08.37.28:160][594]LogEditorViewport: Clicking Background
+[2014.12.08-08.37.31:140][748]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.08-08.37.31:665][776]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2014.12.08-08.37.33:762][894]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.12.08-08.37.34:225][913]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.08-08.37.36:885][ 72]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.12.08-08.37.37:881][128]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/StarterContent'
+[2014.12.08-08.37.38:883][188]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.08-08.37.40:874][307]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.12.08-08.37.43:002][433]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2014.12.08-08.37.45:461][578]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2014.12.08-08.37.48:211][739]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMG'
+[2014.12.08-08.37.49:151][793]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures/Textures'
+[2014.12.08-08.37.52:052][963]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2014.12.08-08.37.52:739][996]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2014.12.08-08.37.57:261][213]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props/Materials'
+[2014.12.08-08.38.00:865][344]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2014.12.08-08.38.03:783][458]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props/Materials'
+[2014.12.08-08.41.22:394][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.08-08.41.28:564][219]LogSavePackage: Save=1200.519531ms
+[2014.12.08-08.41.28:564][219]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion96C557484F0C8B1D5C8773A5DA3FF7C6.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Mansion.umap'
+[2014.12.08-08.41.30:754][305]Cmd: QUIT_EDITOR
+[2014.12.08-08.41.31:144][305]LogExit: Preparing to exit.
+[2014.12.08-08.41.31:993][305]LogExit: Editor shut down
+[2014.12.08-08.41.31:993][305]LogExit: Transaction tracking system shut down
+[2014.12.08-08.41.31:995][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000178691C0
+[2014.12.08-08.41.31:995][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000282CF060
+[2014.12.08-08.41.31:998][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027E2E200
+[2014.12.08-08.41.31:998][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044A0A840
+[2014.12.08-08.41.31:998][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000561C7EC0
+[2014.12.08-08.41.31:998][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000561C5260
+[2014.12.08-08.41.31:998][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040427060
+[2014.12.08-08.41.32:058][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000282CEFC0
+[2014.12.08-08.41.32:058][305]LogExit: Object subsystem successfully closed.
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module MaterialEditor (167)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.12.08-08.41.32:127][305]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.12.08-08.41.32:128][305]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.12.08-08.41.32:129][305]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.12.08-08.41.32:197][305]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.12.08-08.41.32:198][305]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.12.08-08.41.32:198][305]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.12.08-08.41.32:198][305]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.12.08-08.41.32:198][305]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.12.08-08.41.32:198][305]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.12.08-08.41.32:198][305]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.12.08-08.41.32:198][305]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.12.08-08.41.32:414][305]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.12.08-08.41.32:415][305]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.12.08-08.41.32:415][305]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.12.08-08.41.32:415][305]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.12.08-08.41.32:415][305]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.12.08-08.41.32:416][305]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.12.08-08.41.32:416][305]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.12.08-08.41.32:416][305]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.12.08-08.41.32:416][305]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.12.08-08.41.32:416][305]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.12.08-08.41.32:416][305]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.08-08.41.32:416][305]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.08-08.41.32:516][305]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.08-08.41.32:516][305]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.08-08.41.32:518][305]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.08-08.41.32:518][305]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.08-08.41.32:519][305]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.08-08.41.32:521][305]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.08-08.41.32:562][305]LogDerivedDataCache: Shutdown
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.08-08.41.32:562][305]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.08-08.41.32:565][305]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.08-08.41.32:578][305]LogExit: Exiting.
+[2014.12.08-08.41.32:585][305]Log file closed, 12/08/14 00:41:32
