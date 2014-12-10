@@ -632,4 +632,601 @@ LogInit: Rocket: 1
 [2014.12.10-20.36.44:308][274]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
 [2014.12.10-20.36.44:338][274]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
 [2014.12.10-20.37.01:001][164]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
-[2014.12.10-20.38.47:022][210]LogContentBrowser:Verbose: The content browser source was changed by t
+[2014.12.10-20.38.47:022][210]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2014.12.10-20.39.06:513][592]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire2)
+[2014.12.10-20.39.08:302][655]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire2)
+[2014.12.10-20.39.12:075][786]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire4)
+[2014.12.10-20.39.18:284][992]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire3)
+[2014.12.10-20.46.23:515][689]LogSavePackage: Save=162.078934ms
+[2014.12.10-20.46.23:515][689]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel7458EB76477C7B3C5D507BA07041574D.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-20.46.23:626][689]LogFileHelpers: Saving map 'ForestLevel' took 0.385
+[2014.12.10-20.55.53:625][653]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-20.55.53:683][653]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.09:198][524]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-20.56.09:290][524]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.13:702][772]Cmd: DELETE
+[2014.12.10-20.56.13:702][772]Cmd: ACTOR DELETE
+[2014.12.10-20.56.13:720][772]LogEditorActor: Deleted Actor: Brush
+[2014.12.10-20.56.13:768][772]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.13:768][772]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2014.12.10-20.56.13:795][772]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.17:534][945]LogSavePackage: Save=257.778351ms
+[2014.12.10-20.56.17:534][945]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel_Auto3FE0B7B494381AD8C7ED644A24A8639EC.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/ForestLevel_Auto3.umap'
+[2014.12.10-20.56.17:547][945]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ForestLevel' took 0.355
+[2014.12.10-20.56.17:547][945]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.355
+[2014.12.10-20.56.26:884][599]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-20.56.27:074][599]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.36:660][142]Cmd: DELETE
+[2014.12.10-20.56.36:660][142]Cmd: ACTOR DELETE
+[2014.12.10-20.56.36:677][142]LogEditorActor: Deleted Actor: Brush
+[2014.12.10-20.56.36:730][142]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.36:730][142]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2014.12.10-20.56.36:760][142]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.45:154][658]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-20.56.45:319][658]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.48:399][835]Cmd: DELETE
+[2014.12.10-20.56.48:399][835]Cmd: ACTOR DELETE
+[2014.12.10-20.56.48:419][835]LogEditorActor: Deleted Actor: Brush
+[2014.12.10-20.56.48:473][835]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.48:473][835]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2014.12.10-20.56.48:491][835]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.53:852][134]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.56.59:503][440]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.57.20:700][484]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.57.38:006][299]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.59.57:659][917]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-20.59.57:745][917]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.00.19:465][834]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.00.24:419][ 27]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.00.27:310][145]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.00.37:678][535]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.00.39:826][616]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.00.59:313][440]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.01.31:511][838]LogSavePackage: Save=174.247696ms
+[2014.12.10-21.01.31:511][838]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevelC22ABDD54B2194FC9E4B59848C44D4E2.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-21.01.31:607][838]LogFileHelpers: Saving map 'ForestLevel' took 0.412
+[2014.12.10-21.45.27:681][213]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-21.45.27:682][213]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 5:45:27 AM)
+[2014.12.10-21.45.27:723][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041295s)
+[2014.12.10-21.45.27:725][213]LogPlayLevel: PIE: World Init took: (0.001767s)
+[2014.12.10-21.45.27:725][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.043238s)
+[2014.12.10-21.45.27:754][213]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-21.45.27:755][213]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-21.45.27:758][213]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 60) at 2014.12.10-13.45.27
+[2014.12.10-21.45.27:760][213]LogWorld: Bringing up level for play took: 0.004357
+[2014.12.10-21.45.27:761][213]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel -0.101
+[2014.12.10-21.46.26:181][603]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015F92DE7A0
+[2014.12.10-21.48.07:113][907]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-21.48.07:169][907]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.48.22:658][512]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.48.25:193][606]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.48.31:410][843]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.48.33:250][912]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.48.47:143][537]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.48.49:019][610]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.48.57:273][967]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.49.12:063][548]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.49.18:045][839]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.49.27:845][371]Cmd: EDIT COPY
+[2014.12.10-21.49.28:530][412]Cmd: EDIT PASTE
+[2014.12.10-21.49.28:579][412]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.49.30:825][544]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.49.38:624][902]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.49.40:742][980]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.49.49:277][354]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.50.02:483][ 37]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.50.15:813][622]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.50.21:827][976]Cmd: EDIT COPY
+[2014.12.10-21.50.22:460][ 14]Cmd: EDIT PASTE
+[2014.12.10-21.50.22:474][ 14]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/ForestLevel.ForestLevel:PersistentLevel.LinearStairBrush3.Model_17 or Model /Game/Maps/ForestLevel.ForestLevel:PersistentLevel.LinearStairBrush2.Model_17
+[2014.12.10-21.50.22:510][ 14]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.50.24:277][117]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.50.34:444][558]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.50.41:582][878]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.50.44:573][993]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.51.39:057][968]Cmd: EDIT COPY
+[2014.12.10-21.51.39:657][  4]Cmd: EDIT PASTE
+[2014.12.10-21.51.39:671][  4]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/ForestLevel.ForestLevel:PersistentLevel.LinearStairBrush4.Model_17 or Model /Game/Maps/ForestLevel.ForestLevel:PersistentLevel.LinearStairBrush3.Model_17
+[2014.12.10-21.51.39:671][  4]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/ForestLevel.ForestLevel:PersistentLevel.LinearStairBrush4.Model_17 or Model /Game/Maps/ForestLevel.ForestLevel:PersistentLevel.LinearStairBrush2.Model_17
+[2014.12.10-21.51.39:711][  4]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.51.41:675][118]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.51.54:710][702]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.52.00:613][998]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.52.01:724][ 62]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.52.37:400][169]LogSavePackage: Save=177.445953ms
+[2014.12.10-21.52.37:400][169]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel91906522402305BC4A642AA043ABFF5B.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-21.52.37:435][169]LogFileHelpers: Saving map 'ForestLevel' took 0.331
+[2014.12.10-21.52.43:218][493]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-21.52.43:218][493]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 5:52:43 AM)
+[2014.12.10-21.52.43:256][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037919s)
+[2014.12.10-21.52.43:256][493]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2014.12.10-21.52.43:257][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.038560s)
+[2014.12.10-21.52.43:288][493]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-21.52.43:289][493]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-21.52.43:293][493]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 60) at 2014.12.10-13.52.43
+[2014.12.10-21.52.43:294][493]LogWorld: Bringing up level for play took: 0.004614
+[2014.12.10-21.52.43:295][493]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel -0.567
+[2014.12.10-21.53.01:621][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015EA2DF2E0
+[2014.12.10-21.53.12:714][156]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.53.15:060][283]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.53.23:875][796]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.53.29:171][ 89]LogSavePackage: Save=185.617661ms
+[2014.12.10-21.53.29:171][ 89]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevelF48D0B4849000CDEA86D46A46BFDD15C.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-21.53.33:030][303]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-21.53.33:030][303]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 5:53:33 AM)
+[2014.12.10-21.53.33:080][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049637s)
+[2014.12.10-21.53.33:080][303]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2014.12.10-21.53.33:080][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.050283s)
+[2014.12.10-21.53.33:115][303]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-21.53.33:117][303]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-21.53.33:120][303]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 60) at 2014.12.10-13.53.33
+[2014.12.10-21.53.33:122][303]LogWorld: Bringing up level for play took: 0.004476
+[2014.12.10-21.53.33:123][303]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel -0.739
+[2014.12.10-21.54.16:163][836]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015EA2DE5C0
+[2014.12.10-21.54.30:637][695]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.54.52:228][924]LogSavePackage: Save=195.905930ms
+[2014.12.10-21.54.52:228][924]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel42891AA040BA0B2A3792BE93120A8782.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-21.54.53:103][971]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-21.54.53:103][971]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 5:54:53 AM)
+[2014.12.10-21.54.53:160][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056579s)
+[2014.12.10-21.54.53:160][971]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2014.12.10-21.54.53:160][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.057372s)
+[2014.12.10-21.54.53:193][971]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-21.54.53:195][971]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-21.54.53:199][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 60) at 2014.12.10-13.54.53
+[2014.12.10-21.54.53:201][971]LogWorld: Bringing up level for play took: 0.006310
+[2014.12.10-21.54.53:203][971]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel -0.659
+[2014.12.10-21.56.03:265][767]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015EA531300
+[2014.12.10-21.56.08:826][ 82]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.56.13:029][313]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.56.17:783][578]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.56.24:012][926]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.56.27:078][109]Cmd: SELECT NONE
+[2014.12.10-21.56.29:219][223]LogSavePackage: Save=174.687241ms
+[2014.12.10-21.56.29:219][223]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel580435C9453378BEFDE6CCBE68C04FDC.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-21.56.32:713][420]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-21.56.32:713][420]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 5:56:32 AM)
+[2014.12.10-21.56.32:754][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040634s)
+[2014.12.10-21.56.32:755][420]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2014.12.10-21.56.32:755][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.041260s)
+[2014.12.10-21.56.32:783][420]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-21.56.32:785][420]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-21.56.32:790][420]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 60) at 2014.12.10-13.56.32
+[2014.12.10-21.56.32:792][420]LogWorld: Bringing up level for play took: 0.006538
+[2014.12.10-21.56.32:793][420]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel 0.931
+[2014.12.10-21.57.23:331][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015AB987C40
+[2014.12.10-21.57.36:245][ 44]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.57.38:963][204]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.57.44:309][503]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.57.50:189][784]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.57.55:650][ 67]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-21.58.00:490][335]LogSavePackage: Save=267.793518ms
+[2014.12.10-21.58.00:490][335]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel435619214B739527C83731B86C7D3AFE.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-21.58.01:179][376]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-21.58.01:179][376]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 5:58:01 AM)
+[2014.12.10-21.58.01:235][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056243s)
+[2014.12.10-21.58.01:236][376]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2014.12.10-21.58.01:236][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.057022s)
+[2014.12.10-21.58.01:267][376]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-21.58.01:269][376]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-21.58.01:273][376]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 0) at 2014.12.10-13.58.01
+[2014.12.10-21.58.01:275][376]LogWorld: Bringing up level for play took: 0.006343
+[2014.12.10-21.58.01:277][376]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel -0.585
+[2014.12.10-21.59.58:882][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015EAAD6200
+[2014.12.10-22.00.28:816][706]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-22.00.28:921][706]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.00.35:366][ 88]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.00.45:562][562]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.00.55:094][985]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.01.10:053][682]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.01.11:704][750]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.01.23:938][320]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.01.34:361][862]LogSavePackage: Save=177.967178ms
+[2014.12.10-22.01.34:362][862]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel173481C04BD88AD484D7188F779D0168.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-22.02.57:589][532]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-22.02.57:713][532]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.02.59:390][634]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.03.04:243][872]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.03.10:873][235]MapCheck: New page: Map Check
+[2014.12.10-22.03.10:908][235]LightingResults: New page: Lighting Build - Dec 10, 2014, 6:03:10 AM
+[2014.12.10-22.03.15:445][235]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2014.12.10-22.03.15:446][235]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.12.10-22.03.15:446][235]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.12.10-22.03.15:446][235]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.12.10-22.03.15:446][235]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.12.10-22.03.15:446][235]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.12.10-22.03.15:514][235]LogEditorBuildUtils: Build time 0:00:04
+[2014.12.10-22.03.15:526][235]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling.
+[2014.12.10-22.03.15:527][235]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling.
+[2014.12.10-22.03.15:529][235]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling.
+[2014.12.10-22.03.15:531][235]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling.
+[2014.12.10-22.03.15:533][235]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling.
+[2014.12.10-22.03.15:534][235]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling.
+[2014.12.10-22.03.15:590][236]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Chrome, compiling.
+[2014.12.10-22.03.15:592][236]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Chrome, compiling.
+[2014.12.10-22.03.15:594][236]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling.
+[2014.12.10-22.03.15:595][236]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling.
+[2014.12.10-22.03.15:597][236]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling.
+[2014.12.10-22.03.15:599][236]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling.
+[2014.12.10-22.03.15:923][237]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Tech_Panel, compiling.
+[2014.12.10-22.03.15:925][237]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Tech_Panel, compiling.
+[2014.12.10-22.03.25:362][262]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.25:362][262]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.25:695][263]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.25:696][263]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.25:696][263]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.25:696][263]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.25:696][263]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.25:696][263]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.26:028][264]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.26:029][264]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.26:361][265]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.26:361][265]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.26:361][265]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.26:361][265]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.26:696][266]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.26:696][266]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.26:696][266]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.26:696][266]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.27:028][267]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.27:029][267]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.27:361][268]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.27:362][268]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.27:362][268]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.27:362][268]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.27:362][268]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.27:362][268]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.27:695][269]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.27:695][269]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.28:028][270]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.28:029][270]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.28:029][270]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.28:029][270]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.28:029][270]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.28:029][270]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.28:363][271]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.28:363][271]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.28:695][272]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.28:695][272]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.28:695][272]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.28:695][272]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.28:695][272]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.28:696][272]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.28:696][272]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.28:696][272]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.29:029][273]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.29:029][273]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.29:029][273]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.29:029][273]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.29:362][274]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.29:362][274]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.29:362][274]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.29:362][274]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.29:362][274]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.29:362][274]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.29:695][275]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-22.03.29:696][275]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-22.03.31:696][281]Job is a success!
+[2014.12.10-22.03.32:444][282]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.10-22.03.32:606][282]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2014.12.10-22.03.32:628][282]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2014.12.10-22.03.32:658][282]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2014.12.10-22.03.32:662][282]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2014.12.10-22.03.32:667][282]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2014.12.10-22.03.32:670][282]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2014.12.10-22.03.32:674][282]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2014.12.10-22.03.32:678][282]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2014.12.10-22.03.32:683][282]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2014.12.10-22.03.32:687][282]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2014.12.10-22.03.32:692][282]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2014.12.10-22.03.32:696][282]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2014.12.10-22.03.32:700][282]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2014.12.10-22.03.32:705][282]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2014.12.10-22.03.32:709][282]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2014.12.10-22.03.32:713][282]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2014.12.10-22.03.32:717][282]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2014.12.10-22.03.32:721][282]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2014.12.10-22.03.32:726][282]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2014.12.10-22.03.32:731][282]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2014.12.10-22.03.32:735][282]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2014.12.10-22.03.32:739][282]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2014.12.10-22.03.32:744][282]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2014.12.10-22.03.32:748][282]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2014.12.10-22.03.32:752][282]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2014.12.10-22.03.32:756][282]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2014.12.10-22.03.32:761][282]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2014.12.10-22.03.32:764][282]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2014.12.10-22.03.32:769][282]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2014.12.10-22.03.32:773][282]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2014.12.10-22.03.32:777][282]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2014.12.10-22.03.32:781][282]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2014.12.10-22.03.32:786][282]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2014.12.10-22.03.32:790][282]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2014.12.10-22.03.32:795][282]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2014.12.10-22.03.32:799][282]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2014.12.10-22.03.32:803][282]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2014.12.10-22.03.32:808][282]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2014.12.10-22.03.32:813][282]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2014.12.10-22.03.32:817][282]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2014.12.10-22.03.32:822][282]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2014.12.10-22.03.32:825][282]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2014.12.10-22.03.32:830][282]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2014.12.10-22.03.32:834][282]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2014.12.10-22.03.32:838][282]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
+[2014.12.10-22.03.32:842][282]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
+[2014.12.10-22.03.32:846][282]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2014.12.10-22.03.32:850][282]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2014.12.10-22.03.32:855][282]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2014.12.10-22.03.32:859][282]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2014.12.10-22.03.32:863][282]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2014.12.10-22.03.32:868][282]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2014.12.10-22.03.32:872][282]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2014.12.10-22.03.32:876][282]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2014.12.10-22.03.32:881][282]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2014.12.10-22.03.32:885][282]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2014.12.10-22.03.32:890][282]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2014.12.10-22.03.32:894][282]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2014.12.10-22.03.32:898][282]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2014.12.10-22.03.32:902][282]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2014.12.10-22.03.32:907][282]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2014.12.10-22.03.32:909][282]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2014.12.10-22.03.32:913][282]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2014.12.10-22.03.32:917][282]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2014.12.10-22.03.32:922][282]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2014.12.10-22.03.32:926][282]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2014.12.10-22.03.32:930][282]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2014.12.10-22.03.32:934][282]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2014.12.10-22.03.32:939][282]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.12.10-22.03.32:943][282]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.12.10-22.03.32:947][282]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.12.10-22.03.32:951][282]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.12.10-22.03.32:956][282]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.12.10-22.03.32:960][282]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.12.10-22.03.32:964][282]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2014.12.10-22.03.32:968][282]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2014.12.10-22.03.32:973][282]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2014.12.10-22.03.32:976][282]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2014.12.10-22.03.32:981][282]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2014.12.10-22.03.32:985][282]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2014.12.10-22.03.32:989][282]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2014.12.10-22.03.32:994][282]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2014.12.10-22.03.32:998][282]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2014.12.10-22.03.33:002][282]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2014.12.10-22.03.33:007][282]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2014.12.10-22.03.33:038][282]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2014.12.10-22.03.33:041][282]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2014.12.10-22.03.33:045][282]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2014.12.10-22.03.33:050][282]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2014.12.10-22.03.33:053][282]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2014.12.10-22.03.33:056][282]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2014.12.10-22.03.33:059][282]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2014.12.10-22.03.33:064][282]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2014.12.10-22.03.33:068][282]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2014.12.10-22.03.33:073][282]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2014.12.10-22.03.33:077][282]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2014.12.10-22.03.33:081][282]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2014.12.10-22.03.33:085][282]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2014.12.10-22.03.33:090][282]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2014.12.10-22.03.33:093][282]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2014.12.10-22.03.33:097][282]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2014.12.10-22.03.33:101][282]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2014.12.10-22.03.33:106][282]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2014.12.10-22.03.33:110][282]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2014.12.10-22.03.33:114][282]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2014.12.10-22.03.33:118][282]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2014.12.10-22.03.33:123][282]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2014.12.10-22.03.33:129][282]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2014.12.10-22.03.33:134][282]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2014.12.10-22.03.33:147][282]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2014.12.10-22.03.33:166][282]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.12.10-22.03.33:170][282]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.12.10-22.03.33:175][282]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.12.10-22.03.33:179][282]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.12.10-22.03.33:185][282]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.12.10-22.03.33:190][282]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.12.10-22.03.33:194][282]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.12.10-22.03.33:198][282]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.12.10-22.03.33:205][282]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.12.10-22.03.33:211][282]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.12.10-22.03.33:217][282]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.12.10-22.03.33:221][282]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.12.10-22.03.33:227][282]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.12.10-22.03.33:232][282]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.12.10-22.03.33:238][282]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.12.10-22.03.33:253][282]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.12.10-22.03.33:280][282]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.10-22.03.33:454][282]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2014.12.10-22.03.33:488][282]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2014.12.10-22.03.33:492][282]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2014.12.10-22.03.33:495][282]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2014.12.10-22.03.33:497][282]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2014.12.10-22.03.33:500][282]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2014.12.10-22.03.33:501][282]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2014.12.10-22.03.33:503][282]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2014.12.10-22.03.33:504][282]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2014.12.10-22.03.33:515][282]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2014.12.10-22.03.33:517][282]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2014.12.10-22.03.33:517][282]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2014.12.10-22.03.33:518][282]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2014.12.10-22.03.33:519][282]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2014.12.10-22.03.33:520][282]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2014.12.10-22.03.33:521][282]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (BGRA8)
+[2014.12.10-22.03.33:521][282]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2014.12.10-22.03.33:522][282]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2014.12.10-22.03.33:523][282]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2014.12.10-22.03.33:524][282]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2014.12.10-22.03.33:525][282]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2014.12.10-22.03.33:526][282]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2014.12.10-22.03.33:527][282]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2014.12.10-22.03.33:528][282]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8)
+[2014.12.10-22.03.33:529][282]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8)
+[2014.12.10-22.03.33:530][282]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8)
+[2014.12.10-22.03.33:531][282]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8)
+[2014.12.10-22.03.33:532][282]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8)
+[2014.12.10-22.03.33:532][282]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8)
+[2014.12.10-22.03.33:533][282]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8)
+[2014.12.10-22.03.33:534][282]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8)
+[2014.12.10-22.03.33:535][282]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8)
+[2014.12.10-22.03.33:536][282]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2014.12.10-22.03.33:536][282]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2014.12.10-22.03.33:537][282]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8)
+[2014.12.10-22.03.33:538][282]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (BGRA8)
+[2014.12.10-22.03.33:539][282]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (BGRA8)
+[2014.12.10-22.03.33:540][282]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (BGRA8)
+[2014.12.10-22.03.33:541][282]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (BGRA8)
+[2014.12.10-22.03.33:541][282]LogTexture:Display: Building textures: ShadowMapTexture2D_70 (BGRA8)
+[2014.12.10-22.03.33:542][282]LogTexture:Display: Building textures: ShadowMapTexture2D_71 (BGRA8)
+[2014.12.10-22.03.33:543][282]LogTexture:Display: Building textures: ShadowMapTexture2D_72 (BGRA8)
+[2014.12.10-22.03.33:543][282]LogTexture:Display: Building textures: ShadowMapTexture2D_73 (BGRA8)
+[2014.12.10-22.03.33:544][282]LogTexture:Display: Building textures: ShadowMapTexture2D_74 (BGRA8)
+[2014.12.10-22.03.33:545][282]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (BGRA8)
+[2014.12.10-22.03.33:546][282]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (BGRA8)
+[2014.12.10-22.03.33:546][282]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (BGRA8)
+[2014.12.10-22.03.33:547][282]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (BGRA8)
+[2014.12.10-22.03.33:548][282]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (BGRA8)
+[2014.12.10-22.03.33:549][282]LogTexture:Display: Building textures: ShadowMapTexture2D_80 (BGRA8)
+[2014.12.10-22.03.33:550][282]LogTexture:Display: Building textures: ShadowMapTexture2D_81 (BGRA8)
+[2014.12.10-22.03.33:550][282]LogTexture:Display: Building textures: ShadowMapTexture2D_82 (BGRA8)
+[2014.12.10-22.03.33:551][282]LogTexture:Display: Building textures: ShadowMapTexture2D_83 (BGRA8)
+[2014.12.10-22.03.33:552][282]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (BGRA8)
+[2014.12.10-22.03.33:553][282]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (BGRA8)
+[2014.12.10-22.03.33:554][282]LogTexture:Display: Building textures: ShadowMapTexture2D_86 (BGRA8)
+[2014.12.10-22.03.33:554][282]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (BGRA8)
+[2014.12.10-22.03.33:555][282]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (BGRA8)
+[2014.12.10-22.03.33:556][282]LogTexture:Display: Building textures: ShadowMapTexture2D_89 (BGRA8)
+[2014.12.10-22.03.33:557][282]LogTexture:Display: Building textures: ShadowMapTexture2D_90 (BGRA8)
+[2014.12.10-22.03.33:558][282]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (BGRA8)
+[2014.12.10-22.03.33:559][282]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (BGRA8)
+[2014.12.10-22.03.33:560][282]LogTexture:Display: Building textures: ShadowMapTexture2D_93 (BGRA8)
+[2014.12.10-22.03.33:569][282]LogTexture:Display: Building textures: ShadowMapTexture2D_94 (BGRA8)
+[2014.12.10-22.03.33:585][282]Lightmass on WINDOWSONAUSB: 13.4 sec total, 341 ms importing, 799 ms setup, 3.22 sec photons, 9.10 sec processing, 0 ms extra exporting [562/562 mappings]. Threads: 1:03 min total, 39.1 sec processing.
+[2014.12.10-22.03.33:628][282]LogStaticLightingSystem:Warning: Illumination: 22.3 sec (1.23 sec encoding lightmaps)
+[2014.12.10-22.03.33:628][282]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.6 MB streaming, 1.3 MB non-streaming), 128 textures
+[2014.12.10-22.03.33:628][282]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 95 textures
+[2014.12.10-22.03.34:482][283]Cmd: UpdateLandscapeEditorData
+[2014.12.10-22.03.34:483][283]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.12.10-22.03.34:483][283]MapCheck: New page: ForestLevel - Dec 10, 2014, 6:03:34 AM
+[2014.12.10-22.03.34:483][283]MapCheck:Warning: Warning Run 'Clean BSP Materials' to clear 5 unnecessary materal references 
+[2014.12.10-22.03.34:584][283]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 99.848ms to complete.
+[2014.12.10-22.05.36:370][666]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/ForestLevel.HQ_Lightmap0_11. Streaming mips will be recached.
+[2014.12.10-22.05.36:395][666]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.12.10-22.05.36:401][666]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/ForestLevel.HQ_Lightmap0_6. Streaming mips will be recached.
+[2014.12.10-22.05.36:401][666]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.12.10-22.05.56:716][731]Cmd: EDIT COPY
+[2014.12.10-22.05.57:235][754]Cmd: EDIT PASTE
+[2014.12.10-22.05.57:296][754]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.05.59:463][847]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.06.01:379][929]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.07.25:583][197]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-22.07.25:664][197]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.07.26:895][268]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.10-22.07.54:170][769]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-22.07.54:260][769]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.07.59:315][ 16]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.08.06:259][393]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.08.11:907][701]LogSavePackage: Save=294.143158ms
+[2014.12.10-22.08.11:907][701]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevelBE65FDB0417989731EEEDD9E62DD4F03.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-22.08.11:942][701]LogFileHelpers: Saving map 'ForestLevel' took 0.445
+[2014.12.10-22.09.51:659][467]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-22.09.51:784][467]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.10.11:629][650]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.10.15:745][899]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.10.20:332][179]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.10.30:817][653]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.10.33:215][758]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.10.38:684][ 57]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.10.39:850][123]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.10.42:784][281]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.11.00:687][369]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.11.14:599][200]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.11.20:313][483]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.11.23:619][654]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.11.27:604][873]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.11.51:324][450]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-22.11.51:504][450]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.11.56:169][710]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.11.57:886][810]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.12.11:526][617]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.12.13:441][729]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.12.19:625][ 92]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.12.23:660][320]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.12.33:909][917]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.12.58:351][325]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.13.04:369][660]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.13.06:085][755]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.13.36:401][574]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.13.40:598][820]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.13.54:893][659]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.13.56:282][737]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.14.05:551][270]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.14.13:570][735]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.14.25:419][415]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.14.46:464][651]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.12.10-22.14.54:790][123]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-22.14.56:410][217]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-22.14.58:790][357]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-22.15.00:850][471]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-22.15.02:069][543]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-22.15.07:507][860]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-22.15.09:284][949]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-22.15.14:396][232]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.10-22.15.19:713][542]LogSavePackage: Save=277.627930ms
+[2014.12.10-22.15.19:713][542]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel9A071FAC4BA66D5A4A061D9CE63637A9.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-22.15.19:747][542]LogFileHelpers: Saving map 'ForestLevel' took 0.429
+[2014.12.10-22.15.21:221][626]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-22.15.21:221][626]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 6:15:21 AM)
+[2014.12.10-22.15.21:281][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059689s)
+[2014.12.10-22.15.21:282][626]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2014.12.10-22.15.21:282][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.060577s)
+[2014.12.10-22.15.21:314][626]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-22.15.21:316][626]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-22.15.21:321][626]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 0) at 2014.12.10-14.15.21
+[2014.12.10-22.15.21:324][626]LogWorld: Bringing up level for play took: 0.007689
+[2014.12.10-22.15.21:325][626]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel -0.537
+[2014.12.10-22.16.24:069][437]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015EA3F5F80
+[2014.12.10-22.16.51:694][850]Cmd: EDIT COPY
+[2014.12.10-22.16.52:297][877]Cmd: EDIT PASTE
+[2014.12.10-22.16.52:326][877]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/ForestLevel.ForestLevel:PersistentLevel.BoxBrush6.Model_19 or Model /Game/Maps/ForestLevel.ForestLevel:PersistentLevel.BoxBrush5.Model_19
+[2014.12.10-22.16.52:421][877]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.16.54:212][952]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.17.48:965][471]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.17.51:016][555]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.17.55:792][788]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.18.00:230][995]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.18.06:194][256]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.18.16:973][872]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.18.58:175][521]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.06:007][964]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.20:661][865]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.28:941][334]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.31:178][449]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.36:280][744]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.40:882][978]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.49:118][452]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.50:662][532]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.51:906][595]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.53:699][689]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.19.57:054][869]LogSavePackage: Save=247.200897ms
+[2014.12.10-22.19.57:054][869]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevelB58ECE57465AC832FBB1538CAA6A04D1.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-22.20.02:140][185]LogSavePackage: Save=260.530792ms
+[2014.12.10-22.20.02:140][185]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel56D68B0F4A9C53A051607490D18939C8.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-22.20.02:170][185]LogFileHelpers: Saving map 'ForestLevel' took 0.405
+[2014.12.10-22.20.06:244][413]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-22.20.06:244][413]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 6:20:06 AM)
+[2014.12.10-22.20.06:295][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050774s)
+[2014.12.10-22.20.06:295][413]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2014.12.10-22.20.06:296][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.051518s)
+[2014.12.10-22.20.06:327][413]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-22.20.06:328][413]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-22.20.06:332][413]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 0) at 2014.12.10-14.20.06
+[2014.12.10-22.20.06:334][413]LogWorld: Bringing up level for play took: 0.005926
+[2014.12.10-22.20.06:336][413]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel 0.473
+[2014.12.10-22.20.47:134][824]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015EA532E80
+[2014.12.10-22.21.02:874][736]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-22.21.09:042][ 77]LogSavePackage: Save=262.496521ms
+[2014.12.10-22.21.09:042][ 77]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel45769B784DF6508BE1B7DF87EFE3153A.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-22.21.14:116][363]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-22.21.14:116][363]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 6:21:14 AM)
+[2014.12.10-22.21.14:179][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062097s)
+[2014.12.10-22.21.14:179][363]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2014.12.10-22.21.14:179][363]LogPlayLeve
