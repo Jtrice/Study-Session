@@ -1,0 +1,2552 @@
+﻿Log file open, 12/08/14 22:01:24
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.09-06.01.24:194][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.09-06.01.24:227][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-06.01.24:258][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-06.01.24:269][  0]LogInit: Object subsystem initialized
+[2014.12.09-06.01.24:272][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.09-06.01.24:272][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-06.01.24:272][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-06.01.24:272][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-06.01.24:272][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-06.01.24:272][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-06.01.24:278][  0]LogInit: Computer: ZEN-MATT
+[2014.12.09-06.01.24:278][  0]LogInit: User: Matt
+[2014.12.09-06.01.24:283][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.09-06.01.24:283][  0]LogInit: High frequency timer resolution =2.338554 MHz
+[2014.12.09-06.01.24:283][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.12.09-06.01.24:283][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-06.01.24:283][  0]LogMemory: Process Physical Memory: 65.19 MB used, 65.19 MB peak
+[2014.12.09-06.01.24:283][  0]LogMemory: Process Virtual Memory: 40.31 MB used, 40.31 MB peak
+[2014.12.09-06.01.24:283][  0]LogMemory: Physical Memory: 1995.98 MB used, 3981.98 MB total
+[2014.12.09-06.01.24:283][  0]LogMemory: Virtual Memory: 273.19 MB used, 8388608.00 MB total
+[2014.12.09-06.01.24:377][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.12.09-06.01.24:377][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.12.09-06.01.24:377][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-06.01.24:388][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.12.09-06.01.24:414][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-06.01.24:478][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-06.01.24:647][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-06.01.30:284][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-06.01.30:908][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-06.01.30:977][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-06.01.31:056][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.09-06.01.31:057][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.09-06.01.31:057][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-06.01.31:057][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-06.01.31:137][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-06.01.31:148][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-06.01.31:362][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-06.01.31:362][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-06.01.31:675][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-06.01.31:679][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-06.01.31:893][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-06.01.33:009][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-06.01.33:249][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.12.09-06.01.33:413][  0]SourceControl: Info Source control is disabled
+[2014.12.09-06.01.33:413][  0]SourceControl: Info Source control is disabled
+[2014.12.09-06.01.33:422][  0]SourceControl: Info Source control is disabled
+[2014.12.09-06.01.33:588][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.09-06.01.33:588][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.12.09-06.01.33:667][  0]LogEngine: Initializing Engine...
+[2014.12.09-06.01.33:827][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.09-06.01.33:879][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-06.01.33:906][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-06.01.33:949][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.09-06.01.33:951][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-06.01.34:017][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-06.01.34:146][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-06.01.34:184][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2014.12.09-06.01.34:184][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-06.01.34:930][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-06.01.35:424][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-06.01.35:724][  0]LogConsoleResponse:Display: 
+[2014.12.09-06.01.36:003][  0]SourceControl: Info Source control is disabled
+[2014.12.09-06.01.36:003][  0]Cmd: MAP LOAD FILE="D:/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-06.01.36:004][  0]LightingResults: New page: Lighting Build
+[2014.12.09-06.01.36:017][  0]MapCheck: New page: Map Check
+[2014.12.09-06.01.36:017][  0]LightingResults: New page: Lighting Build
+[2014.12.09-06.01.36:043][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C5A7A0
+[2014.12.09-06.01.36:838][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-06.01.36:839][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-06.01.36:839][  0]Cmd: MAP CHECKDEP
+[2014.12.09-06.01.36:839][  0]MapCheck: New page: Example_Map - Dec 8, 2014, 2:01:36 PM
+[2014.12.09-06.01.36:987][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 147.721ms to complete.
+[2014.12.09-06.01.36:987][  0]LogFileHelpers: Loading map 'Example_Map' took 0.984
+[2014.12.09-06.01.37:094][  0]LogCollectionManager: Loaded 0 collections in 0.001683 seconds
+[2014.12.09-06.01.37:333][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-06.01.37:367][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-06.01.37:419][  0]LogLoad: Full Startup: 15.81 seconds (BP compile: 0.35 seconds)
+[2014.12.09-06.01.37:765][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-06.01.37:940][  0]LogRenderer:Warning: Reallocating scene render targets to support 976x872.
+[2014.12.09-06.01.39:543][  4]LogAssetRegistry: Asset discovery search completed in 5.3692 seconds
+[2014.12.09-06.02.16:597][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:597][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:600][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:601][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:602][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:602][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:602][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:602][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:602][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:602][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.16:602][900]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.02.27:833][496]BlueprintLog: New page: Compile Mixamo_Maw
+[2014.12.09-06.02.27:994][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.09-06.02.27:994][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.09-06.02.27:994][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2014.12.09-06.02.27:995][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.12.09-06.02.28:126][496]BlueprintEditorCompileResults: Info [0066.30] Compile of Mixamo_Maw successful! [in 53 ms]
+[2014.12.09-06.02.29:365][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw" FILE="D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset" SILENT=true
+[2014.12.09-06.02.29:615][561]LogSavePackage: Save=232.976868ms
+[2014.12.09-06.02.29:615][561]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mixamo_Maw8E9263B945938985CAB11DAF828FBA86.tmp' to 'D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset'
+[2014.12.09-06.02.30:092][588]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2014.12.09-06.02.32:800][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.09-06.02.32:846][726]Cmd: MAP LOAD FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-06.02.32:847][726]LightingResults: New page: Lighting Build
+[2014.12.09-06.02.32:901][726]LoadErrors: New page: Loading map: FinalLevel.umap
+[2014.12.09-06.02.32:902][726]MapCheck: New page: Map Check
+[2014.12.09-06.02.32:902][726]LightingResults: New page: Lighting Build
+[2014.12.09-06.02.32:941][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E00540
+[2014.12.09-06.02.33:481][726]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-06.02.33:481][726]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.02.33:505][726]Cmd: MAP CHECKDEP
+[2014.12.09-06.02.33:505][726]MapCheck: New page: FinalLevel - Dec 8, 2014, 2:02:33 PM
+[2014.12.09-06.02.33:688][726]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 182.803ms to complete.
+[2014.12.09-06.02.33:688][726]LogFileHelpers: Loading map 'FinalLevel' took 0.844
+[2014.12.09-06.02.36:127][806]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-06.02.36:127][806]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.09-06.02.36:189][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.09-06.02.36:189][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2014.12.09-06.02.36:236][806]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (1 blueprints)
+[2014.12.09-06.02.36:236][806]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:02:36 PM)
+[2014.12.09-06.02.36:248][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011518s)
+[2014.12.09-06.02.36:249][806]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2014.12.09-06.02.36:249][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.012299s)
+[2014.12.09-06.02.36:294][806]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.02.36:295][806]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.02.36:302][806]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.02.36
+[2014.12.09-06.02.36:302][806]LogWorld: Bringing up level for play took: 0.007247
+[2014.12.09-06.02.36:306][806]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel -0.082
+[2014.12.09-06.02.36:421][806]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:464][807]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:539][808]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:556][809]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:579][810]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:600][811]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:621][812]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:642][813]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:664][814]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:685][815]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:707][816]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:729][817]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:751][818]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:772][819]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:795][820]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:826][821]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:852][822]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:875][823]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:897][824]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:921][825]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:944][826]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:967][827]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.36:988][828]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:013][829]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:041][830]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:070][831]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:098][832]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:125][833]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:152][834]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:180][835]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:206][836]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:232][837]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:253][838]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:273][839]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:293][840]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:312][841]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:336][842]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:355][843]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:374][844]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:396][845]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:418][846]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:439][847]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:463][848]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:486][849]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:506][850]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:529][851]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:550][852]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:571][853]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:590][854]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:608][855]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:631][856]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:654][857]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:690][858]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:721][859]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:745][860]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:768][861]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:790][862]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:817][863]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:841][864]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:869][865]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:894][866]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:922][867]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:950][868]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.37:982][869]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:015][870]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:042][871]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:071][872]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:103][873]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:136][874]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:166][875]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:188][876]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:209][877]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:234][878]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:256][879]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:276][880]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:299][881]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:319][882]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:338][883]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:358][884]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:380][885]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:404][886]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:424][887]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:447][888]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:467][889]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:488][890]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:508][891]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:528][892]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:550][893]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:570][894]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:589][895]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:609][896]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:632][897]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:656][898]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:678][899]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:701][900]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:722][901]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:743][902]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:761][903]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:783][904]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:805][905]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:823][906]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:844][907]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:866][908]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:886][909]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:906][910]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:926][911]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:949][912]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:974][913]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.38:998][914]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:018][915]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:040][916]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:061][917]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:082][918]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:103][919]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:126][920]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:148][921]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:171][922]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:194][923]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:216][924]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:239][925]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:259][926]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:284][927]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:305][928]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:325][929]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:344][930]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:368][931]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:390][932]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:413][933]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:435][934]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:456][935]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:477][936]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:500][937]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:521][938]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:542][939]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:563][940]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:586][941]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:607][942]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:626][943]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:646][944]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:668][945]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:688][946]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:709][947]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:733][948]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:758][949]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:781][950]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:806][951]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:828][952]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:850][953]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:873][954]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:894][955]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:915][956]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:936][957]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:958][958]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:976][959]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.39:998][960]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:020][961]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:040][962]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:061][963]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:084][964]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:109][965]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:130][966]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:150][967]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:169][968]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:192][969]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:215][970]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:235][971]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:255][972]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:275][973]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:296][974]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:319][975]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:342][976]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:363][977]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:384][978]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:406][979]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:429][980]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:451][981]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:471][982]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:495][983]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:518][984]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:538][985]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:558][986]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:579][987]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:600][988]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:620][989]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:643][990]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:666][991]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:689][992]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:711][993]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:734][994]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:754][995]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:774][996]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:798][997]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:822][998]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:854][999]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:889][  0]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:919][  1]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:949][  2]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.40:979][  3]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:011][  4]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:042][  5]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:075][  6]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:101][  7]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:125][  8]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:148][  9]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:170][ 10]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:189][ 11]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:211][ 12]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:232][ 13]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:252][ 14]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:271][ 15]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:292][ 16]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:312][ 17]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:330][ 18]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:351][ 19]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:373][ 20]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:395][ 21]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:417][ 22]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:441][ 23]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:462][ 24]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:484][ 25]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:506][ 26]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:529][ 27]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:552][ 28]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:573][ 29]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:594][ 30]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:616][ 31]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:639][ 32]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:661][ 33]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:682][ 34]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:703][ 35]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:725][ 36]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:748][ 37]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:769][ 38]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:790][ 39]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:811][ 40]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:831][ 41]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:859][ 42]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:886][ 43]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:911][ 44]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:934][ 45]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:959][ 46]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.41:984][ 47]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:009][ 48]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:036][ 49]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:061][ 50]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:088][ 51]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:119][ 52]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:145][ 53]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:170][ 54]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:195][ 55]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:218][ 56]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:241][ 57]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:267][ 58]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:291][ 59]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:318][ 60]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:345][ 61]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:373][ 62]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:403][ 63]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:435][ 64]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:464][ 65]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:493][ 66]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:516][ 67]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:537][ 68]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:562][ 69]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:587][ 70]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:607][ 71]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:628][ 72]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:650][ 73]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:670][ 74]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:691][ 75]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:711][ 76]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:730][ 77]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:752][ 78]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:776][ 79]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:798][ 80]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:820][ 81]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:841][ 82]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:864][ 83]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:886][ 84]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:908][ 85]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:930][ 86]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:951][ 87]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:972][ 88]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.42:991][ 89]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.43:013][ 90]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.43:039][ 91]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.43:075][ 92]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.43:106][ 93]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.43:138][ 94]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.43:167][ 95]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.43:198][ 96]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.02.43:398][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011CCDD00
+[2014.12.09-06.02.50:745][508]LogRenderer:Warning: Reallocating scene render targets to support 1544x888.
+[2014.12.09-06.03.12:127][640]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:128][640]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:495][662]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:510][663]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:511][663]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:512][663]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:527][664]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:528][664]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:529][664]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:530][664]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:544][665]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:561][666]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:562][666]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:843][683]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:877][685]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:894][686]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:895][686]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:895][686]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.12:929][688]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.03.45:742][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.09-06.03.45:742][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.09-06.03.45:742][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2014.12.09-06.03.45:742][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.12.09-06.03.47:509][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.03.47:657][733]LogSavePackage: Save=89.539520ms
+[2014.12.09-06.03.47:657][733]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel939536034699FE761E2994AFF01E4D5B.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.03.47:682][733]LogFileHelpers: Saving map 'FinalLevel' took 0.353
+[2014.12.09-06.03.47:706][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw" FILE="D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset" SILENT=true
+[2014.12.09-06.03.47:951][733]LogSavePackage: Save=229.280151ms
+[2014.12.09-06.03.47:951][733]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mixamo_MawBCBA5A394E38286691E86BBDE8E040E0.tmp' to 'D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset'
+[2014.12.09-06.03.49:190][806]BlueprintLog: New page: Compile Mixamo_Maw
+[2014.12.09-06.03.49:333][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.09-06.03.49:422][806]BlueprintEditorCompileResults: Info [0147.64] Compile of Mixamo_Maw successful! [in 51 ms]
+[2014.12.09-06.03.51:048][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.03.51:193][887]LogSavePackage: Save=87.742256ms
+[2014.12.09-06.03.51:193][887]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel63AA0AB4408B494EC142CCBE9D5A2900.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.03.51:218][887]LogFileHelpers: Saving map 'FinalLevel' took 0.356
+[2014.12.09-06.03.52:796][977]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.03.52:797][977]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:03:52 PM)
+[2014.12.09-06.03.52:808][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011175s)
+[2014.12.09-06.03.52:809][977]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2014.12.09-06.03.52:809][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.012016s)
+[2014.12.09-06.03.52:839][977]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.03.52:840][977]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.03.52:846][977]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.03.52
+[2014.12.09-06.03.52:847][977]LogWorld: Bringing up level for play took: 0.006996
+[2014.12.09-06.03.52:850][977]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.458
+[2014.12.09-06.03.52:960][977]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.52:995][978]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:071][979]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:115][980]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:139][981]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:162][982]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:187][983]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:211][984]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:235][985]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:274][986]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:303][987]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:332][988]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:365][989]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:392][990]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:420][991]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:447][992]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:473][993]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:497][994]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:518][995]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:538][996]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:558][997]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:579][998]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:600][999]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.53:624][  0]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:049][ 25]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:069][ 26]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:089][ 27]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:112][ 28]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:133][ 29]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:155][ 30]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:176][ 31]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:197][ 32]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:218][ 33]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:244][ 34]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:266][ 35]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:288][ 36]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:310][ 37]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:334][ 38]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:356][ 39]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:380][ 40]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:404][ 41]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:428][ 42]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:451][ 43]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:474][ 44]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:496][ 45]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:518][ 46]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:541][ 47]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:562][ 48]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:586][ 49]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:609][ 50]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:630][ 51]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:653][ 52]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:676][ 53]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:698][ 54]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:724][ 55]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:756][ 56]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:783][ 57]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:810][ 58]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:841][ 59]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:871][ 60]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:901][ 61]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:930][ 62]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:960][ 63]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.54:987][ 64]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:012][ 65]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:037][ 66]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:057][ 67]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:078][ 68]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:099][ 69]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:117][ 70]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:138][ 71]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:160][ 72]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:181][ 73]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:206][ 74]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:228][ 75]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:247][ 76]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:269][ 77]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:289][ 78]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:312][ 79]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:334][ 80]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:358][ 81]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:379][ 82]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:410][ 83]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:442][ 84]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:467][ 85]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:495][ 86]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:520][ 87]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:545][ 88]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:570][ 89]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:597][ 90]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:622][ 91]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:643][ 92]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:667][ 93]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:686][ 94]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:705][ 95]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:725][ 96]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:745][ 97]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:785][ 98]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:808][ 99]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:828][100]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:847][101]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:869][102]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:890][103]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:911][104]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:931][105]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:952][106]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:973][107]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.55:994][108]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:015][109]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:035][110]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:057][111]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:079][112]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:099][113]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:120][114]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:143][115]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:171][116]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:194][117]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:215][118]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:238][119]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:259][120]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:285][121]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:309][122]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:327][123]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:349][124]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:373][125]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:398][126]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:418][127]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:442][128]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:466][129]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:492][130]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:512][131]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:535][132]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:567][133]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:589][134]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:614][135]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:637][136]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:663][137]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:689][138]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:711][139]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:731][140]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:753][141]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:774][142]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:797][143]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:820][144]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:843][145]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:866][146]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:888][147]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:911][148]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:932][149]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:956][150]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.56:979][151]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:000][152]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:024][153]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:045][154]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:069][155]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:090][156]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:115][157]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:139][158]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:163][159]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:187][160]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:214][161]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:236][162]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:260][163]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:283][164]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:304][165]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:325][166]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:351][167]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:374][168]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:395][169]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:420][170]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:443][171]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:466][172]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:487][173]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:508][174]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:534][175]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:554][176]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:576][177]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:598][178]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:620][179]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:643][180]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:668][181]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:693][182]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.03.57:856][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011243C40
+[2014.12.09-06.04.02:554][454]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.12.09-06.04.04:544][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.04.04:690][556]LogSavePackage: Save=88.416176ms
+[2014.12.09-06.04.04:690][556]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel519A4B874BFB87DB4CE0C48378176FC4.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.04.04:715][556]LogFileHelpers: Saving map 'FinalLevel' took 0.354
+[2014.12.09-06.04.04:739][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw" FILE="D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset" SILENT=true
+[2014.12.09-06.04.04:984][556]LogSavePackage: Save=228.966705ms
+[2014.12.09-06.04.04:984][556]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mixamo_Maw1AD0E4C54110F16C219E1BBC94E05136.tmp' to 'D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset'
+[2014.12.09-06.04.05:328][577]BlueprintLog: New page: Compile Mixamo_Maw
+[2014.12.09-06.04.05:476][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.09-06.04.05:569][577]BlueprintEditorCompileResults: Info [0163.79] Compile of Mixamo_Maw successful! [in 53 ms]
+[2014.12.09-06.04.06:730][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.04.06:878][630]LogSavePackage: Save=88.938721ms
+[2014.12.09-06.04.06:878][630]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel52F4336B44E79A5FBC183581AC79F494.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.04.06:903][630]LogFileHelpers: Saving map 'FinalLevel' took 0.359
+[2014.12.09-06.04.07:277][650]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.04.07:278][650]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:04:07 PM)
+[2014.12.09-06.04.07:288][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010270s)
+[2014.12.09-06.04.07:289][650]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2014.12.09-06.04.07:289][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011059s)
+[2014.12.09-06.04.07:320][650]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.04.07:322][650]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.04.07:331][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.04.07
+[2014.12.09-06.04.07:332][650]LogWorld: Bringing up level for play took: 0.010301
+[2014.12.09-06.04.07:335][650]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.943
+[2014.12.09-06.04.07:434][650]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:468][651]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:485][652]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:583][653]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:607][654]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:630][655]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:653][656]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:676][657]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:700][658]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:724][659]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:749][660]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:770][661]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:793][662]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:816][663]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:845][664]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:869][665]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:892][666]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:913][667]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:935][668]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:957][669]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.07:981][670]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:004][671]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:027][672]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:050][673]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:074][674]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:099][675]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:123][676]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:143][677]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:166][678]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:190][679]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:215][680]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:237][681]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:259][682]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:283][683]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:306][684]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:329][685]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:352][686]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:376][687]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:399][688]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:422][689]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:445][690]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:468][691]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:492][692]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:514][693]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:538][694]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:561][695]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:583][696]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:607][697]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:630][698]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:653][699]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:677][700]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:700][701]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:723][702]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:747][703]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:773][704]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:797][705]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:820][706]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:849][707]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:879][708]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:910][709]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:941][710]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:970][711]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.08:999][712]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:023][713]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:050][714]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:074][715]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:098][716]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:118][717]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:146][718]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:172][719]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:197][720]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:224][721]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:248][722]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:273][723]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:295][724]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:317][725]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:339][726]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:363][727]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:384][728]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:407][729]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:429][730]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:448][731]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:474][732]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:496][733]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:518][734]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:539][735]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:561][736]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:580][737]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:601][738]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:624][739]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:648][740]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:671][741]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:693][742]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:717][743]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:739][744]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:759][745]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:778][746]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:800][747]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:824][748]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:851][749]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:873][750]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:896][751]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:918][752]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:940][753]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:962][754]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.09:984][755]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:007][756]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:030][757]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:052][758]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:074][759]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:097][760]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:117][761]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:140][762]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:166][763]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:190][764]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:213][765]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:236][766]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:266][767]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:294][768]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:323][769]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:353][770]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:381][771]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:406][772]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:433][773]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:459][774]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:487][775]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:509][776]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:532][777]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:555][778]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:576][779]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:597][780]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:618][781]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:638][782]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:659][783]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:680][784]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:700][785]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:722][786]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:743][787]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:764][788]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:786][789]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:809][790]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:837][791]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:869][792]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:902][793]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.10:934][794]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.11:189][795]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AC89260
+[2014.12.09-06.04.31:822][227]BlueprintLog: New page: Compile Mixamo_Maw
+[2014.12.09-06.04.32:067][227]BlueprintEditorCompileResults: Info [0190.27] Compile of Mixamo_Maw successful! [in 51 ms]
+[2014.12.09-06.04.37:893][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.04.38:039][560]LogSavePackage: Save=87.673409ms
+[2014.12.09-06.04.38:039][560]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel1BB44C114045AA84BF7D96ABF0581EA2.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.04.38:063][560]LogFileHelpers: Saving map 'FinalLevel' took 0.352
+[2014.12.09-06.04.38:087][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw" FILE="D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset" SILENT=true
+[2014.12.09-06.04.38:332][560]LogSavePackage: Save=229.885651ms
+[2014.12.09-06.04.38:332][560]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mixamo_Maw460E5BCD45F99C075236379B2F96253F.tmp' to 'D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset'
+[2014.12.09-06.04.58:503][764]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.04.58:503][764]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:04:58 PM)
+[2014.12.09-06.04.58:515][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011427s)
+[2014.12.09-06.04.58:515][764]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2014.12.09-06.04.58:515][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.012243s)
+[2014.12.09-06.04.58:547][764]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.04.58:548][764]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.04.58:554][764]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.04.58
+[2014.12.09-06.04.58:555][764]LogWorld: Bringing up level for play took: 0.007071
+[2014.12.09-06.04.58:560][764]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.165
+[2014.12.09-06.04.58:671][764]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:709][765]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:726][766]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:835][767]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:859][768]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:882][769]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:906][770]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:930][771]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:954][772]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.58:977][773]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:000][774]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:030][775]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:049][776]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:071][777]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:094][778]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:117][779]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:144][780]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:167][781]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:191][782]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:211][783]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:233][784]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:257][785]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:281][786]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:303][787]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:326][788]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:349][789]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:373][790]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:396][791]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:422][792]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:444][793]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:467][794]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:492][795]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:522][796]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:549][797]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:577][798]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:603][799]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:630][800]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:655][801]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:685][802]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:707][803]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:728][804]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:748][805]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:770][806]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:790][807]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:812][808]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:834][809]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:854][810]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:876][811]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:896][812]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:919][813]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:940][814]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:964][815]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.04.59:987][816]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:011][817]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:035][818]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:059][819]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:080][820]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:104][821]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:128][822]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:151][823]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:175][824]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:200][825]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:222][826]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:245][827]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:276][828]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:302][829]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:331][830]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:361][831]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:392][832]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:420][833]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:448][834]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:473][835]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:499][836]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:520][837]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:542][838]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:564][839]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:585][840]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:604][841]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:626][842]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:649][843]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:670][844]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:691][845]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:712][846]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:735][847]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:758][848]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:780][849]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:802][850]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:823][851]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:844][852]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:866][853]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:885][854]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:907][855]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:931][856]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:953][857]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:976][858]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.00:997][859]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:020][860]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:041][861]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:063][862]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:085][863]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:107][864]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:130][865]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:154][866]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:179][867]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:199][868]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:222][869]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:245][870]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:272][871]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:295][872]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:316][873]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:338][874]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:360][875]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:382][876]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:408][877]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:431][878]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:452][879]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:473][880]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:494][881]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:517][882]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:541][883]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:563][884]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:585][885]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:613][886]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:633][887]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:654][888]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:678][889]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:700][890]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:723][891]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:746][892]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:769][893]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:796][894]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:828][895]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:858][896]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:891][897]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:919][898]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:947][899]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.01:974][900]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:002][901]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:027][902]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:050][903]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:071][904]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:093][905]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:116][906]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:138][907]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:159][908]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:179][909]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:202][910]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:226][911]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:245][912]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:266][913]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:287][914]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:308][915]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:332][916]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:353][917]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:385][918]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:420][919]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:450][920]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:478][921]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:512][922]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:541][923]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:569][924]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:598][925]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:619][926]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:641][927]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:665][928]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:687][929]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:709][930]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:730][931]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:752][932]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:772][933]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:795][934]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:816][935]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:837][936]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:856][937]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:876][938]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:898][939]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:920][940]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:942][941]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:966][942]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.02:987][943]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:008][944]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:031][945]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:053][946]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:077][947]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:099][948]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:125][949]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:148][950]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:170][951]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:189][952]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:211][953]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:235][954]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:258][955]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:281][956]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:304][957]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:327][958]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:350][959]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:374][960]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:397][961]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:422][962]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:443][963]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:467][964]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:491][965]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:523][966]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:555][967]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:585][968]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:617][969]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:647][970]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:673][971]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:702][972]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:730][973]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:751][974]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:773][975]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:790][976]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:814][977]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:835][978]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:858][979]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:881][980]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:902][981]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:924][982]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:948][983]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:974][984]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.03:999][985]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:022][986]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:045][987]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:064][988]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:089][989]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:114][990]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:141][991]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:163][992]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:188][993]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:212][994]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:237][995]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:261][996]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:286][997]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:311][998]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:336][999]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:361][  0]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:386][  1]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:412][  2]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:439][  3]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:463][  4]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:484][  5]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:513][  6]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:535][  7]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:558][  8]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:582][  9]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:607][ 10]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:631][ 11]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:655][ 12]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:680][ 13]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:705][ 14]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:730][ 15]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:755][ 16]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:779][ 17]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:803][ 18]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:829][ 19]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:853][ 20]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:878][ 21]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:903][ 22]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:927][ 23]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:952][ 24]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.04:977][ 25]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:001][ 26]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:026][ 27]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:052][ 28]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:075][ 29]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:100][ 30]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:125][ 31]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:149][ 32]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:175][ 33]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:199][ 34]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:223][ 35]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:248][ 36]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:273][ 37]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:298][ 38]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:322][ 39]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:347][ 40]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:372][ 41]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:397][ 42]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:426][ 43]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:448][ 44]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:471][ 45]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:506][ 46]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:538][ 47]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:570][ 48]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:601][ 49]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:634][ 50]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:665][ 51]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:694][ 52]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:725][ 53]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:754][ 54]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:777][ 55]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:801][ 56]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:824][ 57]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:849][ 58]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:868][ 59]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:889][ 60]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:911][ 61]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:934][ 62]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:955][ 63]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.05:979][ 64]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:003][ 65]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:024][ 66]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:049][ 67]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:070][ 68]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:094][ 69]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:115][ 70]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:139][ 71]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:164][ 72]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:189][ 73]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:214][ 74]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:244][ 75]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:269][ 76]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:294][ 77]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:319][ 78]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:341][ 79]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:365][ 80]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:390][ 81]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:416][ 82]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:440][ 83]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:466][ 84]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:492][ 85]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:526][ 86]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:549][ 87]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:568][ 88]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:589][ 89]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:614][ 90]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:638][ 91]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:663][ 92]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:687][ 93]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:712][ 94]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:736][ 95]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:766][ 96]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:791][ 97]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:817][ 98]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:849][ 99]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:873][100]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:896][101]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:918][102]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:944][103]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:967][104]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.06:989][105]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:017][106]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:049][107]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:085][108]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:123][109]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:158][110]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:196][111]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:226][112]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:256][113]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:284][114]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:313][115]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:335][116]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:358][117]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:380][118]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:403][119]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:423][120]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:446][121]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:468][122]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:489][123]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:512][124]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:536][125]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:566][126]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:596][127]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:652][128]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:692][129]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:728][130]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:764][131]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:802][132]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:839][133]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:876][134]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:907][135]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:936][136]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:960][137]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.07:983][138]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:006][139]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:032][140]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:051][141]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:070][142]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:092][143]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:112][144]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:135][145]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:154][146]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:175][147]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:201][148]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:222][149]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:249][150]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:274][151]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:298][152]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:320][153]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:351][154]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:376][155]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:401][156]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:428][157]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:452][158]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:472][159]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:502][160]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:532][161]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:554][162]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:580][163]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:604][164]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:635][165]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:660][166]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:686][167]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:708][168]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:733][169]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:756][170]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:783][171]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:804][172]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:829][173]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:853][174]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:878][175]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:900][176]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:923][177]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:946][178]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.08:975][179]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:002][180]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:032][181]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:057][182]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:080][183]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:103][184]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:128][185]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:152][186]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:176][187]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:201][188]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:230][189]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:252][190]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:276][191]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:301][192]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:327][193]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:346][194]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:370][195]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:396][196]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:428][197]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:453][198]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:479][199]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:504][200]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:528][201]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:550][202]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:576][203]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:601][204]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:628][205]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:651][206]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:676][207]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:703][208]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:728][209]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:753][210]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:778][211]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:806][212]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:828][213]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:852][214]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:884][215]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:909][216]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:933][217]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:957][218]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.09:984][219]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:012][220]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:037][221]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:064][222]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:087][223]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:108][224]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:133][225]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:159][226]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:184][227]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:211][228]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:234][229]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:260][230]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:286][231]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:314][232]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.05.10:433][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.09-06.05.10:484][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FE65580
+[2014.12.09-06.05.16:779][599]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:028][614]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:029][614]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:030][614]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:031][614]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:044][615]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:045][615]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:046][615]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:061][616]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:078][617]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:079][617]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:294][630]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:295][630]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:296][630]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:297][630]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:311][631]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:312][631]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:329][632]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.05.17:344][633]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.09-06.06.01:460][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.09-06.06.01:460][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.09-06.06.01:460][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2014.12.09-06.06.01:460][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.12.09-06.06.01:527][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw" FILE="D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset" SILENT=true
+[2014.12.09-06.06.01:587][985]LogSavePackage: Save=43.028725ms
+[2014.12.09-06.06.01:587][985]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mixamo_MawD3A64D144DFA0AB4E14CFF8A02BF995D.tmp' to 'D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset'
+[2014.12.09-06.06.10:912][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw" FILE="D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset" SILENT=true
+[2014.12.09-06.06.11:174][529]LogSavePackage: Save=244.555389ms
+[2014.12.09-06.06.11:174][529]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mixamo_Maw16CD51BF42D03F94A31AB598A494D56A.tmp' to 'D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset'
+[2014.12.09-06.06.15:581][789]BlueprintLog: New page: Compile Mixamo_Maw
+[2014.12.09-06.06.15:766][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.09-06.06.15:881][789]BlueprintEditorCompileResults: Info [0294.05] Compile of Mixamo_Maw successful! [in 66 ms]
+[2014.12.09-06.06.17:544][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.06.17:694][867]LogSavePackage: Save=90.535431ms
+[2014.12.09-06.06.17:694][867]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel791681F64F166967B189E4B9BD2C01D3.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.06.17:719][867]LogFileHelpers: Saving map 'FinalLevel' took 0.363
+[2014.12.09-06.06.19:536][969]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.06.19:537][969]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:06:19 PM)
+[2014.12.09-06.06.19:548][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010973s)
+[2014.12.09-06.06.19:549][969]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2014.12.09-06.06.19:549][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011948s)
+[2014.12.09-06.06.19:579][969]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.06.19:580][969]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.06.19:589][969]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.06.19
+[2014.12.09-06.06.19:590][969]LogWorld: Bringing up level for play took: 0.010050
+[2014.12.09-06.06.19:595][969]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel -0.805
+[2014.12.09-06.06.19:677][969]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.19:717][970]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.19:733][971]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.19:862][972]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.19:885][973]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.19:909][974]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.19:932][975]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.19:956][976]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.19:980][977]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:011][978]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:040][979]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:068][980]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:096][981]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:134][982]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:160][983]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:187][984]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:216][985]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:243][986]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:264][987]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:285][988]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:307][989]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:331][990]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:354][991]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:373][992]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:392][993]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:414][994]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:440][995]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:470][996]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:500][997]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:534][998]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:569][999]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:605][  0]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:641][  1]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:679][  2]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:713][  3]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:743][  4]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:775][  5]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:801][  6]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:824][  7]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:847][  8]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:868][  9]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:887][ 10]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:907][ 11]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:928][ 12]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:949][ 13]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:969][ 14]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.20:991][ 15]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:016][ 16]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:038][ 17]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:062][ 18]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:086][ 19]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:112][ 20]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:133][ 21]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:154][ 22]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:174][ 23]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:197][ 24]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:220][ 25]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:244][ 26]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:268][ 27]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:291][ 28]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:314][ 29]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:338][ 30]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:363][ 31]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:385][ 32]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:412][ 33]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:435][ 34]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:457][ 35]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:480][ 36]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:501][ 37]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:532][ 38]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:555][ 39]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:578][ 40]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:600][ 41]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:621][ 42]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:647][ 43]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:671][ 44]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:693][ 45]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:715][ 46]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:743][ 47]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:771][ 48]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:795][ 49]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:815][ 50]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:836][ 51]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:860][ 52]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:883][ 53]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:907][ 54]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:930][ 55]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:953][ 56]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.21:977][ 57]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:007][ 58]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:032][ 59]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:057][ 60]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:080][ 61]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:103][ 62]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:125][ 63]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:146][ 64]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:167][ 65]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:194][ 66]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:219][ 67]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:243][ 68]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:267][ 69]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:288][ 70]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:311][ 71]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:332][ 72]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:355][ 73]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:380][ 74]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:402][ 75]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:426][ 76]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:449][ 77]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:473][ 78]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:497][ 79]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:521][ 80]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:545][ 81]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:573][ 82]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:594][ 83]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:617][ 84]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:643][ 85]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:665][ 86]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:687][ 87]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:711][ 88]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:737][ 89]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:761][ 90]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:786][ 91]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:809][ 92]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:834][ 93]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:860][ 94]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:880][ 95]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:903][ 96]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:927][ 97]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:949][ 98]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:975][ 99]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.22:997][100]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:021][101]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:045][102]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:066][103]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:094][104]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:118][105]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:143][106]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:166][107]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:192][108]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:214][109]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:235][110]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:260][111]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:286][112]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:311][113]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:333][114]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:357][115]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:377][116]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:402][117]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:427][118]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:450][119]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:471][120]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:494][121]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:522][122]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:552][123]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:575][124]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:607][125]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:637][126]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:666][127]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:697][128]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:727][129]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:756][130]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:786][131]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:814][132]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:837][133]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:859][134]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:882][135]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:903][136]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:922][137]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:943][138]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:964][139]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.23:986][140]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:007][141]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:029][142]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:049][143]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:073][144]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:100][145]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:124][146]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:149][147]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:170][148]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:194][149]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:216][150]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:239][151]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:262][152]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:282][153]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:307][154]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:332][155]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:358][156]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:383][157]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:406][158]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:430][159]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:451][160]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:473][161]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:497][162]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:523][163]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:553][164]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:582][165]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:617][166]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:647][167]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:680][168]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:709][169]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:739][170]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:772][171]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:797][172]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:818][173]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:840][174]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:864][175]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:886][176]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:908][177]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:928][178]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:949][179]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:970][180]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.24:993][181]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:015][182]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:037][183]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:058][184]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:081][185]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:102][186]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:127][187]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:153][188]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:182][189]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:208][190]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:232][191]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:264][192]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:295][193]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:327][194]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:356][195]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:387][196]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:419][197]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:449][198]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:480][199]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:512][200]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:536][201]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:567][202]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:589][203]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:613][204]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:636][205]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:658][206]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:676][207]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:696][208]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:715][209]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:738][210]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:762][211]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:787][212]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:822][213]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:854][214]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:885][215]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:914][216]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:948][217]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.25:984][218]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:023][219]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:059][220]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:092][221]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:119][222]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:144][223]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:169][224]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:193][225]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:217][226]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:239][227]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:260][228]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:282][229]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:303][230]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:325][231]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:347][232]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:372][233]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:395][234]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:418][235]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:438][236]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:463][237]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:488][238]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:512][239]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:540][240]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:563][241]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:586][242]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:608][243]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:630][244]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:654][245]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:676][246]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:699][247]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:722][248]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:745][249]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:769][250]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:801][251]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:829][252]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:853][253]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:878][254]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:902][255]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:925][256]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:947][257]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:972][258]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.26:996][259]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:021][260]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:043][261]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:069][262]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:098][263]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:124][264]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:152][265]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:182][266]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:222][267]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:251][268]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:277][269]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:302][270]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:327][271]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:349][272]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:371][273]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:393][274]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:416][275]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:436][276]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:458][277]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:479][278]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:501][279]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:521][280]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:543][281]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:573][282]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:593][283]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:613][284]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:633][285]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:656][286]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:681][287]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:703][288]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:728][289]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:752][290]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:777][291]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:800][292]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:825][293]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:851][294]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:875][295]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:898][296]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:922][297]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:946][298]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:969][299]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.27:996][300]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:018][301]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:044][302]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:066][303]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:089][304]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:113][305]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:133][306]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:155][307]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:178][308]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:201][309]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:226][310]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:248][311]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:269][312]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:294][313]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:320][314]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:345][315]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:370][316]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:397][317]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:423][318]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:447][319]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:471][320]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:499][321]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:523][322]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:548][323]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:570][324]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:593][325]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:621][326]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:653][327]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:683][328]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:716][329]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:749][330]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:780][331]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:811][332]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:848][333]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:887][334]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:924][335]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:955][336]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.28:985][337]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.29:015][338]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.29:047][339]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.06.29:258][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027916B60
+[2014.12.09-06.08.03:232][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.09-06.08.03:232][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.09-06.08.03:232][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2014.12.09-06.08.03:233][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.12.09-06.08.07:596][224]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.07:596][224]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.07:596][224]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.07:597][224]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:402][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:402][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:402][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:403][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:403][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:404][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:404][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:404][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.20:404][816]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.08.24:572][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.08.24:720][ 38]LogSavePackage: Save=87.096558ms
+[2014.12.09-06.08.24:720][ 38]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevelA8BC886F456A825ADF7138AEB804435B.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.08.24:745][ 38]LogFileHelpers: Saving map 'FinalLevel' took 0.407
+[2014.12.09-06.08.24:768][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw" FILE="D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset" SILENT=true
+[2014.12.09-06.08.25:013][ 38]LogSavePackage: Save=229.071045ms
+[2014.12.09-06.08.25:013][ 38]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Mixamo_MawFC9529AF4CBA16A40481CE9407CD2294.tmp' to 'D:/Study-Session/Trial_third_person/Content/MixamoAnimPack/Mixamo_Maw/Mixamo_Maw.uasset'
+[2014.12.09-06.08.26:135][104]BlueprintLog: New page: Compile Mixamo_Maw
+[2014.12.09-06.08.26:287][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.09-06.08.26:385][104]BlueprintEditorCompileResults: Info [0424.58] Compile of Mixamo_Maw successful! [in 53 ms]
+[2014.12.09-06.08.28:131][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.08.28:277][186]LogSavePackage: Save=88.851486ms
+[2014.12.09-06.08.28:277][186]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevelBAEF438E422FCB399630639DC5657044.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.08.28:302][186]LogFileHelpers: Saving map 'FinalLevel' took 0.397
+[2014.12.09-06.08.28:858][217]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.08.28:858][217]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:08:28 PM)
+[2014.12.09-06.08.28:869][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010433s)
+[2014.12.09-06.08.28:869][217]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2014.12.09-06.08.28:869][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011180s)
+[2014.12.09-06.08.28:896][217]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.08.28:897][217]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.08.28:905][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.08.28
+[2014.12.09-06.08.28:906][217]LogWorld: Bringing up level for play took: 0.008219
+[2014.12.09-06.08.28:908][217]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2014.12.09-06.08.28:909][217]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.503
+[2014.12.09-06.08.29:024][217]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:060][218]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:077][219]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:159][220]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:181][221]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:206][222]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:234][223]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:261][224]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:291][225]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:318][226]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:348][227]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:379][228]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:407][229]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:433][230]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:466][231]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:486][232]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:507][233]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:527][234]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:548][235]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:571][236]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:591][237]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:615][238]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:636][239]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:658][240]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:679][241]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:700][242]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:723][243]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:745][244]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:770][245]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:797][246]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:825][247]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:850][248]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:878][249]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:904][250]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:930][251]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:955][252]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.29:982][253]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:002][254]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:025][255]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:045][256]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:067][257]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:086][258]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:109][259]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:132][260]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:153][261]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:175][262]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:198][263]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:221][264]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:242][265]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:265][266]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:285][267]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:311][268]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:335][269]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:355][270]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:379][271]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:398][272]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:428][273]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:450][274]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:470][275]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:494][276]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:516][277]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:536][278]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:558][279]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:579][280]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:603][281]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:627][282]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:648][283]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:669][284]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:691][285]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:712][286]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:734][287]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:760][288]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:785][289]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:809][290]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:830][291]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:858][292]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:881][293]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:904][294]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:926][295]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:948][296]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:971][297]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.30:994][298]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:014][299]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:037][300]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:059][301]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:081][302]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:104][303]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:126][304]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:148][305]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:170][306]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:192][307]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:213][308]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:234][309]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:256][310]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:279][311]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:302][312]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:324][313]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:347][314]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:369][315]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:392][316]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:425][317]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:445][318]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:465][319]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:486][320]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:506][321]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:529][322]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:552][323]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:575][324]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:597][325]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:624][326]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:646][327]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:673][328]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:696][329]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:718][330]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:739][331]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:762][332]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:785][333]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:807][334]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:830][335]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:852][336]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:876][337]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:898][338]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:919][339]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:944][340]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:965][341]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.31:990][342]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:013][343]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:036][344]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:058][345]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:079][346]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:102][347]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:124][348]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:145][349]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:169][350]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:199][351]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:228][352]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:253][353]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:282][354]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:311][355]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:340][356]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:364][357]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:392][358]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:414][359]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:436][360]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:459][361]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:479][362]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:501][363]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:520][364]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:541][365]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:564][366]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:586][367]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:607][368]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:630][369]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:651][370]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:674][371]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:696][372]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:718][373]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:741][374]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:764][375]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:786][376]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:808][377]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:831][378]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:857][379]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:879][380]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:899][381]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:921][382]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:943][383]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:966][384]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.32:986][385]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:009][386]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:033][387]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:054][388]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:076][389]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:099][390]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:120][391]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:142][392]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:162][393]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:184][394]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:209][395]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:230][396]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:252][397]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:274][398]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:294][399]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:318][400]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:341][401]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:364][402]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:385][403]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:410][404]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:432][405]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:456][406]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:478][407]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:501][408]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:526][409]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:547][410]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:570][411]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:592][412]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:614][413]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:636][414]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:657][415]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:679][416]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:702][417]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:725][418]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:747][419]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:771][420]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:796][421]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:830][422]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:860][423]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:893][424]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:925][425]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:956][426]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.33:986][427]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:016][428]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:046][429]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:069][430]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:092][431]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:115][432]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:135][433]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:157][434]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:176][435]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:196][436]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:217][437]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:238][438]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:258][439]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:281][440]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:301][441]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:322][442]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.08.34:494][443]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002441EA20
+[2014.12.09-06.09.16:107][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.09-06.09.16:108][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.12.09-06.09.16:108][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_5) Not registered. Aborting.
+[2014.12.09-06.09.16:108][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.12.09-06.09.17:042][279]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.09.17:042][279]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:09:17 PM)
+[2014.12.09-06.09.17:053][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010970s)
+[2014.12.09-06.09.17:055][279]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2014.12.09-06.09.17:055][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.012550s)
+[2014.12.09-06.09.17:084][279]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.09.17:085][279]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.09.17:091][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.09.17
+[2014.12.09-06.09.17:092][279]LogWorld: Bringing up level for play took: 0.006796
+[2014.12.09-06.09.17:093][279]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2014.12.09-06.09.17:095][279]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.686
+[2014.12.09-06.09.17:214][279]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:252][280]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:268][281]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:349][282]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:373][283]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:396][284]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:420][285]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:443][286]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:468][287]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:491][288]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:515][289]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:537][290]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:561][291]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:584][292]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:613][293]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:635][294]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:657][295]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:681][296]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:704][297]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:724][298]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:747][299]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:774][300]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:799][301]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:825][302]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:842][303]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:866][304]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:889][305]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:917][306]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:940][307]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:965][308]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.17:988][309]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:009][310]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:032][311]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:055][312]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:077][313]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:102][314]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:126][315]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:148][316]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:168][317]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:194][318]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:224][319]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:252][320]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:278][321]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:305][322]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:334][323]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:357][324]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:386][325]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:412][326]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:434][327]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:455][328]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:473][329]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:503][330]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:530][331]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:559][332]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:584][333]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:612][334]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:638][335]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:665][336]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:691][337]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:714][338]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:734][339]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:755][340]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:775][341]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:796][342]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:818][343]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:841][344]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:864][345]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:884][346]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:904][347]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:926][348]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:947][349]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:968][350]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.18:992][351]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.19:011][352]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.19:032][353]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.19:060][354]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.09.19:180][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.12.09-06.09.19:180][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.12.09-06.09.19:180][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_6) Not registered. Aborting.
+[2014.12.09-06.09.19:180][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.12.09-06.09.19:220][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000244242C0
+[2014.12.09-06.09.34:333][199]LogRenderer:Warning: Reallocating scene render targets to support 1544x896.
+[2014.12.09-06.09.42:900][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.12.09-06.09.42:901][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.12.09-06.09.42:901][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_7) Not registered. Aborting.
+[2014.12.09-06.09.42:901][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.12.09-06.09.43:673][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Boss_Projectile" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Boss_Projectile.uasset" SILENT=true
+[2014.12.09-06.09.43:802][455]LogSavePackage: Save=111.344872ms
+[2014.12.09-06.09.43:802][455]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Boss_ProjectileF05C52434464D778B88280BDC817DFB3.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Boss_Projectile.uasset'
+[2014.12.09-06.09.48:538][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.12.09-06.10.07:548][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Boss_Projectile" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Boss_Projectile.uasset" SILENT=true
+[2014.12.09-06.10.07:728][ 95]LogSavePackage: Save=152.763199ms
+[2014.12.09-06.10.07:728][ 95]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Boss_ProjectileDC6FA67045657EA13D9AC3B6684CEAB4.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Boss_Projectile.uasset'
+[2014.12.09-06.10.08:963][128]BlueprintLog: New page: Compile Boss_Projectile
+[2014.12.09-06.10.09:046][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.12.09-06.10.09:146][128]BlueprintEditorCompileResults: Info [0527.34] Compile of Boss_Projectile successful! [in 13 ms]
+[2014.12.09-06.10.10:205][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.12.09-06.10.10:492][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.10.10:669][161]LogSavePackage: Save=115.581253ms
+[2014.12.09-06.10.10:669][161]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel824E50874CDA5E6EDB9348A28AEE27AB.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.10.10:703][161]LogFileHelpers: Saving map 'FinalLevel' took 0.434
+[2014.12.09-06.10.11:354][195]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-06.10.11:406][195]LogPlayLevel: [PIE] Compiling Mixamo_Maw before PIE...
+[2014.12.09-06.10.11:670][195]LogPlayLevel: PIE:  Blueprint regeneration took 316 ms (1 blueprints)
+[2014.12.09-06.10.11:670][195]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:10:11 PM)
+[2014.12.09-06.10.11:682][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011518s)
+[2014.12.09-06.10.11:683][195]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2014.12.09-06.10.11:683][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.012422s)
+[2014.12.09-06.10.11:711][195]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.10.11:712][195]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.10.11:721][195]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.10.11
+[2014.12.09-06.10.11:722][195]LogWorld: Bringing up level for play took: 0.009873
+[2014.12.09-06.10.11:725][195]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2014.12.09-06.10.11:726][195]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 1.315
+[2014.12.09-06.10.11:797][195]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.11:830][196]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.11:850][197]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.11:902][198]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.11:962][199]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.11:988][200]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:013][201]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:039][202]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:065][203]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:091][204]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:131][205]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:158][206]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:183][207]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:206][208]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:231][209]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:265][210]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:300][211]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:332][212]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:361][213]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:389][214]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:417][215]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:451][216]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:481][217]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:507][218]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:529][219]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:553][220]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:578][221]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:605][222]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:628][223]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:651][224]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:675][225]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:697][226]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:724][227]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:746][228]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:772][229]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:796][230]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:819][231]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:847][232]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:878][233]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:908][234]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:938][235]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.12:968][236]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:000][237]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:033][238]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:064][239]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:095][240]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:121][241]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:144][242]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:167][243]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:193][244]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:216][245]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:239][246]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:262][247]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:288][248]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:311][249]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:335][250]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:358][251]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:380][252]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:404][253]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:427][254]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:456][255]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:478][256]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:501][257]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:527][258]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:550][259]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:575][260]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:598][261]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:624][262]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:647][263]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:673][264]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:695][265]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:717][266]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:742][267]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:765][268]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:791][269]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:815][270]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:839][271]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:863][272]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:886][273]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:911][274]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:935][275]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:958][276]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.13:980][277]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:001][278]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:024][279]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:051][280]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:073][281]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:095][282]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:119][283]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:142][284]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:166][285]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:190][286]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:214][287]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:240][288]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:263][289]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:288][290]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:310][291]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:332][292]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:355][293]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:380][294]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:405][295]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:427][296]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:457][297]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:484][298]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:510][299]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:533][300]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:561][301]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:589][302]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:615][303]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:643][304]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:668][305]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:693][306]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:716][307]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:740][308]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:764][309]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:791][310]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:814][311]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:837][312]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:861][313]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:885][314]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:911][315]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:936][316]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:959][317]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.14:982][318]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:010][319]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:041][320]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:072][321]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:102][322]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:134][323]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:167][324]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:199][325]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:228][326]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:258][327]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:284][328]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:310][329]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:336][330]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:359][331]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:382][332]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:404][333]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:431][334]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:458][335]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:481][336]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:505][337]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:529][338]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:553][339]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:578][340]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:600][341]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:626][342]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:648][343]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:673][344]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:696][345]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:727][346]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:757][347]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:789][348]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:821][349]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:850][350]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:880][351]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:913][352]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:944][353]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.15:978][354]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:006][355]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:030][356]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:056][357]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:080][358]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:103][359]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:128][360]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:152][361]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:179][362]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:203][363]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:228][364]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:253][365]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:283][366]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:312][367]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:341][368]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:372][369]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:397][370]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:426][371]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:454][372]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:479][373]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:503][374]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:528][375]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:550][376]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:575][377]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:598][378]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:624][379]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:646][380]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:671][381]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:695][382]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:718][383]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:745][384]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:769][385]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:794][386]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:816][387]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:841][388]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:864][389]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:889][390]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:912][391]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:938][392]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:961][393]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.16:985][394]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:010][395]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:033][396]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:058][397]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:082][398]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:106][399]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:129][400]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:154][401]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:181][402]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:207][403]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:232][404]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:258][405]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:282][406]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:307][407]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:328][408]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:353][409]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:375][410]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:399][411]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:430][412]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:453][413]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:484][414]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:520][415]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:554][416]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:594][417]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:632][418]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:673][419]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:715][420]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:760][421]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:809][422]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:850][423]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:884][424]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:913][425]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:932][426]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:951][427]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.17:977][428]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:010][429]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:040][430]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:069][431]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:095][432]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:133][433]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:166][434]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:205][435]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:243][436]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:275][437]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:304][438]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:334][439]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:366][440]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:394][441]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:420][442]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:445][443]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:473][444]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:499][445]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:526][446]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:552][447]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:582][448]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:610][449]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:637][450]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:664][451]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:691][452]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:720][453]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:745][454]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:768][455]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:793][456]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:821][457]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:847][458]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:874][459]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:900][460]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:928][461]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:952][462]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.18:979][463]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:007][464]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:035][465]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:062][466]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:093][467]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:123][468]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:153][469]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:186][470]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:218][471]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:251][472]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:284][473]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:317][474]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:348][475]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:377][476]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:406][477]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:434][478]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:461][479]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:490][480]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:514][481]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:540][482]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:565][483]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:591][484]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:616][485]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:644][486]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:670][487]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:697][488]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:724][489]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:749][490]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:776][491]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:804][492]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:832][493]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:860][494]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:888][495]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:913][496]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:941][497]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:965][498]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.19:992][499]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:016][500]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:042][501]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:065][502]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:092][503]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:120][504]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:146][505]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:169][506]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:193][507]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:218][508]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:244][509]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:270][510]LogBlueprintUserMessages: 0.0
+[2014.12.09-06.10.20:463][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D0CAF20
+[2014.12.09-06.10.54:204][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.12.09-06.10.54:205][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.12.09-06.10.54:205][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_8) Not registered. Aborting.
+[2014.12.09-06.10.54:205][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2014.12.09-06.11.00:990][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.11.01:141][899]LogSavePackage: Save=90.519615ms
+[2014.12.09-06.11.01:141][899]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel26565FDC47F9E4700FF850945E38503E.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.11.01:167][899]LogFileHelpers: Saving map 'FinalLevel' took 0.415
+[2014.12.09-06.11.01:187][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Boss_Projectile" FILE="D:/Study-Session/Trial_third_person/Content/Blueprints/Boss_Projectile.uasset" SILENT=true
+[2014.12.09-06.11.01:320][899]LogSavePackage: Save=117.098427ms
+[2014.12.09-06.11.01:320][899]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/Boss_Projectile2B701F2F455E1DA16368E89D668FA765.tmp' to 'D:/Study-Session/Trial_third_person/Content/Blueprints/Boss_Projectile.uasset'
+[2014.12.09-06.11.04:946][996]BlueprintLog: New page: Compile Boss_Projectile
+[2014.12.09-06.11.05:150][996]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2014.12.09-06.11.05:296][996]BlueprintEditorCompileResults: Info [0583.36] Compile of Boss_Projectile successful! [in 44 ms]
+[2014.12.09-06.11.06:430][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FinalLevel" FILE="D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-06.11.06:587][ 27]LogSavePackage: Save=93.150299ms
+[2014.12.09-06.11.06:587][ 27]LogSavePackage: Moving 'D:/Study-Session/Trial_third_person/Saved/FinalLevel89C596244B0D1066C06A2B8A7799DA15.tmp' to 'D:/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap'
+[2014.12.09-06.11.06:614][ 27]LogFileHelpers: Saving map 'FinalLevel' took 0.412
+[2014.12.09-06.11.07:779][ 94]BlueprintLog: New page: Compile Mixamo_Maw
+[2014.12.09-06.11.08:085][ 94]BlueprintEditorCompileResults: Info [0586.24] Compile of Mixamo_Maw successful! [in 71 ms]
+[2014.12.09-06.12.30:866][279]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.12.30:866][279]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-06.13.02:313][936]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.09-06.13.02:327][936]LogCrashTracker: 
+
+
+[2014.12.09-06.13.02:845][936]LogCrashTracker: 
+
+
+[2014.12.09-06.13.02:845][936]LogWindows: === Critical error: ===
+Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Runtime\Core\Public\Templates\SharedPointer.h] [Line: 658] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefc1d940d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fedf3071c4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fedf1998c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fedf17e892) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x000007fed7936500) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x000007fed7928fef) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x000007fed78fe544) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda1a92a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda22758) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feddbe28fa) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feddbe2eda) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007fedeb285d7) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007fedeb77413) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007fedeb77413) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007fedeb77413) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007fedeb77413) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda1798c) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda16fca) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda559ae) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda73b9d) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fedc5f69de) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fedc5be686) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fedc5e921f) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fedc5dd19d) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fedc5f25fa) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x000007fed2597a54) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x000007fed257a86a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda0b963) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda5606c) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x000007fed2590702) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x000007fed257a616) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda1a9ea) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda57365) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fedda47883) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fedf263b74) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fedf2562ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fedf265019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fedf253542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000770b9bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000770b98da) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fedf302ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f3fa752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x000000013f3ef9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f3efa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x000000013f3fbf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f3fcdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x0000000076f959ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00000000771cc541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00000000771cc541) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.09-06.13.03:061][936]LogExit: Executing StaticShutdownAfterError
+[2014.12.09-06.13.03:077][936]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.09-06.13.03:077][936]Log file closed, 12/08/14 22:13:03

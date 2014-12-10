@@ -1,0 +1,802 @@
+﻿Log file open, 12/08/14 17:47:10
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.09-01.47.11:001][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.09-01.47.11:030][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-01.47.11:044][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-01.47.11:051][  0]LogInit: Object subsystem initialized
+[2014.12.09-01.47.11:054][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.09-01.47.11:054][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-01.47.11:054][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-01.47.11:054][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-01.47.11:054][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-01.47.11:054][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-01.47.11:058][  0]LogInit: Computer: WINDOWSONAMAC
+[2014.12.09-01.47.11:058][  0]LogInit: User: Jacob
+[2014.12.09-01.47.11:059][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.09-01.47.11:059][  0]LogInit: High frequency timer resolution =2.240914 MHz
+[2014.12.09-01.47.11:059][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.12.09-01.47.11:059][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-01.47.11:059][  0]LogMemory: Process Physical Memory: 61.77 MB used, 61.89 MB peak
+[2014.12.09-01.47.11:059][  0]LogMemory: Process Virtual Memory: 37.28 MB used, 37.40 MB peak
+[2014.12.09-01.47.11:059][  0]LogMemory: Physical Memory: 2909.96 MB used, 16292.25 MB total
+[2014.12.09-01.47.11:059][  0]LogMemory: Virtual Memory: 290.42 MB used, 134217728.00 MB total
+[2014.12.09-01.47.11:078][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M    (Feature Level 11_0)
+[2014.12.09-01.47.11:078][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.09-01.47.11:079][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.09-01.47.11:079][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.09-01.47.11:079][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-01.47.11:082][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.09-01.47.11:089][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-01.47.11:136][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-01.47.11:243][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-01.47.14:921][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-01.47.15:247][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-01.47.15:286][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-01.47.15:319][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.09-01.47.15:319][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jacob/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.09-01.47.15:319][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-01.47.15:319][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-01.47.15:370][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-01.47.15:382][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jacob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-01.47.15:514][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-01.47.15:514][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-01.47.15:759][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-01.47.15:761][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-01.47.15:903][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-01.47.16:542][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-01.47.16:675][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.12.09-01.47.16:763][  0]SourceControl: Info Source control is disabled
+[2014.12.09-01.47.16:763][  0]SourceControl: Info Source control is disabled
+[2014.12.09-01.47.16:768][  0]SourceControl: Info Source control is disabled
+[2014.12.09-01.47.16:849][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.09-01.47.16:849][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.12.09-01.47.16:895][  0]LogEngine: Initializing Engine...
+[2014.12.09-01.47.16:995][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4208 (AB 94))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2014.12.09-01.47.17:008][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-01.47.17:022][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-01.47.17:040][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.09-01.47.17:043][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-01.47.17:074][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-01.47.17:136][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-01.47.17:160][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2014.12.09-01.47.17:160][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-01.47.17:505][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-01.47.17:769][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-01.47.17:911][  0]LogConsoleResponse:Display: 
+[2014.12.09-01.47.18:051][  0]SourceControl: Info Source control is disabled
+[2014.12.09-01.47.18:051][  0]Cmd: MAP LOAD FILE="E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-01.47.18:051][  0]LightingResults: New page: Lighting Build
+[2014.12.09-01.47.18:058][  0]MapCheck: New page: Map Check
+[2014.12.09-01.47.18:058][  0]LightingResults: New page: Lighting Build
+[2014.12.09-01.47.18:071][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A42A251A80
+[2014.12.09-01.47.18:734][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.09-01.47.18:937][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.12.09-01.47.18:951][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.09-01.47.19:015][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.12.09-01.47.19:025][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.12.09-01.47.19:048][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.12.09-01.47.19:081][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-01.47.19:082][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-01.47.19:082][  0]Cmd: MAP CHECKDEP
+[2014.12.09-01.47.19:083][  0]MapCheck: New page: Example_Map - Dec 8, 2014, 9:47:19 AM
+[2014.12.09-01.47.19:156][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.423ms to complete.
+[2014.12.09-01.47.19:156][  0]LogFileHelpers: Loading map 'Example_Map' took 1.104
+[2014.12.09-01.47.19:236][  0]LogCollectionManager: Loaded 0 collections in 0.000826 seconds
+[2014.12.09-01.47.19:362][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-01.47.19:381][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-01.47.19:407][  0]LogLoad: Full Startup: 10.25 seconds (BP compile: 0.25 seconds)
+[2014.12.09-01.47.19:421][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-01.47.19:558][  0]LogRenderer:Warning: Reallocating scene render targets to support 728x704.
+[2014.12.09-01.47.19:869][  2]LogAssetRegistry: Asset discovery search completed in 2.7192 seconds
+[2014.12.09-01.50.30:035][643]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-01.50.30:035][643]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.09-01.50.30:094][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.09-01.50.30:094][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.09-01.50.30:094][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2014.12.09-01.50.30:130][643]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2014.12.09-01.50.30:131][643]PIE: New page: PIE session: Example_Map (Dec 8, 2014, 9:50:30 AM)
+[2014.12.09-01.50.30:164][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033735s)
+[2014.12.09-01.50.30:166][643]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2014.12.09-01.50.30:166][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.035320s)
+[2014.12.09-01.50.30:230][643]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-01.50.30:236][643]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-01.50.30:238][643]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.09-01.50.30:238][643]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.08-17.50.30
+[2014.12.09-01.50.30:241][643]LogWorld: Bringing up level for play took: 0.005017
+[2014.12.09-01.50.30:247][643]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.589
+[2014.12.09-01.50.58:752][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A434B69940
+[2014.12.09-02.31.57:890][763]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-02.31.57:890][763]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.09-02.31.57:925][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.09-02.31.57:925][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.09-02.31.57:926][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2014.12.09-02.31.57:942][763]LogPlayLevel: PIE:  Blueprint regeneration took 52 ms (1 blueprints)
+[2014.12.09-02.31.57:943][763]PIE: New page: PIE session: Example_Map (Dec 8, 2014, 10:31:57 AM)
+[2014.12.09-02.31.57:976][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033728s)
+[2014.12.09-02.31.57:979][763]LogPlayLevel: PIE: World Init took: (0.002425s)
+[2014.12.09-02.31.57:979][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.036309s)
+[2014.12.09-02.31.58:027][763]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-02.31.58:029][763]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-02.31.58:031][763]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.09-02.31.58:031][763]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.12.08-18.31.58
+[2014.12.09-02.31.58:031][763]LogWorld: Bringing up level for play took: 0.001932
+[2014.12.09-02.31.58:033][763]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.802
+[2014.12.09-02.32.22:001][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A434B684A0
+[2014.12.09-02.36.07:438][202]LogRenderer:Warning: Reallocating scene render targets to support 1152x728.
+[2014.12.09-03.11.12:156][357]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.09-03.11.20:139][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.09-03.11.20:139][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.09-03.11.20:139][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2014.12.09-03.11.20:161][833]Cmd: MAP LOAD FILE="E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-03.11.20:161][833]LightingResults: New page: Lighting Build
+[2014.12.09-03.11.20:190][833]LoadErrors: New page: Loading map: Example_Map.umap
+[2014.12.09-03.11.20:191][833]MapCheck: New page: Map Check
+[2014.12.09-03.11.20:191][833]LightingResults: New page: Lighting Build
+[2014.12.09-03.11.20:207][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A420570540
+[2014.12.09-03.11.20:279][833]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-03.11.20:279][833]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-03.11.20:295][833]Cmd: MAP CHECKDEP
+[2014.12.09-03.11.20:295][833]MapCheck: New page: Example_Map - Dec 8, 2014, 11:11:20 AM
+[2014.12.09-03.11.20:369][833]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.306ms to complete.
+[2014.12.09-03.11.20:369][833]LogFileHelpers: Loading map 'Example_Map' took 0.210
+[2014.12.09-03.11.21:788][906]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
+[2014.12.09-03.11.21:788][906]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Couch_1seat.uasset.
+[2014.12.09-03.11.21:788][906]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Couch_1seat : Can't find file for asset. /Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst
+[2014.12.09-03.11.21:788][906]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
+[2014.12.09-03.11.21:789][906]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Couch_1seat.uasset.
+[2014.12.09-03.11.21:810][906]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
+[2014.12.09-03.11.21:811][906]LoadErrors: Info Failed to load /Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst.MI_Couch_NOSSS_Mat_Inst Referenced by SM_Couch_1seat Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-03.11.21:811][906]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading NULL.
+[2014.12.09-03.11.21:811][906]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
+[2014.12.09-03.11.21:811][906]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading NULL.
+[2014.12.09-03.11.21:905][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.09-03.11.21:905][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2014.12.09-03.11.21:925][906]Cmd: MAP LOAD FILE="E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Maps/School.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-03.11.21:925][906]LightingResults: New page: Lighting Build
+[2014.12.09-03.11.21:951][906]LoadErrors: New page: Loading map: School.umap
+[2014.12.09-03.11.21:951][906]MapCheck: New page: Map Check
+[2014.12.09-03.11.21:951][906]LightingResults: New page: Lighting Build
+[2014.12.09-03.11.21:968][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A421B5C2C0
+[2014.12.09-03.11.21:986][906]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-03.11.21:986][906]LogAIModule: Creating AISystem for world School
+[2014.12.09-03.11.26:053][906]Cmd: MAP CHECKDEP
+[2014.12.09-03.11.26:053][906]MapCheck: New page: School - Dec 8, 2014, 11:11:26 AM
+[2014.12.09-03.11.26:130][906]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.003ms to complete.
+[2014.12.09-03.11.26:130][906]LogFileHelpers: Loading map 'School' took 4.206
+[2014.12.09-03.11.33:890][366]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-03.11.33:890][366]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.09-03.11.33:927][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.09-03.11.33:927][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2014.12.09-03.11.33:945][366]LogPlayLevel: PIE:  Blueprint regeneration took 55 ms (1 blueprints)
+[2014.12.09-03.11.33:945][366]PIE: New page: PIE session: School (Dec 8, 2014, 11:11:33 AM)
+[2014.12.09-03.11.33:968][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022507s)
+[2014.12.09-03.11.33:968][366]LogPlayLevel: PIE: World Init took: (0.000400s)
+[2014.12.09-03.11.33:969][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/School.School to /Game/Maps/UEDPIE_0_School.School (0.023104s)
+[2014.12.09-03.11.33:999][366]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-03.11.34:001][366]LogAIModule: Creating AISystem for world School
+[2014.12.09-03.11.34:005][366]LogWorld: Bringing World /Game/Maps/UEDPIE_0_School.School up for play (max tick rate 60) at 2014.12.08-19.11.34
+[2014.12.09-03.11.34:006][366]LogWorld: Bringing up level for play took: 0.004810
+[2014.12.09-03.11.34:008][366]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_School -0.827
+[2014.12.09-03.12.03:964][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A437BD6520
+[2014.12.09-03.12.19:499][945]LogUProjectInfo: Found projects:
+[2014.12.09-04.54.08:660][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.09-04.54.08:660][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-04.54.08:660][858]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_M
+[2014.12.09-04.54.08:660][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.09-04.54.08:660][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-04.54.08:660][858]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_N
+[2014.12.09-04.54.08:661][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.09-04.54.08:661][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-04.54.08:661][858]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood
+[2014.12.09-04.54.08:661][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.09-04.54.08:661][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-04.54.08:661][858]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood_S
+[2014.12.09-04.54.08:661][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.09-04.54.08:661][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-04.54.08:661][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.09-04.54.08:662][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-04.54.08:662][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.09-04.54.08:662][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-04.54.08:662][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.09-04.54.08:662][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-04.54.08:723][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.09-04.54.08:723][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
+[2014.12.09-04.54.08:723][858]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_CoffeeTable : Can't find file for asset. /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst
+[2014.12.09-04.54.08:723][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.09-04.54.08:723][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
+[2014.12.09-04.54.08:727][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.09-04.54.08:727][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.12.09-04.54.08:727][858]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Curtain : Can't find file for asset. /Game/ArchVis/Materials/M_Curtain_MAT_Inst
+[2014.12.09-04.54.08:727][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.09-04.54.08:728][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.12.09-04.54.08:729][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.09-04.54.08:730][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.12.09-04.54.08:730][858]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FloorLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
+[2014.12.09-04.54.08:730][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.09-04.54.08:730][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.12.09-04.54.08:734][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.09-04.54.08:734][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
+[2014.12.09-04.54.08:734][858]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Shelving : Can't find file for asset. /Game/ArchVis/Materials/M_Shelving_Inst
+[2014.12.09-04.54.08:734][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.09-04.54.08:734][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
+[2014.12.09-04.54.08:736][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.09-04.54.08:736][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
+[2014.12.09-04.54.08:736][858]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_TV : Can't find file for asset. /Game/ArchVis/Materials/M_TV_Inst
+[2014.12.09-04.54.08:736][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.09-04.54.08:737][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
+[2014.12.09-04.54.08:738][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.09-04.54.08:738][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
+[2014.12.09-04.54.08:739][858]LoadErrors:Error: Error /Game/StarterContent/Mesh/Statue : Can't find file for asset. /Game/ArchVis/Materials/M_Statue_Inst
+[2014.12.09-04.54.08:739][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.09-04.54.08:739][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
+[2014.12.09-04.54.08:793][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.09-04.54.08:793][858]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by M_Shelving
+[2014.12.09-04.54.08:793][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.09-04.54.08:793][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.09-04.54.08:794][858]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_Shelving
+[2014.12.09-04.54.08:794][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.09-04.54.08:794][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.09-04.54.08:794][858]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by M_Shelving
+[2014.12.09-04.54.08:794][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.09-04.54.08:794][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.09-04.54.08:794][858]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_Shelving
+[2014.12.09-04.54.08:794][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.09-04.54.08:795][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.09-04.54.08:795][858]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.09-04.54.08:795][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.09-04.54.08:795][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.09-04.54.08:795][858]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.09-04.54.08:795][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.09-04.54.08:796][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.09-04.54.08:796][858]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_4 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.09-04.54.08:796][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.09-04.54.08:796][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.09-04.54.08:796][858]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_5 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.09-04.54.08:796][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.09-04.54.08:800][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.09-04.54.08:800][858]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst.M_CoffeTable_MAT_Inst Referenced by SM_CoffeeTable Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-04.54.08:801][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading NULL.
+[2014.12.09-04.54.08:801][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.09-04.54.08:801][858]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-04.54.08:801][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
+[2014.12.09-04.54.08:801][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.09-04.54.08:801][858]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-04.54.08:802][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
+[2014.12.09-04.54.08:802][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.09-04.54.08:802][858]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Shelving_Inst.M_Shelving_Inst Referenced by SM_Shelving Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-04.54.08:802][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading NULL.
+[2014.12.09-04.54.08:802][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.09-04.54.08:802][858]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_TV_Inst.M_TV_Inst Referenced by SM_TV Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-04.54.08:802][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading NULL.
+[2014.12.09-04.54.08:803][858]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.09-04.54.08:803][858]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Statue_Inst.M_Statue_Inst Referenced by Statue Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-04.54.08:803][858]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading NULL.
+[2014.12.09-04.54.08:822][858]LogStaticMesh: Building static mesh mouse...
+[2014.12.09-04.54.08:827][858]LogLayoutUV:Display: FindCharts: 0 ms
+[2014.12.09-04.54.08:827][858]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.09-04.54.08:827][858]LogLayoutUV:Display:   Rasterize: 981
+[2014.12.09-04.54.08:827][858]LogLayoutUV:Display:   Find: 37
+[2014.12.09-04.54.08:828][858]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.09-04.54.08:828][858]LogLayoutUV:Display:   Rasterize: 993
+[2014.12.09-04.54.08:828][858]LogLayoutUV:Display:   Find: 47
+[2014.12.09-04.54.08:828][858]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.09-04.54.08:828][858]LogLayoutUV:Display:   Rasterize: 989
+[2014.12.09-04.54.08:828][858]LogLayoutUV:Display:   Find: 34
+[2014.12.09-04.54.08:829][858]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.09-04.54.08:829][858]LogLayoutUV:Display:   Rasterize: 995
+[2014.12.09-04.54.08:829][858]LogLayoutUV:Display:   Find: 30
+[2014.12.09-04.54.08:829][858]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.09-04.54.08:829][858]LogLayoutUV:Display:   Rasterize: 983
+[2014.12.09-04.54.08:829][858]LogLayoutUV:Display:   Find: 43
+[2014.12.09-04.54.08:830][858]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.09-04.54.08:830][858]LogLayoutUV:Display:   Rasterize: 998
+[2014.12.09-04.54.08:830][858]LogLayoutUV:Display:   Find: 35
+[2014.12.09-04.54.08:830][858]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.09-04.54.08:830][858]LogLayoutUV:Display:   Rasterize: 987
+[2014.12.09-04.54.08:830][858]LogLayoutUV:Display:   Find: 36
+[2014.12.09-04.54.08:831][858]LogLayoutUV:Display: PackCharts: 0 ms
+[2014.12.09-04.54.08:831][858]LogLayoutUV:Display:   Rasterize: 991
+[2014.12.09-04.54.08:831][858]LogLayoutUV:Display:   Find: 38
+[2014.12.09-04.54.08:836][858]LogStaticMesh: Built static mesh [14.819400ms] /Game/Character/mouse.mouse
+[2014.12.09-04.54.08:886][858]LogTexture:Display: Building textures: cat (BGRA8)
+[2014.12.09-04.54.09:111][858]LogTexture:Display: Building textures: T_Frame_M (AutoDXT)
+[2014.12.09-04.54.12:044][858]LogTexture:Display: Building textures: T_Frame_N (BC5)
+[2014.12.09-04.54.12:432][858]LogTexture:Display: Building textures: T_Paint_N (BC5)
+[2014.12.09-04.54.12:576][858]LogTexture:Display: Building textures: T_Wood (DXT1)
+[2014.12.09-04.54.15:530][858]LogTexture:Display: Building textures: T_Wood_S (AutoDXT)
+[2014.12.09-04.54.17:406][858]LogMaterial: Missing cached shader map for material A_Photos, compiling.
+[2014.12.09-04.54.17:523][858]LogTexture:Display: Building textures: book_normals (BC5)
+[2014.12.09-04.54.18:125][858]LogTexture:Display: Building textures: book_occlusion (DXT1)
+[2014.12.09-04.54.18:782][858]LogMaterial: Missing cached shader map for material M_Book_Mat, compiling.
+[2014.12.09-04.54.18:795][858]LogMaterial: Missing cached shader map for material M_Shelving, compiling.
+[2014.12.09-04.54.18:796][858]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Shelving.M_Shelving for platform PCD3D_SM5, Default Material will be used in game.
+[2014.12.09-04.54.18:796][858]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.12.09-04.54.18:920][858]LogTexture:Display: Building textures: T_Table_AOMASK (DXT1)
+[2014.12.09-04.54.19:816][858]LogTexture:Display: Building textures: T_Table_M (DXT1)
+[2014.12.09-04.54.20:451][858]LogTexture:Display: Building textures: T_Table_N (BC5)
+[2014.12.09-04.54.20:936][858]LogMaterial: Missing cached shader map for material M_CoffeTable_MAT, compiling.
+[2014.12.09-04.54.21:050][858]LogTexture:Display: Building textures: T_Door_AOMask (DXT1)
+[2014.12.09-04.54.22:349][858]LogTexture:Display: Building textures: T_Anisotrophic_M (DXT1)
+[2014.12.09-04.54.23:381][858]LogTexture:Display: Building textures: T_Anisotrophic_N (BC5)
+[2014.12.09-04.54.23:560][858]LogTexture:Display: Building textures: T_Door_M (DXT1)
+[2014.12.09-04.54.24:017][858]LogTexture:Display: Building textures: T_Door_N (BC5)
+[2014.12.09-04.54.24:395][858]LogMaterial: Missing cached shader map for material M_Door_MAT, compiling.
+[2014.12.09-04.54.24:455][858]LogTexture:Display: Building textures: T_FloorLamp_M (DXT1)
+[2014.12.09-04.54.25:174][858]LogTexture:Display: Building textures: T_FloorLamp_AO (DXT1)
+[2014.12.09-04.54.26:514][858]LogTexture:Display: Building textures: T_FloorLamp_N (BC5)
+[2014.12.09-04.54.26:989][858]LogMaterial: Missing cached shader map for material M_FloorLamp_Mat, compiling.
+[2014.12.09-04.54.27:008][858]LogTexture:Display: Building textures: photo_1_ (AutoDXT)
+[2014.12.09-04.54.27:319][858]LogMaterial: Missing cached shader map for material M_Painting_1, compiling.
+[2014.12.09-04.54.27:390][858]LogTexture:Display: Building textures: T_TV_M2 (AutoDXT)
+[2014.12.09-04.54.28:173][858]LogTexture:Display: Building textures: T_TV_M (AutoDXT)
+[2014.12.09-04.54.29:446][858]LogTexture:Display: Building textures: T_PaintedWall_N (BC5)
+[2014.12.09-04.54.30:148][858]LogMaterial: Missing cached shader map for material M_WallPainInterior_MAT, compiling.
+[2014.12.09-04.54.30:247][858]LogTexture:Display: Building textures: T_TV_N (BC5)
+[2014.12.09-04.54.30:854][858]LogMaterial: Missing cached shader map for material M_TV, compiling.
+[2014.12.09-04.54.31:118][858]LogTexture:Display: Building textures: T_Carpet_D (DXT1)
+[2014.12.09-04.54.36:324][858]LogTexture:Display: Building textures: T_Carpet_M (DXT1)
+[2014.12.09-04.54.38:617][858]LogTexture:Display: Building textures: T_Carpet_N (BC5)
+[2014.12.09-04.54.39:189][858]LogMaterial: Missing cached shader map for material M_Carptet_Mat, compiling.
+[2014.12.09-04.54.39:231][858]LogStaticMesh: Building static mesh newcatcauseoldcatsucks...
+[2014.12.09-04.54.39:259][858]LogLayoutUV:Display: FindCharts: 5 ms
+[2014.12.09-04.54.39:265][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:265][858]LogLayoutUV:Display:   Rasterize: 12173
+[2014.12.09-04.54.39:265][858]LogLayoutUV:Display:   Find: 94
+[2014.12.09-04.54.39:270][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:270][858]LogLayoutUV:Display:   Rasterize: 12161
+[2014.12.09-04.54.39:270][858]LogLayoutUV:Display:   Find: 99
+[2014.12.09-04.54.39:276][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:276][858]LogLayoutUV:Display:   Rasterize: 12174
+[2014.12.09-04.54.39:276][858]LogLayoutUV:Display:   Find: 100
+[2014.12.09-04.54.39:281][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:281][858]LogLayoutUV:Display:   Rasterize: 12166
+[2014.12.09-04.54.39:282][858]LogLayoutUV:Display:   Find: 90
+[2014.12.09-04.54.39:287][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:287][858]LogLayoutUV:Display:   Rasterize: 12152
+[2014.12.09-04.54.39:287][858]LogLayoutUV:Display:   Find: 96
+[2014.12.09-04.54.39:292][858]LogLayoutUV:Display: PackCharts: 4 ms
+[2014.12.09-04.54.39:292][858]LogLayoutUV:Display:   Rasterize: 10585
+[2014.12.09-04.54.39:292][858]LogLayoutUV:Display:   Find: 78
+[2014.12.09-04.54.39:297][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:297][858]LogLayoutUV:Display:   Rasterize: 11682
+[2014.12.09-04.54.39:298][858]LogLayoutUV:Display:   Find: 93
+[2014.12.09-04.54.39:303][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:303][858]LogLayoutUV:Display:   Rasterize: 11905
+[2014.12.09-04.54.39:303][858]LogLayoutUV:Display:   Find: 85
+[2014.12.09-04.54.39:340][858]LogLayoutUV:Display: FindCharts: 7 ms
+[2014.12.09-04.54.39:344][858]LogLayoutUV:Display: PackCharts: 4 ms
+[2014.12.09-04.54.39:344][858]LogLayoutUV:Display:   Rasterize: 8857
+[2014.12.09-04.54.39:344][858]LogLayoutUV:Display:   Find: 53
+[2014.12.09-04.54.39:348][858]LogLayoutUV:Display: PackCharts: 4 ms
+[2014.12.09-04.54.39:348][858]LogLayoutUV:Display:   Rasterize: 9632
+[2014.12.09-04.54.39:348][858]LogLayoutUV:Display:   Find: 58
+[2014.12.09-04.54.39:354][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:354][858]LogLayoutUV:Display:   Rasterize: 11862
+[2014.12.09-04.54.39:354][858]LogLayoutUV:Display:   Find: 93
+[2014.12.09-04.54.39:359][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:359][858]LogLayoutUV:Display:   Rasterize: 11812
+[2014.12.09-04.54.39:359][858]LogLayoutUV:Display:   Find: 92
+[2014.12.09-04.54.39:365][858]LogLayoutUV:Display: PackCharts: 5 ms
+[2014.12.09-04.54.39:365][858]LogLayoutUV:Display:   Rasterize: 11887
+[2014.12.09-04.54.39:365][858]LogLayoutUV:Display:   Find: 99
+[2014.12.09-04.54.39:369][858]LogLayoutUV:Display: PackCharts: 4 ms
+[2014.12.09-04.54.39:369][858]LogLayoutUV:Display:   Rasterize: 10281
+[2014.12.09-04.54.39:369][858]LogLayoutUV:Display:   Find: 73
+[2014.12.09-04.54.39:374][858]LogLayoutUV:Display: PackCharts: 4 ms
+[2014.12.09-04.54.39:374][858]LogLayoutUV:Display:   Rasterize: 8820
+[2014.12.09-04.54.39:374][858]LogLayoutUV:Display:   Find: 42
+[2014.12.09-04.54.39:378][858]LogLayoutUV:Display: PackCharts: 4 ms
+[2014.12.09-04.54.39:378][858]LogLayoutUV:Display:   Rasterize: 8893
+[2014.12.09-04.54.39:378][858]LogLayoutUV:Display:   Find: 53
+[2014.12.09-04.54.39:513][858]LogStaticMesh: Built static mesh [283.608398ms] /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks
+[2014.12.09-04.54.39:528][858]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2014.12.09-04.54.39:528][858]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2014.12.09-04.54.39:528][858]LogPhysics:Warning: Failed to cook convex: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks 11 (FlipX:0). The remaining elements will not get cooked.
+[2014.12.09-04.54.39:572][858]LogAudioDerivedData:Display: Building compressed audio format OGG wave LivingRoomMusic...
+[2014.12.09-04.54.45:060][858]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.09-04.54.45:162][858]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.12.09-04.54.45:188][858]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.12.09-04.54.45:217][858]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.12.09-04.54.45:333][858]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.12.09-04.54.45:339][858]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.12.09-04.54.45:345][858]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.12.09-04.54.45:354][858]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.12.09-04.54.45:454][858]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.12.09-04.54.45:480][858]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.12.09-04.54.45:537][858]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.12.09-04.54.45:562][858]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.12.09-04.54.45:594][858]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2014.12.09-04.54.45:617][858]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2014.12.09-04.54.45:637][858]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2014.12.09-04.54.45:653][858]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2014.12.09-04.54.45:666][858]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2014.12.09-04.54.45:696][858]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2014.12.09-04.54.45:759][858]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2014.12.09-04.54.45:869][858]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2014.12.09-04.54.45:935][858]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2014.12.09-04.54.45:949][858]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2014.12.09-04.54.45:970][858]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2014.12.09-04.54.45:979][858]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2014.12.09-04.54.45:984][858]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2014.12.09-04.54.45:997][858]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2014.12.09-04.54.46:031][858]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2014.12.09-04.54.46:052][858]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2014.12.09-04.54.46:114][858]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.12.09-04.54.46:232][858]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.12.09-04.54.46:256][858]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.09-04.54.46:299][858]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.12.09-04.54.46:312][858]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.12.09-04.54.46:335][858]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.12.09-04.54.46:408][858]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.12.09-04.54.46:413][858]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.12.09-04.54.46:417][858]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.12.09-04.54.46:426][858]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.12.09-04.54.46:524][858]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.12.09-04.54.46:558][858]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.12.09-04.54.46:600][858]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.12.09-04.54.46:615][858]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.12.09-04.54.46:632][858]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2014.12.09-04.54.46:647][858]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2014.12.09-04.54.46:665][858]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2014.12.09-04.54.46:678][858]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2014.12.09-04.54.46:685][858]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2014.12.09-04.54.46:707][858]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2014.12.09-04.54.46:754][858]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2014.12.09-04.54.46:838][858]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2014.12.09-04.54.46:886][858]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2014.12.09-04.54.46:897][858]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2014.12.09-04.54.46:911][858]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2014.12.09-04.54.46:918][858]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2014.12.09-04.54.46:922][858]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2014.12.09-04.54.46:931][858]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2014.12.09-04.54.46:962][858]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2014.12.09-04.54.46:977][858]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2014.12.09-04.54.47:030][858]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.12.09-04.54.47:156][858]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.12.09-04.54.47:273][858]Cmd: MAP LOAD FILE="E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-04.54.47:273][858]LightingResults: New page: Lighting Build
+[2014.12.09-04.54.47:314][858]LoadErrors: New page: Loading map: LivingRoom.umap
+[2014.12.09-04.54.47:315][858]MapCheck: New page: Map Check
+[2014.12.09-04.54.47:315][858]LightingResults: New page: Lighting Build
+[2014.12.09-04.54.47:341][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A434B68360
+[2014.12.09-04.54.47:355][858]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.09-04.54.47:421][858]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-04.54.47:421][858]LogAIModule: Creating AISystem for world LivingRoom
+[2014.12.09-04.54.47:438][858]Cmd: MAP CHECKDEP
+[2014.12.09-04.54.47:438][858]MapCheck: New page: LivingRoom - Dec 8, 2014, 12:54:47 PM
+[2014.12.09-04.54.47:547][858]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.365ms to complete.
+[2014.12.09-04.54.47:547][858]LogFileHelpers: Loading map 'LivingRoom' took 0.276
+[2014.12.09-04.55.22:966][454]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-04.55.22:967][454]PIE: New page: PIE session: LivingRoom (Dec 8, 2014, 12:55:22 PM)
+[2014.12.09-04.55.23:002][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035070s)
+[2014.12.09-04.55.23:002][454]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2014.12.09-04.55.23:002][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.035702s)
+[2014.12.09-04.55.23:033][454]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-04.55.23:035][454]LogAIModule: Creating AISystem for world LivingRoom
+[2014.12.09-04.55.23:042][454]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.09-04.55.23:043][454]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.09-04.55.23:043][454]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 60) at 2014.12.08-20.55.23
+[2014.12.09-04.55.23:044][454]LogWorld: Bringing up level for play took: 0.008570
+[2014.12.09-04.55.23:046][454]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 0.211
+[2014.12.09-04.56.21:894][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.09-04.56.21:894][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_5) Not registered. Aborting.
+[2014.12.09-04.56.21:915][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A42B0A2F20
+[2014.12.09-04.56.33:396][641]Cmd: MAP LOAD FILE="E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-04.56.33:396][641]LightingResults: New page: Lighting Build
+[2014.12.09-04.56.33:426][641]LoadErrors: New page: Loading map: Example_Map.umap
+[2014.12.09-04.56.33:429][641]MapCheck: New page: Map Check
+[2014.12.09-04.56.33:429][641]LightingResults: New page: Lighting Build
+[2014.12.09-04.56.33:448][641]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A434CFD260
+[2014.12.09-04.56.33:460][641]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-04.56.33:461][641]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-04.56.33:476][641]Cmd: MAP CHECKDEP
+[2014.12.09-04.56.33:477][641]MapCheck: New page: Example_Map - Dec 8, 2014, 12:56:33 PM
+[2014.12.09-04.56.33:585][641]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.426ms to complete.
+[2014.12.09-04.56.33:585][641]LogFileHelpers: Loading map 'Example_Map' took 0.191
+[2014.12.09-04.56.35:773][760]LogTexture:Display: Building textures: chalkboard (AutoDXT)
+[2014.12.09-04.56.36:856][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.09-04.56.36:856][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_6) Not registered. Aborting.
+[2014.12.09-04.56.36:879][760]Cmd: MAP LOAD FILE="E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-04.56.36:879][760]LightingResults: New page: Lighting Build
+[2014.12.09-04.56.36:911][760]LoadErrors: New page: Loading map: StartMenuLevel.umap
+[2014.12.09-04.56.36:911][760]MapCheck: New page: Map Check
+[2014.12.09-04.56.36:911][760]LightingResults: New page: Lighting Build
+[2014.12.09-04.56.36:928][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A434B68540
+[2014.12.09-04.56.36:936][760]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-04.56.36:936][760]LogAIModule: Creating AISystem for world StartMenuLevel
+[2014.12.09-04.56.36:952][760]Cmd: MAP CHECKDEP
+[2014.12.09-04.56.36:952][760]MapCheck: New page: StartMenuLevel - Dec 8, 2014, 12:56:36 PM
+[2014.12.09-04.56.37:062][760]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.005ms to complete.
+[2014.12.09-04.56.37:062][760]LogFileHelpers: Loading map 'StartMenuLevel' took 0.185
+[2014.12.09-04.56.44:209][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.09-04.56.44:209][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_7) Not registered. Aborting.
+[2014.12.09-04.56.44:230][174]Cmd: MAP LOAD FILE="E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-04.56.44:231][174]LightingResults: New page: Lighting Build
+[2014.12.09-04.56.44:260][174]LoadErrors: New page: Loading map: Example_Map.umap
+[2014.12.09-04.56.44:260][174]MapCheck: New page: Map Check
+[2014.12.09-04.56.44:260][174]LightingResults: New page: Lighting Build
+[2014.12.09-04.56.44:276][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A4210A8EA0
+[2014.12.09-04.56.44:284][174]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-04.56.44:285][174]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-04.56.44:300][174]Cmd: MAP CHECKDEP
+[2014.12.09-04.56.44:300][174]MapCheck: New page: Example_Map - Dec 8, 2014, 12:56:44 PM
+[2014.12.09-04.56.44:412][174]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.481ms to complete.
+[2014.12.09-04.56.44:412][174]LogFileHelpers: Loading map 'Example_Map' took 0.182
+[2014.12.09-04.59.58:260][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:260][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-04.59.58:268][455]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.00.04:082][788]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.00.15:000][405]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.00.50:010][786]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.00.51:521][872]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.00.51:521][872]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.00.51:521][872]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.00.51:521][872]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.00.51:521][872]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.00.51:521][872]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.00.51:521][872]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.00.54:535][ 50]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.02.26:596][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.02.26:596][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.02.43:032][139]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.02.45:122][259]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.04.31:411][364]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.04.31:411][364]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.04.31:411][364]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.04.35:397][600]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.04.39:086][821]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.04.45:067][176]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.06.08:212][973]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.06.16:878][486]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.06.19:506][641]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.06.19:506][641]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.06.19:506][641]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.06.19:506][641]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.06.21:468][738]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.06.30:839][164]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.06.44:918][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.09-05.06.44:918][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_8) Not registered. Aborting.
+[2014.12.09-05.06.44:945][298]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.028
+[2014.12.09-05.06.44:955][298]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyGame] ([1] browsable assets)...
+[2014.12.09-05.06.44:961][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyGame]
+[2014.12.09-05.06.45:011][298]LogSavePackage: Save=18.986450ms
+[2014.12.09-05.06.45:011][298]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyGame_Auto16498E18A435B33F39E9E3D8EE4CEB4C9.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyGame_Auto1.uasset'
+[2014.12.09-05.06.45:016][298]LogFileHelpers: Auto-saving content packages took 0.071
+[2014.12.09-05.06.51:160][634]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.06.54:021][802]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.07.07:953][614]LogSavePackage: Save=14.403944ms
+[2014.12.09-05.07.07:953][614]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyGameF1B7969E4DC6E681A767398D2E9464D6.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Blueprints/MyGame.uasset'
+[2014.12.09-05.08.16:169][873]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.08.32:708][830]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.08.52:536][652]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.09.22:733][110]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.09.22:900][116]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.09.30:066][533]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.09.52:462][349]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.16.45:816][940]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.032
+[2014.12.09-05.16.45:824][940]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyGame] ([1] browsable assets)...
+[2014.12.09-05.16.45:828][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyGame]
+[2014.12.09-05.16.45:863][940]LogSavePackage: Save=17.927059ms
+[2014.12.09-05.16.45:863][940]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyGame_Auto2DACE5CDF428CD04B4F55CC9D006B9E54.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyGame_Auto2.uasset'
+[2014.12.09-05.16.45:870][940]LogFileHelpers: Auto-saving content packages took 0.054
+[2014.12.09-05.18.59:338][830]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.19.06:250][234]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.19.44:171][146]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.19.58:383][690]LogSavePackage: Save=14.389665ms
+[2014.12.09-05.19.58:383][690]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyGame02F6E9FA4AA2A10E96497185BFEFA989.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Blueprints/MyGame.uasset'
+[2014.12.09-05.19.59:112][734]BlueprintLog: New page: Compile MyGame
+[2014.12.09-05.19.59:216][734]BlueprintEditorCompileResults: Info [2769.96] Compile of MyGame successful! [in 3 ms]
+[2014.12.09-05.20.00:100][783]LogSavePackage: Save=14.682848ms
+[2014.12.09-05.20.00:100][783]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyGame893A35264D3232C70BE0CA949C6EA0A3.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Blueprints/MyGame.uasset'
+[2014.12.09-05.21.23:981][813]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.21.28:662][ 94]BlueprintLog: New page: Compile MyGame
+[2014.12.09-05.21.28:744][ 94]BlueprintEditorCompileResults: Info [2859.51] Compile of MyGame successful! [in 3 ms]
+[2014.12.09-05.21.29:634][143]LogSavePackage: Save=16.092541ms
+[2014.12.09-05.21.29:634][143]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyGame78291176443EEE023A2209B190871E2B.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Blueprints/MyGame.uasset'
+[2014.12.09-05.21.36:173][528]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-05.24.35:291][435]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.24.50:170][283]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.33.39:910][644]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.33.49:751][211]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.34.07:322][342]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.35.13:876][265]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.35.16:286][447]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.35.18:217][570]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.35.31:590][944]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.35.41:731][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.09-05.35.41:732][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.09-05.35.41:732][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_9) Not registered. Aborting.
+[2014.12.09-05.35.41:757][755]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A434EB7CE0
+[2014.12.09-05.35.41:768][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.036
+[2014.12.09-05.35.41:777][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.12.09-05.35.41:807][755]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.12.09-05.35.41:807][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.12.09-05.35.42:235][755]LogSavePackage: Save=392.762939ms
+[2014.12.09-05.35.42:235][755]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyCharacter_Auto3675B4AB242C96FEE55F75FA0A65D3056.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset'
+[2014.12.09-05.35.42:243][755]LogFileHelpers: Auto-saving content packages took 0.475
+[2014.12.09-05.35.47:894][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.09-05.35.48:040][361]LogSavePackage: Save=92.183365ms
+[2014.12.09-05.35.48:040][361]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyCharacter2F00D9C74F8C81BA837C8BAE9122FB14.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.09-05.36.14:128][921]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.36.14:278][934]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.09-05.37.05:250][127]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.40.37:805][ 35]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.41.08:512][408]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.41.10:856][553]LogSavePackage: Save=393.498810ms
+[2014.12.09-05.41.10:856][553]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyCharacter97B3D2CA42C52909EA97A0A59B6320CE.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.09-05.41.17:637][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.09-05.41.19:705][233]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.41.30:935][157]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.41.39:131][916]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.41.46:650][381]LogSavePackage: Save=389.385315ms
+[2014.12.09-05.41.46:650][381]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyCharacter07D7F21649021BCAC8B6C79A97945920.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.09-05.41.47:479][471]BlueprintLog: New page: Compile MyCharacter
+[2014.12.09-05.41.47:650][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.12.09-05.41.47:740][471]BlueprintEditorCompileResults: Info [4078.45] Compile of MyCharacter successful! [in 59 ms]
+[2014.12.09-05.42.06:179][395]BlueprintLog: New page: Compile MyCharacter
+[2014.12.09-05.42.06:428][395]BlueprintEditorCompileResults: Info [4097.15] Compile of MyCharacter successful! [in 57 ms]
+[2014.12.09-05.42.07:758][451]LogSavePackage: Save=395.090576ms
+[2014.12.09-05.42.07:758][451]LogSavePackage: Moving 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Saved/MyCharacter3E4A90CD4FE5803ACF1911BA68F7DF1A.tmp' to 'E:/Mobile Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
+[2014.12.09-05.42.10:887][761]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-05.42.10:887][761]LogPlayLevel: [PIE] Compiling MyGame before PIE...
+[2014.12.09-05.42.10:987][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.12.09-05.42.10:988][761]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.12.09-05.42.11:058][761]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.09-05.42.11:171][761]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.09-05.42.11:397][761]LogPlayLevel: PIE:  Blueprint regeneration took 510 ms (4 blueprints)
+[2014.12.09-05.42.11:397][761]PIE: New page: PIE session: Example_Map (Dec 8, 2014, 1:42:11 PM)
+[2014.12.09-05.42.11:436][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038955s)
+[2014.12.09-05.42.11:439][761]LogPlayLevel: PIE: World Init took: (0.002590s)
+[2014.12.09-05.42.11:439][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.041712s)
+[2014.12.09-05.42.11:507][761]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-05.42.11:510][761]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-05.42.11:511][761]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.09-05.42.11:511][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.08-21.42.11
+[2014.12.09-05.42.11:512][761]LogWorld: Bringing up level for play took: 0.001947
+[2014.12.09-05.42.11:513][761]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.678
+[2014.12.09-05.42.55:599][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.12.09-05.42.55:631][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A42DF162A0
+[2014.12.09-05.43.13:749][607]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-05.43.13:984][607]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.09-05.43.13:993][607]LogCrashTracker: 
+
+
+[2014.12.09-05.43.14:850][607]LogCrashTracker: 
+
+
+[2014.12.09-05.43.14:850][607]LogWindows: === Critical error: ===
+Assertion failed: StructPtrs.Num() != 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\DetailCustomizations\Private\KeyStructCustomization.cpp] [Line: 63] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffc9a5e606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc81db71c4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc81c498c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc81c2e892) + 0 bytes [UnknownFile:0]
+UE4Editor-DetailCustomizations.dll!UnknownFunction (0x00007ffc72641194) + 0 bytes [UnknownFile:0]
+UE4Editor-DetailCustomizations.dll!UnknownFunction (0x00007ffc72624526) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc77f34d8a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc77f477f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc77f508d6) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc77f37032) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a2a1f) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a2cd6) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a4494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a1098) + 0 bytes [UnknownFile:0]
+UE4Editor-PropertyEditor.dll!UnknownFunction (0x00007ffc75f5d50f) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818cd5e4) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f71c5) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a4494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a4494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc818a4494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f71c5) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffc812f72fc) + 0 bytes [UnknownFile:0]
+UnknownModule!UnknownFunction (0x0000f127ee32c1a6) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.09-05.43.14:971][607]LogExit: Executing StaticShutdownAfterError
+[2014.12.09-05.43.14:981][607]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.09-05.43.14:981][607]Log file closed, 12/08/14 21:43:14

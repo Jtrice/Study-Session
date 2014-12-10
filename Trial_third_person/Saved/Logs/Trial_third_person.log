@@ -1,4 +1,4 @@
-﻿Log file open, 12/08/14 21:44:31
+﻿Log file open, 12/08/14 22:45:15
 LogInit:Display: Running engine for game: Trial_third_person
 LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
 LogInit: API Version: 2326478
@@ -6,9 +6,10 @@ LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.5
-LogInit: Command line: 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
 LogInit: Rocket: 1
+<<<<<<< HEAD
 [2014.12.09-05.44.31:558][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
 [2014.12.09-05.44.31:585][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
 [2014.12.09-05.44.31:598][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
@@ -352,3 +353,1295 @@ LogInit: Rocket: 1
 [2014.12.09-18.52.29:759][166]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2014.12.09-18.52.29:760][166]LogExit: Exiting.
 [2014.12.09-18.52.29:772][166]Log file closed, 12/09/14 10:52:29
+=======
+[2014.12.09-06.45.15:381][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.09-06.45.15:409][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-06.45.15:427][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-06.45.15:438][  0]LogInit: Object subsystem initialized
+[2014.12.09-06.45.15:442][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.09-06.45.15:442][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-06.45.15:442][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-06.45.15:442][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-06.45.15:442][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-06.45.15:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-06.45.15:450][  0]LogInit: Computer: USER-PC
+[2014.12.09-06.45.15:450][  0]LogInit: User: User
+[2014.12.09-06.45.15:451][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.09-06.45.15:451][  0]LogInit: High frequency timer resolution =2.435947 MHz
+[2014.12.09-06.45.15:451][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx) Virtual=8192.0GB
+[2014.12.09-06.45.15:451][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-06.45.15:451][  0]LogMemory: Process Physical Memory: 63.49 MB used, 63.49 MB peak
+[2014.12.09-06.45.15:451][  0]LogMemory: Process Virtual Memory: 38.54 MB used, 38.54 MB peak
+[2014.12.09-06.45.15:451][  0]LogMemory: Physical Memory: 3373.39 MB used, 7969.14 MB total
+[2014.12.09-06.45.15:451][  0]LogMemory: Virtual Memory: 272.46 MB used, 8388608.00 MB total
+[2014.12.09-06.45.15:470][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.12.09-06.45.15:470][  0]LogD3D11RHI: Adapter has 192MB of dedicated video memory, 0MB of dedicated system memory, and 1568MB of shared system memory, 1 output[s]
+[2014.12.09-06.45.15:470][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-06.45.15:475][  0]LogRHI: Texture pool is 683 MB (70% of 976 MB)
+[2014.12.09-06.45.15:478][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-06.45.15:538][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-06.45.15:691][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-06.45.20:917][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-06.45.21:394][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-06.45.21:445][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-06.45.22:206][  0]LogDerivedDataCache: Loaded boot cache 0.76s 36MB C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.09-06.45.22:206][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.09-06.45.22:206][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-06.45.22:206][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-06.45.22:338][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-06.45.22:350][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-06.45.22:579][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-06.45.22:579][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-06.45.22:836][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-06.45.22:840][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-06.45.23:039][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-06.45.23:884][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-06.45.24:038][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/User/Documents/GitHub/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.12.09-06.45.24:166][  0]SourceControl: Info Source control is disabled
+[2014.12.09-06.45.24:166][  0]SourceControl: Info Source control is disabled
+[2014.12.09-06.45.24:172][  0]SourceControl: Info Source control is disabled
+[2014.12.09-06.45.24:277][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.09-06.45.24:277][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.12.09-06.45.24:333][  0]LogEngine: Initializing Engine...
+[2014.12.09-06.45.24:467][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.09-06.45.24:495][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-06.45.24:514][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-06.45.24:541][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/User/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.09-06.45.24:548][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-06.45.24:595][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-06.45.24:692][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-06.45.24:721][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2014.12.09-06.45.24:721][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-06.45.25:261][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-06.45.25:659][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-06.45.26:042][  0]LogConsoleResponse:Display: 
+[2014.12.09-06.45.28:693][  0]SourceControl: Info Source control is disabled
+[2014.12.09-06.45.28:693][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-06.45.28:693][  0]LightingResults: New page: Lighting Build
+[2014.12.09-06.45.28:703][  0]MapCheck: New page: Map Check
+[2014.12.09-06.45.28:703][  0]LightingResults: New page: Lighting Build
+[2014.12.09-06.45.28:719][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F2B85E0
+[2014.12.09-06.45.30:570][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.09-06.45.31:039][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.12.09-06.45.31:056][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.09-06.45.31:223][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.12.09-06.45.31:234][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.12.09-06.45.31:272][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.12.09-06.45.31:403][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-06.45.31:545][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.09-06.45.31:546][  0]Cmd: MAP CHECKDEP
+[2014.12.09-06.45.31:546][  0]MapCheck: New page: Example_Map - Dec 8, 2014, 2:45:31 PM
+[2014.12.09-06.45.31:641][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.516ms to complete.
+[2014.12.09-06.45.31:642][  0]LogFileHelpers: Loading map 'Example_Map' took 2.948
+[2014.12.09-06.45.31:730][  0]LogCollectionManager: Loaded 0 collections in 0.001296 seconds
+[2014.12.09-06.45.31:854][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-06.45.31:889][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-06.45.31:916][  0]LogLoad: Full Startup: 18.79 seconds (BP compile: 0.42 seconds)
+[2014.12.09-06.45.32:262][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-06.45.32:527][  0]LogRenderer:Warning: Reallocating scene render targets to support 688x568.
+[2014.12.09-06.45.50:009][837]LogAssetRegistry: Asset discovery search completed in 25.2969 seconds
+[2014.12.09-06.46.01:079][422]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.09-06.46.07:544][723]LogTexture:Display: Building textures: MAW_diffuse (AutoDXT)
+[2014.12.09-06.46.13:987][723]LogTexture:Display: Building textures: MAW_mask (AutoDXT)
+[2014.12.09-06.46.23:882][723]LogTexture:Display: Building textures: MAW_normal (BC5)
+[2014.12.09-06.46.24:107][723]LogTexture:Display: Building textures: MAW_glow (AutoDXT)
+[2014.12.09-06.46.24:161][723]LogMaterial: Missing cached shader map for material Maw_Mat, compiling.
+[2014.12.09-06.46.24:806][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.09-06.46.24:806][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.09-06.46.24:806][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2014.12.09-06.46.24:891][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E950A40
+[2014.12.09-06.46.24:937][723]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/FinalLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-06.46.24:937][723]LightingResults: New page: Lighting Build
+[2014.12.09-06.46.24:988][723]LoadErrors: New page: Loading map: FinalLevel.umap
+[2014.12.09-06.46.24:989][723]MapCheck: New page: Map Check
+[2014.12.09-06.46.24:989][723]LightingResults: New page: Lighting Build
+[2014.12.09-06.46.25:030][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AF53380
+[2014.12.09-06.46.25:122][723]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-06.46.25:123][723]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.46.25:210][723]Cmd: MAP CHECKDEP
+[2014.12.09-06.46.25:210][723]MapCheck: New page: FinalLevel - Dec 8, 2014, 2:46:25 PM
+[2014.12.09-06.46.25:380][723]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 168.979ms to complete.
+[2014.12.09-06.46.25:380][723]LogFileHelpers: Loading map 'FinalLevel' took 0.446
+[2014.12.09-06.46.26:790][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.12.09-06.46.37:271][960]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-06.46.37:271][960]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.09-06.46.37:371][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.09-06.46.37:371][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2014.12.09-06.46.37:420][960]LogPlayLevel: PIE:  Blueprint regeneration took 149 ms (1 blueprints)
+[2014.12.09-06.46.37:421][960]PIE: New page: PIE session: FinalLevel (Dec 8, 2014, 2:46:37 PM)
+[2014.12.09-06.46.37:437][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016722s)
+[2014.12.09-06.46.37:438][960]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2014.12.09-06.46.37:439][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.017911s)
+[2014.12.09-06.46.37:512][960]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.46.37:514][960]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.09-06.46.37:524][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.08-22.46.37
+[2014.12.09-06.46.37:525][960]LogWorld: Bringing up level for play took: 0.010986
+[2014.12.09-06.46.37:530][960]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.204
+[2014.12.09-06.47.06:482][870]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.09-06.47.06:718][878]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.09-06.47.08:492][937]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.09-06.47.08:503][938]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.09-06.47.08:503][938]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.09-06.47.14:763][152]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.09-06.47.17:112][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ED59120
+[2014.12.09-06.47.26:886][799]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Boss_level.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-06.47.26:886][799]LightingResults: New page: Lighting Build
+[2014.12.09-06.47.26:917][799]LoadErrors: New page: Loading map: Boss_level.umap
+[2014.12.09-06.47.26:919][799]MapCheck: New page: Map Check
+[2014.12.09-06.47.26:919][799]LightingResults: New page: Lighting Build
+[2014.12.09-06.47.26:944][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CC87240
+[2014.12.09-06.47.26:966][799]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-06.47.26:966][799]LogAIModule: Creating AISystem for world Boss_level
+[2014.12.09-06.47.27:079][799]Cmd: MAP CHECKDEP
+[2014.12.09-06.47.27:079][799]MapCheck: New page: Boss_level - Dec 8, 2014, 2:47:27 PM
+[2014.12.09-06.47.27:197][799]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 117.114ms to complete.
+[2014.12.09-06.47.27:197][799]LogFileHelpers: Loading map 'Boss_level' took 0.313
+[2014.12.09-06.47.32:815][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.09-06.47.32:815][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2014.12.09-06.47.38:267][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.09-06.47.38:268][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-06.47.38:268][323]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_M
+[2014.12.09-06.47.38:268][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.09-06.47.38:268][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-06.47.38:268][323]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_N
+[2014.12.09-06.47.38:269][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.09-06.47.38:269][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-06.47.38:269][323]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood
+[2014.12.09-06.47.38:269][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.09-06.47.38:269][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-06.47.38:269][323]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood_S
+[2014.12.09-06.47.38:270][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.09-06.47.38:270][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-06.47.38:270][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.09-06.47.38:270][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-06.47.38:270][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.09-06.47.38:271][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-06.47.38:271][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.09-06.47.38:271][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
+[2014.12.09-06.47.38:705][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.09-06.47.38:705][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
+[2014.12.09-06.47.38:705][323]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_CoffeeTable : Can't find file for asset. /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst
+[2014.12.09-06.47.38:706][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.09-06.47.38:706][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
+[2014.12.09-06.47.38:754][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.09-06.47.38:754][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.12.09-06.47.38:754][323]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Curtain : Can't find file for asset. /Game/ArchVis/Materials/M_Curtain_MAT_Inst
+[2014.12.09-06.47.38:755][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.09-06.47.38:755][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
+[2014.12.09-06.47.38:795][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.09-06.47.38:795][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.12.09-06.47.38:795][323]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FloorLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
+[2014.12.09-06.47.38:796][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.09-06.47.38:796][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
+[2014.12.09-06.47.38:822][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.09-06.47.38:822][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
+[2014.12.09-06.47.38:822][323]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Shelving : Can't find file for asset. /Game/ArchVis/Materials/M_Shelving_Inst
+[2014.12.09-06.47.38:822][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.09-06.47.38:822][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
+[2014.12.09-06.47.38:825][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.09-06.47.38:826][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
+[2014.12.09-06.47.38:826][323]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_TV : Can't find file for asset. /Game/ArchVis/Materials/M_TV_Inst
+[2014.12.09-06.47.38:826][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.09-06.47.38:826][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
+[2014.12.09-06.47.38:842][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.09-06.47.38:842][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
+[2014.12.09-06.47.38:842][323]LoadErrors:Error: Error /Game/StarterContent/Mesh/Statue : Can't find file for asset. /Game/ArchVis/Materials/M_Statue_Inst
+[2014.12.09-06.47.38:843][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.09-06.47.38:843][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
+[2014.12.09-06.47.39:080][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.09-06.47.39:080][323]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by M_Shelving
+[2014.12.09-06.47.39:081][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.09-06.47.39:081][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.09-06.47.39:081][323]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_Shelving
+[2014.12.09-06.47.39:081][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.09-06.47.39:081][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.09-06.47.39:082][323]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by M_Shelving
+[2014.12.09-06.47.39:082][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.09-06.47.39:082][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.09-06.47.39:082][323]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_Shelving
+[2014.12.09-06.47.39:082][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.09-06.47.39:083][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.09-06.47.39:083][323]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.09-06.47.39:083][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.09-06.47.39:083][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.09-06.47.39:084][323]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.09-06.47.39:084][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.09-06.47.39:084][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.09-06.47.39:084][323]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_4 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.09-06.47.39:084][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.09-06.47.39:085][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.09-06.47.39:085][323]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_5 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.12.09-06.47.39:085][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.09-06.47.39:266][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.09-06.47.39:266][323]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst.M_CoffeTable_MAT_Inst Referenced by SM_CoffeeTable Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-06.47.39:266][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading NULL.
+[2014.12.09-06.47.39:267][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.09-06.47.39:267][323]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-06.47.39:267][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
+[2014.12.09-06.47.39:298][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.09-06.47.39:298][323]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_TV_Inst.M_TV_Inst Referenced by SM_TV Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-06.47.39:298][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading NULL.
+[2014.12.09-06.47.39:332][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.09-06.47.39:332][323]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Shelving_Inst.M_Shelving_Inst Referenced by SM_Shelving Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-06.47.39:332][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading NULL.
+[2014.12.09-06.47.39:333][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.09-06.47.39:333][323]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Statue_Inst.M_Statue_Inst Referenced by Statue Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-06.47.39:333][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading NULL.
+[2014.12.09-06.47.39:334][323]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.09-06.47.39:334][323]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-06.47.39:334][323]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
+[2014.12.09-06.47.40:102][323]LogMaterial: Missing cached shader map for material M_Shelving, compiling.
+[2014.12.09-06.47.40:103][323]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Shelving.M_Shelving for platform PCD3D_SM4, Default Material will be used in game.
+[2014.12.09-06.47.40:103][323]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.12.09-06.47.41:817][323]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.09-06.47.42:101][323]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.12.09-06.47.42:169][323]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.12.09-06.47.42:232][323]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.12.09-06.47.42:482][323]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.12.09-06.47.42:491][323]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.12.09-06.47.42:499][323]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.12.09-06.47.42:514][323]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.12.09-06.47.42:740][323]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.12.09-06.47.42:802][323]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.12.09-06.47.42:905][323]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.12.09-06.47.42:959][323]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.12.09-06.47.43:020][323]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2014.12.09-06.47.43:061][323]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2014.12.09-06.47.43:109][323]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2014.12.09-06.47.43:138][323]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2014.12.09-06.47.43:165][323]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2014.12.09-06.47.43:233][323]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2014.12.09-06.47.43:350][323]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2014.12.09-06.47.43:688][323]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2014.12.09-06.47.43:847][323]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2014.12.09-06.47.43:872][323]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2014.12.09-06.47.43:909][323]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2014.12.09-06.47.43:922][323]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2014.12.09-06.47.43:930][323]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2014.12.09-06.47.43:955][323]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2014.12.09-06.47.44:037][323]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2014.12.09-06.47.44:074][323]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2014.12.09-06.47.44:219][323]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.12.09-06.47.44:487][323]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.12.09-06.47.44:553][323]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.09-06.47.44:647][323]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.12.09-06.47.44:684][323]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.12.09-06.47.44:730][323]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.12.09-06.47.44:883][323]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.12.09-06.47.44:889][323]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.12.09-06.47.44:896][323]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.12.09-06.47.44:908][323]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.12.09-06.47.45:097][323]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.12.09-06.47.45:154][323]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.12.09-06.47.45:240][323]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.12.09-06.47.45:267][323]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.12.09-06.47.45:309][323]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2014.12.09-06.47.45:339][323]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2014.12.09-06.47.45:368][323]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2014.12.09-06.47.45:390][323]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2014.12.09-06.47.45:404][323]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2014.12.09-06.47.45:446][323]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2014.12.09-06.47.45:551][323]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2014.12.09-06.47.45:745][323]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2014.12.09-06.47.45:855][323]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2014.12.09-06.47.45:874][323]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2014.12.09-06.47.45:901][323]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2014.12.09-06.47.45:911][323]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2014.12.09-06.47.45:917][323]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2014.12.09-06.47.45:935][323]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2014.12.09-06.47.45:999][323]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2014.12.09-06.47.46:027][323]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2014.12.09-06.47.46:140][323]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.12.09-06.47.46:378][323]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.12.09-06.47.46:791][323]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-06.47.46:791][323]LightingResults: New page: Lighting Build
+[2014.12.09-06.47.46:828][323]LoadErrors: New page: Loading map: LivingRoom.umap
+[2014.12.09-06.47.46:828][323]MapCheck: New page: Map Check
+[2014.12.09-06.47.46:828][323]LightingResults: New page: Lighting Build
+[2014.12.09-06.47.46:863][323]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E4DDE40
+[2014.12.09-06.47.46:884][323]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.09-06.47.46:911][323]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-06.47.46:912][323]LogAIModule: Creating AISystem for world LivingRoom
+[2014.12.09-06.47.46:958][323]Cmd: MAP CHECKDEP
+[2014.12.09-06.47.46:958][323]MapCheck: New page: LivingRoom - Dec 8, 2014, 2:47:46 PM
+[2014.12.09-06.47.47:116][323]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 158.58ms to complete.
+[2014.12.09-06.47.47:116][323]LogFileHelpers: Loading map 'LivingRoom' took 0.328
+[2014.12.09-06.47.51:827][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.09-06.47.51:827][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2014.12.09-06.47.57:675][659]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.47.57:675][659]PIE: New page: PIE session: LivingRoom (Dec 8, 2014, 2:47:57 PM)
+[2014.12.09-06.47.57:744][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069353s)
+[2014.12.09-06.47.57:745][659]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2014.12.09-06.47.57:746][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LivingRoom.LivingRoom to /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom (0.070473s)
+[2014.12.09-06.47.57:779][659]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.47.57:781][659]LogAIModule: Creating AISystem for world LivingRoom
+[2014.12.09-06.47.57:796][659]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.09-06.47.57:796][659]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.09-06.47.57:796][659]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 60) at 2014.12.08-22.47.57
+[2014.12.09-06.47.57:873][659]LogWorld: Bringing up level for play took: 0.092628
+[2014.12.09-06.47.57:877][659]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LivingRoom 0.548
+[2014.12.09-06.48.57:656][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.09-06.48.57:656][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2014.12.09-06.49.14:288][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EBCACA0
+[2014.12.09-06.49.25:372][292]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2014.12.09-06.49.42:149][879]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Mansion.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-06.49.42:149][879]LightingResults: New page: Lighting Build
+[2014.12.09-06.49.42:186][879]LoadErrors: New page: Loading map: Mansion.umap
+[2014.12.09-06.49.42:190][879]MapCheck: New page: Map Check
+[2014.12.09-06.49.42:190][879]LightingResults: New page: Lighting Build
+[2014.12.09-06.49.42:224][879]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE513A0
+[2014.12.09-06.49.42:257][879]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-06.49.42:258][879]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-06.49.42:306][879]Cmd: MAP CHECKDEP
+[2014.12.09-06.49.42:306][879]MapCheck: New page: Mansion - Dec 8, 2014, 2:49:42 PM
+[2014.12.09-06.49.42:472][879]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 166.098ms to complete.
+[2014.12.09-06.49.42:472][879]LogFileHelpers: Loading map 'Mansion' took 0.327
+[2014.12.09-06.50.04:552][552]Cmd: DUPLICATE
+[2014.12.09-06.50.04:552][552]Cmd: ACTOR DUPLICATE
+[2014.12.09-06.50.04:567][552]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_9.Model_9 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_15.Model_9
+[2014.12.09-06.50.04:567][552]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_9.Model_9 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_14.Model_9
+[2014.12.09-06.50.04:567][552]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_9.Model_9 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_12.Model_9
+[2014.12.09-06.51.53:046][ 60]LogGeometryMode:Warning: Unable to find BoxBrush_12 Brush(s) in new BSP
+[2014.12.09-06.51.53:046][ 60]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2014.12.09-06.52.13:495][800]Cmd: DUPLICATE
+[2014.12.09-06.52.13:495][800]Cmd: ACTOR DUPLICATE
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_84.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_75.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_72.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_70.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_69.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_6.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_59.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_57.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_56.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_55.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_4.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_3.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_24.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_23.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_21.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_20.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_2.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_19.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_18.Model_7
+[2014.12.09-06.52.13:509][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_17.Model_7
+[2014.12.09-06.52.51:067][292]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_26)
+[2014.12.09-06.52.52:289][363]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush_26)
+[2014.12.09-06.54.08:878][ 71]Cmd: DUPLICATE
+[2014.12.09-06.54.08:878][ 71]Cmd: ACTOR DUPLICATE
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_84.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_75.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_72.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_70.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_69.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_6.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_59.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_57.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_56.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_55.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_4.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_3.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_24.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_23.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_21.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_20.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_2.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_19.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_18.Model_7
+[2014.12.09-06.54.08:894][ 71]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_17.Model_7
+[2014.12.09-06.56.40:881][285]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.56.40:881][285]PIE: New page: PIE session: Mansion (Dec 8, 2014, 2:56:40 PM)
+[2014.12.09-06.56.40:908][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026769s)
+[2014.12.09-06.56.40:909][285]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2014.12.09-06.56.40:910][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.028127s)
+[2014.12.09-06.56.40:944][285]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.56.40:946][285]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-06.56.40:950][285]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-22.56.40
+[2014.12.09-06.56.40:951][285]LogWorld: Bringing up level for play took: 0.005047
+[2014.12.09-06.56.40:954][285]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.391
+[2014.12.09-06.56.46:887][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.09-06.56.46:887][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_5) Not registered. Aborting.
+[2014.12.09-06.56.46:930][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C3D56C0
+[2014.12.09-06.56.59:596][ 95]Cmd: EDIT CUT
+[2014.12.09-06.56.59:606][ 95]LogEditorActor: Deleted Actor: DirectionalLight
+[2014.12.09-06.56.59:653][ 95]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2014.12.09-06.57.01:461][199]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-06.57.01:461][199]PIE: New page: PIE session: Mansion (Dec 8, 2014, 2:57:01 PM)
+[2014.12.09-06.57.01:482][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020516s)
+[2014.12.09-06.57.01:483][199]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2014.12.09-06.57.01:483][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.021607s)
+[2014.12.09-06.57.01:510][199]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-06.57.01:512][199]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-06.57.01:514][199]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-22.57.01
+[2014.12.09-06.57.01:515][199]LogWorld: Bringing up level for play took: 0.003555
+[2014.12.09-06.57.01:518][199]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.173
+[2014.12.09-06.57.07:258][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E4DDE40
+[2014.12.09-06.57.10:602][543]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-06.57.59:264][298]Cmd: DUPLICATE
+[2014.12.09-06.57.59:264][298]Cmd: ACTOR DUPLICATE
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_84.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_75.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_72.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_70.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_69.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_6.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_59.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_57.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_56.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_55.Model_7
+[2014.12.09-06.57.59:278][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_4.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_3.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_24.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_23.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_21.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_20.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_2.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_19.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_18.Model_7
+[2014.12.09-06.57.59:279][298]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_17.Model_7
+[2014.12.09-06.59.01:136][539]Cmd: DUPLICATE
+[2014.12.09-06.59.01:136][539]Cmd: ACTOR DUPLICATE
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_27.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_26.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.LinearStairBrush.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_84.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_75.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_72.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_70.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_69.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_6.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_59.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_57.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_56.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_55.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_4.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_3.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_24.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_23.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_21.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_20.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_2.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_19.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_18.Model_7
+[2014.12.09-06.59.01:151][539]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/Maps/Mansion.Mansion:PersistentLevel.BoxBrush_17.Model_7
+[2014.12.09-06.59.26:539][425]Cmd: DUPLICATE
+[2014.12.09-06.59.26:539][425]Cmd: ACTOR DUPLICATE
+[2014.12.09-06.59.41:352][977]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/StarterContent'
+[2014.12.09-06.59.42:955][ 73]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.09-06.59.45:629][222]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2014.12.09-06.59.48:194][375]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2014.12.09-07.00.00:074][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.09-07.00.00:074][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_6) Not registered. Aborting.
+[2014.12.09-07.00.01:634][819]LogSavePackage: Save=1346.982544ms
+[2014.12.09-07.00.01:634][819]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion_Auto155F32F6A4DC0417181486582AE99212D.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/Mansion_Auto1.umap'
+[2014.12.09-07.00.01:644][819]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Mansion' took 1.570
+[2014.12.09-07.00.01:644][819]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.570
+[2014.12.09-07.01.10:292][917]Cmd: EDCALLBACK SURFPROPS
+[2014.12.09-07.01.16:517][284]Cmd: EDCALLBACK SURFPROPS
+[2014.12.09-07.01.35:471][411]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.01.35:472][411]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:01:35 PM)
+[2014.12.09-07.01.35:493][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021415s)
+[2014.12.09-07.01.35:494][411]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2014.12.09-07.01.35:494][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.022669s)
+[2014.12.09-07.01.35:527][411]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.01.35:530][411]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.01.35:533][411]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.01.35
+[2014.12.09-07.01.35:534][411]LogWorld: Bringing up level for play took: 0.003790
+[2014.12.09-07.01.35:537][411]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.183
+[2014.12.09-07.01.44:604][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.09-07.01.44:604][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_7) Not registered. Aborting.
+[2014.12.09-07.01.44:645][773]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F039C0
+[2014.12.09-07.03.00:364][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_4)
+[2014.12.09-07.07.19:187][ 39]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-07.07.28:136][559]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.07.28:136][559]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.07.28:237][562]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.07.28:238][562]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:07:28 PM)
+[2014.12.09-07.07.28:262][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024517s)
+[2014.12.09-07.07.28:263][562]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2014.12.09-07.07.28:264][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.025730s)
+[2014.12.09-07.07.28:298][562]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.07.28:299][562]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.07.28:303][562]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.07.28
+[2014.12.09-07.07.28:305][562]LogWorld: Bringing up level for play took: 0.005604
+[2014.12.09-07.07.28:308][562]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.944
+[2014.12.09-07.07.35:168][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.09-07.07.35:168][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_8) Not registered. Aborting.
+[2014.12.09-07.07.35:209][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000511B0860
+[2014.12.09-07.07.41:449][193]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.07.41:449][193]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.20:306][355]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.20:306][355]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.21:458][385]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.21:458][385]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.25:335][509]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.25:335][509]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.28:596][696]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-07.08.40:544][269]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.40:544][269]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.08.40:663][273]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.08.40:663][273]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:08:40 PM)
+[2014.12.09-07.08.40:687][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023922s)
+[2014.12.09-07.08.40:688][273]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2014.12.09-07.08.40:688][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.024874s)
+[2014.12.09-07.08.40:722][273]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.08.40:724][273]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.08.40:728][273]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.08.40
+[2014.12.09-07.08.40:730][273]LogWorld: Bringing up level for play took: 0.005585
+[2014.12.09-07.08.40:733][273]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.633
+[2014.12.09-07.08.54:323][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000055524900
+[2014.12.09-07.09.01:476][110]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-07.09.08:530][492]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.09.08:530][492]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:09:08 PM)
+[2014.12.09-07.09.08:550][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019362s)
+[2014.12.09-07.09.08:550][492]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2014.12.09-07.09.08:551][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.020255s)
+[2014.12.09-07.09.08:580][492]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.09.08:581][492]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.09.08:584][492]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.09.08
+[2014.12.09-07.09.08:586][492]LogWorld: Bringing up level for play took: 0.004400
+[2014.12.09-07.09.08:588][492]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.779
+[2014.12.09-07.09.12:784][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B8F1A80
+[2014.12.09-07.09.23:464][126]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2014.12.09-07.10.01:694][852]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Mesh'
+[2014.12.09-07.10.28:521][389]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FlashLight_Mat_LIT_Inst'
+[2014.12.09-07.10.28:521][389]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FlashLight_Mat_LIT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FlashLight.uasset.
+[2014.12.09-07.10.28:521][389]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FlashLight : Can't find file for asset. /Game/ArchVis/Materials/M_FlashLight_Mat_LIT_Inst
+[2014.12.09-07.10.28:521][389]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FlashLight_Mat_LIT_Inst'
+[2014.12.09-07.10.28:522][389]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FlashLight_Mat_LIT_Inst' while loading ../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FlashLight.uasset.
+[2014.12.09-07.10.28:522][389]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FlashLight_Mat_LIT_Inst'
+[2014.12.09-07.10.28:522][389]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FlashLight_Mat_LIT_Inst.M_FlashLight_Mat_LIT_Inst Referenced by SM_FlashLight Property /Script/Engine.StaticMesh:Materials
+[2014.12.09-07.10.28:523][389]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FlashLight_Mat_LIT_Inst' while loading NULL.
+[2014.12.09-07.10.28:523][389]LogStaticMesh: Building static mesh SM_FlashLight...
+[2014.12.09-07.10.28:565][389]LogStaticMesh: Built static mesh [42.113396ms] /Game/StarterContent/Mesh/SM_FlashLight.SM_FlashLight
+[2014.12.09-07.10.28:593][389]LogActorFactory: Actor Factory created SM_FlashLight
+[2014.12.09-07.10.29:288][403]LogActorFactory: Actor Factory created SM_FlashLight
+[2014.12.09-07.10.39:745][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.09-07.10.39:745][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_9) Not registered. Aborting.
+[2014.12.09-07.10.41:092][721]LogSavePackage: Save=1218.316772ms
+[2014.12.09-07.10.41:092][721]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion_Auto2943FBE23496341CE42FBB8A1FEED899B.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/Mansion_Auto2.umap'
+[2014.12.09-07.10.41:102][721]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Mansion' took 1.357
+[2014.12.09-07.10.41:102][721]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.357
+[2014.12.09-07.10.43:606][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FlashLight)
+[2014.12.09-07.10.45:064][942]Cmd: EDIT CUT
+[2014.12.09-07.10.45:073][942]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.09-07.10.45:119][942]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2014.12.09-07.10.58:249][678]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2014.12.09-07.11.03:007][917]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2014.12.09-07.11.07:005][  7]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2014.12.09-07.11.52:251][388]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.13.16:175][ 42]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2014.12.09-07.13.16:839][ 77]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2014.12.09-07.13.17:014][ 85]LogEditorViewport: Clicking on Actor (double click): LightmassImportanceVolume (LightmassImportanceVolume)
+[2014.12.09-07.13.17:640][117]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2014.12.09-07.13.17:947][133]LogEditorViewport: Clicking on Actor (double click): LightmassImportanceVolume (LightmassImportanceVolume)
+[2014.12.09-07.14.22:099][265]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.14.22:099][265]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:14:22 PM)
+[2014.12.09-07.14.22:122][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022758s)
+[2014.12.09-07.14.22:123][265]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2014.12.09-07.14.22:123][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.023874s)
+[2014.12.09-07.14.22:153][265]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.14.22:155][265]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.14.22:157][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.14.22
+[2014.12.09-07.14.22:158][265]LogWorld: Bringing up level for play took: 0.003811
+[2014.12.09-07.14.22:161][265]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.784
+[2014.12.09-07.14.30:038][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.09-07.14.30:038][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_10) Not registered. Aborting.
+[2014.12.09-07.14.30:075][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C3E0EA0
+[2014.12.09-07.14.35:496][868]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2014.12.09-07.14.38:450][929]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2014.12.09-07.14.51:992][508]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-07.14.56:121][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_2)
+[2014.12.09-07.15.00:075][868]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-07.15.22:003][833]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.15.22:004][833]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:15:22 PM)
+[2014.12.09-07.15.22:024][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020535s)
+[2014.12.09-07.15.22:025][833]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2014.12.09-07.15.22:025][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.021517s)
+[2014.12.09-07.15.22:055][833]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.15.22:056][833]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.15.22:059][833]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.15.22
+[2014.12.09-07.15.22:060][833]LogWorld: Bringing up level for play took: 0.003713
+[2014.12.09-07.15.22:062][833]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.684
+[2014.12.09-07.15.27:718][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.09-07.15.27:718][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_11) Not registered. Aborting.
+[2014.12.09-07.15.27:757][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D770CC0
+[2014.12.09-07.15.35:630][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_2)
+[2014.12.09-07.15.36:197][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_2)
+[2014.12.09-07.15.44:790][806]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.15.44:790][806]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.15.52:167][238]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.15.52:167][238]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.15.52:306][243]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.15.52:306][243]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:15:52 PM)
+[2014.12.09-07.15.52:328][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022048s)
+[2014.12.09-07.15.52:329][243]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2014.12.09-07.15.52:329][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.023149s)
+[2014.12.09-07.15.52:358][243]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.15.52:359][243]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.15.52:362][243]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.15.52
+[2014.12.09-07.15.52:363][243]LogWorld: Bringing up level for play took: 0.003723
+[2014.12.09-07.15.52:365][243]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.985
+[2014.12.09-07.16.11:024][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B8F3BA0
+[2014.12.09-07.17.04:028][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2014.12.09-07.17.04:907][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2014.12.09-07.17.05:471][999]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.17.13:439][464]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.17.13:439][464]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.17.13:556][468]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.17.13:556][468]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:17:13 PM)
+[2014.12.09-07.17.13:578][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021309s)
+[2014.12.09-07.17.13:579][468]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2014.12.09-07.17.13:579][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.022220s)
+[2014.12.09-07.17.13:610][468]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.17.13:611][468]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.17.13:614][468]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.17.13
+[2014.12.09-07.17.13:615][468]LogWorld: Bringing up level for play took: 0.003879
+[2014.12.09-07.17.13:618][468]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.236
+[2014.12.09-07.17.19:032][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E428AE0
+[2014.12.09-07.17.22:985][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2014.12.09-07.17.26:792][ 31]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.17.32:848][374]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.17.32:848][374]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.17.36:615][560]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.17.56:901][358]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.17.56:901][358]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.18.05:399][632]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.18.05:400][632]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:18:05 PM)
+[2014.12.09-07.18.05:420][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019973s)
+[2014.12.09-07.18.05:421][632]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2014.12.09-07.18.05:421][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.021003s)
+[2014.12.09-07.18.05:449][632]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.18.05:450][632]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.18.05:453][632]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.18.05
+[2014.12.09-07.18.05:454][632]LogWorld: Bringing up level for play took: 0.003739
+[2014.12.09-07.18.05:456][632]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.073
+[2014.12.09-07.18.16:993][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D4BCD60
+[2014.12.09-07.18.38:945][ 14]LogSavePackage: Save=1214.200439ms
+[2014.12.09-07.18.38:945][ 14]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion6A0EC5DD44889A2A5988F1A566963BD5.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Mansion.umap'
+[2014.12.09-07.38.26:193][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_4)
+[2014.12.09-07.38.46:159][833]LogActorFactory: Actor Factory created SM_Statue
+[2014.12.09-07.38.46:456][837]LogActorFactory: Actor Factory created SM_Statue
+[2014.12.09-07.38.51:712][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_9)
+[2014.12.09-07.38.53:214][  2]LogActorFactory: Actor Factory created SM_PillarFrame300
+[2014.12.09-07.38.54:102][ 19]LogActorFactory: Actor Factory created SM_PillarFrame300
+[2014.12.09-07.39.01:815][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.09-07.39.01:815][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_12) Not registered. Aborting.
+[2014.12.09-07.39.03:182][227]LogSavePackage: Save=1214.405762ms
+[2014.12.09-07.39.03:182][227]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion_Auto30098C46C4A7D31C0292384A8EDC96EF7.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/Mansion_Auto3.umap'
+[2014.12.09-07.39.03:194][227]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Mansion' took 1.379
+[2014.12.09-07.39.03:194][227]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.379
+[2014.12.09-07.39.56:008][232]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_PillarFrame300)
+[2014.12.09-07.39.58:403][361]Cmd: DUPLICATE
+[2014.12.09-07.39.58:403][361]Cmd: ACTOR DUPLICATE
+[2014.12.09-07.40.16:139][842]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.12.09-07.40.17:355][888]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.09-07.40.23:464][129]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.09-07.40.32:037][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.12.09-07.40.42:396][724]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.40.42:396][724]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:40:42 PM)
+[2014.12.09-07.40.42:417][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020679s)
+[2014.12.09-07.40.42:418][724]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2014.12.09-07.40.42:418][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.021727s)
+[2014.12.09-07.40.42:446][724]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.40.42:448][724]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.40.42:451][724]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.40.42
+[2014.12.09-07.40.42:452][724]LogWorld: Bringing up level for play took: 0.003957
+[2014.12.09-07.40.42:454][724]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 1.029
+[2014.12.09-07.40.55:692][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D798360
+[2014.12.09-07.41.00:665][378]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.41.03:656][546]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.41.03:656][546]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:41:03 PM)
+[2014.12.09-07.41.03:676][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019893s)
+[2014.12.09-07.41.03:677][546]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2014.12.09-07.41.03:677][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.020779s)
+[2014.12.09-07.41.03:705][546]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.41.03:707][546]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.41.03:709][546]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.41.03
+[2014.12.09-07.41.03:711][546]LogWorld: Bringing up level for play took: 0.003877
+[2014.12.09-07.41.03:713][546]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.288
+[2014.12.09-07.41.08:179][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DCBF1A0
+[2014.12.09-07.41.12:268][899]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.41.12:268][899]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.41.30:226][956]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.41.30:226][956]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.41.30:366][962]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.41.30:366][962]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:41:30 PM)
+[2014.12.09-07.41.30:389][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023058s)
+[2014.12.09-07.41.30:390][962]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2014.12.09-07.41.30:390][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.024188s)
+[2014.12.09-07.41.30:419][962]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.41.30:421][962]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.41.30:423][962]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.41.30
+[2014.12.09-07.41.30:425][962]LogWorld: Bringing up level for play took: 0.003852
+[2014.12.09-07.41.30:427][962]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 1
+[2014.12.09-07.41.48:973][705]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014AEC860
+[2014.12.09-07.42.02:257][353]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.42.02:257][353]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:42:02 PM)
+[2014.12.09-07.42.02:277][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019459s)
+[2014.12.09-07.42.02:278][353]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2014.12.09-07.42.02:278][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.020386s)
+[2014.12.09-07.42.02:305][353]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.42.02:307][353]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.42.02:310][353]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.42.02
+[2014.12.09-07.42.02:312][353]LogWorld: Bringing up level for play took: 0.004793
+[2014.12.09-07.42.02:314][353]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.886
+[2014.12.09-07.42.08:417][596]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010F484A0
+[2014.12.09-07.42.11:858][785]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.42.32:678][773]LogEditorViewport: Clicking on Actor (context menu): SpotLight (SpotLight)
+[2014.12.09-07.42.34:952][897]Cmd: DUPLICATE
+[2014.12.09-07.42.34:952][897]Cmd: ACTOR DUPLICATE
+[2014.12.09-07.43.01:572][822]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-07.43.12:180][123]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight_2)
+[2014.12.09-07.43.24:810][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_2)
+[2014.12.09-07.43.26:084][719]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.43.26:084][719]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:43:26 PM)
+[2014.12.09-07.43.26:105][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021068s)
+[2014.12.09-07.43.26:106][719]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2014.12.09-07.43.26:106][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.021994s)
+[2014.12.09-07.43.26:138][719]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.43.26:139][719]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.43.26:142][719]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.43.26
+[2014.12.09-07.43.26:143][719]LogWorld: Bringing up level for play took: 0.004098
+[2014.12.09-07.43.26:146][719]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.716
+[2014.12.09-07.43.31:159][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F80400
+[2014.12.09-07.43.34:941][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2014.12.09-07.43.35:906][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2014.12.09-07.43.39:401][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2014.12.09-07.43.41:059][309]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.43.44:988][528]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.43.44:989][528]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:43:44 PM)
+[2014.12.09-07.43.45:010][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021347s)
+[2014.12.09-07.43.45:011][528]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2014.12.09-07.43.45:011][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.022322s)
+[2014.12.09-07.43.45:042][528]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.43.45:044][528]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.43.45:047][528]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.43.45
+[2014.12.09-07.43.45:048][528]LogWorld: Bringing up level for play took: 0.004657
+[2014.12.09-07.43.45:051][528]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.379
+[2014.12.09-07.43.51:344][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F351C0
+[2014.12.09-07.43.58:766][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2014.12.09-07.43.59:624][ 84]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Lamp_Ceiling)
+[2014.12.09-07.44.02:296][229]Cmd: DUPLICATE
+[2014.12.09-07.44.02:296][229]Cmd: ACTOR DUPLICATE
+[2014.12.09-07.44.23:226][994]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight_2)
+[2014.12.09-07.44.26:225][148]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.44.26:225][148]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:44:26 PM)
+[2014.12.09-07.44.26:245][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019794s)
+[2014.12.09-07.44.26:246][148]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2014.12.09-07.44.26:246][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.020706s)
+[2014.12.09-07.44.26:276][148]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.44.26:278][148]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.44.26:285][148]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.44.26
+[2014.12.09-07.44.26:286][148]LogWorld: Bringing up level for play took: 0.008257
+[2014.12.09-07.44.26:288][148]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.857
+[2014.12.09-07.44.32:307][381]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D799E40
+[2014.12.09-07.44.34:295][446]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-07.44.43:480][943]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.44.50:576][328]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight_2)
+[2014.12.09-07.44.57:052][680]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.44.57:052][680]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:44:57 PM)
+[2014.12.09-07.44.57:072][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018970s)
+[2014.12.09-07.44.57:072][680]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2014.12.09-07.44.57:072][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.019840s)
+[2014.12.09-07.44.57:100][680]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.44.57:102][680]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.44.57:105][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.44.57
+[2014.12.09-07.44.57:106][680]LogWorld: Bringing up level for play took: 0.003994
+[2014.12.09-07.44.57:108][680]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.325
+[2014.12.09-07.45.00:664][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000332E6B60
+[2014.12.09-07.45.04:562][958]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.45.11:818][352]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.45.11:818][352]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:45:11 PM)
+[2014.12.09-07.45.11:841][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022482s)
+[2014.12.09-07.45.11:841][352]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2014.12.09-07.45.11:842][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.023478s)
+[2014.12.09-07.45.11:875][352]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.45.11:876][352]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.45.11:880][352]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.45.11
+[2014.12.09-07.45.11:881][352]LogWorld: Bringing up level for play took: 0.004763
+[2014.12.09-07.45.11:884][352]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.451
+[2014.12.09-07.45.17:321][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F35A80
+[2014.12.09-07.45.22:143][782]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight_2)
+[2014.12.09-07.45.22:451][797]LogEditorViewport: Clicking on Actor (context menu): SpotLight (SpotLight_2)
+[2014.12.09-07.45.25:280][947]Cmd: DELETE
+[2014.12.09-07.45.25:280][947]Cmd: ACTOR DELETE
+[2014.12.09-07.45.25:282][947]LogEditorActor: Deleted Actor: SpotLight
+[2014.12.09-07.45.25:318][947]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2014.12.09-07.45.26:975][ 45]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.45.29:787][199]Cmd: DUPLICATE
+[2014.12.09-07.45.29:787][199]Cmd: ACTOR DUPLICATE
+[2014.12.09-07.45.31:893][323]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.45.33:337][399]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.45.34:476][459]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.12.09-07.45.36:033][545]LogEditorViewport: Clicking on Actor (context menu): SpotLight (SpotLight)
+[2014.12.09-07.45.38:493][680]Cmd: DUPLICATE
+[2014.12.09-07.45.38:493][680]Cmd: ACTOR DUPLICATE
+[2014.12.09-07.45.45:180][ 41]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.45.45:180][ 41]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:45:45 PM)
+[2014.12.09-07.45.45:201][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020755s)
+[2014.12.09-07.45.45:202][ 41]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2014.12.09-07.45.45:202][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.021880s)
+[2014.12.09-07.45.45:231][ 41]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.45.45:233][ 41]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.45.45:236][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.45.45
+[2014.12.09-07.45.45:238][ 41]LogWorld: Bringing up level for play took: 0.004537
+[2014.12.09-07.45.45:240][ 41]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.194
+[2014.12.09-07.45.55:152][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032B66660
+[2014.12.09-07.46.04:552][689]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.12.09-07.46.08:461][811]Cmd: EDIT CUT
+[2014.12.09-07.46.08:470][811]LogEditorActor: Deleted Actor: PointLight
+[2014.12.09-07.46.08:515][811]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2014.12.09-07.46.10:044][900]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.46.10:044][900]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:46:10 PM)
+[2014.12.09-07.46.10:066][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021807s)
+[2014.12.09-07.46.10:067][900]LogPlayLevel: PIE: World Init took: (0.001521s)
+[2014.12.09-07.46.10:067][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.023601s)
+[2014.12.09-07.46.10:097][900]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.46.10:101][900]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.46.10:105][900]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.46.10
+[2014.12.09-07.46.10:107][900]LogWorld: Bringing up level for play took: 0.006020
+[2014.12.09-07.46.10:112][900]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.677
+[2014.12.09-07.46.14:518][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ED59E40
+[2014.12.09-07.46.15:596][141]Cmd: TRANSACTION UNDO
+[2014.12.09-07.46.15:596][141]LogEditorTransaction: Undo Cut
+[2014.12.09-07.46.16:906][199]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.46.16:906][199]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:46:16 PM)
+[2014.12.09-07.46.16:935][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027928s)
+[2014.12.09-07.46.16:935][199]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2014.12.09-07.46.16:936][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.028915s)
+[2014.12.09-07.46.16:964][199]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.46.16:965][199]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.46.16:970][199]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.46.16
+[2014.12.09-07.46.16:972][199]LogWorld: Bringing up level for play took: 0.006117
+[2014.12.09-07.46.16:975][199]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.46
+[2014.12.09-07.46.20:766][339]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000332E5800
+[2014.12.09-07.46.24:876][490]Cmd: EDIT CUT
+[2014.12.09-07.46.24:883][490]LogEditorActor: Deleted Actor: PointLight
+[2014.12.09-07.46.24:920][490]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2014.12.09-07.46.34:325][993]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.46.34:325][993]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:46:34 PM)
+[2014.12.09-07.46.34:348][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022653s)
+[2014.12.09-07.46.34:349][993]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2014.12.09-07.46.34:349][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.023751s)
+[2014.12.09-07.46.34:378][993]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.46.34:379][993]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.46.34:382][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.46.34
+[2014.12.09-07.46.34:383][993]LogWorld: Bringing up level for play took: 0.003952
+[2014.12.09-07.46.34:386][993]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.95
+[2014.12.09-07.46.44:143][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.09-07.46.44:143][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_13) Not registered. Aborting.
+[2014.12.09-07.46.44:169][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F80CC0
+[2014.12.09-07.46.50:961][669]Cmd: EDIT CUT
+[2014.12.09-07.46.50:968][669]LogEditorActor: Deleted Actor: DirectionalLight
+[2014.12.09-07.46.51:004][669]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2014.12.09-07.46.59:015][977]Cmd: TRANSACTION UNDO
+[2014.12.09-07.46.59:015][977]LogEditorTransaction: Undo Cut
+[2014.12.09-07.46.59:537][990]Cmd: TRANSACTION UNDO
+[2014.12.09-07.46.59:537][990]LogEditorTransaction: Undo Create Actors
+[2014.12.09-07.47.00:021][ 10]Cmd: TRANSACTION UNDO
+[2014.12.09-07.47.00:021][ 10]LogEditorTransaction: Undo Create Actors
+[2014.12.09-07.47.00:548][ 37]Cmd: TRANSACTION UNDO
+[2014.12.09-07.47.00:548][ 37]LogEditorTransaction: Undo Cut
+[2014.12.09-07.47.26:207][825]Cmd: EDIT CUT
+[2014.12.09-07.47.26:214][825]LogEditorActor: Deleted Actor: PointLight
+[2014.12.09-07.47.26:251][825]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2014.12.09-07.48.02:320][350]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.02:320][350]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.17:228][ 30]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.17:228][ 30]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.17:346][ 35]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.48.17:346][ 35]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:48:17 PM)
+[2014.12.09-07.48.17:372][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025094s)
+[2014.12.09-07.48.17:372][ 35]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2014.12.09-07.48.17:373][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.026088s)
+[2014.12.09-07.48.17:405][ 35]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.48.17:407][ 35]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.48.17:411][ 35]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.48.17
+[2014.12.09-07.48.17:413][ 35]LogWorld: Bringing up level for play took: 0.006359
+[2014.12.09-07.48.17:416][ 35]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.022
+[2014.12.09-07.48.21:296][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.09-07.48.21:296][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_14) Not registered. Aborting.
+[2014.12.09-07.48.21:326][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014AEEAC0
+[2014.12.09-07.48.31:965][709]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.31:965][709]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.34:361][838]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight_3)
+[2014.12.09-07.48.41:144][ 78]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.41:144][ 78]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.42:342][144]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.48.42:342][144]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:48:42 PM)
+[2014.12.09-07.48.42:366][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024061s)
+[2014.12.09-07.48.42:367][144]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2014.12.09-07.48.42:367][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.024962s)
+[2014.12.09-07.48.42:399][144]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.48.42:400][144]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.48.42:404][144]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.48.42
+[2014.12.09-07.48.42:406][144]LogWorld: Bringing up level for play took: 0.005684
+[2014.12.09-07.48.42:408][144]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.969
+[2014.12.09-07.48.47:222][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F358A0
+[2014.12.09-07.48.58:081][813]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.58:081][813]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.48.58:202][818]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.48.58:202][818]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:48:58 PM)
+[2014.12.09-07.48.58:221][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018639s)
+[2014.12.09-07.48.58:222][818]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2014.12.09-07.48.58:222][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.019552s)
+[2014.12.09-07.48.58:253][818]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.48.58:255][818]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.48.58:257][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.48.58
+[2014.12.09-07.48.58:259][818]LogWorld: Bringing up level for play took: 0.003991
+[2014.12.09-07.48.58:261][818]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.821
+[2014.12.09-07.49.02:342][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014AF2160
+[2014.12.09-07.49.05:217][ 70]Cmd: EDIT CUT
+[2014.12.09-07.49.05:223][ 70]LogEditorActor: Deleted Actor: SpotLight
+[2014.12.09-07.49.05:263][ 70]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2014.12.09-07.49.30:374][  3]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.49.30:374][  3]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:49:30 PM)
+[2014.12.09-07.49.30:394][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019801s)
+[2014.12.09-07.49.30:395][  3]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2014.12.09-07.49.30:395][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.020704s)
+[2014.12.09-07.49.30:421][  3]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.49.30:422][  3]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.49.30:425][  3]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.49.30
+[2014.12.09-07.49.30:427][  3]LogWorld: Bringing up level for play took: 0.004886
+[2014.12.09-07.49.30:430][  3]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.989
+[2014.12.09-07.49.33:324][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.12.09-07.49.33:324][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_15) Not registered. Aborting.
+[2014.12.09-07.49.33:351][117]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000335DBE20
+[2014.12.09-07.49.42:439][651]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.49.42:439][651]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.49.42:577][657]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.49.42:577][657]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:49:42 PM)
+[2014.12.09-07.49.42:601][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023386s)
+[2014.12.09-07.49.42:601][657]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2014.12.09-07.49.42:602][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.024331s)
+[2014.12.09-07.49.42:631][657]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.49.42:632][657]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.49.42:636][657]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.49.42
+[2014.12.09-07.49.42:637][657]LogWorld: Bringing up level for play took: 0.004843
+[2014.12.09-07.49.42:640][657]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.802
+[2014.12.09-07.49.46:992][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F805E0
+[2014.12.09-07.49.49:984][934]Cmd: EDIT CUT
+[2014.12.09-07.49.49:991][934]LogEditorActor: Deleted Actor: PointLight
+[2014.12.09-07.49.50:028][934]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2014.12.09-07.49.55:375][177]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.49.55:375][177]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:49:55 PM)
+[2014.12.09-07.49.55:399][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022975s)
+[2014.12.09-07.49.55:399][177]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2014.12.09-07.49.55:399][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.023883s)
+[2014.12.09-07.49.55:425][177]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.49.55:427][177]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.49.55:436][177]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.49.55
+[2014.12.09-07.49.55:438][177]LogWorld: Bringing up level for play took: 0.010567
+[2014.12.09-07.49.55:440][177]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.002
+[2014.12.09-07.49.58:064][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.12.09-07.49.58:064][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_16) Not registered. Aborting.
+[2014.12.09-07.49.58:091][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000335D9580
+[2014.12.09-07.50.09:617][911]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.50.09:617][911]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.50.10:107][913]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.50.10:107][913]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:50:10 PM)
+[2014.12.09-07.50.10:138][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030543s)
+[2014.12.09-07.50.10:140][913]LogPlayLevel: PIE: World Init took: (0.001485s)
+[2014.12.09-07.50.10:140][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.032296s)
+[2014.12.09-07.50.10:170][913]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.50.10:172][913]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.50.10:175][913]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.50.10
+[2014.12.09-07.50.10:176][913]LogWorld: Bringing up level for play took: 0.003939
+[2014.12.09-07.50.10:178][913]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.736
+[2014.12.09-07.50.16:255][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032FAEB60
+[2014.12.09-07.50.19:143][254]Cmd: EDIT CUT
+[2014.12.09-07.50.19:149][254]LogEditorActor: Deleted Actor: SkyLight
+[2014.12.09-07.50.19:188][254]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2014.12.09-07.50.41:340][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_10)
+[2014.12.09-07.50.42:524][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_12)
+[2014.12.09-07.50.44:234][509]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2014.12.09-07.50.50:439][871]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.50.50:439][871]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.09-07.50.50:577][877]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.50.50:577][877]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:50:50 PM)
+[2014.12.09-07.50.50:600][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022315s)
+[2014.12.09-07.50.50:601][877]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2014.12.09-07.50.50:601][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.023426s)
+[2014.12.09-07.50.50:633][877]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.50.50:634][877]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.50.50:639][877]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.50.50
+[2014.12.09-07.50.50:641][877]LogWorld: Bringing up level for play took: 0.006106
+[2014.12.09-07.50.50:644][877]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.8
+[2014.12.09-07.51.26:121][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.12.09-07.51.26:121][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_17) Not registered. Aborting.
+[2014.12.09-07.51.26:165][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C05D620
+[2014.12.09-07.51.51:848][547]LogEditorViewport: Clicking on Actor (context menu): DirectionalLight (DirectionalLight)
+[2014.12.09-07.51.54:476][693]Cmd: DUPLICATE
+[2014.12.09-07.51.54:476][693]Cmd: ACTOR DUPLICATE
+[2014.12.09-07.52.05:072][262]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.52.05:072][262]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:52:05 PM)
+[2014.12.09-07.52.05:097][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024859s)
+[2014.12.09-07.52.05:098][262]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2014.12.09-07.52.05:098][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.025850s)
+[2014.12.09-07.52.05:129][262]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.52.05:131][262]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.52.05:135][262]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.52.05
+[2014.12.09-07.52.05:136][262]LogWorld: Bringing up level for play took: 0.005429
+[2014.12.09-07.52.05:139][262]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion -0.307
+[2014.12.09-07.52.18:304][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E953100
+[2014.12.09-07.52.19:918][868]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.52.19:918][868]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:52:19 PM)
+[2014.12.09-07.52.19:940][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021353s)
+[2014.12.09-07.52.19:941][868]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2014.12.09-07.52.19:941][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.022229s)
+[2014.12.09-07.52.19:970][868]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.52.19:972][868]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.52.19:976][868]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.52.19
+[2014.12.09-07.52.19:977][868]LogWorld: Bringing up level for play took: 0.005595
+[2014.12.09-07.52.19:980][868]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.534
+[2014.12.09-07.52.24:433][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EB78F40
+[2014.12.09-07.52.30:116][204]MapCheck: New page: Map Check
+[2014.12.09-07.52.30:159][204]Cmd: MAP REBUILD ALLVISIBLE
+[2014.12.09-07.52.30:162][204]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.12.09-07.52.30:281][204]LightingResults: New page: Lighting Build - Dec 8, 2014, 3:52:30 PM
+[2014.12.09-07.52.41:243][204]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.12.09-07.52.41:243][204]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.12.09-07.52.41:243][204]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.12.09-07.52.41:243][204]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.12.09-07.52.41:243][204]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.12.09-07.52.41:507][204]LogEditorBuildUtils: Build time 0:00:11
+[2014.12.09-07.52.41:511][204]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling.
+[2014.12.09-07.52.41:514][204]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling.
+[2014.12.09-07.52.43:560][205]LogSavePackage: Save=1479.997681ms
+[2014.12.09-07.52.43:560][205]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Mansion_Auto4C50BA61C43476FB09C9AF7A0F026C36B.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/Mansion_Auto4.umap'
+[2014.12.09-07.52.43:569][205]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Mansion' took 1.777
+[2014.12.09-07.52.43:569][205]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.777
+[2014.12.09-07.52.43:684][206]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling.
+[2014.12.09-07.52.43:686][206]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling.
+[2014.12.09-07.52.43:701][207]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Statue, compiling.
+[2014.12.09-07.52.43:703][207]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Statue, compiling.
+[2014.12.09-07.52.43:765][209]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Beveled, compiling.
+[2014.12.09-07.52.43:769][209]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Beveled, compiling.
+[2014.12.09-07.53.05:513][581]Job is a success!
+[2014.12.09-07.53.06:583][582]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.09-07.53.07:210][582]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.12.09-07.53.07:245][582]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.12.09-07.53.07:311][582]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.12.09-07.53.07:366][582]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.12.09-07.53.07:456][582]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.12.09-07.53.07:517][582]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.12.09-07.53.07:652][582]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.12.09-07.53.07:719][582]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.12.09-07.53.07:852][582]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.12.09-07.53.07:879][582]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.12.09-07.53.07:923][582]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.12.09-07.53.08:240][582]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.12.09-07.53.08:661][582]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.09-07.53.09:009][582]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.12.09-07.53.09:089][582]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.12.09-07.53.09:138][582]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.12.09-07.53.09:195][582]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.12.09-07.53.09:242][582]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.12.09-07.53.09:263][582]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.12.09-07.53.09:653][582]Lightmass on USER-PC: 22.2 sec total, 5.22 sec importing, 30 ms setup, 914 ms photons, 15.9 sec processing, 0 ms extra exporting [232/232 mappings]. Threads: 1:03 min total, 33.9 sec processing.
+[2014.12.09-07.53.09:760][582]LogStaticLightingSystem:Warning: Illumination: 39.1 sec (2.96 sec encoding lightmaps)
+[2014.12.09-07.53.09:760][582]LogStaticLightingSystem: Lightmap texture memory:  4.3 MB (3.0 MB streaming, 1.3 MB non-streaming), 14 textures
+[2014.12.09-07.53.09:760][582]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2014.12.09-07.53.10:252][583]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.12.09-07.53.10:252][583]MapCheck: New page: Mansion - Dec 8, 2014, 3:53:10 PM
+[2014.12.09-07.53.10:437][583]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 185.011ms to complete.
+[2014.12.09-07.53.16:775][602]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Mansion.HQ_Lightmap0_8. Streaming mips will be recached.
+[2014.12.09-07.53.16:776][602]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.12.09-07.53.17:152][602]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Mansion.HQ_Lightmap0_7. Streaming mips will be recached.
+[2014.12.09-07.53.17:155][602]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.12.09-07.53.25:832][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_12)
+[2014.12.09-07.53.41:620][907]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.09-07.53.41:621][907]PIE: New page: PIE session: Mansion (Dec 8, 2014, 3:53:41 PM)
+[2014.12.09-07.53.41:640][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019190s)
+[2014.12.09-07.53.41:641][907]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2014.12.09-07.53.41:641][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.020222s)
+[2014.12.09-07.53.41:670][907]LogWorld: Game class is 'MyGame_C'
+[2014.12.09-07.53.41:672][907]LogAIModule: Creating AISystem for world Mansion
+[2014.12.09-07.53.41:676][907]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2014.12.08-23.53.41
+[2014.12.09-07.53.41:677][907]LogWorld: Bringing up level for play took: 0.005393
+[2014.12.09-07.53.41:680][907]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.231
+[2014.12.09-07.53.59:355][608]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Mansion.HQ_Lightmap0_3. Streaming mips will be recached.
+[2014.12.09-07.53.59:405][608]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.12.09-07.54.09:279][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DA385E0
+[2014.12.09-07.54.29:371][645]LogSavePackage: Save=702.918823ms
+[2014.12.09-07.54.29:371][645]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Saved/MansionD887CF754F59AF058B56F18F5264D0D3.tmp' to '../../../../../../Users/User/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/Mansion.umap'
+[2014.12.09-07.54.32:212][766]Cmd: QUIT_EDITOR
+[2014.12.09-07.54.32:657][766]LogExit: Preparing to exit.
+[2014.12.09-07.54.33:384][766]LogExit: Editor shut down
+[2014.12.09-07.54.33:384][766]LogExit: Transaction tracking system shut down
+[2014.12.09-07.54.33:386][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DD149A0
+[2014.12.09-07.54.33:386][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C0FB420
+[2014.12.09-07.54.33:392][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AF51E40
+[2014.12.09-07.54.33:392][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E4DECA0
+[2014.12.09-07.54.33:438][766]LogExit: Object subsystem successfully closed.
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.12.09-07.54.33:495][766]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.12.09-07.54.33:496][766]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.12.09-07.54.33:497][766]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.12.09-07.54.33:586][766]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.12.09-07.54.33:832][766]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.12.09-07.54.33:833][766]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.09-07.54.33:834][766]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.09-07.54.33:934][766]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.09-07.54.33:934][766]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.09-07.54.33:937][766]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.09-07.54.33:937][766]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.09-07.54.33:938][766]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.09-07.54.33:940][766]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.09-07.54.34:027][766]LogDerivedDataCache: Shutdown
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.09-07.54.34:027][766]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.09-07.54.34:029][766]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.09-07.54.34:029][766]LogExit: Exiting.
+[2014.12.09-07.54.34:063][766]Log file closed, 12/08/14 23:54:34
+>>>>>>> c8d0f1f798fc8692922c08ad764a80e54c24b45a
