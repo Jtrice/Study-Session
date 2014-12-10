@@ -1,4 +1,4 @@
-﻿Log file open, 12/10/14 00:15:32
+﻿Log file open, 12/10/14 11:47:58
 LogInit:Display: Running engine for game: Trial_third_person
 LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -9,538 +9,299 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.12.10-08.15.32:269][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2014.12.10-08.15.32:322][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.12.10-08.15.32:337][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.12.10-08.15.32:344][  0]LogInit: Object subsystem initialized
-[2014.12.10-08.15.32:345][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
-[2014.12.10-08.15.32:345][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.12.10-08.15.32:347][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2014.12.10-08.15.32:347][  0]LogInit: Selected Device Profile: [Windows]
-[2014.12.10-08.15.32:347][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.12.10-08.15.32:352][  0]LogInit: Computer: WINDOWSONAUSB
-[2014.12.10-08.15.32:352][  0]LogInit: User: Jacob
-[2014.12.10-08.15.32:352][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.12.10-08.15.32:352][  0]LogInit: High frequency timer resolution =2.240902 MHz
-[2014.12.10-08.15.32:352][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
-[2014.12.10-08.15.32:352][  0]LogMemory: Platform Memory Stats for Windows
-[2014.12.10-08.15.32:352][  0]LogMemory: Process Physical Memory: 47.52 MB used, 47.52 MB peak
-[2014.12.10-08.15.32:352][  0]LogMemory: Process Virtual Memory: 24.28 MB used, 24.28 MB peak
-[2014.12.10-08.15.32:352][  0]LogMemory: Physical Memory: 3183.58 MB used, 16292.49 MB total
-[2014.12.10-08.15.32:352][  0]LogMemory: Virtual Memory: 285.68 MB used, 134217728.00 MB total
-[2014.12.10-08.15.32:377][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M    (Feature Level 11_0)
-[2014.12.10-08.15.32:377][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
-[2014.12.10-08.15.32:378][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.12.10-08.15.32:378][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.12.10-08.15.32:378][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.12.10-08.15.32:381][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.12.10-08.15.32:388][  0]LogD3D11RHI: Async texture creation enabled
-[2014.12.10-08.15.32:441][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2014.12.10-08.15.32:554][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.12.10-08.15.37:173][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.10-08.15.37:505][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.10-08.15.37:545][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.12.10-08.15.37:575][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2014.12.10-08.15.37:575][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jacob/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2014.12.10-08.15.37:576][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.12.10-08.15.37:576][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.12.10-08.15.37:629][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.12.10-08.15.37:641][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jacob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2014.12.10-08.15.37:743][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2014.12.10-08.15.37:850][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.12.10-08.15.37:850][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.12.10-08.15.38:311][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.12.10-08.15.38:351][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2014.12.10-08.15.39:118][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.12.10-08.15.39:249][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Binaries/Win64. Error: 0
-[2014.12.10-08.15.39:354][  0]SourceControl: Info Source control is disabled
-[2014.12.10-08.15.39:354][  0]SourceControl: Info Source control is disabled
-[2014.12.10-08.15.39:359][  0]SourceControl: Info Source control is disabled
-[2014.12.10-08.15.39:446][  0]LogObj: 23754 objects as part of root set at end of initial load.
-[2014.12.10-08.15.39:446][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
-[2014.12.10-08.15.39:493][  0]LogEngine: Initializing Engine...
-[2014.12.10-08.15.39:607][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4208 (AB 94))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2014.12.10-08.15.39:612][  0]LogInit: FAudioDevice initialized.
-[2014.12.10-08.15.39:627][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.12.10-08.15.39:644][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2014.12.10-08.15.39:647][  0]LogInit: Texture streaming: Enabled
-[2014.12.10-08.15.39:667][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2014.12.10-08.15.39:667][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
-[2014.12.10-08.15.39:667][  0]LogAnalytics: SetUserId fb202aa1e26edf4ab2b122b961203f69
-[2014.12.10-08.15.39:667][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2014.12.10-08.15.39:679][  0]LogInit: Transaction tracking system initialized
-[2014.12.10-08.15.39:742][  0]BlueprintLog: New page: Editor Load
-[2014.12.10-08.15.39:766][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
-[2014.12.10-08.15.39:766][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2014.12.10-08.15.40:127][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.10-08.15.40:405][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.10-08.15.40:537][  0]LogConsoleResponse:Display: 
-[2014.12.10-08.15.40:572][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.10-08.15.40:717][  0]SourceControl: Info Source control is disabled
-[2014.12.10-08.15.40:717][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.10-08.15.40:717][  0]LightingResults: New page: Lighting Build
-[2014.12.10-08.15.40:724][  0]MapCheck: New page: Map Check
-[2014.12.10-08.15.40:724][  0]LightingResults: New page: Lighting Build
-[2014.12.10-08.15.40:730][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F5EA3059E0
-[2014.12.10-08.15.41:909][  0]LogBlueprint:Error: [compiler] Error Binding: property ' PercentDelegate ' on widget ' HUD_Health ' needs to be bound to a pure function, ' Get_HUD_Health_Percent_0 ' is not pure.
-[2014.12.10-08.15.41:909][  0]LogBlueprint:Error: [compiler] Error Binding: property ' PercentDelegate ' on widget ' HUD_Energy ' needs to be bound to a pure function, ' Get_HUD_Energy_Percent_0 ' is not pure.
-[2014.12.10-08.15.41:910][  0]LogBlueprint:Warning: [compiler] Warning [0011.39] Compile of GameHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 21 ms]
-[2014.12.10-08.15.43:162][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2014.12.10-08.15.43:392][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2014.12.10-08.15.43:405][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2014.12.10-08.15.43:467][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2014.12.10-08.15.43:475][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
-[2014.12.10-08.15.43:498][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2014.12.10-08.15.43:944][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.10-08.15.43:976][  0]LogAIModule: Creating AISystem for world Example_Map
-[2014.12.10-08.15.43:983][  0]Cmd: MAP CHECKDEP
-[2014.12.10-08.15.43:983][  0]MapCheck: New page: Example_Map - Dec 9, 2014, 4:15:43 PM
-[2014.12.10-08.15.44:052][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.669ms to complete.
-[2014.12.10-08.15.44:052][  0]LogFileHelpers: Loading map 'Example_Map' took 3.335
-[2014.12.10-08.15.44:708][  0]LogCollectionManager: Loaded 0 collections in 0.001092 seconds
-[2014.12.10-08.15.46:865][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.12.10-08.15.47:165][  0]LogLoad: Full Startup: 16.64 seconds (BP compile: 0.92 seconds)
-[2014.12.10-08.15.47:758][  0]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve LevelEditor.TutorialLaunchButton
-[2014.12.10-08.15.47:758][  0]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
-[2014.12.10-08.15.47:817][  0]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve 
-[2014.12.10-08.15.47:817][  0]LogUObjectGlobals:Warning: LoadPackage can't find package .
-[2014.12.10-08.15.48:117][  0]LogRenderer:Warning: Reallocating scene render targets to support 848x728.
-[2014.12.10-08.15.55:991][314]LogAssetRegistry: Asset discovery search completed in 16.2356 seconds
-[2014.12.10-08.34.49:650][786]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2014.12.10-08.34.58:684][271]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2014.12.10-08.35.04:371][556]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.100
-[2014.12.10-08.35.09:245][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F5ECE332E0
-[2014.12.10-08.35.14:041][902]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
-[2014.12.10-08.35.14:079][902]LightingResults: New page: Lighting Build
-[2014.12.10-08.35.14:097][902]LoadErrors: New page: Loading map: Template_Default.umap
-[2014.12.10-08.35.14:098][902]MapCheck: New page: Map Check
-[2014.12.10-08.35.14:098][902]LightingResults: New page: Lighting Build
-[2014.12.10-08.35.14:106][902]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F5E11789A0
-[2014.12.10-08.35.14:132][902]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.10-08.35.14:132][902]LogAIModule: Creating AISystem for world Untitled_1
-[2014.12.10-08.35.14:136][902]Cmd: MAP CHECKDEP
-[2014.12.10-08.35.14:136][902]MapCheck: New page: Untitled_1 - Dec 9, 2014, 4:35:14 PM
-[2014.12.10-08.35.14:207][902]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.516ms to complete.
-[2014.12.10-08.35.14:207][902]LogFileHelpers: Loading map 'Template_Default' took 0.166
-[2014.12.10-08.35.43:173][610]LogTexture:Display: Building textures: Texture2D_2 (G8)
-[2014.12.10-08.36.35:723][704]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
-[2014.12.10-08.36.35:787][705]Cmd: UpdateLandscapeEditorData
-[2014.12.10-08.36.42:960][ 77]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
-[2014.12.10-08.36.45:863][238]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2014.12.10-08.36.52:259][559]LogMaterial: 0.001984 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.12.10-08.36.52:284][560]Cmd: UpdateLandscapeEditorData
-[2014.12.10-08.36.52:285][560]Cmd: UpdateLandscapeMIC
-[2014.12.10-08.36.54:886][680]LogMaterial: 0.001271 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.12.10-08.36.54:904][681]Cmd: UpdateLandscapeEditorData
-[2014.12.10-08.36.54:905][681]Cmd: UpdateLandscapeMIC
-[2014.12.10-08.36.57:816][835]MapCheck: New page: Map Check
-[2014.12.10-08.36.57:908][835]LightingResults: New page: Lighting Build - Dec 9, 2014, 4:36:57 PM
-[2014.12.10-08.37.13:777][835]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
-[2014.12.10-08.37.13:777][835]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.12.10-08.37.13:777][835]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.12.10-08.37.13:777][835]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.12.10-08.37.13:777][835]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.12.10-08.37.13:777][835]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.12.10-08.37.14:054][835]LogEditorBuildUtils: Build time 0:00:16
-[2014.12.10-08.37.14:063][835]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling.
-[2014.12.10-08.37.14:098][835]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling.
-[2014.12.10-08.37.14:143][836]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_26, compiling.
-[2014.12.10-08.37.14:145][836]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_26, compiling.
-[2014.12.10-08.37.14:147][836]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling.
-[2014.12.10-08.37.14:148][836]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling.
-[2014.12.10-08.37.14:150][836]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2, compiling.
-[2014.12.10-08.37.14:151][836]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2, compiling.
-[2014.12.10-08.37.14:162][837]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3, compiling.
-[2014.12.10-08.37.14:164][837]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3, compiling.
-[2014.12.10-08.37.14:166][837]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_4, compiling.
-[2014.12.10-08.37.14:168][837]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_4, compiling.
-[2014.12.10-08.37.14:170][837]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_5, compiling.
-[2014.12.10-08.37.14:172][837]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_5, compiling.
-[2014.12.10-08.37.14:181][838]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_6, compiling.
-[2014.12.10-08.37.14:182][838]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_6, compiling.
-[2014.12.10-08.37.14:184][838]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_7, compiling.
-[2014.12.10-08.37.14:186][838]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_7, compiling.
-[2014.12.10-08.37.14:188][838]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling.
-[2014.12.10-08.37.14:190][838]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling.
-[2014.12.10-08.37.14:199][839]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_9, compiling.
-[2014.12.10-08.37.14:201][839]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_9, compiling.
-[2014.12.10-08.37.14:202][839]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_10, compiling.
-[2014.12.10-08.37.14:204][839]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_10, compiling.
-[2014.12.10-08.37.14:205][839]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_11, compiling.
-[2014.12.10-08.37.14:207][839]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_11, compiling.
-[2014.12.10-08.37.14:208][839]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_12, compiling.
-[2014.12.10-08.37.14:210][839]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_12, compiling.
-[2014.12.10-08.37.14:218][840]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, compiling.
-[2014.12.10-08.37.14:220][840]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, compiling.
-[2014.12.10-08.37.14:221][840]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_14, compiling.
-[2014.12.10-08.37.14:223][840]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_14, compiling.
-[2014.12.10-08.37.14:225][840]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15, compiling.
-[2014.12.10-08.37.14:226][840]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15, compiling.
-[2014.12.10-08.37.14:228][840]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16, compiling.
-[2014.12.10-08.37.14:229][840]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16, compiling.
-[2014.12.10-08.37.14:271][841]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17, compiling.
-[2014.12.10-08.37.14:273][841]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17, compiling.
-[2014.12.10-08.37.14:274][841]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18, compiling.
-[2014.12.10-08.37.14:276][841]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18, compiling.
-[2014.12.10-08.37.14:277][841]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, compiling.
-[2014.12.10-08.37.14:279][841]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, compiling.
-[2014.12.10-08.37.14:280][841]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20, compiling.
-[2014.12.10-08.37.14:282][841]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20, compiling.
-[2014.12.10-08.37.14:290][842]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, compiling.
-[2014.12.10-08.37.14:292][842]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, compiling.
-[2014.12.10-08.37.14:293][842]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22, compiling.
-[2014.12.10-08.37.14:295][842]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22, compiling.
-[2014.12.10-08.37.14:296][842]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23, compiling.
-[2014.12.10-08.37.14:298][842]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23, compiling.
-[2014.12.10-08.37.14:300][842]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24, compiling.
-[2014.12.10-08.37.14:301][842]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24, compiling.
-[2014.12.10-08.37.14:309][843]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25, compiling.
-[2014.12.10-08.37.14:310][843]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25, compiling.
-[2014.12.10-08.37.14:312][843]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_26, compiling.
-[2014.12.10-08.37.14:313][843]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_26, compiling.
-[2014.12.10-08.37.14:315][843]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_27, compiling.
-[2014.12.10-08.37.14:316][843]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_27, compiling.
-[2014.12.10-08.37.14:318][843]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_28, compiling.
-[2014.12.10-08.37.14:320][843]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_28, compiling.
-[2014.12.10-08.37.14:327][844]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_29, compiling.
-[2014.12.10-08.37.14:329][844]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_29, compiling.
-[2014.12.10-08.37.14:331][844]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_30, compiling.
-[2014.12.10-08.37.14:333][844]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_30, compiling.
-[2014.12.10-08.37.14:334][844]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_31, compiling.
-[2014.12.10-08.37.14:336][844]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_31, compiling.
-[2014.12.10-08.37.14:337][844]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_32, compiling.
-[2014.12.10-08.37.14:339][844]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_32, compiling.
-[2014.12.10-08.37.14:347][845]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_33, compiling.
-[2014.12.10-08.37.14:349][845]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_33, compiling.
-[2014.12.10-08.37.14:350][845]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_34, compiling.
-[2014.12.10-08.37.14:352][845]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_34, compiling.
-[2014.12.10-08.37.14:353][845]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_35, compiling.
-[2014.12.10-08.37.14:355][845]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_35, compiling.
-[2014.12.10-08.37.14:356][845]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_36, compiling.
-[2014.12.10-08.37.14:358][845]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_36, compiling.
-[2014.12.10-08.37.14:366][846]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling.
-[2014.12.10-08.37.14:367][846]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling.
-[2014.12.10-08.37.14:369][846]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_38, compiling.
-[2014.12.10-08.37.14:370][846]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_38, compiling.
-[2014.12.10-08.37.14:372][846]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_39, compiling.
-[2014.12.10-08.37.14:373][846]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_39, compiling.
-[2014.12.10-08.37.14:375][846]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_40, compiling.
-[2014.12.10-08.37.14:376][846]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_40, compiling.
-[2014.12.10-08.37.14:384][847]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_41, compiling.
-[2014.12.10-08.37.14:385][847]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_41, compiling.
-[2014.12.10-08.37.14:387][847]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_42, compiling.
-[2014.12.10-08.37.14:388][847]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_42, compiling.
-[2014.12.10-08.37.14:390][847]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_43, compiling.
-[2014.12.10-08.37.14:392][847]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_43, compiling.
-[2014.12.10-08.37.14:393][847]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_44, compiling.
-[2014.12.10-08.37.14:395][847]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_44, compiling.
-[2014.12.10-08.37.14:403][848]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_45, compiling.
-[2014.12.10-08.37.14:404][848]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_45, compiling.
-[2014.12.10-08.37.14:406][848]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_46, compiling.
-[2014.12.10-08.37.14:407][848]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_46, compiling.
-[2014.12.10-08.37.14:409][848]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_47, compiling.
-[2014.12.10-08.37.14:410][848]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_47, compiling.
-[2014.12.10-08.37.14:412][848]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_48, compiling.
-[2014.12.10-08.37.14:413][848]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_48, compiling.
-[2014.12.10-08.37.14:421][849]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_49, compiling.
-[2014.12.10-08.37.14:423][849]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_49, compiling.
-[2014.12.10-08.37.14:424][849]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_50, compiling.
-[2014.12.10-08.37.14:426][849]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_50, compiling.
-[2014.12.10-08.37.14:427][849]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_51, compiling.
-[2014.12.10-08.37.14:429][849]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_51, compiling.
-[2014.12.10-08.37.14:430][849]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_52, compiling.
-[2014.12.10-08.37.14:432][849]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_52, compiling.
-[2014.12.10-08.37.14:440][850]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_53, compiling.
-[2014.12.10-08.37.14:442][850]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_53, compiling.
-[2014.12.10-08.37.14:443][850]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_54, compiling.
-[2014.12.10-08.37.14:445][850]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_54, compiling.
-[2014.12.10-08.37.14:446][850]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_55, compiling.
-[2014.12.10-08.37.14:448][850]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_55, compiling.
-[2014.12.10-08.37.14:449][850]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_56, compiling.
-[2014.12.10-08.37.14:451][850]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_56, compiling.
-[2014.12.10-08.37.14:458][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_57, compiling.
-[2014.12.10-08.37.14:460][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_57, compiling.
-[2014.12.10-08.37.14:461][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_58, compiling.
-[2014.12.10-08.37.14:463][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_58, compiling.
-[2014.12.10-08.37.14:464][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_59, compiling.
-[2014.12.10-08.37.14:466][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_59, compiling.
-[2014.12.10-08.37.14:468][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_60, compiling.
-[2014.12.10-08.37.14:469][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_60, compiling.
-[2014.12.10-08.37.14:477][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling.
-[2014.12.10-08.37.14:478][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling.
-[2014.12.10-08.37.14:480][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_62, compiling.
-[2014.12.10-08.37.14:481][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_62, compiling.
-[2014.12.10-08.37.14:483][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_63, compiling.
-[2014.12.10-08.37.14:484][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_63, compiling.
-[2014.12.10-08.37.14:486][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_64, compiling.
-[2014.12.10-08.37.14:488][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_64, compiling.
-[2014.12.10-08.37.14:495][853]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
-[2014.12.10-08.37.14:497][853]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
-[2014.12.10-08.37.46:608][909]Job is a success!
-[2014.12.10-08.37.47:137][910]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2014.12.10-08.37.47:137][910]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
-[2014.12.10-08.37.47:146][910]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
-[2014.12.10-08.37.47:156][910]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2014.12.10-08.37.47:157][910]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2014.12.10-08.37.47:157][910]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
-[2014.12.10-08.37.47:158][910]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
-[2014.12.10-08.37.47:158][910]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2014.12.10-08.37.47:158][910]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2014.12.10-08.37.47:159][910]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2014.12.10-08.37.47:159][910]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2014.12.10-08.37.47:160][910]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.12.10-08.37.47:160][910]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.12.10-08.37.47:161][910]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2014.12.10-08.37.47:162][910]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2014.12.10-08.37.47:163][910]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
-[2014.12.10-08.37.47:163][910]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
-[2014.12.10-08.37.47:164][910]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
-[2014.12.10-08.37.47:165][910]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
-[2014.12.10-08.37.47:166][910]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
-[2014.12.10-08.37.47:194][910]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
-[2014.12.10-08.37.47:582][910]Lightmass on WINDOWSONAUSB: 4.36 sec total, 284 ms importing, 182 ms setup, 683 ms photons, 2.56 sec processing, 0 ms extra exporting [66/66 mappings]. Threads: 17.7 sec total, 8.55 sec processing.
-[2014.12.10-08.37.47:654][910]LogStaticLightingSystem:Warning: Illumination: 49.4 sec (106 ms encoding lightmaps)
-[2014.12.10-08.37.47:654][910]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 14 textures
-[2014.12.10-08.37.47:654][910]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 7 textures
-[2014.12.10-08.37.53:844][910]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve LevelEditor.TutorialLaunchButton
-[2014.12.10-08.37.53:844][910]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
-[2014.12.10-08.37.53:904][910]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve 
-[2014.12.10-08.37.53:904][910]LogUObjectGlobals:Warning: LoadPackage can't find package .
-[2014.12.10-08.37.53:925][911]Cmd: UpdateLandscapeEditorData
-[2014.12.10-08.37.53:926][911]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.12.10-08.37.53:926][911]MapCheck: New page: Untitled_1 - Dec 9, 2014, 4:37:53 PM
-[2014.12.10-08.37.54:009][911]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.374ms to complete.
-[2014.12.10-08.39.35:677][712]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.12.10-08.39.38:088][843]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.39.47:006][355]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.39.49:265][489]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.39.52:627][665]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.40.01:400][726]LogSavePackage: Save=70.154785ms
-[2014.12.10-08.40.01:400][726]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevelCC2AF03B4CACE906FEEBFAB765F95A79.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
-[2014.12.10-08.40.01:417][726]LogFileHelpers: Saving map 'ForestLevel' took 0.965
-[2014.12.10-08.40.10:665][259]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.40.19:960][802]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.40.36:597][784]LogSavePackage: Save=64.519554ms
-[2014.12.10-08.40.36:597][784]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel56D9F7AE480E2E646C3634802EA3526C.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
-[2014.12.10-08.40.41:534][ 72]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.12.10-08.40.44:156][ 72]PIE: New page: PIE session: ForestLevel (Dec 9, 2014, 4:40:44 PM)
-[2014.12.10-08.40.44:176][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019348s)
-[2014.12.10-08.40.44:178][ 72]LogPlayLevel: PIE: World Init took: (0.002088s)
-[2014.12.10-08.40.44:179][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.022421s)
-[2014.12.10-08.40.44:305][ 72]LogWorld: Game class is 'MyGame_C'
-[2014.12.10-08.40.44:403][ 72]LogAIModule: Creating AISystem for world ForestLevel
-[2014.12.10-08.40.44:405][ 72]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 60) at 2014.12.10-00.40.44
-[2014.12.10-08.40.44:417][ 72]LogWorld: Bringing up level for play took: 0.013634
-[2014.12.10-08.40.44:432][ 72]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel 2.524
-[2014.12.10-08.41.58:861][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F5E244E700
-[2014.12.10-08.42.14:745][426]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.42.15:945][498]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.42.24:882][  4]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2014.12.10-08.42.26:127][ 66]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2014.12.10-08.42.26:473][ 84]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2014.12.10-08.45.00:315][931]Cmd: TRANSACTION UNDO
-[2014.12.10-08.45.00:315][931]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2014.12.10-08.45.00:329][931]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
-[2014.12.10-08.45.12:867][632]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2014.12.10-08.45.14:159][708]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.12.10-08.45.18:132][944]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.45.19:166][  6]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.45.20:334][ 76]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.47.49:437][797]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Mesh'
-[2014.12.10-08.47.55:836][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
-[2014.12.10-08.47.55:836][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
-[2014.12.10-08.47.55:836][385]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/M_PineTree_Bark_Inst
-[2014.12.10-08.47.55:836][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
-[2014.12.10-08.47.55:836][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
-[2014.12.10-08.47.55:836][385]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/MI_PineTree_Billboard_Inst
-[2014.12.10-08.47.55:837][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
-[2014.12.10-08.47.55:837][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
-[2014.12.10-08.47.55:837][385]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/MI_PineTree_Branch_Inst
-[2014.12.10-08.47.55:837][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
-[2014.12.10-08.47.55:837][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
-[2014.12.10-08.47.55:838][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
-[2014.12.10-08.47.55:838][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
-[2014.12.10-08.47.55:838][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
-[2014.12.10-08.47.55:838][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
-[2014.12.10-08.47.55:839][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
-[2014.12.10-08.47.55:839][385]LoadErrors: Info Failed to load /Game/Assets/Materials/M_PineTree_Bark_Inst.M_PineTree_Bark_Inst Referenced by SM_PineTree
-[2014.12.10-08.47.55:839][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading NULL.
-[2014.12.10-08.47.55:840][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
-[2014.12.10-08.47.55:840][385]LoadErrors: Info Failed to load /Game/Assets/Materials/MI_PineTree_Branch_Inst.MI_PineTree_Branch_Inst Referenced by SM_PineTree
-[2014.12.10-08.47.55:840][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading NULL.
-[2014.12.10-08.47.55:840][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
-[2014.12.10-08.47.55:840][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading NULL.
-[2014.12.10-08.47.55:841][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
-[2014.12.10-08.47.55:841][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading NULL.
-[2014.12.10-08.47.55:841][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
-[2014.12.10-08.47.55:841][385]LoadErrors: Info Failed to load /Game/Assets/Materials/MI_PineTree_Billboard_Inst.MI_PineTree_Billboard_Inst Referenced by SM_PineTree
-[2014.12.10-08.47.55:841][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
-[2014.12.10-08.47.55:841][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
-[2014.12.10-08.47.55:842][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
-[2014.12.10-08.47.55:842][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
-[2014.12.10-08.47.55:842][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
-[2014.12.10-08.47.55:842][385]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
-[2014.12.10-08.47.55:842][385]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
-[2014.12.10-08.47.55:843][385]LogStaticMesh: Building static mesh SM_PineTree...
-[2014.12.10-08.47.56:306][385]LogStaticMesh: Built static mesh [463.615112ms] /Game/StarterContent/Mesh/SM_PineTree.SM_PineTree
-[2014.12.10-08.47.56:424][385]LogActorFactory: Actor Factory created SM_PineTree
-[2014.12.10-08.47.56:476][386]LogActorFactory: Actor Factory created SM_PineTree
-[2014.12.10-08.47.57:626][454]LogActorFactory: Actor Factory created SM_PineTree
-[2014.12.10-08.47.57:720][454]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.47.57:778][454]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.48.01:651][670]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.12.10-08.48.03:517][787]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.12.10-08.48.11:801][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PineTree)
-[2014.12.10-08.48.11:809][273]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.48.13:898][397]Cmd: EDIT COPY
-[2014.12.10-08.48.15:164][470]Cmd: EDIT PASTE
-[2014.12.10-08.48.15:263][470]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.48.19:827][742]Cmd: EDIT PASTE
-[2014.12.10-08.48.19:841][742]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.48.29:109][283]Cmd: EDIT PASTE
-[2014.12.10-08.48.29:128][283]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.49.50:638][254]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2014.12.10-08.49.51:056][277]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2014.12.10-08.49.52:280][347]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2014.12.10-08.51.49:313][403]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2014.12.10-08.51.52:030][533]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
-[2014.12.10-08.51.52:124][533]LogSavePackage: Save=101.036545ms
-[2014.12.10-08.51.52:124][533]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel_Auto1CA1B71E6405DC9783822B9BC4EDF1055.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/ForestLevel_Auto1.umap'
-[2014.12.10-08.51.52:135][533]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ForestLevel' took 0.199
-[2014.12.10-08.51.52:135][533]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.199
-[2014.12.10-08.52.02:071][107]LogSavePackage: Save=65.443733ms
-[2014.12.10-08.52.02:071][107]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevelCAFC4E5E4CFE88FFC2282F9E64E92FF1.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
-[2014.12.10-08.55.34:282][825]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2014.12.10-08.55.59:936][258]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
-[2014.12.10-08.56.00:001][258]LogSavePackage: Save=69.340828ms
-[2014.12.10-08.56.00:001][258]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel998037404AC4935EE75B3E88685282D0.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
-[2014.12.10-08.56.06:982][652]MapCheck: New page: Map Check
-[2014.12.10-08.56.07:004][652]LightingResults: New page: Lighting Build - Dec 9, 2014, 4:56:07 PM
-[2014.12.10-08.56.11:535][652]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
-[2014.12.10-08.56.11:536][652]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.12.10-08.56.11:536][652]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.12.10-08.56.11:536][652]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.12.10-08.56.11:536][652]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.12.10-08.56.11:536][652]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.12.10-08.56.11:790][652]LogEditorBuildUtils: Build time 0:00:04
-[2014.12.10-08.56.16:228][883]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-08.56.16:228][883]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-08.56.16:465][896]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-08.56.16:465][896]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-08.56.16:641][906]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-08.56.16:641][906]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-08.56.17:003][925]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-08.56.17:003][925]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-08.56.17:061][928]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-08.56.17:061][928]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-08.56.17:300][940]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-08.56.17:301][940]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-08.56.17:358][943]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-08.56.17:359][943]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-08.56.17:419][946]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-08.56.17:419][946]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-08.56.18:027][978]Job is a success!
-[2014.12.10-08.56.18:208][979]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2014.12.10-08.56.18:215][979]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2014.12.10-08.56.18:356][979]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2014.12.10-08.56.18:538][979]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.12.10-08.56.18:540][979]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.12.10-08.56.18:543][979]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2014.12.10-08.56.18:548][979]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
-[2014.12.10-08.56.18:548][979]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
-[2014.12.10-08.56.18:575][979]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
-[2014.12.10-08.56.18:629][979]Lightmass on WINDOWSONAUSB: 6.33 sec total, 329 ms importing, 365 ms setup, 1.06 sec photons, 4.55 sec processing, 0 ms extra exporting [78/78 mappings]. Threads: 31.7 sec total, 21.4 sec processing.
-[2014.12.10-08.56.18:643][979]LogStaticLightingSystem:Warning: Illumination: 11.5 sec (430 ms encoding lightmaps)
-[2014.12.10-08.56.18:643][979]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 6 textures
-[2014.12.10-08.56.18:643][979]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 10 textures
-[2014.12.10-08.56.19:608][979]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve LevelEditor.TutorialLaunchButton
-[2014.12.10-08.56.19:608][979]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
-[2014.12.10-08.56.19:668][979]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve 
-[2014.12.10-08.56.19:668][979]LogUObjectGlobals:Warning: LoadPackage can't find package .
-[2014.12.10-08.56.19:682][980]Cmd: UpdateLandscapeEditorData
-[2014.12.10-08.56.19:683][980]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.12.10-08.56.19:683][980]MapCheck: New page: ForestLevel - Dec 9, 2014, 4:56:19 PM
-[2014.12.10-08.56.19:767][980]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.245ms to complete.
-[2014.12.10-08.56.39:252][115]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.12.10-08.56.39:252][115]PIE: New page: PIE session: ForestLevel (Dec 9, 2014, 4:56:39 PM)
-[2014.12.10-08.56.39:272][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020360s)
-[2014.12.10-08.56.39:273][115]LogPlayLevel: PIE: World Init took: (0.000988s)
-[2014.12.10-08.56.39:273][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.021561s)
-[2014.12.10-08.56.39:303][115]LogWorld: Game class is 'MyGame_C'
-[2014.12.10-08.56.39:305][115]LogAIModule: Creating AISystem for world ForestLevel
-[2014.12.10-08.56.39:308][115]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 60) at 2014.12.10-00.56.39
-[2014.12.10-08.56.39:309][115]LogWorld: Bringing up level for play took: 0.003218
-[2014.12.10-08.56.39:310][115]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel -0.597
-[2014.12.10-08.57.25:393][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F5E4EB6340
-[2014.12.10-08.57.42:792][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PineTree)
-[2014.12.10-08.57.42:799][900]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.57.48:087][215]Cmd: EDIT COPY
-[2014.12.10-08.58.01:660][985]LogActorFactory: Actor Factory created SM_PineTree
-[2014.12.10-08.58.03:795][112]LogActorFactory: Actor Factory created SM_PineTree
-[2014.12.10-08.58.03:805][112]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.58.03:829][112]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.58.20:715][ 99]Cmd: DELETE
-[2014.12.10-08.58.20:715][ 99]Cmd: ACTOR DELETE
-[2014.12.10-08.58.20:721][ 99]LogEditorActor: Deleted Actor: StaticMeshActor
-[2014.12.10-08.58.20:763][ 99]LogEditorActor: Deleted 1 Actors (0.048 secs)
-[2014.12.10-08.58.23:915][257]LogActorFactory: Actor Factory created SM_PineTree
-[2014.12.10-08.58.25:540][357]LogActorFactory: Actor Factory created SM_PineTree
-[2014.12.10-08.58.25:550][357]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.58.25:579][357]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.59.04:579][585]Cmd: EDIT COPY
-[2014.12.10-08.59.05:758][655]Cmd: EDIT PASTE
-[2014.12.10-08.59.05:786][655]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.59.26:269][814]Cmd: EDIT COPY
-[2014.12.10-08.59.27:110][865]Cmd: EDIT PASTE
-[2014.12.10-08.59.27:138][865]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.59.42:671][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PineTree6)
-[2014.12.10-08.59.42:681][697]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-08.59.44:007][774]Cmd: EDIT COPY
-[2014.12.10-08.59.44:682][813]Cmd: EDIT PASTE
-[2014.12.10-08.59.44:712][813]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.10-09.00.15:123][406]LogSavePackage: Save=95.059044ms
-[2014.12.10-09.00.15:123][406]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevelA7F139464C290CF5AE508EB790F861EC.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
-[2014.12.10-09.00.15:146][406]LogFileHelpers: Saving map 'ForestLevel' took 0.218
-[2014.12.10-18.35.22:998][175]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2014.12.10-19.07.51:793][209]LogSavePackage: Save=97.908791ms
-[2014.12.10-19.07.51:793][209]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel6816DE7747A775DA481F22AFD3CD541A.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
-[2014.12.10-19.07.56:726][491]MapCheck: New page: Map Check
-[2014.12.10-19.07.56:761][491]LightingResults: New page: Lighting Build - Dec 10, 2014, 3:07:56 AM
-[2014.12.10-19.08.01:293][491]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
-[2014.12.10-19.08.01:293][491]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.12.10-19.08.01:293][491]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.12.10-19.08.01:293][491]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.12.10-19.08.01:293][491]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.12.10-19.08.01:293][491]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.12.10-19.08.01:339][491]LogEditorBuildUtils: Build time 0:00:04
-[2014.12.10-19.08.08:397][513]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.08:397][513]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.08:397][513]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.08:397][513]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.08:730][514]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.08:730][514]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.08:730][514]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.08:730][514]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.09:063][515]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.09:063][515]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.09:063][515]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.09:063][515]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.09:063][515]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.09:063][515]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.09:397][516]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.09:397][516]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.09:397][516]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.09:397][516]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.09:730][517]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.09:730][517]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.09:730][517]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.09:730][517]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.10:063][518]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.10:063][518]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.10:063][518]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.10:063][518]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.10:396][519]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.10:396][519]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.10:731][520]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
-[2014.12.10-19.08.10:731][520]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
-[2014.12.10-19.08.11:064][521]Job is a success!
+[2014.12.10-19.47.58:674][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.10-19.47.58:724][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.10-19.47.58:738][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.10-19.47.58:745][  0]LogInit: Object subsystem initialized
+[2014.12.10-19.47.58:746][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.10-19.47.58:746][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.10-19.47.58:747][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.10-19.47.58:747][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.10-19.47.58:747][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.10-19.47.58:752][  0]LogInit: Computer: WINDOWSONAUSB
+[2014.12.10-19.47.58:752][  0]LogInit: User: Jacob
+[2014.12.10-19.47.58:752][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.10-19.47.58:752][  0]LogInit: High frequency timer resolution =2.240902 MHz
+[2014.12.10-19.47.58:752][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.12.10-19.47.58:752][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.10-19.47.58:752][  0]LogMemory: Process Physical Memory: 48.73 MB used, 48.73 MB peak
+[2014.12.10-19.47.58:752][  0]LogMemory: Process Virtual Memory: 24.15 MB used, 24.16 MB peak
+[2014.12.10-19.47.58:752][  0]LogMemory: Physical Memory: 3610.93 MB used, 16292.49 MB total
+[2014.12.10-19.47.58:752][  0]LogMemory: Virtual Memory: 283.46 MB used, 134217728.00 MB total
+[2014.12.10-19.47.58:769][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M    (Feature Level 11_0)
+[2014.12.10-19.47.58:769][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.10-19.47.58:769][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.10-19.47.58:770][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.10-19.47.58:770][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.10-19.47.58:774][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.10-19.47.58:781][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.10-19.47.58:838][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.10-19.47.58:964][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.10-19.48.03:656][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-19.48.04:026][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-19.48.04:068][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.10-19.48.04:118][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.10-19.48.04:118][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jacob/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.10-19.48.04:119][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.10-19.48.04:119][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.10-19.48.04:176][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.10-19.48.04:189][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jacob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.10-19.48.04:301][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.10-19.48.04:416][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.10-19.48.04:416][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.10-19.48.04:756][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.10-19.48.04:797][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.10-19.48.05:421][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.10-19.48.05:552][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Binaries/Win64. Error: 0
+[2014.12.10-19.48.05:659][  0]SourceControl: Info Source control is disabled
+[2014.12.10-19.48.05:659][  0]SourceControl: Info Source control is disabled
+[2014.12.10-19.48.05:664][  0]SourceControl: Info Source control is disabled
+[2014.12.10-19.48.05:749][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.10-19.48.05:749][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2014.12.10-19.48.05:796][  0]LogEngine: Initializing Engine...
+[2014.12.10-19.48.05:917][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4208 (AB 94))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2014.12.10-19.48.05:922][  0]LogInit: FAudioDevice initialized.
+[2014.12.10-19.48.05:936][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.10-19.48.05:962][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.10-19.48.05:965][  0]LogInit: Texture streaming: Enabled
+[2014.12.10-19.48.05:985][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.10-19.48.05:985][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.10-19.48.05:986][  0]LogAnalytics: SetUserId fb202aa1e26edf4ab2b122b961203f69
+[2014.12.10-19.48.05:986][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.10-19.48.05:997][  0]LogInit: Transaction tracking system initialized
+[2014.12.10-19.48.06:065][  0]BlueprintLog: New page: Editor Load
+[2014.12.10-19.48.06:090][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2014.12.10-19.48.06:090][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.10-19.48.06:486][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-19.48.06:769][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-19.48.06:899][  0]LogConsoleResponse:Display: 
+[2014.12.10-19.48.06:934][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-19.48.07:073][  0]SourceControl: Info Source control is disabled
+[2014.12.10-19.48.07:074][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.10-19.48.07:074][  0]LightingResults: New page: Lighting Build
+[2014.12.10-19.48.07:081][  0]MapCheck: New page: Map Check
+[2014.12.10-19.48.07:081][  0]LightingResults: New page: Lighting Build
+[2014.12.10-19.48.07:087][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015EEC919E0
+[2014.12.10-19.48.07:345][  0]LogBlueprint:Error: [compiler] Error Binding: property ' PercentDelegate ' on widget ' HUD_Health ' needs to be bound to a pure function, ' Get_HUD_Health_Percent_0 ' is not pure.
+[2014.12.10-19.48.07:345][  0]LogBlueprint:Error: [compiler] Error Binding: property ' PercentDelegate ' on widget ' HUD_Energy ' needs to be bound to a pure function, ' Get_HUD_Energy_Percent_0 ' is not pure.
+[2014.12.10-19.48.07:346][  0]LogBlueprint:Warning: [compiler] Warning [0010.46] Compile of GameHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 3 ms]
+[2014.12.10-19.48.07:839][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.10-19.48.07:839][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.10-19.48.07:840][  0]Cmd: MAP CHECKDEP
+[2014.12.10-19.48.07:840][  0]MapCheck: New page: Example_Map - Dec 10, 2014, 3:48:07 AM
+[2014.12.10-19.48.07:911][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.766ms to complete.
+[2014.12.10-19.48.07:911][  0]LogFileHelpers: Loading map 'Example_Map' took 0.837
+[2014.12.10-19.48.07:986][  0]LogCollectionManager: Loaded 0 collections in 0.000836 seconds
+[2014.12.10-19.48.08:065][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.10-19.48.08:084][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.10-19.48.08:109][  0]LogLoad: Full Startup: 11.22 seconds (BP compile: 0.22 seconds)
+[2014.12.10-19.48.08:124][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Mesh'
+[2014.12.10-19.48.08:248][  0]LogRenderer:Warning: Reallocating scene render targets to support 760x728.
+[2014.12.10-19.48.08:454][  2]LogAssetRegistry: Asset discovery search completed in 2.3749 seconds
+[2014.12.10-19.48.16:430][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2014.12.10-19.48.19:557][602]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.10-19.48.22:811][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.10-19.48.22:812][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.10-19.48.22:812][778]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/M_PineTree_Bark_Inst
+[2014.12.10-19.48.22:812][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.10-19.48.22:812][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.10-19.48.22:813][778]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/MI_PineTree_Billboard_Inst
+[2014.12.10-19.48.22:813][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.10-19.48.22:813][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.10-19.48.22:813][778]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/MI_PineTree_Branch_Inst
+[2014.12.10-19.48.22:814][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.10-19.48.22:814][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.10-19.48.22:814][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.10-19.48.22:815][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.10-19.48.22:815][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.10-19.48.22:815][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading ../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.10-19.48.22:846][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.10-19.48.22:846][778]LoadErrors: Info Failed to load /Game/Assets/Materials/M_PineTree_Bark_Inst.M_PineTree_Bark_Inst Referenced by SM_PineTree
+[2014.12.10-19.48.22:846][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading NULL.
+[2014.12.10-19.48.22:847][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.10-19.48.22:847][778]LoadErrors: Info Failed to load /Game/Assets/Materials/MI_PineTree_Branch_Inst.MI_PineTree_Branch_Inst Referenced by SM_PineTree
+[2014.12.10-19.48.22:847][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading NULL.
+[2014.12.10-19.48.22:847][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.10-19.48.22:847][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading NULL.
+[2014.12.10-19.48.22:848][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.10-19.48.22:848][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading NULL.
+[2014.12.10-19.48.22:848][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.10-19.48.22:848][778]LoadErrors: Info Failed to load /Game/Assets/Materials/MI_PineTree_Billboard_Inst.MI_PineTree_Billboard_Inst Referenced by SM_PineTree
+[2014.12.10-19.48.22:849][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.10-19.48.22:849][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.10-19.48.22:849][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.10-19.48.22:850][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.10-19.48.22:850][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.10-19.48.22:850][778]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.10-19.48.22:850][778]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.10-19.48.23:039][778]Cmd: MAP LOAD FILE="../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.10-19.48.23:039][778]LightingResults: New page: Lighting Build
+[2014.12.10-19.48.23:064][778]LoadErrors: New page: Loading map: ForestLevel.umap
+[2014.12.10-19.48.23:065][778]MapCheck: New page: Map Check
+[2014.12.10-19.48.23:065][778]LightingResults: New page: Lighting Build
+[2014.12.10-19.48.23:075][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015EAC291C0
+[2014.12.10-19.48.23:080][778]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.10-19.48.23:080][778]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-19.48.23:110][778]Cmd: MAP CHECKDEP
+[2014.12.10-19.48.23:110][778]MapCheck: New page: ForestLevel - Dec 10, 2014, 3:48:23 AM
+[2014.12.10-19.48.23:199][778]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.561ms to complete.
+[2014.12.10-19.48.23:201][778]LogFileHelpers: Loading map 'ForestLevel' took 0.163
+[2014.12.10-19.48.23:223][779]Cmd: UpdateLandscapeEditorData -warnings
+[2014.12.10-19.48.23:224][779]Cmd: UpdateLandscapeEditorData
+[2014.12.10-19.48.34:065][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PineTree2)
+[2014.12.10-19.48.34:077][408]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.10-19.48.42:440][877]Cmd: EDIT COPY
+[2014.12.10-19.48.43:324][928]Cmd: EDIT PASTE
+[2014.12.10-19.48.43:380][928]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.10-19.48.58:051][714]Cmd: EDIT COPY
+[2014.12.10-19.48.58:622][746]Cmd: EDIT PASTE
+[2014.12.10-19.48.58:653][746]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.10-19.49.09:510][334]Cmd: EDIT COPY
+[2014.12.10-19.49.10:195][374]Cmd: EDIT PASTE
+[2014.12.10-19.49.10:226][374]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.10-19.49.18:630][822]Cmd: EDIT COPY
+[2014.12.10-19.49.19:377][864]Cmd: EDIT PASTE
+[2014.12.10-19.49.19:408][864]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.10-19.49.41:344][ 59]Cmd: EDIT COPY
+[2014.12.10-19.49.42:067][ 99]Cmd: EDIT PASTE
+[2014.12.10-19.49.42:099][ 99]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.10-19.50.02:206][200]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.12.10-19.50.03:272][259]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.12.10-19.50.26:052][477]LogSavePackage: Save=163.623398ms
+[2014.12.10-19.50.26:052][477]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel5C26DB014952EFAB130CF5B850662A4A.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-19.50.26:089][477]LogFileHelpers: Saving map 'ForestLevel' took 0.329
+[2014.12.10-19.50.29:167][670]MapCheck: New page: Map Check
+[2014.12.10-19.50.29:214][670]LightingResults: New page: Lighting Build - Dec 10, 2014, 3:50:29 AM
+[2014.12.10-19.50.37:165][670]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2014.12.10-19.50.37:165][670]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.12.10-19.50.37:165][670]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.12.10-19.50.37:165][670]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.12.10-19.50.37:165][670]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.12.10-19.50.37:165][670]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.12.10-19.50.37:235][670]LogEditorBuildUtils: Build time 0:00:08
+[2014.12.10-19.50.51:819][355]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.51:839][356]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.51:952][362]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.51:971][363]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.52:326][381]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.52:326][381]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.52:477][389]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.52:477][389]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.52:626][397]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.52:626][397]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.52:778][405]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.52:778][405]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.53:011][417]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.53:011][417]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.53:435][439]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.53:435][439]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.53:530][444]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.53:530][444]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.53:838][460]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.53:838][460]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.53:916][464]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.53:916][464]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.54:361][487]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.54:361][487]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.54:400][489]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.54:401][489]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.54:554][497]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.54:554][497]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.54:810][510]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.54:810][510]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.55:081][524]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.55:082][524]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.55:523][547]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.55:523][547]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.56:336][589]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.56:336][589]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.56:413][593]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.56:413][593]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.56:433][594]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.56:433][594]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.56:642][605]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.56:642][605]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.56:969][622]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.56:969][622]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.57:126][630]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.57:126][630]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.57:397][644]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.57:416][645]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.1%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.57:805][665]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.57:805][665]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.57:882][669]LightingResults:Error: Error SM_PineTree Object has overlapping UVs.
+[2014.12.10-19.50.57:882][669]LightingResults: Info SM_PineTree Lightmap UV are overlapping by 86.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.10-19.50.57:894][670]Job is a success!
+[2014.12.10-19.50.58:174][671]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.10-19.50.58:179][671]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.12.10-19.50.58:342][671]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.12.10-19.50.58:614][671]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.12.10-19.50.58:620][671]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.12.10-19.50.58:626][671]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.12.10-19.50.58:631][671]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.12.10-19.50.58:637][671]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.12.10-19.50.58:640][671]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.12.10-19.50.58:645][671]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.10-19.50.58:649][671]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.12.10-19.50.58:651][671]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.12.10-19.50.58:652][671]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.12.10-19.50.58:653][671]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.12.10-19.50.58:693][671]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.12.10-19.50.58:738][671]Lightmass on WINDOWSONAUSB: 17.4 sec total, 305 ms importing, 741 ms setup, 4.39 sec photons, 12.0 sec processing, 0 ms extra exporting [105/105 mappings]. Threads: 1:23 min total, 57.5 sec processing.
+[2014.12.10-19.50.58:761][671]LogStaticLightingSystem:Warning: Illumination: 29.4 sec (552 ms encoding lightmaps)
+[2014.12.10-19.50.58:761][671]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 10 textures
+[2014.12.10-19.50.58:761][671]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2014.12.10-19.50.59:201][672]Cmd: UpdateLandscapeEditorData
+[2014.12.10-19.50.59:203][672]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.12.10-19.50.59:203][672]MapCheck: New page: ForestLevel - Dec 10, 2014, 3:50:59 AM
+[2014.12.10-19.50.59:280][672]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.025ms to complete.
+[2014.12.10-19.51.14:360][512]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2014.12.10-19.53.09:451][286]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2014.12.10-19.53.09:561][286]LogSavePackage: Save=117.717773ms
+[2014.12.10-19.53.09:561][286]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel12965F194DE1DF452095E5930EB7E077.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-19.53.09:591][286]LogFileHelpers: Saving map 'ForestLevel' took 0.247
+[2014.12.10-19.54.16:167][585]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2014.12.10-19.54.16:276][585]LogSavePackage: Save=113.241455ms
+[2014.12.10-19.54.16:276][585]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel468440804CAEA6553F9FB9AB1D87614F.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Content/Maps/ForestLevel.umap'
+[2014.12.10-19.54.16:301][585]LogFileHelpers: Saving map 'ForestLevel' took 0.238
+[2014.12.10-19.54.19:413][741]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.10-19.54.21:989][741]PIE: New page: PIE session: ForestLevel (Dec 10, 2014, 3:54:21 AM)
+[2014.12.10-19.54.22:014][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024987s)
+[2014.12.10-19.54.22:015][741]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2014.12.10-19.54.22:015][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ForestLevel.ForestLevel to /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel (0.025947s)
+[2014.12.10-19.54.22:059][741]LogWorld: Game class is 'MyGame_C'
+[2014.12.10-19.54.22:061][741]LogAIModule: Creating AISystem for world ForestLevel
+[2014.12.10-19.54.22:064][741]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ForestLevel.ForestLevel up for play (max tick rate 0) at 2014.12.10-11.54.22
+[2014.12.10-19.54.22:065][741]LogWorld: Bringing up level for play took: 0.003012
+[2014.12.10-19.54.22:066][741]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ForestLevel 2.203
+[2014.12.10-19.54.22:110][742]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095421 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_0'
+[2014.12.10-19.55.41:112][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000015F898C5E0
+[2014.12.10-19.55.59:623][316]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-19.55.59:648][316]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-19.56.07:956][747]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-19.56.21:078][421]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-19.56.22:511][496]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-19.56.31:743][966]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.02.02:828][408]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-20.02.02:858][408]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.02.07:726][660]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.04.44:645][987]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.05.07:267][294]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-20.05.07:301][294]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.05.38:689][442]LogSavePackage: Save=117.844955ms
+[2014.12.10-20.05.38:689][442]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevel_Auto17A973B9E49BF16C643E065987D6BF334.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/ForestLevel_Auto1.umap'
+[2014.12.10-20.05.38:698][442]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ForestLevel' took 0.204
+[2014.12.10-20.05.38:698][442]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.204
+[2014.12.10-20.06.56:725][791]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.12.10-20.06.56:779][791]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.07.05:155][261]Cmd: DELETE
+[2014.12.10-20.07.05:155][261]Cmd: ACTOR DELETE
+[2014.12.10-20.07.05:166][261]LogEditorActor: Deleted Actor: Brush
+[2014.12.10-20.07.05:203][261]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.07.05:203][261]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2014.12.10-20.07.05:213][261]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.07.20:183][100]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.07.26:778][467]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.07.30:247][644]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.12.10-20.07.46:435][540]LogSavePackage: Save=121.695190ms
+[2014.12.10-20.07.46:435][540]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 4.6/Saved/ForestLevelA6385089422A75D7B8CFDBA34E1C7EDD.tmp' to '../../../../../../Users/Jacob/Documents/UCI/Fall 2014/CompSci 113 - Intro to Game Design/Study-Session/Trial_third_person 
