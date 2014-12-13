@@ -1,4 +1,4 @@
-﻿Log file open, 12/13/14 13:18:39
+﻿Log file open, 12/13/14 15:07:52
 LogInit:Display: Running engine for game: Trial_third_person
 LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
 LogInit: API Version: 2326478
@@ -9,426 +9,279 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.5
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.12.13-21.18.39:414][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.12.13-21.18.39:444][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.12.13-21.18.39:466][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.12.13-21.18.39:479][  0]LogInit: Object subsystem initialized
-[2014.12.13-21.18.39:483][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2014.12.13-21.18.39:483][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.12.13-21.18.39:483][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
-[2014.12.13-21.18.39:483][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.12.13-21.18.39:484][  0]LogInit: Selected Device Profile: [Windows]
-[2014.12.13-21.18.39:484][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.12.13-21.18.39:494][  0]LogInit: Computer: BRIANA-DESKTOP
-[2014.12.13-21.18.39:494][  0]LogInit: User: Jeremy
-[2014.12.13-21.18.39:495][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.12.13-21.18.39:495][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2014.12.13-21.18.39:495][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
-[2014.12.13-21.18.39:495][  0]LogMemory: Platform Memory Stats for Windows
-[2014.12.13-21.18.39:495][  0]LogMemory: Process Physical Memory: 62.95 MB used, 62.95 MB peak
-[2014.12.13-21.18.39:495][  0]LogMemory: Process Virtual Memory: 38.41 MB used, 38.41 MB peak
-[2014.12.13-21.18.39:495][  0]LogMemory: Physical Memory: 2721.26 MB used, 8183.89 MB total
-[2014.12.13-21.18.39:495][  0]LogMemory: Virtual Memory: 271.60 MB used, 8388608.00 MB total
-[2014.12.13-21.18.39:532][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
-[2014.12.13-21.18.39:532][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
-[2014.12.13-21.18.39:532][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.12.13-21.18.39:542][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
-[2014.12.13-21.18.39:552][  0]LogD3D11RHI: Async texture creation enabled
-[2014.12.13-21.18.39:604][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2014.12.13-21.18.39:814][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.12.13-21.18.45:858][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.13-21.18.46:371][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.13-21.18.46:435][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.12.13-21.18.46:559][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.12.13-21.18.46:560][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
-[2014.12.13-21.18.46:560][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.12.13-21.18.46:560][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.12.13-21.18.46:646][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.12.13-21.18.46:658][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2014.12.13-21.18.46:903][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.12.13-21.18.46:903][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.12.13-21.18.47:298][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.13-21.18.47:302][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.13-21.18.47:533][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.12.13-21.18.48:525][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.12.13-21.18.48:700][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
-[2014.12.13-21.18.48:865][  0]SourceControl: Info Source control is disabled
-[2014.12.13-21.18.48:865][  0]SourceControl: Info Source control is disabled
-[2014.12.13-21.18.48:873][  0]SourceControl: Info Source control is disabled
-[2014.12.13-21.18.48:997][  0]LogObj: 22915 objects as part of root set at end of initial load.
-[2014.12.13-21.18.48:997][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
-[2014.12.13-21.18.49:072][  0]LogEngine: Initializing Engine...
-[2014.12.13-21.18.49:273][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.12.13-21.18.49:315][  0]LogInit: FAudioDevice initialized.
-[2014.12.13-21.18.49:338][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.12.13-21.18.49:398][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
-[2014.12.13-21.18.49:411][  0]LogInit: Texture streaming: Enabled
-[2014.12.13-21.18.49:462][  0]LogInit: Transaction tracking system initialized
-[2014.12.13-21.18.49:561][  0]BlueprintLog: New page: Editor Load
-[2014.12.13-21.18.49:592][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
-[2014.12.13-21.18.49:593][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2014.12.13-21.18.50:133][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.13-21.18.50:536][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.13-21.18.50:753][  0]LogConsoleResponse:Display: 
-[2014.12.13-21.18.50:983][  0]SourceControl: Info Source control is disabled
-[2014.12.13-21.18.50:983][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.13-21.18.50:983][  0]LightingResults: New page: Lighting Build
-[2014.12.13-21.18.50:994][  0]MapCheck: New page: Map Check
-[2014.12.13-21.18.50:994][  0]LightingResults: New page: Lighting Build
-[2014.12.13-21.18.51:016][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000166B1A80
-[2014.12.13-21.18.51:084][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.13-21.18.51:084][  0]LogAIModule: Creating AISystem for world StartMenuLevel
-[2014.12.13-21.18.51:084][  0]Cmd: MAP CHECKDEP
-[2014.12.13-21.18.51:084][  0]MapCheck: New page: StartMenuLevel - Dec 13, 2014, 5:18:51 AM
-[2014.12.13-21.18.51:177][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.457ms to complete.
-[2014.12.13-21.18.51:177][  0]LogFileHelpers: Loading map 'StartMenuLevel' took 0.194
-[2014.12.13-21.18.51:280][  0]LogCollectionManager: Loaded 0 collections in 0.001945 seconds
-[2014.12.13-21.18.51:420][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.12.13-21.18.51:459][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2014.12.13-21.18.51:486][  0]LogLoad: Full Startup: 14.52 seconds (BP compile: 0.04 seconds)
-[2014.12.13-21.18.51:836][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.12.13-21.18.52:016][  0]LogRenderer:Warning: Reallocating scene render targets to support 976x880.
-[2014.12.13-21.18.53:524][  5]LogAssetRegistry: Asset discovery search completed in 3.9429 seconds
-[2014.12.13-21.18.56:180][ 13]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMG'
-[2014.12.13-21.19.14:648][549]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
-[2014.12.13-21.19.17:060][669]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.12.13-21.20.17:843][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:843][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:849][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:849][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:849][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:849][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:850][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:850][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:850][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:850][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:850][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:850][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:850][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:850][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:851][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:851][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:851][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:851][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.17:851][156]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.51:379][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.51:380][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.51:380][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.51:380][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.51:380][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.20.51:380][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.21.12:141][476]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.21.12:142][476]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.21.12:142][476]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
-[2014.12.13-21.21.29:083][169]BlueprintLog: New page: Compile MyCharacter
-[2014.12.13-21.21.29:435][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.12.13-21.21.29:485][169]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D41CEA0
-[2014.12.13-21.21.29:602][169]BlueprintEditorCompileResults: Info [0172.37] Compile of MyCharacter successful! [in 119 ms]
-[2014.12.13-21.21.30:830][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset" SILENT=true
-[2014.12.13-21.21.31:438][197]LogSavePackage: Save=515.167725ms
-[2014.12.13-21.21.31:438][197]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/MyCharacter5AB92F6247B7AEA0A911D39BA911E500.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Blueprints/MyCharacter.uasset'
-[2014.12.13-21.21.35:502][482]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.12.13-21.21.35:529][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000180C4360
-[2014.12.13-21.21.35:708][482]LogSavePackage: Save=36.492138ms
-[2014.12.13-21.21.35:708][482]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/UEDPCStartMenuLevelE9C8298745C27080AAA438A60FD5C979.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/UEDPCStartMenuLevel.umap'
-[2014.12.13-21.22.13:753][126]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2014.12.13-21.22.19:204][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
-[2014.12.13-21.22.19:204][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.13-21.22.19:204][566]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_M
-[2014.12.13-21.22.19:205][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
-[2014.12.13-21.22.19:205][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.13-21.22.19:205][566]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Shelving_N
-[2014.12.13-21.22.19:205][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
-[2014.12.13-21.22.19:205][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.13-21.22.19:206][566]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood
-[2014.12.13-21.22.19:206][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
-[2014.12.13-21.22.19:206][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.13-21.22.19:206][566]LoadErrors:Error: Error /Game/StarterContent/Materials/Materials/M_Shelving : Can't find file for asset. /Game/ArchVis/Textures/T_Wood_S
-[2014.12.13-21.22.19:207][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
-[2014.12.13-21.22.19:207][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.13-21.22.19:207][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
-[2014.12.13-21.22.19:207][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.13-21.22.19:208][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
-[2014.12.13-21.22.19:208][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.13-21.22.19:208][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
-[2014.12.13-21.22.19:208][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Materials/Materials/M_Shelving.uasset.
-[2014.12.13-21.22.19:354][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.13-21.22.19:354][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
-[2014.12.13-21.22.19:354][566]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_CoffeeTable : Can't find file for asset. /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst
-[2014.12.13-21.22.19:354][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.13-21.22.19:355][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
-[2014.12.13-21.22.19:361][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
-[2014.12.13-21.22.19:361][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
-[2014.12.13-21.22.19:361][566]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Curtain : Can't find file for asset. /Game/ArchVis/Materials/M_Curtain_MAT_Inst
-[2014.12.13-21.22.19:361][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
-[2014.12.13-21.22.19:362][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Curtain.uasset.
-[2014.12.13-21.22.19:369][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.13-21.22.19:369][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
-[2014.12.13-21.22.19:369][566]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FloorLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
-[2014.12.13-21.22.19:370][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.13-21.22.19:370][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
-[2014.12.13-21.22.19:376][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.13-21.22.19:376][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
-[2014.12.13-21.22.19:377][566]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Shelving : Can't find file for asset. /Game/ArchVis/Materials/M_Shelving_Inst
-[2014.12.13-21.22.19:377][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.13-21.22.19:377][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Shelving.uasset.
-[2014.12.13-21.22.19:380][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
-[2014.12.13-21.22.19:380][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
-[2014.12.13-21.22.19:381][566]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_TV : Can't find file for asset. /Game/ArchVis/Materials/M_TV_Inst
-[2014.12.13-21.22.19:381][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
-[2014.12.13-21.22.19:381][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_TV.uasset.
-[2014.12.13-21.22.19:384][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
-[2014.12.13-21.22.19:385][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
-[2014.12.13-21.22.19:385][566]LoadErrors:Error: Error /Game/StarterContent/Mesh/Statue : Can't find file for asset. /Game/ArchVis/Materials/M_Statue_Inst
-[2014.12.13-21.22.19:385][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
-[2014.12.13-21.22.19:385][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/Statue.uasset.
-[2014.12.13-21.22.19:504][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
-[2014.12.13-21.22.19:504][566]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by M_Shelving
-[2014.12.13-21.22.19:504][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
-[2014.12.13-21.22.19:505][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
-[2014.12.13-21.22.19:505][566]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_Shelving
-[2014.12.13-21.22.19:505][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
-[2014.12.13-21.22.19:505][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
-[2014.12.13-21.22.19:505][566]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by M_Shelving
-[2014.12.13-21.22.19:506][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
-[2014.12.13-21.22.19:506][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
-[2014.12.13-21.22.19:506][566]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_Shelving
-[2014.12.13-21.22.19:506][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
-[2014.12.13-21.22.19:507][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
-[2014.12.13-21.22.19:507][566]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
-[2014.12.13-21.22.19:507][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
-[2014.12.13-21.22.19:508][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
-[2014.12.13-21.22.19:508][566]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
-[2014.12.13-21.22.19:509][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
-[2014.12.13-21.22.19:509][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
-[2014.12.13-21.22.19:509][566]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_4 Property /Script/Engine.MaterialExpressionTextureBase:Texture
-[2014.12.13-21.22.19:509][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
-[2014.12.13-21.22.19:510][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
-[2014.12.13-21.22.19:510][566]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_5 Property /Script/Engine.MaterialExpressionTextureBase:Texture
-[2014.12.13-21.22.19:510][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
-[2014.12.13-21.22.19:521][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.13-21.22.19:521][566]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst.M_CoffeTable_MAT_Inst Referenced by SM_CoffeeTable Property /Script/Engine.StaticMesh:Materials
-[2014.12.13-21.22.19:521][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading NULL.
-[2014.12.13-21.22.19:522][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
-[2014.12.13-21.22.19:522][566]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain Property /Script/Engine.StaticMesh:Materials
-[2014.12.13-21.22.19:522][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
-[2014.12.13-21.22.19:523][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.13-21.22.19:523][566]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp Property /Script/Engine.StaticMesh:Materials
-[2014.12.13-21.22.19:523][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
-[2014.12.13-21.22.19:524][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.13-21.22.19:524][566]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Shelving_Inst.M_Shelving_Inst Referenced by SM_Shelving Property /Script/Engine.StaticMesh:Materials
-[2014.12.13-21.22.19:524][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading NULL.
-[2014.12.13-21.22.19:525][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
-[2014.12.13-21.22.19:525][566]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_TV_Inst.M_TV_Inst Referenced by SM_TV Property /Script/Engine.StaticMesh:Materials
-[2014.12.13-21.22.19:525][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading NULL.
-[2014.12.13-21.22.19:526][566]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
-[2014.12.13-21.22.19:526][566]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Statue_Inst.M_Statue_Inst Referenced by Statue Property /Script/Engine.StaticMesh:Materials
-[2014.12.13-21.22.19:526][566]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading NULL.
-[2014.12.13-21.22.19:909][566]LogMaterial: Missing cached shader map for material M_Shelving, compiling.
-[2014.12.13-21.22.19:913][566]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Shelving.M_Shelving for platform PCD3D_SM5, Default Material will be used in game.
-[2014.12.13-21.22.19:913][566]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
-[2014.12.13-21.22.20:151][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2014.12.13-21.22.22:549][566]LogSavePackage: Save=33.915203ms
-[2014.12.13-21.22.22:550][566]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/StartMenuLevel0642A9CF4F5571C1E4BB72A5F7754A09.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/StartMenuLevel.umap'
-[2014.12.13-21.22.22:618][566]LogFileHelpers: Saving map 'StartMenuLevel' took 0.403
-[2014.12.13-21.22.22:622][566]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.13-21.22.22:622][566]LightingResults: New page: Lighting Build
-[2014.12.13-21.22.22:666][566]LoadErrors: New page: Loading map: LivingRoom.umap
-[2014.12.13-21.22.22:666][566]MapCheck: New page: Map Check
-[2014.12.13-21.22.22:666][566]LightingResults: New page: Lighting Build
-[2014.12.13-21.22.22:696][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001384E8E0
-[2014.12.13-21.22.22:718][566]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
-[2014.12.13-21.22.22:735][566]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.13-21.22.22:736][566]LogAIModule: Creating AISystem for world LivingRoom
-[2014.12.13-21.22.22:790][566]Cmd: MAP CHECKDEP
-[2014.12.13-21.22.22:790][566]MapCheck: New page: LivingRoom - Dec 13, 2014, 5:22:22 AM
-[2014.12.13-21.22.22:966][566]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 175.795ms to complete.
-[2014.12.13-21.22.22:966][566]LogFileHelpers: Loading map 'LivingRoom' took 0.346
-[2014.12.13-21.22.25:945][659]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
-[2014.12.13-21.22.26:019][659]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
-[2014.12.13-21.22.26:082][659]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
-[2014.12.13-21.22.26:255][659]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
-[2014.12.13-21.22.26:403][659]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
-[2014.12.13-21.22.28:246][659]LogSavePackage: Save=2783.875000ms
-[2014.12.13-21.22.28:246][659]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/UEDPCLivingRoomA63746FD4C3BBD6840CE5B8F2603DF36.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Autosaves/Game/Maps/UEDPCLivingRoom.umap'
-[2014.12.13-21.24.16:893][390]LogSavePackage: Save=1733.811401ms
-[2014.12.13-21.24.16:893][390]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/LivingRoomFD4A635046F1E05AB98F9C852646ED12.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/LivingRoom.umap'
-[2014.12.13-21.24.18:969][477]Cmd: QUIT_EDITOR
-[2014.12.13-21.24.19:564][477]LogExit: Preparing to exit.
-[2014.12.13-21.24.20:658][477]LogExit: Editor shut down
-[2014.12.13-21.24.20:659][477]LogExit: Transaction tracking system shut down
-[2014.12.13-21.24.20:661][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C7BEDE0
-[2014.12.13-21.24.20:663][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C6BC400
-[2014.12.13-21.24.20:666][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C6BC4A0
-[2014.12.13-21.24.20:666][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C6BE660
-[2014.12.13-21.24.20:666][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C6BE020
-[2014.12.13-21.24.20:667][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B0F8C20
-[2014.12.13-21.24.20:743][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B0F8A40
-[2014.12.13-21.24.20:743][477]LogExit: Object subsystem successfully closed.
-[2014.12.13-21.24.20:800][477]LogModuleManager: Shutting down and abandoning module SequencerWidgets (167)
-[2014.12.13-21.24.20:800][477]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
-[2014.12.13-21.24.20:800][477]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module BspMode (153)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module XmlParser (140)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module Blutility (139)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
-[2014.12.13-21.24.20:801][477]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
-[2014.12.13-21.24.20:802][477]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
-[2014.12.13-21.24.20:803][477]LogModuleManager: Shutting down and abandoning module AutomationController (124)
-[2014.12.13-21.24.20:803][477]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
-[2014.12.13-21.24.20:803][477]LogModuleManager: Shutting down and abandoning module Layers (122)
-[2014.12.13-21.24.20:803][477]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
-[2014.12.13-21.24.20:803][477]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
-[2014.12.13-21.24.20:803][477]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
-[2014.12.13-21.24.20:803][477]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module Persona (117)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module Kismet (116)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module Toolbox (113)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module OutputLog (110)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module GammaUI (109)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module Documentation (108)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module HTTP (105)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module AIModule (101)
-[2014.12.13-21.24.20:865][477]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module CableComponent (95)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module SourceControl (85)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
-[2014.12.13-21.24.21:094][477]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
-[2014.12.13-21.24.21:095][477]LogModuleManager: Shutting down and abandoning module HotReload (80)
-[2014.12.13-21.24.21:095][477]LogModuleManager: Shutting down and abandoning module MainFrame (79)
-[2014.12.13-21.24.21:095][477]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
-[2014.12.13-21.24.21:096][477]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
-[2014.12.13-21.24.21:196][477]LogModuleManager: Shutting down and abandoning module Paper2D (68)
-[2014.12.13-21.24.21:196][477]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
-[2014.12.13-21.24.21:202][477]LogModuleManager: Shutting down and abandoning module Media (66)
-[2014.12.13-21.24.21:202][477]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
-[2014.12.13-21.24.21:202][477]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module MessageLog (60)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module Sequencer (59)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module AssetTools (58)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module UMG (56)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module Slate (55)
-[2014.12.13-21.24.21:203][477]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
-[2014.12.13-21.24.21:205][477]LogModuleManager: Shutting down and abandoning module SessionServices (53)
-[2014.12.13-21.24.21:205][477]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
-[2014.12.13-21.24.21:205][477]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
-[2014.12.13-21.24.21:205][477]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
-[2014.12.13-21.24.21:206][477]LogModuleManager: Shutting down and abandoning module Networking (48)
-[2014.12.13-21.24.21:206][477]LogModuleManager: Shutting down and abandoning module Core (47)
-[2014.12.13-21.24.21:206][477]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
-[2014.12.13-21.24.21:206][477]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
-[2014.12.13-21.24.21:206][477]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
-[2014.12.13-21.24.21:206][477]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
-[2014.12.13-21.24.21:213][477]LogDerivedDataCache: Shutdown
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module Messaging (32)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module OculusRift (14)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
-[2014.12.13-21.24.21:213][477]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.12.13-21.24.21:217][477]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.12.13-21.24.21:217][477]LogExit: Exiting.
-[2014.12.13-21.24.21:224][477]Log file closed, 12/13/14 13:24:21
+[2014.12.13-23.07.52:601][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.13-23.07.52:633][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.13-23.07.52:656][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.13-23.07.52:671][  0]LogInit: Object subsystem initialized
+[2014.12.13-23.07.52:675][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.13-23.07.52:675][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.13-23.07.52:675][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.13-23.07.52:675][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.13-23.07.52:676][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.13-23.07.52:676][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.13-23.07.52:686][  0]LogInit: Computer: BRIANA-DESKTOP
+[2014.12.13-23.07.52:686][  0]LogInit: User: Jeremy
+[2014.12.13-23.07.52:688][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.13-23.07.52:688][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.12.13-23.07.52:688][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.12.13-23.07.52:688][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.13-23.07.52:688][  0]LogMemory: Process Physical Memory: 63.00 MB used, 63.00 MB peak
+[2014.12.13-23.07.52:688][  0]LogMemory: Process Virtual Memory: 38.43 MB used, 38.43 MB peak
+[2014.12.13-23.07.52:688][  0]LogMemory: Physical Memory: 3598.06 MB used, 8183.89 MB total
+[2014.12.13-23.07.52:688][  0]LogMemory: Virtual Memory: 271.60 MB used, 8388608.00 MB total
+[2014.12.13-23.07.52:731][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2014.12.13-23.07.52:732][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2014.12.13-23.07.52:732][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.13-23.07.52:740][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2014.12.13-23.07.52:752][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.13-23.07.52:810][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.13-23.07.53:010][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.13-23.07.59:070][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.13-23.07.59:565][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.13-23.07.59:628][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.13-23.07.59:712][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.13-23.07.59:712][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.13-23.07.59:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.13-23.07.59:713][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.13-23.07.59:796][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.13-23.07.59:808][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.13-23.08.00:046][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.13-23.08.00:046][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.13-23.08.00:387][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.13-23.08.00:392][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.13-23.08.00:626][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.13-23.08.01:577][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.13-23.08.01:751][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Binaries/Win64. Error: 0
+[2014.12.13-23.08.01:913][  0]SourceControl: Info Source control is disabled
+[2014.12.13-23.08.01:913][  0]SourceControl: Info Source control is disabled
+[2014.12.13-23.08.01:921][  0]SourceControl: Info Source control is disabled
+[2014.12.13-23.08.02:047][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.13-23.08.02:047][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.12.13-23.08.02:121][  0]LogEngine: Initializing Engine...
+[2014.12.13-23.08.02:314][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.13-23.08.02:332][  0]LogInit: FAudioDevice initialized.
+[2014.12.13-23.08.02:355][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.13-23.08.02:394][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.13-23.08.02:407][  0]LogInit: Texture streaming: Enabled
+[2014.12.13-23.08.02:458][  0]LogInit: Transaction tracking system initialized
+[2014.12.13-23.08.02:561][  0]BlueprintLog: New page: Editor Load
+[2014.12.13-23.08.02:592][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.12.13-23.08.02:592][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.13-23.08.03:144][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.13-23.08.03:550][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.13-23.08.03:769][  0]LogConsoleResponse:Display: 
+[2014.12.13-23.08.03:999][  0]SourceControl: Info Source control is disabled
+[2014.12.13-23.08.03:999][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.13-23.08.03:999][  0]LightingResults: New page: Lighting Build
+[2014.12.13-23.08.04:010][  0]MapCheck: New page: Map Check
+[2014.12.13-23.08.04:010][  0]LightingResults: New page: Lighting Build
+[2014.12.13-23.08.04:031][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016E31A80
+[2014.12.13-23.08.04:098][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.13-23.08.04:098][  0]LogAIModule: Creating AISystem for world StartMenuLevel
+[2014.12.13-23.08.04:099][  0]Cmd: MAP CHECKDEP
+[2014.12.13-23.08.04:100][  0]MapCheck: New page: StartMenuLevel - Dec 13, 2014, 7:08:04 AM
+[2014.12.13-23.08.04:194][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.067ms to complete.
+[2014.12.13-23.08.04:194][  0]LogFileHelpers: Loading map 'StartMenuLevel' took 0.195
+[2014.12.13-23.08.04:288][  0]LogCollectionManager: Loaded 0 collections in 0.001159 seconds
+[2014.12.13-23.08.04:422][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.13-23.08.04:455][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.13-23.08.04:483][  0]LogLoad: Full Startup: 14.44 seconds (BP compile: 0.04 seconds)
+[2014.12.13-23.08.04:833][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.13-23.08.05:031][  0]LogRenderer:Warning: Reallocating scene render targets to support 976x880.
+[2014.12.13-23.08.06:891][  6]LogAssetRegistry: Asset discovery search completed in 4.3114 seconds
+[2014.12.13-23.08.26:579][ 64]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
+[2014.12.13-23.08.26:579][ 64]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Couch_1seat.uasset.
+[2014.12.13-23.08.26:579][ 64]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Couch_1seat : Can't find file for asset. /Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst
+[2014.12.13-23.08.26:579][ 64]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
+[2014.12.13-23.08.26:580][ 64]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/StarterContent/Mesh/SM_Couch_1seat.uasset.
+[2014.12.13-23.08.26:636][ 64]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
+[2014.12.13-23.08.26:636][ 64]LoadErrors: Info Failed to load /Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst.MI_Couch_NOSSS_Mat_Inst Referenced by SM_Couch_1seat Property /Script/Engine.StaticMesh:Materials
+[2014.12.13-23.08.26:636][ 64]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading NULL.
+[2014.12.13-23.08.26:636][ 64]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
+[2014.12.13-23.08.26:637][ 64]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading NULL.
+[2014.12.13-23.08.26:793][ 64]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person/Content/Maps/School.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.13-23.08.26:793][ 64]LightingResults: New page: Lighting Build
+[2014.12.13-23.08.26:832][ 64]LoadErrors: New page: Loading map: School.umap
+[2014.12.13-23.08.26:832][ 64]MapCheck: New page: Map Check
+[2014.12.13-23.08.26:832][ 64]LightingResults: New page: Lighting Build
+[2014.12.13-23.08.26:857][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B2D28E0
+[2014.12.13-23.08.26:878][ 64]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.13-23.08.26:879][ 64]LogAIModule: Creating AISystem for world School
+[2014.12.13-23.08.27:023][ 64]Cmd: MAP CHECKDEP
+[2014.12.13-23.08.27:023][ 64]MapCheck: New page: School - Dec 13, 2014, 7:08:27 AM
+[2014.12.13-23.08.27:135][ 64]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.684ms to complete.
+[2014.12.13-23.08.27:135][ 64]LogFileHelpers: Loading map 'School' took 0.342
+[2014.12.13-23.08.56:548][ 13]Cmd: QUIT_EDITOR
+[2014.12.13-23.08.56:995][ 13]LogExit: Preparing to exit.
+[2014.12.13-23.08.57:728][ 13]LogExit: Editor shut down
+[2014.12.13-23.08.57:729][ 13]LogExit: Transaction tracking system shut down
+[2014.12.13-23.08.57:730][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000114D4900
+[2014.12.13-23.08.57:730][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000114D4AE0
+[2014.12.13-23.08.57:732][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016D71B20
+[2014.12.13-23.08.57:771][ 13]LogExit: Object subsystem successfully closed.
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.12.13-23.08.57:828][ 13]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.12.13-23.08.57:829][ 13]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.12.13-23.08.57:925][ 13]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.12.13-23.08.58:071][ 13]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.12.13-23.08.58:072][ 13]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.12.13-23.08.58:072][ 13]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.12.13-23.08.58:072][ 13]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.13-23.08.58:073][ 13]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.13-23.08.58:173][ 13]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.13-23.08.58:173][ 13]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.13-23.08.58:178][ 13]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.13-23.08.58:178][ 13]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.13-23.08.58:179][ 13]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.13-23.08.58:182][ 13]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.13-23.08.58:301][ 13]LogDerivedDataCache: Shutdown
+[2014.12.13-23.08.58:301][ 13]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.13-23.08.58:301][ 13]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.13-23.08.58:301][ 13]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.13-23.08.58:302][ 13]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.13-23.08.58:304][ 13]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.13-23.08.58:305][ 13]LogExit: Exiting.
+[2014.12.13-23.08.58:311][ 13]Log file closed, 12/13/14 15:08:58
