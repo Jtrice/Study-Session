@@ -1,0 +1,232 @@
+﻿Log file open, 12/14/14 22:00:19
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.15-06.00.19:954][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.15-06.00.20:006][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.15-06.00.20:029][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.15-06.00.20:041][  0]LogInit: Object subsystem initialized
+[2014.12.15-06.00.20:044][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.15-06.00.20:044][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.15-06.00.20:044][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.15-06.00.20:044][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.15-06.00.20:044][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.15-06.00.20:054][  0]LogInit: Computer: BRIANA-DESKTOP
+[2014.12.15-06.00.20:054][  0]LogInit: User: Jeremy
+[2014.12.15-06.00.20:054][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.15-06.00.20:054][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.12.15-06.00.20:054][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.12.15-06.00.20:055][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.15-06.00.20:055][  0]LogMemory: Process Physical Memory: 49.27 MB used, 49.27 MB peak
+[2014.12.15-06.00.20:055][  0]LogMemory: Process Virtual Memory: 25.17 MB used, 25.17 MB peak
+[2014.12.15-06.00.20:055][  0]LogMemory: Physical Memory: 3184.80 MB used, 8183.89 MB total
+[2014.12.15-06.00.20:055][  0]LogMemory: Virtual Memory: 264.43 MB used, 8388608.00 MB total
+[2014.12.15-06.00.20:090][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2014.12.15-06.00.20:090][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2014.12.15-06.00.20:090][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.15-06.00.20:097][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2014.12.15-06.00.20:108][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.15-06.00.20:173][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.15-06.00.20:382][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.15-06.00.27:817][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-06.00.28:359][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-06.00.28:427][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.15-06.00.28:510][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.15-06.00.28:510][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.15-06.00.28:510][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.15-06.00.28:510][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.15-06.00.28:597][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.15-06.00.28:609][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.15-06.00.28:801][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.15-06.00.29:014][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.15-06.00.29:014][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.15-06.00.29:575][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.15-06.00.29:642][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.15-06.00.30:614][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.15-06.00.30:791][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Binaries/Win64. Error: 0
+[2014.12.15-06.00.30:986][  0]SourceControl: Info Source control is disabled
+[2014.12.15-06.00.30:986][  0]SourceControl: Info Source control is disabled
+[2014.12.15-06.00.30:994][  0]SourceControl: Info Source control is disabled
+[2014.12.15-06.00.31:133][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.15-06.00.31:133][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.15-06.00.31:209][  0]LogEngine: Initializing Engine...
+[2014.12.15-06.00.31:432][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.15-06.00.31:482][  0]LogInit: FAudioDevice initialized.
+[2014.12.15-06.00.31:506][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.15-06.00.31:543][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.15-06.00.31:557][  0]LogInit: Texture streaming: Enabled
+[2014.12.15-06.00.31:589][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.15-06.00.31:589][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.15-06.00.31:590][  0]LogAnalytics: SetUserId 6df8d6a202a5f32dd217a5bf9cbf5496
+[2014.12.15-06.00.31:590][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.15-06.00.31:609][  0]LogInit: Transaction tracking system initialized
+[2014.12.15-06.00.31:715][  0]BlueprintLog: New page: Editor Load
+[2014.12.15-06.00.31:747][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2014.12.15-06.00.31:747][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.15-06.00.32:336][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-06.00.32:774][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-06.00.33:063][  0]LogConsoleResponse:Display: 
+[2014.12.15-06.00.33:132][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.15-06.00.33:375][  0]SourceControl: Info Source control is disabled
+[2014.12.15-06.00.33:375][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.15-06.00.33:376][  0]LightingResults: New page: Lighting Build
+[2014.12.15-06.00.33:387][  0]MapCheck: New page: Map Check
+[2014.12.15-06.00.33:387][  0]LightingResults: New page: Lighting Build
+[2014.12.15-06.00.33:398][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001679D9E0
+[2014.12.15-06.00.33:493][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.15-06.00.33:493][  0]LogAIModule: Creating AISystem for world StartMenuLevel
+[2014.12.15-06.00.33:493][  0]Cmd: MAP CHECKDEP
+[2014.12.15-06.00.33:493][  0]MapCheck: New page: StartMenuLevel - Dec 14, 2014, 2:00:33 PM
+[2014.12.15-06.00.33:586][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.213ms to complete.
+[2014.12.15-06.00.33:587][  0]LogFileHelpers: Loading map 'StartMenuLevel' took 0.212
+[2014.12.15-06.00.33:677][  0]LogCollectionManager: Loaded 0 collections in 0.001306 seconds
+[2014.12.15-06.00.33:804][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.15-06.00.33:811][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.15-06.00.33:842][  0]LogLoad: Full Startup: 16.20 seconds (BP compile: 0.04 seconds)
+[2014.12.15-06.00.34:189][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2014.12.15-06.00.34:368][  0]LogRenderer:Warning: Reallocating scene render targets to support 1072x880.
+[2014.12.15-06.00.36:828][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-06.00.36:833][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-06.00.36:913][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-06.00.36:914][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-06.00.37:912][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.15-06.00.37:912][  3]LoadErrors: Info Failed to load /Game/Blueprints/MyGame.MyGame_C Referenced by EdGraphPin_6564
+[2014.12.15-06.00.37:912][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-06.00.37:912][  3]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/M_PineTree_Bark_Inst
+[2014.12.15-06.00.37:913][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-06.00.37:913][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-06.00.37:913][  3]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/MI_PineTree_Billboard_Inst
+[2014.12.15-06.00.37:914][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.15-06.00.37:914][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-06.00.37:914][  3]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/MI_PineTree_Branch_Inst
+[2014.12.15-06.00.37:915][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.15-06.00.37:915][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-06.00.37:915][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-06.00.37:916][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-06.00.37:916][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.15-06.00.37:916][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-06.00.38:531][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.15-06.00.38:531][  3]LoadErrors: Info Failed to load /Game/Assets/Materials/M_PineTree_Bark_Inst.M_PineTree_Bark_Inst Referenced by SM_PineTree
+[2014.12.15-06.00.38:531][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading NULL.
+[2014.12.15-06.00.38:532][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.15-06.00.38:532][  3]LoadErrors: Info Failed to load /Game/Assets/Materials/MI_PineTree_Branch_Inst.MI_PineTree_Branch_Inst Referenced by SM_PineTree
+[2014.12.15-06.00.38:532][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading NULL.
+[2014.12.15-06.00.38:532][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.15-06.00.38:533][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading NULL.
+[2014.12.15-06.00.38:533][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.15-06.00.38:533][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading NULL.
+[2014.12.15-06.00.38:533][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-06.00.38:534][  3]LoadErrors: Info Failed to load /Game/Assets/Materials/MI_PineTree_Billboard_Inst.MI_PineTree_Billboard_Inst Referenced by SM_PineTree
+[2014.12.15-06.00.38:534][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.15-06.00.38:534][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-06.00.38:534][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.15-06.00.38:535][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-06.00.38:535][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.15-06.00.38:535][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-06.00.38:536][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.15-06.00.39:044][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-06.00.39:045][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-06.00.39:125][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-06.00.39:126][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-06.00.45:512][ 22]LogAssetRegistry: Asset discovery search completed in 13.7750 seconds
+[2014.12.15-06.01.04:991][665]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.12.15-06.01.06:774][794]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.12.15-06.01.08:868][900]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.15-06.01.10:130][974]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.12.15-06.02.11:224][703]BlueprintLog: New page: Compile Win_Screen
+[2014.12.15-06.02.11:314][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.12.15-06.02.11:314][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.15-06.02.11:314][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2014.12.15-06.02.11:314][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.15-06.02.11:367][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016F436A0
+[2014.12.15-06.02.11:368][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000209C7740
+[2014.12.15-06.02.11:371][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021BF4220
+[2014.12.15-06.02.11:372][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C83CB80
+[2014.12.15-06.02.11:435][703]BlueprintEditorCompileResults: Info [0113.80] Compile of Win_Screen successful! [in 207 ms]
+[2014.12.15-06.02.30:331][742]BlueprintLog: New page: Compile Win_Screen
+[2014.12.15-06.02.30:450][742]BlueprintEditorCompileResults: Info [0132.81] Compile of Win_Screen successful! [in 117 ms]
+[2014.12.15-06.02.31:506][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Win_Screen" FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Win_Screen.uasset" SILENT=true
+[2014.12.15-06.02.31:537][801]LogSavePackage: Save=12.734579ms
+[2014.12.15-06.02.31:537][801]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Win_Screen7739306A455929248F68689421E18D11.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Win_Screen.uasset'
+[2014.12.15-06.02.52:347][ 64]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.15-06.02.57:092][455]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.15-06.02.57:092][455]LightingResults: New page: Lighting Build
+[2014.12.15-06.02.57:123][455]LoadErrors: New page: Loading map: StartMenuLevel.umap
+[2014.12.15-06.02.57:123][455]MapCheck: New page: Map Check
+[2014.12.15-06.02.57:123][455]LightingResults: New page: Lighting Build
+[2014.12.15-06.02.57:148][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C9FE160
+[2014.12.15-06.02.57:149][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C83EDE0
+[2014.12.15-06.02.57:196][455]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.15-06.02.57:196][455]LogAIModule: Creating AISystem for world StartMenuLevel
+[2014.12.15-06.02.57:287][455]Cmd: MAP CHECKDEP
+[2014.12.15-06.02.57:288][455]MapCheck: New page: StartMenuLevel - Dec 14, 2014, 2:02:57 PM
+[2014.12.15-06.02.57:418][455]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.933ms to complete.
+[2014.12.15-06.02.57:420][455]LogFileHelpers: Loading map 'StartMenuLevel' took 0.331
+[2014.12.15-06.03.18:423][202]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.15-06.03.18:511][202]LogCrashTracker: 
+
+
+[2014.12.15-06.03.19:101][202]LogCrashTracker: 
+
+
+[2014.12.15-06.03.19:101][202]LogWindows: === Critical error: ===
+Assertion failed: !Obj->HasAnyFlags(RF_NeedLoad|RF_NeedPostLoad|RF_ClassDefaultObject) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 1744] 
+Attempting to replace an object that hasn't been fully loaded: BlueprintGeneratedClass /Game/Maps/WinScreenLevel.WinScreenLevel_C
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefce0940d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee1272f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee11060e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee10e9182) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007fee1a0ef88) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007fee1a0fcf9) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fedd1c747b) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007fee1a10e22) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007fee1a10262) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fedcc05c08) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x000007fed64edc59) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x000007fed4f8827c) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x000007fed4f483c6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x000007fed4fa60ed) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x000007fed4fb13cd) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x000007fed4fea6b3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x000007fed4fa5bb7) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x000007fed4fb0f37) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede26d1ba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede260837) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede260cb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede22a889) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede17a60e) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede22d0cc) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede068be2) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede025f4d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede02788a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede0ca209) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007fede0bb0c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee11de6b4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee11ca1eb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee11dfbab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee11c6ce2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x0000000076d59bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x0000000076d598da) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007fee11e0066) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f17cbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x000000013f17089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f17090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013f17e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f17f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x0000000076c359ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000076e6c541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000076e6c541) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.15-06.03.19:346][202]LogExit: Executing StaticShutdownAfterError
+[2014.12.15-06.03.19:352][202]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.15-06.03.19:352][202]Log file closed, 12/14/14 22:03:19
