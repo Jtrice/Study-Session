@@ -1,4 +1,4 @@
-﻿Log file open, 12/14/14 17:29:57
+﻿Log file open, 12/14/14 20:33:30
 LogInit:Display: Running engine for game: Trial_third_person
 LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -7,515 +7,709 @@ LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Base directory: D:/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.12.15-01.29.57:715][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2014.12.15-01.29.57:766][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.12.15-01.29.57:788][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.12.15-01.29.57:801][  0]LogInit: Object subsystem initialized
-[2014.12.15-01.29.57:803][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
-[2014.12.15-01.29.57:803][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2014.12.15-01.29.57:804][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2014.12.15-01.29.57:804][  0]LogInit: Selected Device Profile: [Windows]
-[2014.12.15-01.29.57:804][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.12.15-01.29.57:813][  0]LogInit: Computer: BRIANA-DESKTOP
-[2014.12.15-01.29.57:813][  0]LogInit: User: Jeremy
-[2014.12.15-01.29.57:813][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.12.15-01.29.57:813][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2014.12.15-01.29.57:814][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
-[2014.12.15-01.29.57:815][  0]LogMemory: Platform Memory Stats for Windows
-[2014.12.15-01.29.57:815][  0]LogMemory: Process Physical Memory: 49.28 MB used, 49.28 MB peak
-[2014.12.15-01.29.57:815][  0]LogMemory: Process Virtual Memory: 25.16 MB used, 25.17 MB peak
-[2014.12.15-01.29.57:815][  0]LogMemory: Physical Memory: 2810.61 MB used, 8183.89 MB total
-[2014.12.15-01.29.57:815][  0]LogMemory: Virtual Memory: 264.43 MB used, 8388608.00 MB total
-[2014.12.15-01.29.57:861][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
-[2014.12.15-01.29.57:861][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
-[2014.12.15-01.29.57:861][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.12.15-01.29.57:868][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
-[2014.12.15-01.29.57:878][  0]LogD3D11RHI: Async texture creation enabled
-[2014.12.15-01.29.57:944][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2014.12.15-01.29.58:164][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.12.15-01.30.05:637][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.15-01.30.06:181][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.15-01.30.06:249][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.12.15-01.30.06:360][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2014.12.15-01.30.06:360][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2014.12.15-01.30.06:360][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.12.15-01.30.06:360][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.12.15-01.30.06:453][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.12.15-01.30.06:465][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2014.12.15-01.30.06:667][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2014.12.15-01.30.06:891][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.12.15-01.30.06:891][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.12.15-01.30.07:497][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.12.15-01.30.07:565][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2014.12.15-01.30.08:559][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.12.15-01.30.08:734][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Binaries/Win64. Error: 0
-[2014.12.15-01.30.08:929][  0]SourceControl: Info Source control is disabled
-[2014.12.15-01.30.08:929][  0]SourceControl: Info Source control is disabled
-[2014.12.15-01.30.08:937][  0]SourceControl: Info Source control is disabled
-[2014.12.15-01.30.09:076][  0]LogObj: 23754 objects as part of root set at end of initial load.
-[2014.12.15-01.30.09:076][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
-[2014.12.15-01.30.09:151][  0]LogEngine: Initializing Engine...
-[2014.12.15-01.30.09:377][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.12.15-01.30.09:417][  0]LogInit: FAudioDevice initialized.
-[2014.12.15-01.30.09:440][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.12.15-01.30.09:483][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2014.12.15-01.30.09:496][  0]LogInit: Texture streaming: Enabled
-[2014.12.15-01.30.09:528][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2014.12.15-01.30.09:528][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
-[2014.12.15-01.30.09:530][  0]LogAnalytics: SetUserId 6df8d6a202a5f32dd217a5bf9cbf5496
-[2014.12.15-01.30.09:530][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2014.12.15-01.30.09:549][  0]LogInit: Transaction tracking system initialized
-[2014.12.15-01.30.09:661][  0]BlueprintLog: New page: Editor Load
-[2014.12.15-01.30.09:694][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
-[2014.12.15-01.30.09:695][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2014.12.15-01.30.10:307][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.15-01.30.10:775][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.12.15-01.30.11:063][  0]LogConsoleResponse:Display: 
-[2014.12.15-01.30.11:134][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.12.15-01.30.11:391][  0]SourceControl: Info Source control is disabled
-[2014.12.15-01.30.11:391][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.15-01.30.11:392][  0]LightingResults: New page: Lighting Build
-[2014.12.15-01.30.11:403][  0]MapCheck: New page: Map Check
-[2014.12.15-01.30.11:403][  0]LightingResults: New page: Lighting Build
-[2014.12.15-01.30.11:415][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000132E59E0
-[2014.12.15-01.30.11:515][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.15-01.30.11:515][  0]LogAIModule: Creating AISystem for world StartMenuLevel
-[2014.12.15-01.30.11:515][  0]Cmd: MAP CHECKDEP
-[2014.12.15-01.30.11:516][  0]MapCheck: New page: StartMenuLevel - Dec 14, 2014, 9:30:11 AM
-[2014.12.15-01.30.11:613][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.904ms to complete.
-[2014.12.15-01.30.11:613][  0]LogFileHelpers: Loading map 'StartMenuLevel' took 0.222
-[2014.12.15-01.30.11:706][  0]LogCollectionManager: Loaded 0 collections in 0.001354 seconds
-[2014.12.15-01.30.11:846][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.12.15-01.30.11:853][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2014.12.15-01.30.11:883][  0]LogLoad: Full Startup: 16.42 seconds (BP compile: 0.05 seconds)
-[2014.12.15-01.30.12:229][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2014.12.15-01.30.12:412][  0]LogRenderer:Warning: Reallocating scene render targets to support 1072x904.
-[2014.12.15-01.30.13:905][  5]LogAssetRegistry: Asset discovery search completed in 4.2215 seconds
-[2014.12.15-01.30.17:441][ 15]LogSavePackage: Save=25.564003ms
-[2014.12.15-01.30.17:442][ 15]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/UEDPCStartMenuLevel33A9AB2F4B2CFD279520B6900F19A764.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/UEDPCStartMenuLevel.umap'
-[2014.12.15-01.33.50:609][372]LogSavePackage: Save=23.378670ms
-[2014.12.15-01.33.50:609][372]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/StartMenuLevel9C95432F43ACA639862C5083CB357D68.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/StartMenuLevel.umap'
-[2014.12.15-01.33.56:101][708]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
-[2014.12.15-01.33.56:102][708]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_Couch_1seat.uasset.
-[2014.12.15-01.33.56:102][708]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Couch_1seat : Can't find file for asset. /Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst
-[2014.12.15-01.33.56:102][708]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
-[2014.12.15-01.33.56:102][708]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_Couch_1seat.uasset.
-[2014.12.15-01.33.56:253][708]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
-[2014.12.15-01.33.56:253][708]LoadErrors: Info Failed to load /Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst.MI_Couch_NOSSS_Mat_Inst Referenced by SM_Couch_1seat
-[2014.12.15-01.33.56:254][708]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading NULL.
-[2014.12.15-01.33.56:254][708]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst'
-[2014.12.15-01.33.56:255][708]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/MI_Couch_NOSSS_Mat_Inst' while loading NULL.
-[2014.12.15-01.33.56:517][708]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.15-01.33.56:517][708]LightingResults: New page: Lighting Build
-[2014.12.15-01.33.56:547][708]LoadErrors: New page: Loading map: School.umap
-[2014.12.15-01.33.56:548][708]MapCheck: New page: Map Check
-[2014.12.15-01.33.56:548][708]LightingResults: New page: Lighting Build
-[2014.12.15-01.33.56:563][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D5DA160
-[2014.12.15-01.33.56:576][708]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.15-01.33.56:576][708]LogAIModule: Creating AISystem for world School
-[2014.12.15-01.33.56:640][708]Cmd: MAP CHECKDEP
-[2014.12.15-01.33.56:640][708]MapCheck: New page: School - Dec 14, 2014, 9:33:56 AM
-[2014.12.15-01.33.56:755][708]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.58ms to complete.
-[2014.12.15-01.33.56:757][708]LogFileHelpers: Loading map 'School' took 0.243
-[2014.12.15-01.36.28:188][289]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.15-01.37.50:676][777]BlueprintLog: New page: Compile School
-[2014.12.15-01.37.50:751][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.12.15-01.37.50:751][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
-[2014.12.15-01.37.50:752][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.12.15-01.37.50:800][777]BlueprintEditorCompileResults: Info [0475.34] Compile of School successful! [in 113 ms]
-[2014.12.15-01.37.57:466][246]LogSavePackage: Save=546.218018ms
-[2014.12.15-01.37.57:466][246]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/SchoolA35F36FA4FD7C132E332FDB13B7D4CC5.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap'
-[2014.12.15-01.38.14:347][517]BlueprintLog: New page: Compile School
-[2014.12.15-01.38.14:471][517]BlueprintEditorCompileResults: Info [0499.01] Compile of School successful! [in 114 ms]
-[2014.12.15-01.38.21:318][ 10]LogSavePackage: Save=541.573120ms
-[2014.12.15-01.38.21:318][ 10]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/SchoolBD7A20CC4D0F8230415C8C9DEBDEF5F0.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap'
-[2014.12.15-01.38.22:555][ 60]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.15-01.38.22:555][ 60]LightingResults: New page: Lighting Build
-[2014.12.15-01.38.22:584][ 60]LoadErrors: New page: Loading map: StartMenuLevel.umap
-[2014.12.15-01.38.22:586][ 60]MapCheck: New page: Map Check
-[2014.12.15-01.38.22:586][ 60]LightingResults: New page: Lighting Build
-[2014.12.15-01.38.22:611][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F6D77E0
-[2014.12.15-01.38.22:628][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.15-01.38.22:628][ 60]LogAIModule: Creating AISystem for world StartMenuLevel
-[2014.12.15-01.38.22:689][ 60]Cmd: MAP CHECKDEP
-[2014.12.15-01.38.22:689][ 60]MapCheck: New page: StartMenuLevel - Dec 14, 2014, 9:38:22 AM
-[2014.12.15-01.38.22:810][ 60]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.813ms to complete.
-[2014.12.15-01.38.22:812][ 60]LogFileHelpers: Loading map 'StartMenuLevel' took 0.267
-[2014.12.15-01.38.24:681][197]LogSavePackage: Save=25.558626ms
-[2014.12.15-01.38.24:681][197]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/UEDPCStartMenuLevel9C57A0BF4238C1BA9BC4259A2CD033BE.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/UEDPCStartMenuLevel.umap'
-[2014.12.15-01.42.19:597][316]LogSavePackage: Save=25.402182ms
-[2014.12.15-01.42.19:597][316]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/UEDPCStartMenuLevelF64BF4AE48166D760DD1D79D6E789B1D.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/UEDPCStartMenuLevel.umap'
-[2014.12.15-01.45.54:229][487]LogSavePackage: Save=23.678848ms
-[2014.12.15-01.45.54:229][487]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/StartMenuLevel21DEE30D40B3A3CE0163A594A3CBD08B.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/StartMenuLevel.umap'
-[2014.12.15-01.46.59:546][792]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.15-01.46.59:546][792]LightingResults: New page: Lighting Build
-[2014.12.15-01.46.59:575][792]LoadErrors: New page: Loading map: School.umap
-[2014.12.15-01.46.59:576][792]MapCheck: New page: Map Check
-[2014.12.15-01.46.59:576][792]LightingResults: New page: Lighting Build
-[2014.12.15-01.46.59:600][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012192FC0
-[2014.12.15-01.46.59:612][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.15-01.46.59:612][792]LogAIModule: Creating AISystem for world School
-[2014.12.15-01.46.59:673][792]Cmd: MAP CHECKDEP
-[2014.12.15-01.46.59:673][792]MapCheck: New page: School - Dec 14, 2014, 9:46:59 AM
-[2014.12.15-01.46.59:798][792]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.872ms to complete.
-[2014.12.15-01.46.59:801][792]LogFileHelpers: Loading map 'School' took 0.258
-[2014.12.15-01.47.20:434][  0]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.15-01.47.20:466][  0]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.15-01.48.48:882][228]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.48.48:882][228]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.48.48:883][228]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.48.48:883][228]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.48.48:883][228]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.48.48:884][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Pause_Menu.Pause_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.48.48:884][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_VariableSet_348
-[2014.12.15-01.48.48:884][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Start_Menu.Start_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.48.48:884][228]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_348.EdGraphPin_20146"''
-[2014.12.15-01.48.48:884][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_408
-[2014.12.15-01.48.48:884][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_DynamicCast_408
-[2014.12.15-01.48.48:884][228]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_408.EdGraphPin_20282"''
-[2014.12.15-01.48.48:885][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Pause_Menu.Pause_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.48.48:885][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_VariableSet_348
-[2014.12.15-01.48.48:885][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Start_Menu.Start_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.48.48:885][228]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_348.EdGraphPin_20149"''
-[2014.12.15-01.48.48:887][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_408
-[2014.12.15-01.48.48:887][228]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_DynamicCast_408
-[2014.12.15-01.48.48:887][228]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_408.EdGraphPin_20284"''
-[2014.12.15-01.49.11:673][334]BlueprintLog: New page: Compile School
-[2014.12.15-01.49.11:793][334]BlueprintEditorCompileResults: Info [1156.33] Compile of School successful! [in 108 ms]
-[2014.12.15-01.49.18:746][866]LogSavePackage: Save=535.781250ms
-[2014.12.15-01.49.18:746][866]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/SchoolA1EEA1B8452979AA7FFE30B4E712A6F2.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap'
-[2014.12.15-01.49.31:829][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.15-01.49.31:829][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
-[2014.12.15-01.49.31:829][739]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_CoffeeTable : Can't find file for asset. /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst
-[2014.12.15-01.49.31:829][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.15-01.49.31:830][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_CoffeeTable.uasset.
-[2014.12.15-01.49.31:835][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.15-01.49.31:835][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
-[2014.12.15-01.49.31:835][739]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_FloorLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
-[2014.12.15-01.49.31:835][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.15-01.49.31:836][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_FloorLamp.uasset.
-[2014.12.15-01.49.31:840][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.15-01.49.31:841][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_Shelving.uasset.
-[2014.12.15-01.49.31:841][739]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_Shelving : Can't find file for asset. /Game/ArchVis/Materials/M_Shelving_Inst
-[2014.12.15-01.49.31:841][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.15-01.49.31:841][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_Shelving.uasset.
-[2014.12.15-01.49.32:210][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
-[2014.12.15-01.49.32:210][739]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst.M_CoffeTable_MAT_Inst Referenced by SM_CoffeeTable
-[2014.12.15-01.49.32:210][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading NULL.
-[2014.12.15-01.49.32:211][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
-[2014.12.15-01.49.32:211][739]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Shelving_Inst.M_Shelving_Inst Referenced by SM_Shelving
-[2014.12.15-01.49.32:212][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading NULL.
-[2014.12.15-01.49.32:212][739]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
-[2014.12.15-01.49.32:212][739]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp
-[2014.12.15-01.49.32:212][739]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
-[2014.12.15-01.49.33:901][739]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.12.15-01.49.34:223][739]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2014.12.15-01.49.34:763][739]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2014.12.15-01.49.34:889][739]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
-[2014.12.15-01.49.34:968][739]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2014.12.15-01.49.35:162][739]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
-[2014.12.15-01.49.35:283][739]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
-[2014.12.15-01.49.35:422][739]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
-[2014.12.15-01.49.35:453][739]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
-[2014.12.15-01.49.35:522][739]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.12.15-01.49.35:760][739]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2014.12.15-01.49.36:096][739]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2014.12.15-01.49.36:150][739]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
-[2014.12.15-01.49.36:179][739]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2014.12.15-01.49.36:298][739]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
-[2014.12.15-01.49.36:359][739]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
-[2014.12.15-01.49.36:445][739]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
-[2014.12.15-01.49.36:464][739]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
-[2014.12.15-01.49.36:504][739]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
-[2014.12.15-01.49.36:520][739]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2014.12.15-01.49.36:533][739]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
-[2014.12.15-01.49.36:547][739]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
-[2014.12.15-01.49.36:558][739]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
-[2014.12.15-01.49.36:562][739]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
-[2014.12.15-01.49.36:566][739]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
-[2014.12.15-01.49.36:964][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire_2.ParticleSystemComponent0
-[2014.12.15-01.49.36:965][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire2_5.ParticleSystemComponent0
-[2014.12.15-01.49.36:965][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire3.ParticleSystemComponent0
-[2014.12.15-01.49.36:965][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire4.ParticleSystemComponent0
-[2014.12.15-01.49.36:965][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire8.ParticleSystemComponent0
-[2014.12.15-01.49.36:965][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire7.ParticleSystemComponent0
-[2014.12.15-01.49.36:966][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire6.ParticleSystemComponent0
-[2014.12.15-01.49.36:966][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire5.ParticleSystemComponent0
-[2014.12.15-01.49.36:966][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire12.ParticleSystemComponent0
-[2014.12.15-01.49.36:966][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire11.ParticleSystemComponent0
-[2014.12.15-01.49.36:966][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire10.ParticleSystemComponent0
-[2014.12.15-01.49.36:966][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire9.ParticleSystemComponent0
-[2014.12.15-01.49.36:985][739]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Mansion.Mansion:PersistentLevel.P_Fire13_18.ParticleSystemComponent0
-[2014.12.15-01.49.37:022][739]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/Mansion.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.15-01.49.37:022][739]LightingResults: New page: Lighting Build
-[2014.12.15-01.49.37:056][739]LoadErrors: New page: Loading map: Mansion.umap
-[2014.12.15-01.49.37:058][739]MapCheck: New page: Map Check
-[2014.12.15-01.49.37:058][739]LightingResults: New page: Lighting Build
-[2014.12.15-01.49.37:085][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B5399E0
-[2014.12.15-01.49.37:124][739]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.15-01.49.37:124][739]LogAIModule: Creating AISystem for world Mansion
-[2014.12.15-01.49.37:185][739]Cmd: MAP CHECKDEP
-[2014.12.15-01.49.37:185][739]MapCheck: New page: Mansion - Dec 14, 2014, 9:49:37 AM
-[2014.12.15-01.49.37:354][739]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 168.1ms to complete.
-[2014.12.15-01.49.37:357][739]LogFileHelpers: Loading map 'Mansion' took 0.337
-[2014.12.15-01.49.42:103][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_11)
-[2014.12.15-01.49.42:117][126]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.15-01.52.10:128][587]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.15-01.52.10:154][587]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.15-01.52.46:894][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.52.46:894][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.52.46:894][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.52.46:894][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.52.46:894][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.52.46:895][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Pause_Menu.Pause_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.52.46:895][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_VariableSet_348
-[2014.12.15-01.52.46:895][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Start_Menu.Start_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.52.46:895][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_348.EdGraphPin_20146"''
-[2014.12.15-01.52.46:895][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_408
-[2014.12.15-01.52.46:895][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_DynamicCast_408
-[2014.12.15-01.52.46:895][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_408.EdGraphPin_20282"''
-[2014.12.15-01.52.46:896][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Pause_Menu.Pause_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.52.46:896][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_VariableSet_348
-[2014.12.15-01.52.46:896][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Start_Menu.Start_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.52.46:896][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_348.EdGraphPin_20149"''
-[2014.12.15-01.52.46:897][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_408
-[2014.12.15-01.52.46:897][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/Mansion.Mansion:PersistentLevel.Mansion.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_DynamicCast_408
-[2014.12.15-01.52.46:897][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_408.EdGraphPin_20284"''
-[2014.12.15-01.52.46:899][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_ActorBoundEvent_10.EdGraphPin_19953"''
-[2014.12.15-01.53.10:713][130]BlueprintLog: New page: Compile Mansion
-[2014.12.15-01.53.10:815][130]BlueprintEditorCompileResults: Info [1395.35] Compile of Mansion successful! [in 98 ms]
-[2014.12.15-01.53.15:312][511]LogSavePackage: Save=730.598083ms
-[2014.12.15-01.53.15:312][511]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/MansionF4D88F974191AB0ADF6FF8A622937A3F.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/Mansion.umap'
-[2014.12.15-01.53.25:121][ 95]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.12.15-01.53.25:121][ 95]LightingResults: New page: Lighting Build
-[2014.12.15-01.53.25:155][ 95]LoadErrors: New page: Loading map: School.umap
-[2014.12.15-01.53.25:158][ 95]MapCheck: New page: Map Check
-[2014.12.15-01.53.25:159][ 95]LightingResults: New page: Lighting Build
-[2014.12.15-01.53.25:186][ 95]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021217C40
-[2014.12.15-01.53.25:213][ 95]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.12.15-01.53.25:213][ 95]LogAIModule: Creating AISystem for world School
-[2014.12.15-01.53.25:277][ 95]Cmd: MAP CHECKDEP
-[2014.12.15-01.53.25:277][ 95]MapCheck: New page: School - Dec 14, 2014, 9:53:25 AM
-[2014.12.15-01.53.25:450][ 95]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 173.311ms to complete.
-[2014.12.15-01.53.25:453][ 95]LogFileHelpers: Loading map 'School' took 0.335
-[2014.12.15-01.53.28:264][233]LogSavePackage: Save=680.782288ms
-[2014.12.15-01.53.28:264][233]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/UEDPCSchool66AB41C84739A494162927AF516C43BB.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/UEDPCSchool.umap'
-[2014.12.15-01.55.43:204][888]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.15-01.55.43:235][888]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2014.12.15-01.56.21:577][247]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.56.21:577][247]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.56.21:578][247]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.56.21:578][247]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.56.21:578][247]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2014.12.15-01.56.21:579][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Pause_Menu.Pause_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.56.21:579][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_VariableSet_348
-[2014.12.15-01.56.21:579][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Start_Menu.Start_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.56.21:579][247]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_348.EdGraphPin_20146"''
-[2014.12.15-01.56.21:579][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_408
-[2014.12.15-01.56.21:579][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_DynamicCast_408
-[2014.12.15-01.56.21:579][247]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_408.EdGraphPin_20282"''
-[2014.12.15-01.56.21:580][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Pause_Menu.Pause_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.56.21:580][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_VariableSet_348
-[2014.12.15-01.56.21:580][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_VariableSet_348 or K2Node_VariableSet /Game/Start_Menu.Start_Menu:EventGraph.K2Node_VariableSet_348
-[2014.12.15-01.56.21:580][247]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_348.EdGraphPin_20149"''
-[2014.12.15-01.56.21:582][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_408
-[2014.12.15-01.56.21:582][247]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Maps/School.School:PersistentLevel.School.EventGraph.K2Node_DynamicCast_408 or K2Node_DynamicCast /Game/Blueprints/MyCharacter.MyCharacter:End Game.K2Node_DynamicCast_408
-[2014.12.15-01.56.21:582][247]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_408.EdGraphPin_20284"''
-[2014.12.15-01.56.21:583][247]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_ActorBoundEvent_10.EdGraphPin_19953"''
-[2014.12.15-01.56.56:819][313]BlueprintLog: New page: Compile School
-[2014.12.15-01.56.56:946][313]BlueprintEditorCompileResults: Info [1621.48] Compile of School successful! [in 111 ms]
-[2014.12.15-01.57.11:168][568]LogSavePackage: Save=546.699585ms
-[2014.12.15-01.57.11:168][568]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/SchoolB18FE5DC4EC7CC8F4B8613903955842E.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap'
-[2014.12.15-01.57.16:148][841]LogSavePackage: Save=543.820007ms
-[2014.12.15-01.57.16:148][841]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/UEDPCSchool09D012A24BB873DD0344C5B40FBFFB7D.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/UEDPCSchool.umap'
-[2014.12.15-01.58.19:286][838]BlueprintLog: New page: Compile School
-[2014.12.15-01.58.19:415][838]BlueprintEditorCompileResults: Info [1703.95] Compile of School successful! [in 113 ms]
-[2014.12.15-01.58.27:916][429]LogSavePackage: Save=544.707825ms
-[2014.12.15-01.58.27:916][429]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/School64CCB4C34B4E96127F6759A55FB85190.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap'
-[2014.12.15-01.58.30:068][507]LogSavePackage: Save=546.742126ms
-[2014.12.15-01.58.30:068][507]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/UEDPCSchool9B7CC52740D8CD21FD85FD87079FDCE9.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Maps/UEDPCSchool.umap'
-[2014.12.15-01.59.42:680][ 98]LogSavePackage: Save=545.808350ms
-[2014.12.15-01.59.42:680][ 98]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/School9572729C4A7B863CD5908AB234BCF33B.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Maps/School.umap'
-[2014.12.15-01.59.47:274][359]Cmd: QUIT_EDITOR
-[2014.12.15-01.59.47:786][359]LogExit: Preparing to exit.
-[2014.12.15-01.59.48:812][359]LogExit: Editor shut down
-[2014.12.15-01.59.48:813][359]LogExit: Transaction tracking system shut down
-[2014.12.15-01.59.48:813][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012574F40
-[2014.12.15-01.59.48:818][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B186DE0
-[2014.12.15-01.59.48:818][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DD934C0
-[2014.12.15-01.59.48:818][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C261760
-[2014.12.15-01.59.48:913][359]LogExit: Object subsystem successfully closed.
-[2014.12.15-01.59.48:975][359]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2014.12.15-01.59.48:975][359]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
-[2014.12.15-01.59.48:975][359]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
-[2014.12.15-01.59.48:975][359]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
-[2014.12.15-01.59.48:975][359]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
-[2014.12.15-01.59.48:975][359]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
-[2014.12.15-01.59.48:975][359]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module BspMode (159)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module XmlParser (147)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module Blutility (146)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
-[2014.12.15-01.59.48:976][359]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module AutomationController (131)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module Layers (129)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
-[2014.12.15-01.59.48:977][359]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module Persona (124)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2014.12.15-01.59.49:086][359]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2014.12.15-01.59.49:087][359]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2014.12.15-01.59.49:087][359]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2014.12.15-01.59.49:087][359]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2014.12.15-01.59.49:087][359]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2014.12.15-01.59.49:087][359]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2014.12.15-01.59.49:087][359]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2014.12.15-01.59.49:087][359]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2014.12.15-01.59.49:146][359]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2014.12.15-01.59.49:147][359]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2014.12.15-01.59.49:147][359]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2014.12.15-01.59.49:147][359]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2014.12.15-01.59.49:148][359]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2014.12.15-01.59.49:148][359]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2014.12.15-01.59.49:148][359]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2014.12.15-01.59.49:148][359]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2014.12.15-01.59.49:148][359]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
-[2014.12.15-01.59.49:148][359]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2014.12.15-01.59.49:148][359]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
-[2014.12.15-01.59.49:148][359]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
-[2014.12.15-01.59.49:249][359]LogModuleManager: Shutting down and abandoning module Paper2D (75)
-[2014.12.15-01.59.49:249][359]LogModuleManager: Shutting down and abandoning module UE4Game (74)
-[2014.12.15-01.59.49:249][359]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2014.12.15-01.59.49:253][359]LogModuleManager: Shutting down and abandoning module Media (72)
-[2014.12.15-01.59.49:253][359]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module MessageLog (64)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module Sequencer (63)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module AssetTools (62)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module UMG (60)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module Slate (59)
-[2014.12.15-01.59.49:254][359]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module SessionServices (57)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module Networking (52)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module Core (51)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2014.12.15-01.59.49:259][359]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
-[2014.12.15-01.59.49:271][359]LogDerivedDataCache: Shutdown
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2014.12.15-01.59.49:271][359]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2014.12.15-01.59.49:274][359]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2014.12.15-01.59.49:274][359]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2014.12.15-01.59.49:274][359]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.12.15-01.59.49:274][359]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.12.15-01.59.49:274][359]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.12.15-01.59.49:274][359]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.12.15-01.59.49:274][359]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.12.15-01.59.49:275][359]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.12.15-01.59.49:275][359]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.12.15-01.59.49:275][359]LogExit: Exiting.
-[2014.12.15-01.59.49:281][359]Log file closed, 12/14/14 17:59:49
+[2014.12.15-04.33.30:146][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.15-04.33.30:184][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.15-04.33.30:229][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.15-04.33.30:239][  0]LogInit: Object subsystem initialized
+[2014.12.15-04.33.30:246][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.15-04.33.30:246][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Study-Session/Trial_third_person 4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.15-04.33.30:247][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.15-04.33.30:248][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.15-04.33.30:248][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.15-04.33.30:256][  0]LogInit: Computer: ZEN-MATT
+[2014.12.15-04.33.30:256][  0]LogInit: User: Matt
+[2014.12.15-04.33.30:256][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.15-04.33.30:256][  0]LogInit: High frequency timer resolution =2.338564 MHz
+[2014.12.15-04.33.30:256][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.12.15-04.33.30:256][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.15-04.33.30:256][  0]LogMemory: Process Physical Memory: 50.18 MB used, 50.18 MB peak
+[2014.12.15-04.33.30:256][  0]LogMemory: Process Virtual Memory: 26.42 MB used, 26.42 MB peak
+[2014.12.15-04.33.30:256][  0]LogMemory: Physical Memory: 2061.01 MB used, 3981.98 MB total
+[2014.12.15-04.33.30:256][  0]LogMemory: Virtual Memory: 262.45 MB used, 8388608.00 MB total
+[2014.12.15-04.33.30:412][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.12.15-04.33.30:412][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.12.15-04.33.30:412][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.15-04.33.30:422][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.12.15-04.33.30:434][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.15-04.33.30:637][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.15-04.33.30:796][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.15-04.33.38:568][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-04.33.39:273][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-04.33.39:346][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.15-04.33.39:477][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.15-04.33.39:477][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.15-04.33.39:477][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Study-Session/Trial_third_person 4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.15-04.33.39:477][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.15-04.33.39:563][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.15-04.33.39:576][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.15-04.33.40:113][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.15-04.33.40:332][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.15-04.33.40:332][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.15-04.33.40:925][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.15-04.33.41:030][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.15-04.33.43:153][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.15-04.33.43:404][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Study-Session/Trial_third_person 4.6/Binaries/Win64. Error: 0
+[2014.12.15-04.33.43:650][  0]SourceControl: Info Source control is disabled
+[2014.12.15-04.33.43:650][  0]SourceControl: Info Source control is disabled
+[2014.12.15-04.33.43:660][  0]SourceControl: Info Source control is disabled
+[2014.12.15-04.33.43:887][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.15-04.33.43:888][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2014.12.15-04.33.43:990][  0]LogEngine: Initializing Engine...
+[2014.12.15-04.33.44:205][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.15-04.33.44:388][  0]LogInit: FAudioDevice initialized.
+[2014.12.15-04.33.44:423][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.15-04.33.44:450][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.15-04.33.44:453][  0]LogInit: Texture streaming: Enabled
+[2014.12.15-04.33.44:491][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.15-04.33.44:491][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.15-04.33.44:492][  0]LogAnalytics: SetUserId b937dce5ae765bb63e01423e2a49fda4
+[2014.12.15-04.33.44:492][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.15-04.33.44:518][  0]LogInit: Transaction tracking system initialized
+[2014.12.15-04.33.44:658][  0]BlueprintLog: New page: Editor Load
+[2014.12.15-04.33.44:708][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2014.12.15-04.33.44:708][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.15-04.33.45:444][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-04.33.45:967][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-04.33.46:294][  0]LogConsoleResponse:Display: 
+[2014.12.15-04.33.46:373][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.15-04.33.46:722][  0]SourceControl: Info Source control is disabled
+[2014.12.15-04.33.46:723][  0]Cmd: MAP LOAD FILE="../../../../../Study-Session/Trial_third_person 4.6/Content/Maps/StartMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.15-04.33.46:726][  0]LightingResults: New page: Lighting Build
+[2014.12.15-04.33.46:746][  0]MapCheck: New page: Map Check
+[2014.12.15-04.33.46:746][  0]LightingResults: New page: Lighting Build
+[2014.12.15-04.33.46:763][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C227E20
+[2014.12.15-04.33.46:857][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.15-04.33.46:857][  0]LogAIModule: Creating AISystem for world StartMenuLevel
+[2014.12.15-04.33.46:858][  0]Cmd: MAP CHECKDEP
+[2014.12.15-04.33.46:859][  0]MapCheck: New page: StartMenuLevel - Dec 14, 2014, 12:33:46 PM
+[2014.12.15-04.33.46:948][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.837ms to complete.
+[2014.12.15-04.33.46:948][  0]LogFileHelpers: Loading map 'StartMenuLevel' took 0.224
+[2014.12.15-04.33.47:147][  0]LogCollectionManager: Loaded 0 collections in 0.002115 seconds
+[2014.12.15-04.33.47:354][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.15-04.33.47:364][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.15-04.33.47:458][  0]LogLoad: Full Startup: 20.16 seconds (BP compile: 0.04 seconds)
+[2014.12.15-04.33.47:801][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.12.15-04.33.47:952][  0]LogRenderer:Warning: Reallocating scene render targets to support 1072x896.
+[2014.12.15-04.33.50:958][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.15-04.33.50:958][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading ../../../../../Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-04.33.50:958][  3]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/M_PineTree_Bark_Inst
+[2014.12.15-04.33.50:959][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-04.33.50:959][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading ../../../../../Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-04.33.50:959][  3]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/MI_PineTree_Billboard_Inst
+[2014.12.15-04.33.50:959][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.15-04.33.50:959][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading ../../../../../Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-04.33.50:960][  3]LoadErrors:Error: Error /Game/StarterContent/Mesh/SM_PineTree : Can't find file for asset. /Game/Assets/Materials/MI_PineTree_Branch_Inst
+[2014.12.15-04.33.50:960][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.15-04.33.50:960][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading ../../../../../Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-04.33.50:960][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-04.33.50:961][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading ../../../../../Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-04.33.50:961][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.15-04.33.50:961][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading ../../../../../Study-Session/Trial_third_person 4.6/Content/StarterContent/Mesh/SM_PineTree.uasset.
+[2014.12.15-04.33.50:985][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.15-04.33.50:985][  3]LoadErrors: Info Failed to load /Game/Assets/Materials/M_PineTree_Bark_Inst.M_PineTree_Bark_Inst Referenced by SM_PineTree
+[2014.12.15-04.33.50:985][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading NULL.
+[2014.12.15-04.33.50:986][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.15-04.33.50:986][  3]LoadErrors: Info Failed to load /Game/Assets/Materials/MI_PineTree_Branch_Inst.MI_PineTree_Branch_Inst Referenced by SM_PineTree
+[2014.12.15-04.33.50:986][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading NULL.
+[2014.12.15-04.33.50:986][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/M_PineTree_Bark_Inst'
+[2014.12.15-04.33.50:986][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/M_PineTree_Bark_Inst' while loading NULL.
+[2014.12.15-04.33.50:987][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Branch_Inst'
+[2014.12.15-04.33.50:987][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Branch_Inst' while loading NULL.
+[2014.12.15-04.33.50:987][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-04.33.50:987][  3]LoadErrors: Info Failed to load /Game/Assets/Materials/MI_PineTree_Billboard_Inst.MI_PineTree_Billboard_Inst Referenced by SM_PineTree
+[2014.12.15-04.33.50:988][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.15-04.33.50:988][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-04.33.50:988][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.15-04.33.50:988][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-04.33.50:989][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.15-04.33.50:989][  3]LogLinker:Warning: Can't find file '/Game/Assets/Materials/MI_PineTree_Billboard_Inst'
+[2014.12.15-04.33.50:989][  3]LogLinker:Warning: Can't find file for asset '/Game/Assets/Materials/MI_PineTree_Billboard_Inst' while loading NULL.
+[2014.12.15-04.33.51:487][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.33.51:493][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.33.51:562][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.33.51:563][  3]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.33.53:761][ 14]LogAssetRegistry: Asset discovery search completed in 9.0636 seconds
+[2014.12.15-04.35.38:032][117]LogEditorViewport: Clicking Background
+[2014.12.15-04.35.48:472][739]LogEditorViewport: Clicking Background
+[2014.12.15-04.35.51:666][921]Cmd: MAP LOAD FILE="../../../../../Study-Session/Trial_third_person 4.6/Content/Maps/FinalLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.15-04.35.51:695][921]LightingResults: New page: Lighting Build
+[2014.12.15-04.35.51:724][921]LoadErrors: New page: Loading map: FinalLevel.umap
+[2014.12.15-04.35.51:724][921]MapCheck: New page: Map Check
+[2014.12.15-04.35.51:724][921]LightingResults: New page: Lighting Build
+[2014.12.15-04.35.51:761][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F708680
+[2014.12.15-04.35.53:853][921]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.15-04.35.53:853][921]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.15-04.35.53:962][921]Cmd: MAP CHECKDEP
+[2014.12.15-04.35.53:962][921]MapCheck: New page: FinalLevel - Dec 14, 2014, 12:35:53 PM
+[2014.12.15-04.35.54:087][921]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.407ms to complete.
+[2014.12.15-04.35.54:087][921]LogFileHelpers: Loading map 'FinalLevel' took 2.423
+[2014.12.15-04.36.07:333][658]LogEditorViewport: Clicking on Actor (context menu): Mixamo_Maw_C (Mixamo_Maw)
+[2014.12.15-04.36.07:364][658]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.36.07:365][658]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.36.09:310][717]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.36.09:311][717]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.36.09:369][717]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.36.09:370][717]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.36.09:429][717]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.36.09:430][717]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.36.46:434][902]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.15-04.39.41:239][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:240][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:240][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:240][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:240][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:240][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:240][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:240][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:241][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:241][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:241][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:241][529]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.39.41:243][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_4233.EdGraphPin_5565"''
+[2014.12.15-04.39.41:243][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_19072.EdGraphPin_5545"''
+[2014.12.15-04.39.41:243][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_4233.EdGraphPin_5568"''
+[2014.12.15-04.39.41:244][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_19073.EdGraphPin_5556"''
+[2014.12.15-04.39.41:244][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Message_68.EdGraphPin_6283"''
+[2014.12.15-04.39.41:244][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Self_185.EdGraphPin_5541"''
+[2014.12.15-04.39.41:244][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_7263.EdGraphPin_5535"''
+[2014.12.15-04.39.41:246][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_19073.EdGraphPin_5554"''
+[2014.12.15-04.39.41:247][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_19074.EdGraphPin_5580"''
+[2014.12.15-04.39.41:247][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Message_67.EdGraphPin_6298"''
+[2014.12.15-04.39.41:249][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Self_184.EdGraphPin_5610"''
+[2014.12.15-04.39.41:249][529]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_7262.EdGraphPin_5604"''
+[2014.12.15-04.39.41:376][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.39.41:377][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.39.41:404][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.15-04.39.41:404][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.12.15-04.39.41:404][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.15-04.39.41:404][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2014.12.15-04.39.53:011][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.15-04.39.53:677][ 35]LogSavePackage: Save=575.661377ms
+[2014.12.15-04.39.53:677][ 35]LogSavePackage: Moving '../../../../../Study-Session/Trial_third_person 4.6/Saved/MyCharacter28BF796A4BEAE588D94C0580DFFEE83D.tmp' to '../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset'
+[2014.12.15-04.40.22:524][848]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.40.22:525][848]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.40.22:554][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.15-04.40.33:131][194]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.40.33:132][194]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.40.48:144][684]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.40.48:145][684]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.18:408][615]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.41.18:408][615]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.41.18:408][615]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.41.18:408][615]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.15-04.41.18:409][615]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_12318.EdGraphPin_5722"''
+[2014.12.15-04.41.18:409][615]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_9.EdGraphPin_2859"''
+[2014.12.15-04.41.18:410][615]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_6391.EdGraphPin_5735"''
+[2014.12.15-04.41.18:410][615]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionEntry_2056.EdGraphPin_2981"''
+[2014.12.15-04.41.18:410][615]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_FunctionResult_9.EdGraphPin_2858"''
+[2014.12.15-04.41.30:871][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.15-04.41.31:279][347]LogSavePackage: Save=401.755524ms
+[2014.12.15-04.41.31:279][347]LogSavePackage: Moving '../../../../../Study-Session/Trial_third_person 4.6/Saved/MyCharacter4D11C486434BB0408E10C2AAB19FF81D.tmp' to '../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset'
+[2014.12.15-04.41.32:392][414]BlueprintLog: New page: Compile MyCharacter
+[2014.12.15-04.41.32:602][414]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.32:602][414]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.32:690][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.15-04.41.32:805][414]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.32:806][414]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.32:852][414]BlueprintEditorCompileResults: Info [0485.53] Compile of MyCharacter successful! [in 349 ms]
+[2014.12.15-04.41.51:357][404]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.15-04.41.51:361][404]LogPlayLevel: [PIE] Compiling MyGame before PIE...
+[2014.12.15-04.41.51:459][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.51:460][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.51:487][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.15-04.41.51:501][404]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.15-04.41.51:553][404]LogPlayLevel: [PIE] Compiling FinalLevel before PIE...
+[2014.12.15-04.41.51:614][404]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.15-04.41.51:698][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.51:699][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.51:759][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.51:760][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.51:795][404]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.15-04.41.52:002][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.52:003][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.52:100][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.52:101][404]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.52:201][404]LogPlayLevel: PIE:  Blueprint regeneration took 844 ms (5 blueprints)
+[2014.12.15-04.41.52:202][404]PIE: New page: PIE session: FinalLevel (Dec 14, 2014, 12:41:52 PM)
+[2014.12.15-04.41.52:213][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010659s)
+[2014.12.15-04.41.52:214][404]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2014.12.15-04.41.52:214][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011916s)
+[2014.12.15-04.41.52:316][404]LogWorld: Game class is 'MyGame_C'
+[2014.12.15-04.41.52:337][404]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.15-04.41.52:347][404]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.14-20.41.52
+[2014.12.15-04.41.52:352][404]LogWorld: Bringing up level for play took: 0.014936
+[2014.12.15-04.41.52:385][404]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 1.849
+[2014.12.15-04.41.55:404][520]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.15-04.41.55:427][521]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.15-04.41.58:878][662]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.58:879][662]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.58:992][662]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.58:993][662]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.41.59:025][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.15-04.41.59:160][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FBAACA0
+[2014.12.15-04.42.12:312][326]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.15-04.42.12:318][326]LogPlayLevel: [PIE] Compiling MyGame before PIE...
+[2014.12.15-04.42.12:409][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:410][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:445][326]LogPlayLevel: [PIE] Compiling FinalLevel before PIE...
+[2014.12.15-04.42.12:499][326]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.15-04.42.12:580][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:581][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:643][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:644][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:680][326]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.15-04.42.12:874][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:875][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:975][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.12:975][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.13:080][326]LogPlayLevel: PIE:  Blueprint regeneration took 767 ms (4 blueprints)
+[2014.12.15-04.42.13:080][326]PIE: New page: PIE session: FinalLevel (Dec 14, 2014, 12:42:13 PM)
+[2014.12.15-04.42.13:091][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010465s)
+[2014.12.15-04.42.13:091][326]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2014.12.15-04.42.13:092][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011241s)
+[2014.12.15-04.42.13:188][326]LogWorld: Game class is 'MyGame_C'
+[2014.12.15-04.42.13:189][326]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.15-04.42.13:197][326]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.14-20.42.13
+[2014.12.15-04.42.13:197][326]LogWorld: Bringing up level for play took: 0.007767
+[2014.12.15-04.42.13:200][326]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.663
+[2014.12.15-04.42.19:425][573]LogBlueprintUserMessages: Mixamo_Mawoverlap
+[2014.12.15-04.42.21:761][628]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2014.12.15-04.42.30:914][976]LogBlueprintUserMessages: Mixamo_Mawoverlap
+[2014.12.15-04.42.31:715][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.31:716][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.31:812][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.31:814][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.42.31:846][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.15-04.42.31:961][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035F2B600
+[2014.12.15-04.43.08:140][ 74]LogRenderer:Warning: Reallocating scene render targets to support 1576x896.
+[2014.12.15-04.43.24:516][330]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.33:694][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.15-04.43.33:694][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.12.15-04.43.33:694][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.15-04.43.33:694][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2014.12.15-04.43.35:112][572]BlueprintLog: New page: Compile MyCharacter
+[2014.12.15-04.43.35:436][572]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.35:468][572]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.35:469][572]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.35:731][572]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.35:733][572]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.35:784][572]BlueprintEditorCompileResults: Info [0608.46] Compile of MyCharacter successful! [in 473 ms]
+[2014.12.15-04.43.37:269][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.15-04.43.37:269][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.12.15-04.43.37:269][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.15-04.43.37:269][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2014.12.15-04.43.37:487][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.15-04.43.37:923][606]LogSavePackage: Save=428.863617ms
+[2014.12.15-04.43.37:923][606]LogSavePackage: Moving '../../../../../Study-Session/Trial_third_person 4.6/Saved/MyCharacterAEDC0B2748EBAF339DCA73B30EB9E18D.tmp' to '../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset'
+[2014.12.15-04.43.38:319][623]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.15-04.43.38:325][623]LogPlayLevel: [PIE] Compiling MyGame before PIE...
+[2014.12.15-04.43.38:438][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.38:439][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.38:465][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.15-04.43.38:476][623]LogPlayLevel: [PIE] Compiling FinalLevel before PIE...
+[2014.12.15-04.43.38:596][623]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.15-04.43.38:714][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.38:715][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.38:787][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.38:788][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.38:825][623]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.15-04.43.39:048][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.39:049][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.39:154][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.39:156][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.39:268][623]LogPlayLevel: PIE:  Blueprint regeneration took 949 ms (4 blueprints)
+[2014.12.15-04.43.39:268][623]PIE: New page: PIE session: FinalLevel (Dec 14, 2014, 12:43:39 PM)
+[2014.12.15-04.43.39:279][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010387s)
+[2014.12.15-04.43.39:280][623]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2014.12.15-04.43.39:280][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011137s)
+[2014.12.15-04.43.39:431][623]LogWorld: Game class is 'MyGame_C'
+[2014.12.15-04.43.39:433][623]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.15-04.43.39:443][623]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.14-20.43.39
+[2014.12.15-04.43.39:444][623]LogWorld: Bringing up level for play took: 0.011283
+[2014.12.15-04.43.39:447][623]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.906
+[2014.12.15-04.43.40:832][668]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.40:833][668]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.40:924][668]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.40:925][668]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.40:948][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.15-04.43.41:026][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039917100
+[2014.12.15-04.43.43:814][738]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.51:526][861]BlueprintLog: New page: Compile MyCharacter
+[2014.12.15-04.43.51:861][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.51:893][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.51:894][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.52:067][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.52:069][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.52:125][861]BlueprintEditorCompileResults: Info [0624.80] Compile of MyCharacter successful! [in 394 ms]
+[2014.12.15-04.43.54:631][942]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.15-04.43.54:637][942]LogPlayLevel: [PIE] Compiling MyGame before PIE...
+[2014.12.15-04.43.54:734][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.54:735][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.54:764][942]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.15-04.43.54:776][942]LogPlayLevel: [PIE] Compiling FinalLevel before PIE...
+[2014.12.15-04.43.54:835][942]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.15-04.43.55:005][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.55:007][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.55:095][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.55:096][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.55:137][942]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.15-04.43.55:358][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.55:359][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.55:463][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.55:464][942]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.43.55:573][942]LogPlayLevel: PIE:  Blueprint regeneration took 941 ms (4 blueprints)
+[2014.12.15-04.43.55:573][942]PIE: New page: PIE session: FinalLevel (Dec 14, 2014, 12:43:55 PM)
+[2014.12.15-04.43.55:584][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011097s)
+[2014.12.15-04.43.55:585][942]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2014.12.15-04.43.55:585][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011998s)
+[2014.12.15-04.43.55:688][942]LogWorld: Game class is 'MyGame_C'
+[2014.12.15-04.43.55:690][942]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.15-04.43.55:697][942]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.14-20.43.55
+[2014.12.15-04.43.55:698][942]LogWorld: Bringing up level for play took: 0.008023
+[2014.12.15-04.43.55:701][942]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 1.158
+[2014.12.15-04.44.01:158][130]LogCharacterMovement: MyCharacter_C_8 is stuck and failed to move!
+[2014.12.15-04.44.01:256][134]LogCharacterMovement: MyCharacter_C_8 is stuck and failed to move!
+[2014.12.15-04.44.01:282][135]LogCharacterMovement: MyCharacter_C_8 is stuck and failed to move!
+[2014.12.15-04.44.01:780][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.01:781][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.01:884][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.01:885][152]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.01:909][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.15-04.44.02:032][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039915300
+[2014.12.15-04.44.07:321][324]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.12:454][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.15-04.44.12:946][401]LogSavePackage: Save=484.270264ms
+[2014.12.15-04.44.12:946][401]LogSavePackage: Moving '../../../../../Study-Session/Trial_third_person 4.6/Saved/MyCharacter30E238364332731F2725F2960C1322F7.tmp' to '../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset'
+[2014.12.15-04.44.13:440][411]BlueprintLog: New page: Compile MyCharacter
+[2014.12.15-04.44.13:733][411]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.13:770][411]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.13:771][411]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.13:888][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.15-04.44.14:004][411]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.14:005][411]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.14:056][411]BlueprintEditorCompileResults: Info [0646.73] Compile of MyCharacter successful! [in 448 ms]
+[2014.12.15-04.44.16:015][472]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.15-04.44.16:021][472]LogPlayLevel: [PIE] Compiling MyGame before PIE...
+[2014.12.15-04.44.16:129][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:131][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:162][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.12.15-04.44.16:173][472]LogPlayLevel: [PIE] Compiling FinalLevel before PIE...
+[2014.12.15-04.44.16:237][472]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.15-04.44.16:331][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:333][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:401][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:402][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:440][472]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.15-04.44.16:672][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:673][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:779][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:780][472]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.16:890][472]LogPlayLevel: PIE:  Blueprint regeneration took 874 ms (4 blueprints)
+[2014.12.15-04.44.16:890][472]PIE: New page: PIE session: FinalLevel (Dec 14, 2014, 12:44:16 PM)
+[2014.12.15-04.44.16:902][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011118s)
+[2014.12.15-04.44.16:902][472]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2014.12.15-04.44.16:902][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011967s)
+[2014.12.15-04.44.17:006][472]LogWorld: Game class is 'MyGame_C'
+[2014.12.15-04.44.17:008][472]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.15-04.44.17:015][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.14-20.44.17
+[2014.12.15-04.44.17:015][472]LogWorld: Bringing up level for play took: 0.007644
+[2014.12.15-04.44.17:018][472]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.474
+[2014.12.15-04.44.19:914][568]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2014.12.15-04.44.19:938][569]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2014.12.15-04.44.20:569][590]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.20:571][590]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.20:671][590]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.20:672][590]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.20:698][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.12.15-04.44.20:796][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004105E8E0
+[2014.12.15-04.44.25:597][736]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.33:221][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.12.15-04.44.33:222][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.12.15-04.44.33:222][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.12.15-04.44.33:222][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2014.12.15-04.44.35:057][883]BlueprintLog: New page: Compile MyCharacter
+[2014.12.15-04.44.35:551][883]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.35:586][883]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.35:588][883]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.35:777][883]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.35:778][883]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.35:828][883]BlueprintEditorCompileResults: Info [0668.50] Compile of MyCharacter successful! [in 441 ms]
+[2014.12.15-04.44.38:383][975]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.15-04.44.38:389][975]LogPlayLevel: [PIE] Compiling MyGame before PIE...
+[2014.12.15-04.44.38:489][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.38:490][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.38:518][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.12.15-04.44.38:529][975]LogPlayLevel: [PIE] Compiling FinalLevel before PIE...
+[2014.12.15-04.44.38:593][975]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.15-04.44.38:693][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.38:694][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.38:770][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.38:771][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.38:814][975]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.15-04.44.39:061][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.39:062][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.39:170][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.39:171][975]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.39:278][975]LogPlayLevel: PIE:  Blueprint regeneration took 894 ms (4 blueprints)
+[2014.12.15-04.44.39:278][975]PIE: New page: PIE session: FinalLevel (Dec 14, 2014, 12:44:39 PM)
+[2014.12.15-04.44.39:289][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010767s)
+[2014.12.15-04.44.39:289][975]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2014.12.15-04.44.39:290][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.011603s)
+[2014.12.15-04.44.39:442][975]LogWorld: Game class is 'MyGame_C'
+[2014.12.15-04.44.39:444][975]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.15-04.44.39:455][975]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.14-20.44.39
+[2014.12.15-04.44.39:456][975]LogWorld: Bringing up level for play took: 0.011811
+[2014.12.15-04.44.39:460][975]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.916
+[2014.12.15-04.44.40:929][ 16]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.40:930][ 16]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.41:020][ 16]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.41:021][ 16]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.41:044][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.12.15-04.44.41:108][ 16]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043A81EE0
+[2014.12.15-04.44.45:419][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.15-04.44.45:953][184]LogSavePackage: Save=524.412415ms
+[2014.12.15-04.44.45:953][184]LogSavePackage: Moving '../../../../../Study-Session/Trial_third_person 4.6/Saved/MyCharacterE3D299DC415F16625D9FDA86F0DB61F4.tmp' to '../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset'
+[2014.12.15-04.44.46:911][202]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.44.59:475][401]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.12.15-04.45.54:303][752]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2014.12.15-04.46.36:156][122]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FinalLevel' took 0.189
+[2014.12.15-04.46.36:198][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.12.15-04.46.36:250][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.12.15-04.46.36:250][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.12.15-04.46.36:251][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.12.15-04.46.36:734][122]LogSavePackage: Save=466.840332ms
+[2014.12.15-04.46.36:734][122]LogSavePackage: Moving '../../../../../Study-Session/Trial_third_person 4.6/Saved/MyCharacter_Auto1A80E62244C630BE0941C549E85980A66.tmp' to '../../../../../Study-Session/Trial_third_person 4.6/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2014.12.15-04.46.36:739][122]LogFileHelpers: Auto-saving content packages took 0.582
+[2014.12.15-04.46.39:452][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.12.15-04.46.48:285][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.15-04.46.48:778][305]LogSavePackage: Save=485.225128ms
+[2014.12.15-04.46.48:778][305]LogSavePackage: Moving '../../../../../Study-Session/Trial_third_person 4.6/Saved/MyCharacter66440985482BB9795E9D6AB941233E1C.tmp' to '../../../../../Study-Session/Trial_third_person 4.6/Content/Blueprints/MyCharacter.uasset'
+[2014.12.15-04.46.49:474][319]BlueprintLog: New page: Compile MyCharacter
+[2014.12.15-04.46.49:785][319]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.49:820][319]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.49:822][319]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.49:923][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.12.15-04.46.50:023][319]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.50:024][319]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.50:075][319]BlueprintEditorCompileResults: Info [0802.74] Compile of MyCharacter successful! [in 425 ms]
+[2014.12.15-04.46.52:308][371]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.15-04.46.52:312][371]LogPlayLevel: [PIE] Compiling MyGame before PIE...
+[2014.12.15-04.46.52:426][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.52:427][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.52:457][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.12.15-04.46.52:470][371]LogPlayLevel: [PIE] Compiling FinalLevel before PIE...
+[2014.12.15-04.46.52:537][371]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2014.12.15-04.46.52:635][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.52:636][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.52:707][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.52:708][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.52:749][371]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.15-04.46.52:979][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.52:980][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.53:171][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.53:173][371]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.53:307][371]LogPlayLevel: PIE:  Blueprint regeneration took 999 ms (4 blueprints)
+[2014.12.15-04.46.53:307][371]PIE: New page: PIE session: FinalLevel (Dec 14, 2014, 12:46:53 PM)
+[2014.12.15-04.46.53:322][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013030s)
+[2014.12.15-04.46.53:322][371]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2014.12.15-04.46.53:323][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FinalLevel.FinalLevel to /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel (0.013963s)
+[2014.12.15-04.46.53:428][371]LogWorld: Game class is 'MyGame_C'
+[2014.12.15-04.46.53:431][371]LogAIModule: Creating AISystem for world FinalLevel
+[2014.12.15-04.46.53:438][371]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FinalLevel.FinalLevel up for play (max tick rate 60) at 2014.12.14-20.46.53
+[2014.12.15-04.46.53:439][371]LogWorld: Bringing up level for play took: 0.008405
+[2014.12.15-04.46.53:444][371]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FinalLevel 0.893
+[2014.12.15-04.46.56:650][482]LogBlueprintUserMessages: MyCharacter_C11overlap
+[2014.12.15-04.46.57:543][511]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.57:544][511]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.57:644][511]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.57:645][511]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2014.12.15-04.46.57:675][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.12.15-04.46.57:801][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047B579C0
+[2014.12.15-04.49.02:623][106]Cmd: QUIT_EDITOR
+[2014.12.15-04.49.03:113][106]LogExit: Preparing to exit.
+[2014.12.15-04.49.03:534][106]LogExit: Editor shut down
+[2014.12.15-04.49.03:550][106]LogExit: Transaction tracking system shut down
+[2014.12.15-04.49.03:578][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026992840
+[2014.12.15-04.49.03:579][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000279B1D00
+[2014.12.15-04.49.03:579][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026DF1940
+[2014.12.15-04.49.03:579][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BADB2E0
+[2014.12.15-04.49.03:580][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031CC9BC0
+[2014.12.15-04.49.03:581][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000206CE5C0
+[2014.12.15-04.49.03:711][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000206CEA20
+[2014.12.15-04.49.03:711][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030A9E5C0
+[2014.12.15-04.49.03:711][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F20B380
+[2014.12.15-04.49.03:711][106]LogExit: Object subsystem successfully closed.
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2014.12.15-04.49.03:835][106]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2014.12.15-04.49.03:836][106]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2014.12.15-04.49.03:837][106]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2014.12.15-04.49.03:837][106]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2014.12.15-04.49.03:837][106]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2014.12.15-04.49.03:837][106]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2014.12.15-04.49.03:837][106]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2014.12.15-04.49.03:837][106]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2014.12.15-04.49.03:838][106]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2014.12.15-04.49.03:939][106]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2014.12.15-04.49.03:939][106]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2014.12.15-04.49.03:939][106]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2014.12.15-04.49.03:939][106]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2014.12.15-04.49.03:939][106]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2014.12.15-04.49.03:939][106]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2014.12.15-04.49.03:939][106]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2014.12.15-04.49.03:940][106]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2014.12.15-04.49.04:117][106]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2014.12.15-04.49.04:117][106]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2014.12.15-04.49.04:117][106]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2014.12.15-04.49.04:117][106]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2014.12.15-04.49.04:117][106]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2014.12.15-04.49.04:117][106]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2014.12.15-04.49.04:117][106]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2014.12.15-04.49.04:118][106]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2014.12.15-04.49.04:119][106]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2014.12.15-04.49.04:119][106]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2014.12.15-04.49.04:119][106]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2014.12.15-04.49.04:121][106]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2014.12.15-04.49.04:121][106]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2014.12.15-04.49.04:121][106]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2014.12.15-04.49.04:121][106]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2014.12.15-04.49.04:121][106]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2014.12.15-04.49.04:121][106]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2014.12.15-04.49.04:121][106]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2014.12.15-04.49.04:121][106]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2014.12.15-04.49.04:221][106]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2014.12.15-04.49.04:221][106]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2014.12.15-04.49.04:221][106]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2014.12.15-04.49.04:229][106]LogModuleManager: Shutting down and abandoning module Media (72)
+[2014.12.15-04.49.04:229][106]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2014.12.15-04.49.04:231][106]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2014.12.15-04.49.04:232][106]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2014.12.15-04.49.04:232][106]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2014.12.15-04.49.04:232][106]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2014.12.15-04.49.04:232][106]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2014.12.15-04.49.04:232][106]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2014.12.15-04.49.04:232][106]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2014.12.15-04.49.04:232][106]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2014.12.15-04.49.04:232][106]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2014.12.15-04.49.04:233][106]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2014.12.15-04.49.04:233][106]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2014.12.15-04.49.04:233][106]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2014.12.15-04.49.04:233][106]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2014.12.15-04.49.04:238][106]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2014.12.15-04.49.04:238][106]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2014.12.15-04.49.04:238][106]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2014.12.15-04.49.04:238][106]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2014.12.15-04.49.04:238][106]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2014.12.15-04.49.04:238][106]LogModuleManager: Shutting down and abandoning module Core (51)
+[2014.12.15-04.49.04:238][106]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2014.12.15-04.49.04:238][106]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2014.12.15-04.49.04:240][106]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2014.12.15-04.49.04:240][106]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2014.12.15-04.49.04:328][106]LogDerivedDataCache: Shutdown
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2014.12.15-04.49.04:328][106]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.12.15-04.49.04:329][106]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2014.12.15-04.49.04:330][106]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2014.12.15-04.49.04:330][106]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2014.12.15-04.49.04:330][106]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.15-04.49.04:336][106]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.15-04.49.04:337][106]LogExit: Exiting.
+[2014.12.15-04.49.04:363][106]Log file closed, 12/14/14 20:49:04
