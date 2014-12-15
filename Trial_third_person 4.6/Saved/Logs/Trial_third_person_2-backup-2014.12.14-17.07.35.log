@@ -1,0 +1,1052 @@
+﻿Log file open, 12/14/14 17:02:43
+LogInit:Display: Running engine for game: Trial_third_person
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCLivingRoom -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.15-01.02.43:463][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.15-01.02.43:514][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.15-01.02.43:538][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.15-01.02.43:551][  0]LogInit: Object subsystem initialized
+[2014.12.15-01.02.43:554][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.15-01.02.43:554][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.15-01.02.43:554][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.15-01.02.43:555][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.15-01.02.43:555][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.15-01.02.43:564][  0]LogInit: Computer: BRIANA-DESKTOP
+[2014.12.15-01.02.43:564][  0]LogInit: User: Jeremy
+[2014.12.15-01.02.43:564][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.15-01.02.43:564][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.12.15-01.02.43:564][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.12.15-01.02.43:564][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.15-01.02.43:564][  0]LogMemory: Process Physical Memory: 49.36 MB used, 49.36 MB peak
+[2014.12.15-01.02.43:564][  0]LogMemory: Process Virtual Memory: 25.22 MB used, 25.22 MB peak
+[2014.12.15-01.02.43:564][  0]LogMemory: Physical Memory: 3592.64 MB used, 8183.89 MB total
+[2014.12.15-01.02.43:564][  0]LogMemory: Virtual Memory: 264.43 MB used, 8388608.00 MB total
+[2014.12.15-01.02.43:602][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2014.12.15-01.02.43:602][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2014.12.15-01.02.43:602][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.15-01.02.43:610][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2014.12.15-01.02.43:621][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.15-01.02.43:687][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.15-01.02.43:906][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2014.12.15-01.02.51:223][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-01.02.51:789][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.15-01.02.51:855][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.15-01.02.51:936][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.15-01.02.51:936][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.15-01.02.51:936][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.15-01.02.51:937][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.15-01.02.52:032][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.15-01.02.52:044][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.15-01.02.52:239][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.15-01.02.52:413][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.15-01.02.52:413][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.15-01.02.52:862][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.15-01.02.52:932][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.15-01.02.53:960][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Content/Movies/Default_Startup.mp4
+[2014.12.15-01.02.54:113][  0]SourceControl: Info Source control is disabled
+[2014.12.15-01.02.54:113][  0]SourceControl: Info Source control is disabled
+[2014.12.15-01.02.54:122][  0]SourceControl: Info Source control is disabled
+[2014.12.15-01.02.54:161][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jeremy/Documents/GitHub/Study-Session/Trial_third_person 4.6/Binaries/Win64. Error: 0
+[2014.12.15-01.02.54:222][  0]LogObj: 23338 objects as part of root set at end of initial load.
+[2014.12.15-01.02.54:222][  0]LogUObjectAllocator: 4907960 out of 0 bytes used by permanent object pool.
+[2014.12.15-01.02.54:301][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2014.12.15-01.02.54:302][  0]LogEngine: Initializing Engine...
+[2014.12.15-01.02.57:302][  0]LogHMD:Warning: No Oculus HMD detected! Is Oculus Run-Time installed and service is running?
+[2014.12.15-01.02.57:312][  0]LogHMD: Oculus shutdown.
+[2014.12.15-01.02.57:500][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.15-01.02.57:517][  0]LogInit: FAudioDevice initialized.
+[2014.12.15-01.02.57:526][  0]LogInit: Texture streaming: Enabled
+[2014.12.15-01.02.57:616][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.15-01.02.57:616][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.15-01.02.57:618][  0]LogAnalytics: SetUserId 6df8d6a202a5f32dd217a5bf9cbf5496
+[2014.12.15-01.02.57:618][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.15-01.02.57:641][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set (Priority Code < GameSetting)
+[2014.12.15-01.02.57:697][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCLivingRoom?Name=Player
+[2014.12.15-01.02.57:698][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCLivingRoom?Name=Player
+[2014.12.15-01.02.57:711][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.15-01.02.57:711][  0]LogMemory: Process Physical Memory: 292.35 MB used, 320.77 MB peak
+[2014.12.15-01.02.57:711][  0]LogMemory: Process Virtual Memory: 250.51 MB used, 282.16 MB peak
+[2014.12.15-01.02.57:711][  0]LogMemory: Physical Memory: 3761.09 MB used, 8183.89 MB total
+[2014.12.15-01.02.57:711][  0]LogMemory: Virtual Memory: 684.25 MB used, 8388608.00 MB total
+[2014.12.15-01.02.57:711][  0]LogMemory: 
+[2014.12.15-01.02.57:711][  0]Allocator Stats for TBB: (not implemented)
+[2014.12.15-01.02.59:476][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.15-01.02.59:477][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by M_Shelving
+[2014.12.15-01.02.59:477][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Shelving_N': Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.15-01.02.59:477][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.15-01.02.59:477][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by M_Shelving
+[2014.12.15-01.02.59:477][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Shelving_N': Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.15-01.02.59:477][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.15-01.02.59:478][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_Shelving
+[2014.12.15-01.02.59:478][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Wood': Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.15-01.02.59:478][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.15-01.02.59:478][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by M_Shelving
+[2014.12.15-01.02.59:478][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Wood': Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.15-01.02.59:478][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.15-01.02.59:479][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by M_Shelving
+[2014.12.15-01.02.59:479][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Shelving_M': Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.15-01.02.59:479][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.15-01.02.59:479][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by M_Shelving
+[2014.12.15-01.02.59:479][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Shelving_M': Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.15-01.02.59:479][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.15-01.02.59:480][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_Shelving
+[2014.12.15-01.02.59:480][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Wood_S': Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.15-01.02.59:480][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.15-01.02.59:480][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by M_Shelving
+[2014.12.15-01.02.59:480][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Wood_S': Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.15-01.02.59:481][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.15-01.02.59:481][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by MaterialExpressionTextureSample_0
+[2014.12.15-01.02.59:481][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Shelving_N': Can't find file '/Game/ArchVis/Textures/T_Shelving_N'
+[2014.12.15-01.02.59:482][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.15-01.02.59:482][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_N.T_Shelving_N Referenced by MaterialExpressionTextureSample_0
+[2014.12.15-01.02.59:482][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Shelving_N': Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_N' while loading NULL.
+[2014.12.15-01.02.59:483][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.15-01.02.59:483][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by MaterialExpressionTextureSample_1
+[2014.12.15-01.02.59:483][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Shelving_M': Can't find file '/Game/ArchVis/Textures/T_Shelving_M'
+[2014.12.15-01.02.59:484][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.15-01.02.59:484][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Shelving_M.T_Shelving_M Referenced by MaterialExpressionTextureSample_1
+[2014.12.15-01.02.59:484][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Shelving_M': Can't find file for asset '/Game/ArchVis/Textures/T_Shelving_M' while loading NULL.
+[2014.12.15-01.02.59:484][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.15-01.02.59:484][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_4
+[2014.12.15-01.02.59:484][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Wood': Can't find file '/Game/ArchVis/Textures/T_Wood'
+[2014.12.15-01.02.59:484][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.15-01.02.59:485][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood.T_Wood Referenced by MaterialExpressionTextureSample_4
+[2014.12.15-01.02.59:485][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Wood': Can't find file for asset '/Game/ArchVis/Textures/T_Wood' while loading NULL.
+[2014.12.15-01.02.59:485][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.15-01.02.59:485][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_5
+[2014.12.15-01.02.59:485][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Wood_S': Can't find file '/Game/ArchVis/Textures/T_Wood_S'
+[2014.12.15-01.02.59:485][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.15-01.02.59:485][  0]LoadErrors: Info Failed to load /Game/ArchVis/Textures/T_Wood_S.T_Wood_S Referenced by MaterialExpressionTextureSample_5
+[2014.12.15-01.02.59:485][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Textures/T_Wood_S': Can't find file for asset '/Game/ArchVis/Textures/T_Wood_S' while loading NULL.
+[2014.12.15-01.02.59:487][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.15-01.02.59:487][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Statue_Inst.M_Statue_Inst Referenced by Statue
+[2014.12.15-01.02.59:487][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_Statue_Inst': Can't find file '/Game/ArchVis/Materials/M_Statue_Inst'
+[2014.12.15-01.02.59:487][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading NULL.
+[2014.12.15-01.02.59:488][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Statue_Inst.M_Statue_Inst Referenced by Statue
+[2014.12.15-01.02.59:488][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_Statue_Inst': Can't find file for asset '/Game/ArchVis/Materials/M_Statue_Inst' while loading NULL.
+[2014.12.15-01.02.59:532][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.15-01.02.59:533][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst.M_CoffeTable_MAT_Inst Referenced by SM_CoffeeTable
+[2014.12.15-01.02.59:533][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst': Can't find file '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst'
+[2014.12.15-01.02.59:533][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading NULL.
+[2014.12.15-01.02.59:533][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_CoffeTable_MAT_Inst.M_CoffeTable_MAT_Inst Referenced by SM_CoffeeTable
+[2014.12.15-01.02.59:533][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst': Can't find file for asset '/Game/ArchVis/Materials/M_CoffeTable_MAT_Inst' while loading NULL.
+[2014.12.15-01.02.59:534][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.15-01.02.59:534][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain
+[2014.12.15-01.02.59:534][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_Curtain_MAT_Inst': Can't find file '/Game/ArchVis/Materials/M_Curtain_MAT_Inst'
+[2014.12.15-01.02.59:534][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
+[2014.12.15-01.02.59:534][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Curtain_MAT_Inst.M_Curtain_MAT_Inst Referenced by SM_Curtain
+[2014.12.15-01.02.59:534][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_Curtain_MAT_Inst': Can't find file for asset '/Game/ArchVis/Materials/M_Curtain_MAT_Inst' while loading NULL.
+[2014.12.15-01.02.59:535][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.15-01.02.59:535][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp
+[2014.12.15-01.02.59:535][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst': Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2014.12.15-01.02.59:535][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
+[2014.12.15-01.02.59:535][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_FloorLamp
+[2014.12.15-01.02.59:535][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst': Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
+[2014.12.15-01.02.59:549][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.15-01.02.59:549][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_TV_Inst.M_TV_Inst Referenced by SM_TV
+[2014.12.15-01.02.59:549][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_TV_Inst': Can't find file '/Game/ArchVis/Materials/M_TV_Inst'
+[2014.12.15-01.02.59:549][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading NULL.
+[2014.12.15-01.02.59:550][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_TV_Inst.M_TV_Inst Referenced by SM_TV
+[2014.12.15-01.02.59:550][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_TV_Inst': Can't find file for asset '/Game/ArchVis/Materials/M_TV_Inst' while loading NULL.
+[2014.12.15-01.02.59:554][  0]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.15-01.02.59:554][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Shelving_Inst.M_Shelving_Inst Referenced by SM_Shelving
+[2014.12.15-01.02.59:554][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_Shelving_Inst': Can't find file '/Game/ArchVis/Materials/M_Shelving_Inst'
+[2014.12.15-01.02.59:555][  0]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading NULL.
+[2014.12.15-01.02.59:555][  0]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_Shelving_Inst.M_Shelving_Inst Referenced by SM_Shelving
+[2014.12.15-01.02.59:555][  0]LogUObjectGlobals:Warning: Failed to load '/Game/ArchVis/Materials/M_Shelving_Inst': Can't find file for asset '/Game/ArchVis/Materials/M_Shelving_Inst' while loading NULL.
+[2014.12.15-01.02.59:849][  0]LogMaterial: Missing cached shader map for material M_Shelving, compiling.
+[2014.12.15-01.02.59:850][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Materials/M_Shelving.M_Shelving for platform PCD3D_SM5, Default Material will be used in game.
+[2014.12.15-01.02.59:850][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.12.15-01.02.59:928][  0]LogWorld: Game class is 'MyGame_C'
+[2014.12.15-01.02.59:954][  0]LogAIModule: Creating AISystem for world LivingRoom
+[2014.12.15-01.02.59:972][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (11: /Game/Character/newcatcauseoldcatsucks.newcatcauseoldcatsucks:BodySetup_3)
+[2014.12.15-01.02.59:977][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCLivingRoom.LivingRoom up for play (max tick rate 0) at 2014.12.14-17.02.59
+[2014.12.15-01.02.59:981][  0]LogWorld: Bringing up level for play took: 0.026108
+[2014.12.15-01.03.00:601][  0]LogScriptCore: Script call stack:
+	Function /Temp/Autosaves/Game/Maps/UEDPCLivingRoom.LivingRoom_C:ReceiveBeginPlay
+	Function /Temp/Autosaves/Game/Maps/UEDPCLivingRoom.LivingRoom_C:ExecuteUbergraph_LivingRoom
+
+[2014.12.15-01.03.00:601][  0]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	LivingRoom_C /Temp/Autosaves/Game/Maps/UEDPCLivingRoom.LivingRoom:PersistentLevel.LivingRoom_C_0
+	Function /Temp/Autosaves/Game/Maps/UEDPCLivingRoom.LivingRoom_C:ExecuteUbergraph_LivingRoom:0250
+[2014.12.15-01.03.00:602][  0]LogInit:Display: Game Engine Initialized.
+[2014.12.15-01.03.00:822][  0]LogLoad: Full Startup: 19.38 seconds (BP compile: 0.50 seconds)
+[2014.12.15-01.03.00:984][  2]LogRenderer:Warning: Reallocating scene render targets to support 1280x720.
+[2014.12.15-01.05.59:400][254]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:420][255]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:443][256]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:463][257]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:485][258]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:506][259]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:527][260]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:548][261]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:569][262]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:591][263]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:615][264]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:636][265]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:658][266]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:683][267]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:705][268]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:728][269]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:749][270]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:771][271]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:792][272]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:814][273]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:836][274]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:857][275]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:879][276]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:900][277]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:922][278]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:948][279]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:970][280]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.05.59:993][281]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:015][282]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:038][283]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:061][284]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:084][285]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:106][286]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:129][287]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:151][288]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:173][289]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:195][290]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:217][291]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:240][292]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:262][293]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:288][294]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:311][295]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:334][296]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:357][297]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:380][298]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:406][299]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:429][300]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:451][301]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:473][302]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:495][303]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:517][304]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:539][305]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:562][306]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:584][307]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:607][308]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:633][309]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:656][310]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:678][311]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:700][312]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:723][313]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:745][314]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:768][315]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:790][316]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:813][317]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:836][318]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:858][319]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:881][320]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:903][321]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:926][322]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:952][323]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:975][324]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.00:997][325]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:019][326]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:041][327]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:063][328]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:085][329]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:107][330]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:129][331]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:151][332]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:173][333]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:195][334]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:217][335]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:238][336]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:261][337]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:287][338]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:310][339]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:332][340]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:354][341]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:376][342]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:398][343]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:420][344]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:444][345]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:465][346]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:486][347]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:508][348]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:531][349]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:553][350]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:575][351]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:598][352]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:624][353]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:646][354]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:669][355]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:692][356]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:714][357]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:736][358]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:759][359]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:782][360]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:804][361]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:826][362]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:849][363]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:871][364]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:894][365]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:916][366]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:939][367]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:965][368]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.01:989][369]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:011][370]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:033][371]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:056][372]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:079][373]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:102][374]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:124][375]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:146][376]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:168][377]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:191][378]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:213][379]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:235][380]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:256][381]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:282][382]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:304][383]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:325][384]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:347][385]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:369][386]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:390][387]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:412][388]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:433][389]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:455][390]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:477][391]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:498][392]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:520][393]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:542][394]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:564][395]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:586][396]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:609][397]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:633][398]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:655][399]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:677][400]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:699][401]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:721][402]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:743][403]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:765][404]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:787][405]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:809][406]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:832][407]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:853][408]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:875][409]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:897][410]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:919][411]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:941][412]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:967][413]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.02:989][414]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:010][415]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:031][416]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:053][417]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:074][418]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:095][419]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:116][420]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:137][421]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:158][422]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:180][423]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:201][424]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:222][425]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:244][426]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:267][427]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:292][428]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:315][429]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:336][430]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:358][431]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:379][432]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:401][433]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:423][434]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:445][435]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:465][436]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:486][437]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:507][438]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:527][439]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:548][440]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:569][441]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:590][442]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:612][443]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:636][444]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:657][445]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:678][446]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:699][447]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:721][448]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:742][449]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:764][450]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:785][451]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:806][452]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:828][453]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:849][454]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:870][455]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:891][456]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:912][457]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:933][458]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:959][459]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.03:980][460]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:002][461]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:022][462]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:043][463]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:064][464]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:085][465]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:105][466]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:125][467]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:146][468]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:166][469]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:186][470]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:207][471]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:227][472]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:248][473]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:268][474]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:292][475]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:312][476]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:333][477]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:353][478]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:374][479]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:394][480]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:414][481]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:434][482]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:454][483]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:473][484]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:492][485]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:510][486]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:529][487]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:547][488]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:566][489]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:584][490]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:602][491]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:624][492]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:642][493]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:660][494]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:678][495]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:696][496]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:714][497]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:733][498]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:750][499]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:768][500]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:785][501]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:803][502]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:821][503]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:838][504]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:856][505]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:873][506]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:890][507]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:908][508]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:926][509]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:947][510]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:965][511]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:981][512]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.04:999][513]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:016][514]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:034][515]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:051][516]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:069][517]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:086][518]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:104][519]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:121][520]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:139][521]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:156][522]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:173][523]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:191][524]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:209][525]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:226][526]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:243][527]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:260][528]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:282][529]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:301][530]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:319][531]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:337][532]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:354][533]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:372][534]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:389][535]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:407][536]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:426][537]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:444][538]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:462][539]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:480][540]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:497][541]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:517][542]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:536][543]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:554][544]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:573][545]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:593][546]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:616][547]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:637][548]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:657][549]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:678][550]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:699][551]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:720][552]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:743][553]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:763][554]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:785][555]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:806][556]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:827][557]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:852][558]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:874][559]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:897][560]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:919][561]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:942][562]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:968][563]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.05:990][564]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:013][565]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:038][566]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:060][567]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:082][568]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:104][569]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:126][570]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:148][571]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:170][572]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:192][573]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:215][574]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:237][575]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:259][576]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:285][577]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:307][578]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:329][579]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:351][580]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:373][581]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:395][582]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:418][583]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:439][584]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:463][585]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:485][586]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:508][587]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:530][588]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:552][589]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:575][590]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:597][591]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:623][592]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:646][593]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:668][594]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:690][595]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:713][596]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:735][597]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:757][598]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:779][599]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:802][600]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:825][601]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:847][602]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:869][603]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:892][604]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:914][605]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:937][606]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:964][607]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.06:987][608]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:010][609]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:033][610]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:055][611]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:077][612]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:099][613]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:122][614]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:142][615]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:164][616]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:187][617]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:209][618]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:230][619]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:252][620]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:273][621]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:299][622]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:320][623]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:342][624]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:363][625]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:385][626]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:407][627]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:429][628]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:450][629]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:471][630]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:493][631]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:515][632]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:536][633]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:558][634]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:579][635]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:601][636]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:626][637]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:648][638]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:670][639]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:692][640]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:714][641]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:736][642]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:757][643]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:778][644]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:800][645]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:821][646]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:844][647]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:866][648]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:887][649]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:909][650]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:931][651]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:957][652]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.07:978][653]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:000][654]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:021][655]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:043][656]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:065][657]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:086][658]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:108][659]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:130][660]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:150][661]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:172][662]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:193][663]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:215][664]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:236][665]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:258][666]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:284][667]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:306][668]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:326][669]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:348][670]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:369][671]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:389][672]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:411][673]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:432][674]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:452][675]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:473][676]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:493][677]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:514][678]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:534][679]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:555][680]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:575][681]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:596][682]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:619][683]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:640][684]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:660][685]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:680][686]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:701][687]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:721][688]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:742][689]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:763][690]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:783][691]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:803][692]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:823][693]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:843][694]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:863][695]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:882][696]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:902][697]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:922][698]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:944][699]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:964][700]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.08:984][701]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:003][702]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:022][703]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:041][704]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:060][705]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:079][706]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:098][707]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:116][708]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:135][709]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:154][710]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:173][711]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:191][712]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:210][713]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:228][714]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:247][715]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:266][716]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:288][717]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:307][718]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:325][719]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:343][720]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:362][721]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:380][722]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:398][723]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:417][724]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:434][725]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:453][726]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:472][727]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:492][728]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:510][729]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:529][730]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:547][731]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:566][732]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:585][733]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:604][734]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:626][735]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:644][736]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:663][737]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:681][738]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:700][739]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:719][740]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:737][741]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:756][742]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:775][743]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:793][744]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:812][745]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:830][746]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:849][747]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:867][748]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:886][749]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:905][750]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:925][751]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:948][752]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:968][753]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.09:987][754]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:006][755]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:025][756]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:045][757]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:064][758]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:084][759]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:103][760]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:123][761]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:143][762]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:163][763]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:182][764]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:203][765]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:223][766]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:244][767]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:264][768]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:288][769]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:309][770]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:329][771]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:349][772]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:368][773]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:388][774]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:407][775]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:427][776]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:447][777]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:467][778]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:487][779]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:506][780]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:527][781]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:546][782]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:566][783]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:586][784]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:607][785]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:629][786]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:650][787]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:670][788]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:691][789]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:711][790]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:732][791]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:753][792]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:774][793]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:795][794]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:814][795]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:835][796]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:855][797]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:875][798]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:896][799]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:915][800]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:936][801]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:960][802]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.10:980][803]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:000][804]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:020][805]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:041][806]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:062][807]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:082][808]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:103][809]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:124][810]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:145][811]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:165][812]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:185][813]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:206][814]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:226][815]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:246][816]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:268][817]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:293][818]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:313][819]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:335][820]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:356][821]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:377][822]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:397][823]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:418][824]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:439][825]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:463][826]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:485][827]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:506][828]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:527][829]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:548][830]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:569][831]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:591][832]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:618][833]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:640][834]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:661][835]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:681][836]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:702][837]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:724][838]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:745][839]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:765][840]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:786][841]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:807][842]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:828][843]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:849][844]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:870][845]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:890][846]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:911][847]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:933][848]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:957][849]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.11:979][850]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:000][851]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:021][852]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:042][853]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:063][854]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:084][855]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:105][856]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:127][857]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:149][858]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:171][859]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:193][860]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:215][861]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:237][862]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:258][863]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:284][864]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:306][865]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:327][866]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:348][867]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:369][868]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:389][869]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:411][870]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:432][871]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:452][872]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:472][873]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:493][874]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:514][875]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:535][876]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:555][877]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:576][878]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:597][879]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:622][880]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:643][881]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:664][882]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:684][883]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:705][884]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:725][885]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:745][886]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:766][887]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:786][888]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:808][889]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:828][890]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:849][891]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:869][892]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:890][893]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:911][894]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:931][895]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:956][896]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:977][897]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.12:997][898]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:017][899]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:039][900]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:059][901]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:079][902]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:100][903]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:121][904]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:142][905]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:162][906]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:183][907]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:204][908]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:226][909]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:246][910]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:268][911]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:292][912]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:313][913]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:333][914]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:353][915]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:373][916]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:394][917]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:414][918]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:434][919]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:454][920]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:476][921]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:495][922]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:515][923]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:536][924]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:556][925]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:576][926]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:597][927]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:622][928]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:643][929]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:663][930]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:684][931]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:704][932]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:725][933]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:744][934]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:764][935]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:785][936]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:805][937]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:826][938]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:846][939]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:866][940]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:886][941]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:906][942]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:927][943]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:951][944]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:972][945]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.13:992][946]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:013][947]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:033][948]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:053][949]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:074][950]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:094][951]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:114][952]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:135][953]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:156][954]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:177][955]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:198][956]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:219][957]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:240][958]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:261][959]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:284][960]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:305][961]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:325][962]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:345][963]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:365][964]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:384][965]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:403][966]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:423][967]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:443][968]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:463][969]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:483][970]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:503][971]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:523][972]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:543][973]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:562][974]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:582][975]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:602][976]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:626][977]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:646][978]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:667][979]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:687][980]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:706][981]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:726][982]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:747][983]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:766][984]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:786][985]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:806][986]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:825][987]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:845][988]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:865][989]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:884][990]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:905][991]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:924][992]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:947][993]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:968][994]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.14:989][995]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:009][996]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:028][997]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:047][998]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:068][999]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:088][  0]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:107][  1]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:127][  2]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:147][  3]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:166][  4]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:186][  5]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:206][  6]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:225][  7]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:245][  8]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:266][  9]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:289][ 10]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:309][ 11]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:329][ 12]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:348][ 13]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:368][ 14]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:388][ 15]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:407][ 16]Closing by request
+[2014.12.15-01.06.15:407][ 16]LogWindows: FPlatformMisc::RequestExit(0)
+[2014.12.15-01.06.15:407][ 16]LogBlueprintUserMessages: Level Complete!
+[2014.12.15-01.06.15:487][ 17]LogExit: Preparing to exit.
+[2014.12.15-01.06.15:606][ 17]LogExit: Game engine shut down
+[2014.12.15-01.06.15:606][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D4A47C0
+[2014.12.15-01.06.15:650][ 17]LogExit: Object subsystem successfully closed.
+[2014.12.15-01.06.15:702][ 17]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (102)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module AutomationWorker (101)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module CharacterAI (100)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module AITestSuite (99)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (97)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (96)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module HTTP (95)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module AnalyticsET (94)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module Analytics (93)
+[2014.12.15-01.06.15:703][ 17]LogModuleManager: Shutting down and abandoning module ProfilerService (92)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module TaskGraph (91)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module GameplayDebugger (90)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module SlateRemote (89)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (88)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module CableComponent (87)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module DesktopPlatform (86)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (85)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module HotReload (84)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (83)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module UObjectPlugin (82)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (81)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module SourceControl (80)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (79)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module BlankPlugin (78)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2014.12.15-01.06.15:764][ 17]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2014.12.15-01.06.15:768][ 17]LogModuleManager: Shutting down and abandoning module Media (72)
+[2014.12.15-01.06.15:768][ 17]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2014.12.15-01.06.15:768][ 17]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2014.12.15-01.06.15:768][ 17]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2014.12.15-01.06.15:768][ 17]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2014.12.15-01.06.15:769][ 17]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module Core (51)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2014.12.15-01.06.15:774][ 17]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2014.12.15-01.06.15:809][ 17]LogDerivedDataCache: Shutdown
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2014.12.15-01.06.15:809][ 17]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.15-01.06.15:810][ 17]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.15-01.06.15:811][ 17]LogExit: Exiting.
+[2014.12.15-01.06.15:812][ 17]Log file closed, 12/14/14 17:06:15
